@@ -4,15 +4,52 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:foregroundTint="#00FAFAFA"
     tools:context=".MainActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/btnPrijava"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="150dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="84dp"
+        android:backgroundTint="#27D570"
+        android:fontFamily="@font/work_sans_bold"
+        android:text="Prijava"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtRegistrirajSe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnRegistracija"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="154dp"
+        android:layout_height="39dp"
+        android:backgroundTint="#27D570"
+        android:text="Registriraj se"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtRegistrirajSe"
+        app:layout_constraintVertical_bias="0.179" />
+
+    <EditText
+        android:id="@+id/txtRegistrirajSe"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nemate korisnički račun?"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.782" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
