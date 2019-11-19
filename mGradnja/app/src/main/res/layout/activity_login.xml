@@ -8,6 +8,19 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/txtNemate2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnPrijaviSe"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="228dp"
+        android:text="Nemate korisnički račun?"
+        android:textSize="12sp" />
+
     <EditText
         android:id="@+id/txtMail"
         android:layout_width="match_parent"
@@ -77,16 +90,16 @@
         android:layout_marginBottom="32dp" />
 
     <TextView
-        android:id="@+id/txtNemate"
+        android:id="@+id/txtZapamti"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/btnPrijaviSe"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="23dp"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="-105dp"
         android:layout_marginEnd="228dp"
-        android:text="Nemate korisnički račun?"
+        android:text="Zapamti me"
         android:textSize="12sp" />
 
     <Button
