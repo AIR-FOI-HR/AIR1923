@@ -11,51 +11,98 @@
     <EditText
         android:id="@+id/txtMail"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="64dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginLeft="0dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
         android:layout_marginTop="176dp"
+        android:layout_marginEnd="19dp"
         android:hint="Unesite mail" />
 
     <EditText
         android:id="@+id/txtLozinka"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="68dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
         android:layout_centerVertical="true"
-        android:layout_marginStart="-2dp"
-        android:layout_marginLeft="-2dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginEnd="21dp"
         android:ems="10"
         android:hint="Unesite lozinku"
         android:inputType="textPassword" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnPrijaviSe"
         android:layout_width="320dp"
         android:layout_height="62dp"
         android:layout_below="@+id/txtLozinka"
+        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="117dp"
-        android:layout_marginEnd="41dp"
-        android:layout_marginRight="41dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="73dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginRight="46dp"
         android:background="#27D570"
         android:text="Prijavi se" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
-        android:layout_height="181dp"
+        android:layout_height="199dp"
         android:layout_alignBottom="@+id/txtMail"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="70dp"
         android:layout_marginEnd="69dp"
-        android:layout_marginBottom="48dp"
+        android:layout_marginBottom="30dp"
         app:srcCompat="@drawable/logo" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="182dp"
+        android:layout_marginEnd="181dp"
+        android:layout_marginBottom="32dp" />
+
+    <TextView
+        android:id="@+id/txtNemate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnPrijaviSe"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="228dp"
+        android:text="Nemate korisnički račun?"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btnRegistracijaIzPrijave"
+        android:layout_width="191dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnPrijaviSe"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="211dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="9dp"
+        android:alpha="0.5"
+        android:backgroundTint="#EEE9E9"
+        android:text="Registriraj se"
+        android:textSize="12sp"
+        android:textStyle="bold" />
 
 </RelativeLayout>

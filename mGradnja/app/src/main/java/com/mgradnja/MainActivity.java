@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         btnPrijava = findViewById(R.id.btnPrijava);
         btnRegistracija = findViewById(R.id.btnRegistracija);
 
@@ -25,6 +26,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 openLoginActivity();
+            }
+        });
+        btnRegistracija.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openRegistrationActivity(v);
             }
         });
     }

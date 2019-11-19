@@ -35,6 +35,8 @@
         app:layout_constraintTop_toBottomOf="@+id/btnRegistracijaObrtnik"
         app:layout_constraintVertical_bias="0.372" />
 
+
+
     <Button
         android:id="@+id/btnRegistracijaKorisnik"
         style="@android:style/Widget.Button.Toggle"
@@ -43,6 +45,7 @@
         android:layout_marginTop="48dp"
         android:backgroundTint="#27D570"
         android:clickable="true"
+        android:stateListAnimator="@null"
         android:text="Korisnik"
         android:textAlignment="textStart"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
@@ -51,6 +54,8 @@
         app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+
 
     <Button
         android:id="@+id/btnRegistracijaObrtnik"
@@ -77,4 +82,29 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/imgKorisnik"
+        android:layout_width="109dp"
+        android:layout_height="183dp"
+        android:layout_marginTop="108dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.81"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/korisnik" />
+
+    <ImageView
+        android:id="@+id/imgObrtnik"
+        android:elevation="6dp"
+        android:layout_width="108dp"
+        android:layout_height="177dp"
+        android:layout_marginTop="256dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.201"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/obrtnik" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
