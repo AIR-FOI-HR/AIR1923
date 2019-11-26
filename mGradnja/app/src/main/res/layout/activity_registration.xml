@@ -36,7 +36,6 @@
         app:layout_constraintVertical_bias="0.372" />
 
 
-
     <Button
         android:id="@+id/btnRegistracijaKorisnik"
         style="@android:style/Widget.Button.Toggle"
@@ -45,6 +44,7 @@
         android:layout_marginTop="48dp"
         android:backgroundTint="#27D570"
         android:clickable="true"
+        android:onClick="openUserRegistration"
         android:stateListAnimator="@null"
         android:text="Korisnik"
         android:textAlignment="textStart"
@@ -56,7 +56,6 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
 
-
     <Button
         android:id="@+id/btnRegistracijaObrtnik"
         style="@android:style/Widget.Button.Toggle"
@@ -66,6 +65,7 @@
         android:backgroundTint="#27D570"
         android:clickable="true"
         android:lineSpacingExtra="30sp"
+        android:onClick="openPerformerRegistration"
         android:text="Obrtnik"
         android:textAlignment="textEnd"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"

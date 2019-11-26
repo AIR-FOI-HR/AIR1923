@@ -20,6 +20,16 @@ public class RegistrationActivity extends AppCompatActivity {
 
     }
 
+    public void openUserRegistration(View view){
+        Intent intent = new Intent(this, Registration_user.class);
+        startActivity(intent);
+    }
+
+    public void openPerformerRegistration(View view){
+        Intent intent = new Intent(this, Registration_performer.class);
+        startActivity(intent);
+    }
+
     public void openLoginActivity(View view){
         Intent intent = new Intent(this, LoginActivity.class);
         startActivity(intent);

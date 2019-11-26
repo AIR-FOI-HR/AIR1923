@@ -634,6 +634,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable korisnik
 drawable logo
 drawable notification_action_background
 drawable notification_bg
@@ -647,6 +648,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable obrtnik
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 font work_sans_bold
@@ -684,12 +686,14 @@ id barrier
 id beginning
 id blocking
 id bottom
+id btnOdustani
 id btnPrijava
 id btnPrijavaIzRegistracije
+id btnPrijaviSe
 id btnRegistracija
+id btnRegistracijaIzPrijave
 id btnRegistracijaKorisnik
 id btnRegistracijaObrtnik
-id button
 id buttonPanel
 id center
 id center_horizontal
@@ -729,6 +733,8 @@ id image
 id imageView
 id imageView2
 id imageView3
+id imgKorisnik
+id imgObrtnik
 id info
 id invisible
 id italic
@@ -750,6 +756,7 @@ id packed
 id parent
 id parentPanel
 id percent
+id progressBar
 id progress_circular
 id progress_horizontal
 id radio
@@ -801,9 +808,17 @@ id title_template
 id top
 id topPanel
 id txtImateKorisnickiRacun
+id txtIme
 id txtLozinka
 id txtMail
+id txtNaslov
+id txtNaslovStranice
+id txtNemate2
+id txtPotvrdaLozinke
+id txtPrezime
 id txtRegistrirajSe
+id txtTelefon
+id txtZapamti
 id uniform
 id up
 id useLogo
@@ -846,6 +861,8 @@ layout abc_tooltip
 layout activity_login
 layout activity_main
 layout activity_registration
+layout activity_registration_performer
+layout activity_registration_user
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big

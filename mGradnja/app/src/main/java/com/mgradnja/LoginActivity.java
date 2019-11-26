@@ -94,7 +94,7 @@ public class LoginActivity extends AppCompatActivity {
                     } else {
 
                         String queryKorisnik = "select * from Korisnik where Mail='" + mail1 + "' and Lozinka='" + lozinka + "'";
-                        String queryObrtnik = "select * from Obrt where Mail='" + mail1 + "' and Lozinka='" + lozinka + "'";
+                        String queryObrtnik = "select * from Izvodjac where Mail='" + mail1 + "' and Lozinka='" + lozinka + "'";
 
                         Statement stmtKorisnik = con.createStatement();
                         Statement stmtObrtnik = con.createStatement();
