@@ -94,7 +94,7 @@ public class LoginActivity extends AppCompatActivity {
                     } else {
 
                         String queryKorisnik = "select * from Korisnik where Mail='" + mail1 + "' and Lozinka='" + lozinka + "'";
-                        String queryObrtnik = "select * from Obrt where Mail='" + mail1 + "' and Lozinka='" + lozinka + "'";
+                        String queryObrtnik = "select * from Izvodjac where Mail='" + mail1 + "' and Lozinka='" + lozinka + "'";
 
                         Statement stmtKorisnik = con.createStatement();
                         Statement stmtObrtnik = con.createStatement();
@@ -107,7 +107,7 @@ public class LoginActivity extends AppCompatActivity {
 
                             poruka = "Prijava uspješna!";
                             uspjeh =true;
-                            //OpenMainActivity();
+                            OpenGlavniIzbornikActivity();
 
                         }
 
@@ -134,10 +134,15 @@ public class LoginActivity extends AppCompatActivity {
             return poruka;
         }
     }
-    public void OpenMainActivity () {
-        Intent intent = new Intent(this, MainActivity.class);
+
+    private void OpenGlavniIzbornikActivity() {
+        Intent intent = new Intent(this, GlavniIzbornikKorisnik.class);
         startActivity(intent);
     }
+
+
+
+
     public void openRegistrationActivity(){
         Intent intent = new Intent(this, RegistrationActivity.class);
         startActivity(intent);
