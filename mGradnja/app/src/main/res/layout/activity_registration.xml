@@ -11,30 +11,30 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="80dp"
-        android:layout_marginBottom="21dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginBottom="140dp"
         android:text="Imate korisnički račun?"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btnPrijavaIzRegistracije"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnRegistracijaObrtnik"
-        app:layout_constraintVertical_bias="0.376" />
+        app:layout_constraintTop_toBottomOf="@+id/btnRegistracijaObrtnik" />
+
 
     <Button
         android:id="@+id/btnPrijavaIzRegistracije"
         style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="128dp"
         android:layout_height="38dp"
-        android:layout_marginEnd="68dp"
-        android:layout_marginBottom="24dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="128dp"
         android:onClick="openLoginActivity"
         android:text="Prijavite se"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnRegistracijaObrtnik"
-        app:layout_constraintVertical_bias="0.372" />
-
+        app:layout_constraintTop_toBottomOf="@+id/btnRegistracijaObrtnik" />
 
     <Button
         android:id="@+id/btnRegistracijaKorisnik"
@@ -59,14 +59,14 @@
     <Button
         android:id="@+id/btnRegistracijaObrtnik"
         style="@android:style/Widget.Button.Toggle"
-        android:layout_width="297dp"
-        android:layout_height="108dp"
-        android:layout_marginTop="36dp"
+        android:layout_width="293dp"
+        android:layout_height="116dp"
+        android:layout_marginTop="72dp"
         android:backgroundTint="#27D570"
         android:clickable="true"
-        android:lineSpacingExtra="30sp"
         android:onClick="openPerformerRegistration"
-        android:text="Obrtnik"
+        android:stateListAnimator="@null"
+        android:text="Izvođač radova"
         android:textAlignment="textEnd"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textStyle="bold"
@@ -96,12 +96,12 @@
 
     <ImageView
         android:id="@+id/imgObrtnik"
-        android:elevation="6dp"
         android:layout_width="108dp"
         android:layout_height="177dp"
-        android:layout_marginTop="256dp"
+        android:layout_marginTop="308dp"
+        android:elevation="6dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.201"
+        app:layout_constraintHorizontal_bias="0.194"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/obrtnik" />

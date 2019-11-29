@@ -14,6 +14,7 @@ anim abc_tooltip_exit
 array com_google_android_gms_fonts_certs
 array com_google_android_gms_fonts_certs_dev
 array com_google_android_gms_fonts_certs_prod
+array pravniStatusi
 array preloaded_fonts
 attr actionBarDivider
 attr actionBarItemBackground
@@ -398,6 +399,7 @@ color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color ic_launcher_background
 color material_blue_grey_800
 color material_blue_grey_900
 color material_blue_grey_950
@@ -649,6 +651,7 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable obrtnik
+drawable registracija
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 font work_sans_bold
@@ -686,7 +689,7 @@ id barrier
 id beginning
 id blocking
 id bottom
-id btnOdustani
+id btnNatragNaPrijavu
 id btnPrijava
 id btnPrijavaIzRegistracije
 id btnPrijaviSe
@@ -694,6 +697,7 @@ id btnRegistracija
 id btnRegistracijaIzPrijave
 id btnRegistracijaKorisnik
 id btnRegistracijaObrtnik
+id btnUploadSlike
 id buttonPanel
 id center
 id center_horizontal
@@ -746,6 +750,7 @@ id list_item
 id message
 id middle
 id multiply
+id nemateRacun
 id never
 id none
 id normal
@@ -756,6 +761,8 @@ id packed
 id parent
 id parentPanel
 id percent
+id pravniStatus
+id profilnaSlika
 id progressBar
 id progress_circular
 id progress_horizontal
@@ -807,18 +814,22 @@ id titleDividerNoCustom
 id title_template
 id top
 id topPanel
+id txtAdresa
+id txtBrojRacuna
+id txtGrad
 id txtImateKorisnickiRacun
 id txtIme
 id txtLozinka
 id txtMail
-id txtNaslov
 id txtNaslovStranice
+id txtNaziv
 id txtNemate2
-id txtPotvrdaLozinke
+id txtOib
+id txtPlozinka
 id txtPrezime
-id txtRegistrirajSe
 id txtTelefon
 id txtZapamti
+id txtZupanija
 id uniform
 id up
 id useLogo
@@ -874,6 +885,7 @@ layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 string abc_action_bar_home_description
 string abc_action_bar_up_description

@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">mGradnja</string>
+    
+    <string-array name="pravniStatusi" >
+        <item>Odabir pravnog statusa</item>
+        <item>Pravna osoba</item>
+        <item>Fizička osoba</item>
+        <item>Obrt</item>
+    </string-array>
 </resources>
