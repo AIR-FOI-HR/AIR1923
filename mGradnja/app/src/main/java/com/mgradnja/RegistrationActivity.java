@@ -4,12 +4,14 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
 public class RegistrationActivity extends AppCompatActivity {
     ImageView imgKorisnik;
+
+    Button userRegistration, performerRegistration, login;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,19 +20,26 @@ public class RegistrationActivity extends AppCompatActivity {
         imgKorisnik = findViewById(R.id.imgKorisnik);
         imgKorisnik.bringToFront();
 
+        userRegistration = findViewById(R.id.btnRegistracijaKorisnik);
+        performerRegistration = findViewById(R.id.btnRegistracijaIzvodjac);
+        login = findViewById(R.id.btnPrijavaIzRegistracije);
+
+        userRegistration.setOnClickListener(v -> openUserRegistration());
+        performerRegistration.setOnClickListener(v -> openPerformerRegistration());
+        login.setOnClickListener(v -> openLoginActivity());
     }
 
-    public void openUserRegistration(View view){
+    public void openUserRegistration(){
         Intent intent = new Intent(this, Registration_user.class);
         startActivity(intent);
     }
 
-    public void openPerformerRegistration(View view){
+    public void openPerformerRegistration(){
         Intent intent = new Intent(this, Registration_performer.class);
         startActivity(intent);
     }
 
-    public void openLoginActivity(View view){
+    public void openLoginActivity(){
         Intent intent = new Intent(this, LoginActivity.class);
         startActivity(intent);
     }

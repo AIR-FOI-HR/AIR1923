@@ -18,7 +18,7 @@
         app:layout_constraintEnd_toStartOf="@+id/btnPrijavaIzRegistracije"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnRegistracijaObrtnik" />
+        app:layout_constraintTop_toBottomOf="@+id/btnRegistracijaIzvodjac" />
 
 
     <Button
@@ -29,12 +29,11 @@
         android:layout_marginTop="32dp"
         android:layout_marginEnd="56dp"
         android:layout_marginBottom="128dp"
-        android:onClick="openLoginActivity"
         android:text="Prijavite se"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnRegistracijaObrtnik" />
+        app:layout_constraintTop_toBottomOf="@+id/btnRegistracijaIzvodjac" />
 
     <Button
         android:id="@+id/btnRegistracijaKorisnik"
@@ -44,27 +43,24 @@
         android:layout_marginTop="48dp"
         android:backgroundTint="#27D570"
         android:clickable="true"
-        android:onClick="openUserRegistration"
         android:stateListAnimator="@null"
         android:text="Korisnik"
         android:textAlignment="textStart"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
 
     <Button
-        android:id="@+id/btnRegistracijaObrtnik"
+        android:id="@+id/btnRegistracijaIzvodjac"
         style="@android:style/Widget.Button.Toggle"
         android:layout_width="293dp"
         android:layout_height="116dp"
         android:layout_marginTop="72dp"
         android:backgroundTint="#27D570"
         android:clickable="true"
-        android:onClick="openPerformerRegistration"
         android:stateListAnimator="@null"
         android:text="Izvođač radova"
         android:textAlignment="textEnd"

@@ -695,8 +695,8 @@ id btnPrijavaIzRegistracije
 id btnPrijaviSe
 id btnRegistracija
 id btnRegistracijaIzPrijave
+id btnRegistracijaIzvodjac
 id btnRegistracijaKorisnik
-id btnRegistracijaObrtnik
 id btnUploadSlike
 id buttonPanel
 id center

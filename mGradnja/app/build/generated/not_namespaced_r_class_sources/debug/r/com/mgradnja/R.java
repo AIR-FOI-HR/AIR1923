@@ -3030,8 +3030,8 @@ public final class R {
     public static final int btnPrijaviSe=0x7f090025;
     public static final int btnRegistracija=0x7f090026;
     public static final int btnRegistracijaIzPrijave=0x7f090027;
-    public static final int btnRegistracijaKorisnik=0x7f090028;
-    public static final int btnRegistracijaObrtnik=0x7f090029;
+    public static final int btnRegistracijaIzvodjac=0x7f090028;
+    public static final int btnRegistracijaKorisnik=0x7f090029;
     public static final int btnUploadSlike=0x7f09002a;
     public static final int buttonPanel=0x7f09002b;
     public static final int center=0x7f09002c;

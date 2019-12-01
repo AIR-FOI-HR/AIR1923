@@ -36,20 +36,11 @@ public class LoginActivity extends AppCompatActivity {
         registracija = findViewById(R.id.btnRegistracijaIzPrijave);
         progressBar = findViewById(R.id.progressBar);
 
-        registracija.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openRegistrationActivity();
+        registracija.setOnClickListener(v -> openRegistrationActivity());
 
-            }
-        });
-
-        prijava.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                DoLogin doLogin = new DoLogin();
-                doLogin.execute();
-            }
+        prijava.setOnClickListener(v -> {
+            DoLogin doLogin = new DoLogin();
+            doLogin.execute();
         });
     }
 

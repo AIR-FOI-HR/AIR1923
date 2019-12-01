@@ -694,8 +694,8 @@ int id btnPrijavaIzRegistracije 0x7f090024
 int id btnPrijaviSe 0x7f090025
 int id btnRegistracija 0x7f090026
 int id btnRegistracijaIzPrijave 0x7f090027
-int id btnRegistracijaKorisnik 0x7f090028
-int id btnRegistracijaObrtnik 0x7f090029
+int id btnRegistracijaIzvodjac 0x7f090028
+int id btnRegistracijaKorisnik 0x7f090029
 int id btnUploadSlike 0x7f09002a
 int id buttonPanel 0x7f09002b
 int id center 0x7f09002c

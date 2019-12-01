@@ -1,16 +1,27 @@
 package com.mgradnja;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
 
+import android.Manifest;
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.drawable.BitmapDrawable;
+import android.net.Uri;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.Toast;
 
-import java.sql.Array;
+import java.io.ByteArrayOutputStream;
+import java.io.FileNotFoundException;
+import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.Statement;
 
@@ -20,6 +31,8 @@ public class Registration_performer extends AppCompatActivity {
     Button registracija, natragNaPrijavu, uploadSlike;
     EditText txtOIB, txtNaziv, txtAdresa, txtGrad, txtZupanija, txtTelefon, txtMail, txtBrRacuna, txtLozinka, txtPlozinka;
     Spinner idPravniStatus;
+    ImageView imageView;
+    final int REQUEST_CODE_GALLERY = 999;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +47,7 @@ public class Registration_performer extends AppCompatActivity {
         statusAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         pravniStatus.setAdapter(statusAdapter);
 
+        imageView = findViewById(R.id.profilnaSlika);
         idPravniStatus = findViewById(R.id.pravniStatus);
         txtOIB = findViewById(R.id.txtOib);
         txtNaziv = findViewById(R.id.txtNaziv);
@@ -45,8 +59,15 @@ public class Registration_performer extends AppCompatActivity {
         txtBrRacuna = findViewById(R.id.txtBrojRacuna);
         txtLozinka = findViewById(R.id.txtLozinka);
         txtPlozinka = findViewById(R.id.txtPlozinka);
+        uploadSlike = findViewById(R.id.btnUploadSlike);
         registracija = findViewById(R.id.btnRegistracija);
         natragNaPrijavu = findViewById(R.id.btnNatragNaPrijavu);
+
+        uploadSlike.setOnClickListener(v -> ActivityCompat.requestPermissions(
+                Registration_performer.this,
+                new String[]{Manifest.permission.READ_EXTERNAL_STORAGE},
+                REQUEST_CODE_GALLERY
+        ));
 
         registracija.setOnClickListener(v -> doRegistration());
         natragNaPrijavu.setOnClickListener(v -> backToLogin());
@@ -65,6 +86,7 @@ public class Registration_performer extends AppCompatActivity {
         String brRacuna = txtBrRacuna.getText().toString();
         String lozinka = txtLozinka.getText().toString();
         String plozinka = txtPlozinka.getText().toString();
+        byte[] slika = imageViewToByte(imageView);
 
         if (idPravnogStatusa == 0 || oib.equals("") || naziv.equals("") || adresa.equals("") || grad.equals("") || zupanija.equals("") || telefon.equals("") || mail.equals("") || brRacuna.equals("") || lozinka.equals("") || plozinka.equals("")){
             Toast.makeText(getApplicationContext(), "Niste ispunili sve potrebne podatke!", Toast.LENGTH_SHORT).show();
@@ -80,8 +102,8 @@ public class Registration_performer extends AppCompatActivity {
                     else {
                         Statement st = con.createStatement();
 
-                        String queryReg = "INSERT INTO Izvodjac(OIB, Naziv, Adresa, Grad, Zupanija, Telefon, Mail, Lozinka, Broj_racuna, ID_pravnog_statusa) " +
-                                "VALUES(('"+ oib +"'), ('"+ naziv +"'), ('"+ adresa +"'), ('"+ grad +"'), ('"+ zupanija +"'), ('"+ telefon +"'), ('"+ mail +"'), ('"+ lozinka +"'), ('"+ brRacuna +"'), ('"+ idPravnogStatusa +"'))";
+                        String queryReg = "INSERT INTO Izvodjac(OIB, Naziv, Adresa, Grad, Zupanija, Telefon, Mail, Lozinka, Broj_racuna, Slika, ID_pravnog_statusa) " +
+                                "VALUES(('"+ oib +"'), ('"+ naziv +"'), ('"+ adresa +"'), ('"+ grad +"'), ('"+ zupanija +"'), ('"+ telefon +"'), ('"+ mail +"'), ('"+ lozinka +"'), ('"+ brRacuna +"'), CAST(('"+ slika +"') as varBinary(Max)), ('"+ idPravnogStatusa +"'))";
 
                         if (st.executeUpdate(queryReg) == 1){
                             Toast.makeText(getApplicationContext(), "Registracija uspješna, možete se prijaviti!", Toast.LENGTH_LONG).show();
@@ -111,4 +133,50 @@ public class Registration_performer extends AppCompatActivity {
         Intent intent = new Intent(this, LoginActivity.class);
         startActivity(intent);
     }
+
+    public static byte[] imageViewToByte(ImageView image){
+        Bitmap bitmap = ((BitmapDrawable)image.getDrawable()).getBitmap();
+        ByteArrayOutputStream stream = new ByteArrayOutputStream();
+        bitmap.compress(Bitmap.CompressFormat.PNG, 100, stream);
+        byte[] byteArray = stream.toByteArray();
+        return byteArray;
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults){
+        if (requestCode == REQUEST_CODE_GALLERY){
+            if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED){
+                Intent intent = new Intent(Intent.ACTION_PICK);
+                intent.setType("image/*");
+                startActivityForResult(intent, REQUEST_CODE_GALLERY);
+            }
+            else {
+                Toast.makeText(getApplicationContext(), "Nemate prava pristupa", Toast.LENGTH_SHORT).show();
+            }
+            return;
+        }
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+    }
+
+
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data){
+
+        if (resultCode == RESULT_OK && requestCode == REQUEST_CODE_GALLERY){
+            Uri uri = data.getData();
+
+            try{
+                InputStream inputStream = getContentResolver().openInputStream(uri);
+                Bitmap bitmap = BitmapFactory.decodeStream(inputStream);
+                imageView.setImageBitmap(bitmap);
+            }
+            catch (FileNotFoundException e){
+                e.printStackTrace();
+            }
+        }
+        super.onActivityResult(requestCode, resultCode, data);
+    }
+
+
 }
