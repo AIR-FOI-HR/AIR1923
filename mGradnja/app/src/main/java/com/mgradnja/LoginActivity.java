@@ -36,20 +36,11 @@ public class LoginActivity extends AppCompatActivity {
         registracija = findViewById(R.id.btnRegistracijaIzPrijave);
         progressBar = findViewById(R.id.progressBar);
 
-        registracija.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openRegistrationActivity();
+        registracija.setOnClickListener(v -> openRegistrationActivity());
 
-            }
-        });
-
-        prijava.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                DoLogin doLogin = new DoLogin();
-                doLogin.execute();
-            }
+        prijava.setOnClickListener(v -> {
+            DoLogin doLogin = new DoLogin();
+            doLogin.execute();
         });
     }
 
@@ -94,7 +85,7 @@ public class LoginActivity extends AppCompatActivity {
                     } else {
 
                         String queryKorisnik = "select * from Korisnik where Mail='" + mail1 + "' and Lozinka='" + lozinka + "'";
-                        String queryObrtnik = "select * from Obrt where Mail='" + mail1 + "' and Lozinka='" + lozinka + "'";
+                        String queryObrtnik = "select * from Izvodjac where Mail='" + mail1 + "' and Lozinka='" + lozinka + "'";
 
                         Statement stmtKorisnik = con.createStatement();
                         Statement stmtObrtnik = con.createStatement();
