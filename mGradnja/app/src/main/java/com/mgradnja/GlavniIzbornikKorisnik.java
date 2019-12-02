@@ -2,10 +2,12 @@ package com.mgradnja;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
+import android.widget.TextView;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -18,8 +20,9 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
 
     public Spinner spinnerZupanije;
     public Spinner spinnerKategorije;
+    public TextView textView;
 
-    public String[] zupanije = new String[]{"Zagrebačka", "Krapinsko-zagorska", "Sisacko-moslavacka",
+    public String[] zupanije = new String[]{"Zagrebacka", "Krapinsko-zagorska", "Sisacko-moslavacka",
     "Karlovacka", "Varazdinska", "Koprivnicko-krizevacka", "Bjelovarsko-bilogorska", "Primorsko-goranska",
     "Licko-senjska", "Viroviticko-podravska", "Pozesko-slavnoska", "Brodsko-posavska", "Zadarska",
     "Osjecko-baranjska", "Sibensko-kninska", "Vukovarsko-srijemska", "Splitsko-dalmatinska", "Istarska",
@@ -27,12 +30,17 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
 
     public ArrayList<String> kategorije = new ArrayList<String>();
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_glavni_izbornik_korisnik);
+
+        //DOHVAT ID-A KORISNIKA IZ PRIJAŠNJE AKTIVNOSTI
+        Intent intent = getIntent();
+        Integer ID = intent.getIntExtra("ID_korisnika", 0);
+
+        //textView = findViewById(R.id.txtID);
+        //textView.setText(ID.toString());
 
         spinnerKategorije = findViewById(R.id.spinKategorije);
         spinnerZupanije  = findViewById(R.id.spinZupanije);
@@ -45,7 +53,6 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
         spinnerKategorije.setAdapter(adapterKategorije);
         spinnerZupanije.setAdapter(adapterZupanije);
 
-
     }
 
     public void dohvatiKategorije(){
@@ -56,7 +63,6 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
         try {
             Statement statement = con.createStatement();
             ResultSet rs = statement.executeQuery(query);
-
 
             while(rs.next()){
                 kategorije.add(rs.getString("Naziv"));
