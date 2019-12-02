@@ -24,8 +24,12 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+<<<<<<< HEAD
         <activity android:name="com.mgradnja.Registration_performer" />
         <activity android:name="com.mgradnja.Registration_user" />
+=======
+        <activity android:name="com.mgradnja.GlavniIzbornikKorisnik" />
+>>>>>>> 5e10b1048b8e4e85161a551b180a25a923f0edb9
         <activity android:name="com.mgradnja.RegistrationActivity" />
         <activity android:name="com.mgradnja.LoginActivity" />
         <activity android:name="com.mgradnja.MainActivity" >

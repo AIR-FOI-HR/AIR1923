@@ -1,10 +1,14 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "C:\\Users\\LUKA\\Desktop\\mGradnja\\mGradnja\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+=======
+            "outputFile": "C:\\Users\\Matija\\Desktop\\mGradnja\\mGradnja\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+>>>>>>> 5e10b1048b8e4e85161a551b180a25a923f0edb9
             "map": [
                 {
-                    "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\508ac768b50158a079142e4dc4915061\\constraintlayout-1.1.3\\res\\values\\values.xml",
+                    "source": "C:\\Users\\Matija\\.gradle\\caches\\transforms-2\\files-2.1\\508ac768b50158a079142e4dc4915061\\constraintlayout-1.1.3\\res\\values\\values.xml",
                     "from": {
                         "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
                         "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
@@ -20,7 +24,30 @@
                     }
                 },
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\3b95216347b91b0d0d6d33ef33ac3197\\coordinatorlayout-1.0.0\\res\\values\\values.xml",
+=======
+                    "source": "C:\\Users\\Matija\\Desktop\\mGradnja\\mGradnja\\app\\src\\main\\res\\values\\preloaded_fonts.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "165"
+                    },
+                    "to": {
+                        "startLines": "16",
+                        "startColumns": "4",
+                        "startOffsets": "3622",
+                        "endLines": "18",
+                        "endColumns": "12",
+                        "endOffsets": "3728"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Matija\\Desktop\\mGradnja\\mGradnja\\app\\src\\main\\res\\values\\colors.xml",
+>>>>>>> 5e10b1048b8e4e85161a551b180a25a923f0edb9
                     "from": {
                         "startLines": "-1,-1",
                         "startColumns": "-1,-1",
@@ -52,7 +79,28 @@
                     }
                 },
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\LUKA\\Desktop\\mGradnja\\mGradnja\\app\\src\\main\\res\\values\\ic_launcher_background.xml",
+=======
+                    "source": "C:\\Users\\Matija\\Desktop\\mGradnja\\mGradnja\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endColumns": "45",
+                        "endOffsets": "58"
+                    },
+                    "to": {
+                        "startLines": "394",
+                        "startColumns": "4",
+                        "startOffsets": "26161",
+                        "endColumns": "45",
+                        "endOffsets": "26202"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Matija\\Desktop\\mGradnja\\mGradnja\\app\\src\\main\\res\\values\\styles.xml",
+>>>>>>> 5e10b1048b8e4e85161a551b180a25a923f0edb9
                     "from": {
                         "startLines": "-1",
                         "startColumns": "-1",
@@ -67,7 +115,30 @@
                     }
                 },
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\LUKA\\Desktop\\mGradnja\\mGradnja\\app\\src\\main\\res\\values\\strings.xml",
+=======
+                    "source": "C:\\Users\\Matija\\.gradle\\caches\\transforms-2\\files-2.1\\c0a39027978b83a483a047f5c31d0c4e\\core-1.0.1\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,171,172,176,177,178,6,13,56,88,125",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,7725,7795,7863,7935,8005,8066,8140,8213,8274,8335,8397,8461,8523,8584,8652,8752,8812,8878,8951,9020,9077,9129,9191,9263,9339,9374,9409,9459,9520,9577,9611,9646,9681,9751,9822,9939,10140,10250,10451,10580,10652,319,617,3523,5588,7348",
+                        "endLines": "2,3,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,170,171,175,176,177,178,12,55,87,124,131",
+                        "endColumns": "68,62,69,67,71,69,60,73,72,60,60,61,63,61,60,67,99,59,65,72,68,56,51,61,71,75,34,34,49,60,56,33,34,34,69,70,116,12,109,12,128,71,66,24,24,24,24,24",
+                        "endOffsets": "119,182,7790,7858,7930,8000,8061,8135,8208,8269,8330,8392,8456,8518,8579,8647,8747,8807,8873,8946,9015,9072,9124,9186,9258,9334,9369,9404,9454,9515,9572,9606,9641,9676,9746,9817,9934,10135,10245,10446,10575,10647,10714,612,3518,5583,7343,7720"
+                    },
+                    "to": {
+                        "startLines": "195,196,292,293,294,295,296,297,298,308,309,310,311,312,313,314,315,316,317,318,319,320,321,322,331,332,338,339,343,344,345,346,347,348,354,396,1717,1718,1722,1723,1727,1864,1865,2530,2683,2726,2758,2795",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "12829,12898,19484,19554,19622,19694,19764,19825,19899,20756,20817,20878,20940,21004,21066,21127,21195,21295,21355,21421,21494,21563,21620,21672,22187,22259,22574,22609,22786,22836,22897,22954,22988,23023,23333,26260,114216,114333,114534,114644,114845,125800,125872,161751,176265,179171,181236,182996",
+                        "endLines": "195,196,292,293,294,295,296,297,298,308,309,310,311,312,313,314,315,316,317,318,319,320,321,322,331,332,338,339,343,344,345,346,347,348,354,396,1717,1721,1722,1726,1727,1864,1865,2536,2725,2757,2794,2801",
+                        "endColumns": "68,62,69,67,71,69,60,73,72,60,60,61,63,61,60,67,99,59,65,72,68,56,51,61,71,75,34,34,49,60,56,33,34,34,69,70,116,12,109,12,128,71,66,24,24,24,24,24",
+                        "endOffsets": "12893,12956,19549,19617,19689,19759,19820,19894,19967,20812,20873,20935,20999,21061,21122,21190,21290,21350,21416,21489,21558,21615,21667,21729,22254,22330,22604,22639,22831,22892,22949,22983,23018,23053,23398,26326,114328,114529,114639,114840,114969,125867,125934,162044,179166,181231,182991,183368"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Matija\\.gradle\\caches\\transforms-2\\files-2.1\\3b95216347b91b0d0d6d33ef33ac3197\\coordinatorlayout-1.0.0\\res\\values\\values.xml",
+>>>>>>> 5e10b1048b8e4e85161a551b180a25a923f0edb9
                     "from": {
                         "startLines": "3,-1",
                         "startColumns": "4,-1",
@@ -86,6 +157,7 @@
                     }
                 },
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\LUKA\\Desktop\\mGradnja\\mGradnja\\app\\src\\main\\res\\values\\colors.xml",
                     "from": {
                         "startLines": "-1,-1,-1",
@@ -102,6 +174,9 @@
                 },
                 {
                     "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\c0a39027978b83a483a047f5c31d0c4e\\core-1.0.1\\res\\values\\values.xml",
+=======
+                    "source": "C:\\Users\\Matija\\Desktop\\mGradnja\\mGradnja\\app\\src\\main\\res\\values\\font_certs.xml",
+>>>>>>> 5e10b1048b8e4e85161a551b180a25a923f0edb9
                     "from": {
                         "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
                         "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
@@ -117,6 +192,7 @@
                     }
                 },
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\LUKA\\Desktop\\mGradnja\\mGradnja\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "-1",
@@ -150,6 +226,9 @@
                 },
                 {
                     "source": "C:\\Users\\LUKA\\Desktop\\mGradnja\\mGradnja\\app\\src\\main\\res\\values\\preloaded_fonts.xml",
+=======
+                    "source": "C:\\Users\\Matija\\.gradle\\caches\\transforms-2\\files-2.1\\906744c4ddcbc384c5a8d2d69414f8fa\\appcompat-1.0.2\\res\\values\\values.xml",
+>>>>>>> 5e10b1048b8e4e85161a551b180a25a923f0edb9
                     "from": {
                         "startLines": "-1",
                         "startColumns": "-1",

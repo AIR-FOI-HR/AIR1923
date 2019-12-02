@@ -22,6 +22,7 @@ public class LoginActivity extends AppCompatActivity {
     EditText mail, loz;
     Button prijava, registracija;
     ProgressBar progressBar;
+    Integer ID;
 
 
     @Override
@@ -36,11 +37,27 @@ public class LoginActivity extends AppCompatActivity {
         registracija = findViewById(R.id.btnRegistracijaIzPrijave);
         progressBar = findViewById(R.id.progressBar);
 
+<<<<<<< HEAD
         registracija.setOnClickListener(v -> openRegistrationActivity());
 
         prijava.setOnClickListener(v -> {
             DoLogin doLogin = new DoLogin();
             doLogin.execute();
+=======
+        registracija.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openRegistrationActivity();
+            }
+        });
+
+        prijava.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                DoLogin doLogin = new DoLogin();
+                doLogin.execute();
+            }
+>>>>>>> 5e10b1048b8e4e85161a551b180a25a923f0edb9
         });
     }
 
@@ -95,18 +112,19 @@ public class LoginActivity extends AppCompatActivity {
 
                         if(rsKorisnik.next())
                         {
-
+                            ID = rsKorisnik.getInt("ID_korisnika");
                             poruka = "Prijava uspješna!";
                             uspjeh =true;
-                            //OpenMainActivity();
+                            OpenGlavniIzbornikActivity(ID);
 
                         }
 
                         else if (rsObrtnik.next())
                         {
+                            ID = rsObrtnik.getInt("ID_izvodjaca");
                             poruka = "Prijava uspješna!";
                             uspjeh = true;
-                            //OpenMainActivity();
+
                         }
                         else
                         {
@@ -125,10 +143,13 @@ public class LoginActivity extends AppCompatActivity {
             return poruka;
         }
     }
-    public void OpenMainActivity () {
-        Intent intent = new Intent(this, MainActivity.class);
+
+    private void OpenGlavniIzbornikActivity(Integer ID) {
+        Intent intent = new Intent(this, GlavniIzbornikKorisnik.class);
+        intent.putExtra("ID_korisnika", ID);
         startActivity(intent);
     }
+
     public void openRegistrationActivity(){
         Intent intent = new Intent(this, RegistrationActivity.class);
         startActivity(intent);
