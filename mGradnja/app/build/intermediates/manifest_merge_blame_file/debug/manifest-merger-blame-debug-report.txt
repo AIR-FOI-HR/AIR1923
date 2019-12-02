@@ -6,79 +6,6 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-<<<<<<< HEAD
-8-->C:\Users\LUKA\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml
-9        android:targetSdkVersion="29" />
-9-->C:\Users\LUKA\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml
-10
-11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\LUKA\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:5:5-67
-11-->C:\Users\LUKA\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:5:22-64
-12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->C:\Users\LUKA\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:6:5-79
-12-->C:\Users\LUKA\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:6:22-76
-13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-13-->C:\Users\LUKA\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:7:5-76
-13-->C:\Users\LUKA\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:7:22-73
-14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-14-->C:\Users\LUKA\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:8:5-80
-14-->C:\Users\LUKA\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:8:22-77
-15
-16    <application
-16-->C:\Users\LUKA\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:10:5-32:19
-17        android:allowBackup="true"
-17-->C:\Users\LUKA\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:11:9-35
-18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-18-->[androidx.core:core:1.0.1] C:\Users\LUKA\.gradle\caches\transforms-2\files-2.1\c0a39027978b83a483a047f5c31d0c4e\core-1.0.1\AndroidManifest.xml:22:18-86
-19        android:debuggable="true"
-20        android:icon="@mipmap/ic_launcher"
-20-->C:\Users\LUKA\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:12:9-43
-21        android:label="@string/app_name"
-21-->C:\Users\LUKA\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:13:9-41
-22        android:roundIcon="@mipmap/ic_launcher_round"
-22-->C:\Users\LUKA\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:14:9-54
-23        android:supportsRtl="true"
-23-->C:\Users\LUKA\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:15:9-35
-24        android:testOnly="true"
-25        android:theme="@style/AppTheme" >
-25-->C:\Users\LUKA\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:16:9-40
-26        <activity android:name="com.mgradnja.Registration_performer" />
-26-->C:\Users\LUKA\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:17:9-69
-26-->C:\Users\LUKA\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:17:19-57
-27        <activity android:name="com.mgradnja.Registration_user" />
-27-->C:\Users\LUKA\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:18:9-55
-27-->C:\Users\LUKA\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:18:19-52
-28        <activity android:name="com.mgradnja.RegistrationActivity" />
-28-->C:\Users\LUKA\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:19:9-58
-28-->C:\Users\LUKA\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:19:19-55
-29        <activity android:name="com.mgradnja.LoginActivity" />
-29-->C:\Users\LUKA\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:20:9-51
-29-->C:\Users\LUKA\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:20:19-48
-30        <activity android:name="com.mgradnja.MainActivity" >
-30-->C:\Users\LUKA\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:21:9-27:20
-30-->C:\Users\LUKA\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:21:19-47
-31            <intent-filter>
-31-->C:\Users\LUKA\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:22:13-26:29
-32                <action android:name="android.intent.action.MAIN" />
-32-->C:\Users\LUKA\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:23:17-69
-32-->C:\Users\LUKA\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:23:25-66
-33
-34                <category android:name="android.intent.category.LAUNCHER" />
-34-->C:\Users\LUKA\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:25:17-77
-34-->C:\Users\LUKA\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:25:27-74
-35            </intent-filter>
-36        </activity>
-37
-38        <meta-data
-38-->C:\Users\LUKA\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:29:9-31:57
-39            android:name="preloaded_fonts"
-39-->C:\Users\LUKA\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:30:13-43
-40            android:resource="@array/preloaded_fonts" />
-40-->C:\Users\LUKA\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:31:13-54
-41    </application>
-42
-43</manifest>
-=======
 8-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
 9-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml
@@ -92,56 +19,64 @@
 13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 13-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:7:5-76
 13-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:7:22-73
-14
-15    <application
-15-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:9:5-30:19
-16        android:allowBackup="true"
-16-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:10:9-35
-17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-17-->[androidx.core:core:1.0.1] C:\Users\Matija\.gradle\caches\transforms-2\files-2.1\c0a39027978b83a483a047f5c31d0c4e\core-1.0.1\AndroidManifest.xml:22:18-86
-18        android:debuggable="true"
-19        android:icon="@mipmap/ic_launcher"
-19-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:11:9-43
-20        android:label="@string/app_name"
-20-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:12:9-41
-21        android:roundIcon="@mipmap/ic_launcher_round"
-21-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:13:9-54
-22        android:supportsRtl="true"
-22-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:14:9-35
-23        android:testOnly="true"
-24        android:theme="@style/AppTheme" >
-24-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:15:9-40
-25        <activity android:name="com.mgradnja.GlavniIzbornikKorisnik" />
-25-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:16:9-69
-25-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:16:19-57
-26        <activity android:name="com.mgradnja.RegistrationActivity" />
-26-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:17:9-58
-26-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:17:19-55
-27        <activity android:name="com.mgradnja.LoginActivity" />
-27-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:18:9-51
-27-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:18:19-48
-28        <activity android:name="com.mgradnja.MainActivity" >
-28-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:19:9-25:20
-28-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:19:19-47
-29            <intent-filter>
-29-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:20:13-24:29
-30                <action android:name="android.intent.action.MAIN" />
-30-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:21:17-69
-30-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:21:25-66
-31
-32                <category android:name="android.intent.category.LAUNCHER" />
-32-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:23:17-77
-32-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:23:27-74
-33            </intent-filter>
-34        </activity>
-35
-36        <meta-data
-36-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:27:9-29:57
-37            android:name="preloaded_fonts"
-37-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:28:13-43
-38            android:resource="@array/preloaded_fonts" />
-38-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:29:13-54
-39    </application>
-40
-41</manifest>
->>>>>>> 5e10b1048b8e4e85161a551b180a25a923f0edb9
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:8:5-80
+14-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:8:22-77
+15
+16    <application
+16-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:10:5-33:19
+17        android:allowBackup="true"
+17-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:11:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.0.1] C:\Users\Matija\.gradle\caches\transforms-2\files-2.1\c0a39027978b83a483a047f5c31d0c4e\core-1.0.1\AndroidManifest.xml:22:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:12:9-43
+21        android:label="@string/app_name"
+21-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:13:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:14:9-54
+23        android:supportsRtl="true"
+23-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:15:9-35
+24        android:testOnly="true"
+25        android:theme="@style/AppTheme" >
+25-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:16:9-40
+26        <activity android:name="com.mgradnja.Registration_performer" />
+26-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:17:9-69
+26-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:17:19-57
+27        <activity android:name="com.mgradnja.Registration_user" />
+27-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:18:9-55
+27-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:18:19-52
+28        <activity android:name="com.mgradnja.GlavniIzbornikKorisnik" />
+28-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:19:9-69
+28-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:19:19-57
+29        <activity android:name="com.mgradnja.RegistrationActivity" />
+29-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:20:9-58
+29-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:20:19-55
+30        <activity android:name="com.mgradnja.LoginActivity" />
+30-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:21:9-51
+30-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:21:19-48
+31        <activity android:name="com.mgradnja.MainActivity" >
+31-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:22:9-28:20
+31-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:22:19-47
+32            <intent-filter>
+32-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:23:13-27:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:24:17-69
+33-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:24:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:26:17-77
+35-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:26:27-74
+36            </intent-filter>
+37        </activity>
+38
+39        <meta-data
+39-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:30:9-32:57
+40            android:name="preloaded_fonts"
+40-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:31:13-43
+41            android:resource="@array/preloaded_fonts" />
+41-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:32:13-54
+42    </application>
+43
+44</manifest>

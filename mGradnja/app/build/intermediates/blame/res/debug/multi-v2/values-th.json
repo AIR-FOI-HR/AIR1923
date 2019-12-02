@@ -1,11 +1,7 @@
 {
     "logs": [
         {
-<<<<<<< HEAD
-            "outputFile": "C:\\Users\\LUKA\\Desktop\\mGradnja\\mGradnja\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-th\\values-th.xml",
-=======
             "outputFile": "C:\\Users\\Matija\\Desktop\\mGradnja\\mGradnja\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-th\\values-th.xml",
->>>>>>> 5e10b1048b8e4e85161a551b180a25a923f0edb9
             "map": [
                 {
                     "source": "C:\\Users\\Matija\\.gradle\\caches\\transforms-2\\files-2.1\\906744c4ddcbc384c5a8d2d69414f8fa\\appcompat-1.0.2\\res\\values-th\\values-th.xml",

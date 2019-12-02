@@ -639,13 +639,10 @@ drawable ic_add_circle_24dp
 drawable ic_home_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
-<<<<<<< HEAD
-=======
 drawable ic_notifications_24dp
 drawable ic_person_24dp
 drawable ic_search_24dp
 drawable ic_wrench_24dp
->>>>>>> 5e10b1048b8e4e85161a551b180a25a923f0edb9
 drawable korisnik
 drawable logo
 drawable notification_action_background
@@ -661,10 +658,7 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable obrtnik
-<<<<<<< HEAD
 drawable registracija
-=======
->>>>>>> 5e10b1048b8e4e85161a551b180a25a923f0edb9
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 font work_sans_bold
@@ -702,24 +696,16 @@ id barrier
 id beginning
 id blocking
 id bottom
-<<<<<<< HEAD
-id btnNatragNaPrijavu
-=======
 id btnIstrazi
->>>>>>> 5e10b1048b8e4e85161a551b180a25a923f0edb9
+id btnNatragNaPrijavu
 id btnPrijava
 id btnPrijavaIzRegistracije
 id btnPrijaviSe
 id btnRegistracija
 id btnRegistracijaIzPrijave
-<<<<<<< HEAD
 id btnRegistracijaIzvodjac
 id btnRegistracijaKorisnik
 id btnUploadSlike
-=======
-id btnRegistracijaKorisnik
-id btnRegistracijaObrtnik
->>>>>>> 5e10b1048b8e4e85161a551b180a25a923f0edb9
 id buttonPanel
 id center
 id center_horizontal
@@ -759,19 +745,14 @@ id image
 id imageView
 id imageView2
 id imageView3
-<<<<<<< HEAD
-id imgKorisnik
-id imgObrtnik
-=======
-id imageView8
 id imgAdd
 id imgHome
 id imgKorisnik
 id imgNotification
 id imgObrtnik
+id imgPozadina
 id imgProfile
 id imgWrench
->>>>>>> 5e10b1048b8e4e85161a551b180a25a923f0edb9
 id info
 id invisible
 id italic
@@ -794,11 +775,8 @@ id packed
 id parent
 id parentPanel
 id percent
-<<<<<<< HEAD
 id pravniStatus
 id profilnaSlika
-=======
->>>>>>> 5e10b1048b8e4e85161a551b180a25a923f0edb9
 id progressBar
 id progress_circular
 id progress_horizontal
@@ -852,12 +830,13 @@ id titleDividerNoCustom
 id title_template
 id top
 id topPanel
-<<<<<<< HEAD
 id txtAdresa
 id txtBrojRacuna
 id txtGrad
+id txtID
 id txtImateKorisnickiRacun
 id txtIme
+id txtIstraziObrt
 id txtLozinka
 id txtMail
 id txtNaslovStranice
@@ -869,16 +848,6 @@ id txtPrezime
 id txtTelefon
 id txtZapamti
 id txtZupanija
-=======
-id txtID
-id txtImateKorisnickiRacun
-id txtIstraziObrt
-id txtLozinka
-id txtMail
-id txtNemate2
-id txtRegistrirajSe
-id txtZapamti
->>>>>>> 5e10b1048b8e4e85161a551b180a25a923f0edb9
 id uniform
 id up
 id useLogo
