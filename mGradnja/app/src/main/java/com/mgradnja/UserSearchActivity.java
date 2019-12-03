@@ -69,7 +69,7 @@ public class UserSearchActivity extends AppCompatActivity {
         ConnectionClass connectionClass = new ConnectionClass();
         Connection con = connectionClass.CONN();
 
-        String sql = "SELECT * FROM Izvodjac";
+        String sql = "SELECT * FROM Izvodjac ORDER BY Naziv ASC";
 
         try{
             Statement statement = con.createStatement();
