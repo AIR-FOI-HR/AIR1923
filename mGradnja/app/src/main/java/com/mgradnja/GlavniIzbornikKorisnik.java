@@ -4,12 +4,13 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.database.Cursor;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.TextView;
 
@@ -18,13 +19,15 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
-import java.util.List;
 
 public class GlavniIzbornikKorisnik extends AppCompatActivity {
 
     public Spinner spinnerZupanije;
     public Spinner spinnerKategorije;
     public TextView textView;
+    public String odabranaZupanija;
+    public String odabranaKategorija;
+    public Button btnIstrazi;
 
     public String[] zupanije = new String[]{"Zagrebacka", "Krapinsko-zagorska", "Sisacko-moslavacka",
     "Karlovacka", "Varazdinska", "Koprivnicko-krizevacka", "Bjelovarsko-bilogorska", "Primorsko-goranska",
@@ -57,7 +60,28 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
         spinnerKategorije.setAdapter(adapterKategorije);
         spinnerZupanije.setAdapter(adapterZupanije);
 
+
+
+        btnIstrazi = findViewById(R.id.btnIstrazi);
+        btnIstrazi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                odabranaKategorija = spinnerKategorije.getSelectedItem().toString();
+                odabranaZupanija = spinnerZupanije.getSelectedItem().toString();
+                OpenIstraziIzvodjaceActivity(odabranaKategorija, odabranaZupanija);
+            }
+        });
     }
+
+    private void OpenIstraziIzvodjaceActivity(String odabranaKategorija, String odabranaZupanija) {
+        Intent intent = new Intent(this, IstraziIzvodjaceActivity.class);
+        intent.putExtra("kategorija", odabranaKategorija);
+        intent.putExtra("zupanija", odabranaZupanija);
+
+        startActivity(intent);
+    }
+
+
 
     public void dohvatiKategorije(){
         ConnectionClass connectionClass = new ConnectionClass();
