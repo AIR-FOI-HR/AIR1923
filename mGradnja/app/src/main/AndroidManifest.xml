@@ -14,9 +14,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Registration_performer"></activity>
+        <activity android:name=".UserSearchActivity"></activity>
+        <activity android:name=".Registration_performer" />
         <activity android:name=".Registration_user" />
-        <activity android:name=".GlavniIzbornikKorisnik"></activity>
+        <activity android:name=".GlavniIzbornikKorisnik" />
         <activity android:name=".RegistrationActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".MainActivity">

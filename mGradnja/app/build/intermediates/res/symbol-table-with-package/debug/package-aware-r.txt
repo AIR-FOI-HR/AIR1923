@@ -641,6 +641,7 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_notifications_24dp
 drawable ic_person_24dp
+drawable ic_search
 drawable ic_search_24dp
 drawable ic_wrench_24dp
 drawable korisnik
@@ -761,9 +762,11 @@ id line1
 id line3
 id listMode
 id list_item
+id listaIzvodjaca
 id message
 id middle
 id multiply
+id nazivIzvodjaca
 id nemateRacun
 id never
 id none
@@ -788,6 +791,7 @@ id screen
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
+id search
 id search_badge
 id search_bar
 id search_button
@@ -850,6 +854,7 @@ id txtZapamti
 id txtZupanija
 id uniform
 id up
+id upisaniNaziv
 id useLogo
 id withText
 id wrap
@@ -893,6 +898,8 @@ layout activity_main
 layout activity_registration
 layout activity_registration_performer
 layout activity_registration_user
+layout activity_user_search
+layout list_item_izvodjaci
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big
@@ -903,6 +910,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+menu top_menu
 mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
