@@ -5,7 +5,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
 
@@ -21,6 +23,7 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
     public Spinner spinnerZupanije;
     public Spinner spinnerKategorije;
     public TextView textView;
+    public ImageView imgProfilKorisnika;
 
     public String[] zupanije = new String[]{"Zagrebacka", "Krapinsko-zagorska", "Sisacko-moslavacka",
     "Karlovacka", "Varazdinska", "Koprivnicko-krizevacka", "Bjelovarsko-bilogorska", "Primorsko-goranska",
@@ -53,6 +56,15 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
         spinnerKategorije.setAdapter(adapterKategorije);
         spinnerZupanije.setAdapter(adapterZupanije);
 
+        //Otvaranje profila korisnika
+        imgProfilKorisnika = findViewById(R.id.imgProfile);
+        imgProfilKorisnika.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                otvoriProfil(ID);
+            }
+        });
+
     }
 
     public void dohvatiKategorije(){
@@ -71,5 +83,11 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
         } catch (SQLException e) {
             e.printStackTrace();
         }
+    }
+
+    private void otvoriProfil(Integer ID) {
+        Intent intent = new Intent(this, UserProfileActivity.class);
+        intent.putExtra("ID_korisnika", ID);
+        startActivity(intent);
     }
 }
