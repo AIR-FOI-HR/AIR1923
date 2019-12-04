@@ -23,10 +23,11 @@
         android:id="@+id/imgProfilPozadina"
         android:layout_width="match_parent"
         android:layout_height="225dp"
+        android:background="#FFFFFF"
         android:src="@color/colorAccent" />
 
     <ImageView
-        android:id="@+id/imageView9"
+        android:id="@+id/imgProfilKorisnika"
         android:layout_width="143dp"
         android:layout_height="145dp"
         android:layout_alignBottom="@+id/imgProfilPozadina"
@@ -70,9 +71,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="67dp"
-        android:layout_marginTop="251dp"
-        android:layout_marginEnd="241dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="263dp"
+        android:layout_marginEnd="243dp"
         android:text="E-mail:"
         android:textColor="#0C0C0C"
         android:textSize="18sp" />
@@ -84,36 +85,12 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="67dp"
-        android:layout_marginTop="354dp"
-        android:layout_marginEnd="253dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="345dp"
+        android:layout_marginEnd="255dp"
         android:text="Telefon:"
         android:textColor="#0C0C0C"
         android:textSize="18sp" />
-
-    <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="279dp"
-        android:layout_height="55dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="63dp"
-        android:layout_marginTop="384dp"
-        android:layout_marginEnd="63dp"
-        android:src="@android:color/background_light" />
-
-    <ImageButton
-        android:id="@+id/imageButton4"
-        android:layout_width="279dp"
-        android:layout_height="55dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="63dp"
-        android:layout_marginTop="282dp"
-        android:layout_marginEnd="63dp"
-        android:src="@android:color/background_light" />
 
     <TextView
         android:id="@+id/txtProfilKorisnikMailIspis"
@@ -122,9 +99,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="77dp"
+        android:layout_marginStart="65dp"
         android:layout_marginTop="296dp"
-        android:layout_marginEnd="81dp"
+        android:layout_marginEnd="65dp"
         android:text="TextView"
         android:textColor="#000000"
         android:textSize="18sp" />
@@ -136,9 +113,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="78dp"
-        android:layout_marginTop="399dp"
-        android:layout_marginEnd="79dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginEnd="65dp"
         android:text="TextView"
         android:textColor="#000000"
         android:textSize="18sp" />
@@ -154,5 +131,29 @@
         android:layout_marginTop="494dp"
         android:layout_marginEnd="95dp"
         android:text="Uredi račun" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="325dp"
+        android:layout_marginEnd="63dp"
+        android:src="@color/colorAccent" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginEnd="62dp"
+        android:src="@color/colorAccent" />
 
 </RelativeLayout>
