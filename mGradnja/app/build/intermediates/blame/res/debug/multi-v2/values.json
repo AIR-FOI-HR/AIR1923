@@ -1,10 +1,46 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\VEDRAN\\Desktop\\fragment_ispocetka\\mGradnja\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\VEDRAN\\Desktop\\mGradnja\\mGradnja\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\VEDRAN\\Desktop\\fragment_ispocetka\\mGradnja\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "C:\\Users\\VEDRAN\\Desktop\\mGradnja\\mGradnja\\app\\src\\main\\res\\values\\ic_launcher_background.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "56",
+                        "endOffsets": "109"
+                    },
+                    "to": {
+                        "startLines": "239",
+                        "startColumns": "4",
+                        "startOffsets": "15388",
+                        "endColumns": "56",
+                        "endOffsets": "15440"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\VEDRAN\\Desktop\\mGradnja\\mGradnja\\app\\src\\main\\res\\values\\font_certs.xml",
+                    "from": {
+                        "startLines": "2,6,11",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "57,263,1993",
+                        "endLines": "5,10,15",
+                        "endColumns": "12,19,19",
+                        "endOffsets": "257,1987,3582"
+                    },
+                    "to": {
+                        "startLines": "2,6,11",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "150,352,2077",
+                        "endLines": "5,10,15",
+                        "endColumns": "12,19,19",
+                        "endOffsets": "347,2072,3662"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\VEDRAN\\Desktop\\mGradnja\\mGradnja\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "3,15,10,17",
                         "startColumns": "4,4,4,4",
@@ -20,6 +56,23 @@
                         "endLines": "635,636,640,641",
                         "endColumns": "12,89,12,79",
                         "endOffsets": "41739,41829,41979,42059"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\VEDRAN\\Desktop\\mGradnja\\mGradnja\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "157,57,105",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "198,99,151"
+                    },
+                    "to": {
+                        "startLines": "215,216,217",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "13800,13846,13893",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "13841,13888,13939"
                     }
                 },
                 {
@@ -75,25 +128,6 @@
                         "startOffsets": "16801,32124,32177,32230,32283,154261,154437,154559,154821,155016",
                         "endColumns": "88,52,52,52,52,65,121,60,65,66",
                         "endOffsets": "16885,32172,32225,32278,32331,154322,154554,154615,154882,155078"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\VEDRAN\\Desktop\\fragment_ispocetka\\mGradnja\\app\\src\\main\\res\\values\\font_certs.xml",
-                    "from": {
-                        "startLines": "2,6,11",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "57,263,1993",
-                        "endLines": "5,10,15",
-                        "endColumns": "12,19,19",
-                        "endOffsets": "257,1987,3582"
-                    },
-                    "to": {
-                        "startLines": "2,6,11",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "150,352,2077",
-                        "endLines": "5,10,15",
-                        "endColumns": "12,19,19",
-                        "endOffsets": "347,2072,3662"
                     }
                 },
                 {
@@ -171,7 +205,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\VEDRAN\\Desktop\\fragment_ispocetka\\mGradnja\\app\\src\\main\\res\\values\\preloaded_fonts.xml",
+                    "source": "C:\\Users\\VEDRAN\\Desktop\\mGradnja\\mGradnja\\app\\src\\main\\res\\values\\preloaded_fonts.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -209,23 +243,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\VEDRAN\\Desktop\\fragment_ispocetka\\mGradnja\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "4,2,3",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "157,57,105",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "198,99,151"
-                    },
-                    "to": {
-                        "startLines": "215,216,217",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "13800,13846,13893",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "13841,13888,13939"
-                    }
-                },
-                {
                     "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\ca3ed72cfdc57fc3a102e462c0327875\\recyclerview-1.0.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "30,31,32,33,34,35,36,2",
@@ -245,7 +262,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\VEDRAN\\Desktop\\fragment_ispocetka\\mGradnja\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "C:\\Users\\VEDRAN\\Desktop\\mGradnja\\mGradnja\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "2,3,4,6,5",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "90,149,206,296,253",
+                        "endColumns": "57,55,45,48,41",
+                        "endOffsets": "143,200,247,340,290"
+                    },
+                    "to": {
+                        "startLines": "358,359,360,361,418",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "23413,23471,23527,23573,27257",
+                        "endColumns": "57,55,45,48,41",
+                        "endOffsets": "23466,23522,23568,23617,27294"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\VEDRAN\\Desktop\\mGradnja\\mGradnja\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
                         "startLines": "3,1,16,10,11,12,13,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -261,40 +295,6 @@
                         "endLines": "21,599,606,616,617,618,619,620",
                         "endColumns": "19,45,69,44,44,49,81,75",
                         "endOffsets": "3861,38387,39243,40448,40493,40543,40625,40701"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\VEDRAN\\Desktop\\fragment_ispocetka\\mGradnja\\app\\src\\main\\res\\values\\ic_launcher_background.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endColumns": "56",
-                        "endOffsets": "109"
-                    },
-                    "to": {
-                        "startLines": "239",
-                        "startColumns": "4",
-                        "startOffsets": "15388",
-                        "endColumns": "56",
-                        "endOffsets": "15440"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\VEDRAN\\Desktop\\fragment_ispocetka\\mGradnja\\app\\src\\main\\res\\values\\dimens.xml",
-                    "from": {
-                        "startLines": "2,3,4,6,5",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "90,149,206,296,253",
-                        "endColumns": "57,55,45,48,41",
-                        "endOffsets": "143,200,247,340,290"
-                    },
-                    "to": {
-                        "startLines": "358,359,360,361,418",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "23413,23471,23527,23573,27257",
-                        "endColumns": "57,55,45,48,41",
-                        "endOffsets": "23466,23522,23568,23617,27294"
                     }
                 }
             ]
