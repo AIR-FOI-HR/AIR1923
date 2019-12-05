@@ -15,8 +15,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".UserProfileActivity"
-            android:label="@string/title_activity_user_profile"
+            android:name=".ProfilKorisnikActivity"
+            android:label="@string/title_activity_profil_korisnik"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity android:name=".Registration_performer" />
         <activity android:name=".Registration_user" />

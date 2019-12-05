@@ -86,7 +86,7 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
     }
 
     private void otvoriProfil(Integer ID) {
-        Intent intent = new Intent(this, UserProfileActivity.class);
+        Intent intent = new Intent(this, ProfilKorisnikActivity.class);
         intent.putExtra("ID_korisnika", ID);
         startActivity(intent);
     }

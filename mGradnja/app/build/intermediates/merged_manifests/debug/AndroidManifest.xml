@@ -24,8 +24,8 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.mgradnja.UserProfileActivity"
-            android:label="@string/title_activity_user_profile"
+            android:name="com.mgradnja.ProfilKorisnikActivity"
+            android:label="@string/title_activity_profil_korisnik"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name="com.mgradnja.Registration_performer" />
         <activity android:name="com.mgradnja.Registration_user" />
