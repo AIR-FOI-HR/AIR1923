@@ -13,12 +13,14 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
+import java.util.List;
 
 public class IstraziIzvodjaceActivity extends AppCompatActivity {
     ConnectionClass connectionClass;
     Connection connection;
     String zupanija, kategorija;
     ArrayList<String> izvodjaci;
+    ArrayList<Integer> nefiltrirano;
     ListView lista;
     ListAdapter filterIzvodjaci;
 
@@ -28,6 +30,7 @@ public class IstraziIzvodjaceActivity extends AppCompatActivity {
         setContentView(R.layout.activity_istrazi_izvodjace);
 
         izvodjaci = new ArrayList<>();
+        nefiltrirano = new ArrayList<>();
         lista = findViewById(R.id.lstIzvodjaci);
 
         Intent intent = getIntent();
@@ -42,19 +45,34 @@ public class IstraziIzvodjaceActivity extends AppCompatActivity {
     public void DohvatiIzvodjace(String zupanija, String kategorija){
         connectionClass = new ConnectionClass();
         connection = connectionClass.CONN();
-        String query = "select Izvodjac.Naziv " +
-                "from Izvodjac, Djelatnost" +
-                " where Izvodjac.Zupanija='" + zupanija + "' and Djelatnost.Naziv='" + kategorija + "'";
+        Integer idKategorije = null;
+
         try {
-            Statement statement = connection.createStatement();
-
-            ResultSet rs = statement.executeQuery(query);
-
-            while (rs.next()) {
-                //if()
-                izvodjaci.add(rs.getString("Naziv"));
-
+            String filter = "select * from Djelatnost where Naziv='" + kategorija + "' ";
+            Statement stmtFilter = connection.createStatement();
+            ResultSet rsFilter = stmtFilter.executeQuery(filter);
+            while (rsFilter.next()){
+                if (kategorija.equals(rsFilter.getString("Naziv")))
+                    idKategorije = rsFilter.getInt("ID_djelatnosti");
             }
+
+            String sql = "select * from Djelatnosti_izvodjaca where ID_djelatnosti='" + idKategorije +"'";
+            Statement stmtSql = connection.createStatement();
+            ResultSet rsSql = stmtSql.executeQuery(sql);
+            while (rsSql.next()){
+                nefiltrirano.add(rsSql.getInt("ID_izvodjaca"));
+            }
+
+            String query = "select Naziv, ID_izvodjaca from Izvodjac where Zupanija='"+zupanija+"' ";
+            Statement statement = connection.createStatement();
+            ResultSet rs = statement.executeQuery(query);
+            while (rs.next()) {
+                if(nefiltrirano.contains(rs.getInt("ID_izvodjaca")))
+                    izvodjaci.add(rs.getString("Naziv"));
+            }
+
+            if(izvodjaci.isEmpty())
+                izvodjaci.add("Nema rezultata za vašu pretragu");
         } catch (SQLException e) {
             e.printStackTrace();
         }

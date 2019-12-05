@@ -1440,6 +1440,10 @@
         "source": "C:\\Users\\Matija\\.gradle\\caches\\transforms-2\\files-2.1\\906744c4ddcbc384c5a8d2d69414f8fa\\appcompat-1.0.2\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
+        "merged": "C:\\Users\\Matija\\Desktop\\mGradnja\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable_izbornik_korisnik.jpg.flat",
+        "source": "C:\\Users\\Matija\\Desktop\\mGradnja\\mGradnja\\app\\src\\main\\res\\drawable\\izbornik_korisnik.jpg"
+    },
+    {
         "merged": "C:\\Users\\Matija\\Desktop\\mGradnja\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Matija\\.gradle\\caches\\transforms-2\\files-2.1\\906744c4ddcbc384c5a8d2d69414f8fa\\appcompat-1.0.2\\res\\drawable-xxhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
     },

@@ -644,6 +644,7 @@ drawable ic_person_24dp
 drawable ic_search
 drawable ic_search_24dp
 drawable ic_wrench_24dp
+drawable izbornik_korisnik
 drawable korisnik
 drawable logo
 drawable notification_action_background
