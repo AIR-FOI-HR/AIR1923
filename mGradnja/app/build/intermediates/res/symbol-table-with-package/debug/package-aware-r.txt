@@ -644,6 +644,7 @@ drawable ic_person_24dp
 drawable ic_search
 drawable ic_search_24dp
 drawable ic_wrench_24dp
+drawable izbornik_korisnik
 drawable korisnik
 drawable logo
 drawable notification_action_background
@@ -763,6 +764,7 @@ id line3
 id listMode
 id list_item
 id listaIzvodjaca
+id lstIzvodjaci
 id message
 id middle
 id multiply
@@ -893,6 +895,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_glavni_izbornik_korisnik
+layout activity_istrazi_izvodjace
 layout activity_login
 layout activity_main
 layout activity_registration
