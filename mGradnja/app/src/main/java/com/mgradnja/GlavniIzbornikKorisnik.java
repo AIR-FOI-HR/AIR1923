@@ -9,9 +9,13 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -24,7 +28,11 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
 
     public Spinner spinnerZupanije;
     public Spinner spinnerKategorije;
-    public TextView textView;
+
+    Integer ID;
+
+    private static ImageView imgAdd;
+
 
     public String[] zupanije = new String[]{"Zagrebacka", "Krapinsko-zagorska", "Sisacko-moslavacka",
     "Karlovacka", "Varazdinska", "Koprivnicko-krizevacka", "Bjelovarsko-bilogorska", "Primorsko-goranska",
@@ -41,7 +49,7 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
 
         //DOHVAT ID-A KORISNIKA IZ PRIJAŠNJE AKTIVNOSTI
         Intent intent = getIntent();
-        Integer ID = intent.getIntExtra("ID_korisnika", 0);
+        ID = intent.getIntExtra("ID_korisnika", 0);
 
         //textView = findViewById(R.id.txtID);
         //textView.setText(ID.toString());
@@ -57,6 +65,21 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
         spinnerKategorije.setAdapter(adapterKategorije);
         spinnerZupanije.setAdapter(adapterZupanije);
 
+        imgAdd=findViewById(R.id.imgAdd);
+        imgAdd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openQueryActivity(ID);
+            }
+        });
+
+
+    }
+
+    public void openQueryActivity(Integer ID){
+        Intent intent = new Intent(this, QueryActivity.class);
+        intent.putExtra("ID_korisnika", ID);
+        startActivity(intent);
     }
 
     public void dohvatiKategorije(){
@@ -76,6 +99,8 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
             e.printStackTrace();
         }
     }
+
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

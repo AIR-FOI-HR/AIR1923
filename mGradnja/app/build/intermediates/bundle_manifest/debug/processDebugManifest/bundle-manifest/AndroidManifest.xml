@@ -29,6 +29,7 @@
         <activity android:name="com.mgradnja.GlavniIzbornikKorisnik" />
         <activity android:name="com.mgradnja.RegistrationActivity" />
         <activity android:name="com.mgradnja.LoginActivity" />
+        <activity android:name="com.mgradnja.QueryActivity" />
         <activity android:name="com.mgradnja.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
