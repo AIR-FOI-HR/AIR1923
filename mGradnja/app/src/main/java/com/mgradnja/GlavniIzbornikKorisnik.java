@@ -9,7 +9,9 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
 
@@ -33,6 +35,7 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
     "Dubrovacko-neretvanska", "Medjimurska", "Grad Zagreb"};
 
     public ArrayList<String> kategorije = new ArrayList<String>();
+    private Integer id;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,6 +59,16 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
 
         spinnerKategorije.setAdapter(adapterKategorije);
         spinnerZupanije.setAdapter(adapterZupanije);
+
+        ImageView img = (ImageView) findViewById(R.id.imgWrench);
+        img.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(GlavniIzbornikKorisnik.this, JobListActivity.class);
+                i.putExtra("ID_korisnika", ID);
+                startActivity(i);
+            }
+        });
 
     }
 
@@ -94,4 +107,12 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
+
+
+
+
+
+
+
+
 }

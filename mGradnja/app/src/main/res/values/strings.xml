@@ -7,4 +7,8 @@
         <item>Fizička osoba</item>
         <item>Obrt</item>
     </string-array>
+    <string-array name="poslovi">
+        <item>Trenutni poslovi</item>
+        <item>Prošli poslovi</item>
+    </string-array>
 </resources>
