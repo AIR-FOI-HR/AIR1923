@@ -14,24 +14,23 @@
         android:layout_height="match_parent"
         android:layout_marginStart="0dp"
         android:layout_marginTop="70dp"
-        android:layout_marginEnd="41dp"
-        android:background="@android:color/darker_gray"
-        android:scrollbars="vertical"
+        android:background="#27D570"
         android:padding="4dp"
 
-        />
+        android:scrollbars="vertical" />
+
 
     <TextView
         android:id="@+id/txtRadovi"
-        android:layout_width="425dp"
-        android:layout_height="29dp"
+        android:layout_width="388dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="0dp"
         android:layout_marginTop="0dp"
-        android:layout_marginEnd="41dp"
+        android:layout_marginEnd="0dp"
         android:background="#27D570"
         android:backgroundTint="#27D570"
         android:text="POPIS POSLOVA"
-        android:textAlignment="textStart"
+        android:textAlignment="center"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -49,15 +48,14 @@
 
     <Button
         android:id="@+id/btbIzaberiPoslove"
-        android:layout_width="141dp"
+        android:layout_width="179dp"
         android:layout_height="wrap_content"
-
         android:layout_marginStart="195dp"
         android:layout_marginTop="22dp"
-        android:layout_marginEnd="41dp"
         android:backgroundTint="#27D570"
-        android:text="Izaberi"
+        android:onClick="DisplayResult"
 
+        android:text="Izaberi"
         app:layout_anchorGravity="end|center" />
 
 </RelativeLayout>

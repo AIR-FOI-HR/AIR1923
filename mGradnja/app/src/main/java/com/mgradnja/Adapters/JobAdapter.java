@@ -12,6 +12,7 @@ import com.mgradnja.HelpEntities.JobAtributes;
 import com.mgradnja.R;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class JobAdapter extends RecyclerView.Adapter<JobAdapter.JobViewHolder> {
 
@@ -45,8 +46,10 @@ public class JobAdapter extends RecyclerView.Adapter<JobAdapter.JobViewHolder> {
     public JobViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.joblist_layout, parent, false);
         JobViewHolder jvh = new JobViewHolder(v);
+
         return jvh;
     }
+
 
     @Override
     public void onBindViewHolder(@NonNull JobViewHolder holder, int position) {
@@ -56,10 +59,12 @@ public class JobAdapter extends RecyclerView.Adapter<JobAdapter.JobViewHolder> {
         holder.mNaziv.setText(JA.getmNazivPosla());
         holder.mZavrsetak.setText("Završetak: " + JA.getMkrajPosla().toString());
         holder.mPocetak.setText(" Početak: " + JA.getmPočetakPosla().toString());
-        holder.mCijena.setText(String.valueOf(JA.getmCijena()));
+        holder.mCijena.setText(String.valueOf(JA.getmCijena())+ " Kn");
         holder.mOpis.setText(JA.getmOpisPosla());
-        holder.mIzvodjac.setText(String.valueOf(JA.getMbrojIzvodjaca()));
+        holder.mIzvodjac.setText(String.valueOf("Izvođač: "+JA.getmNazivIzvodjaca()));
     }
+
+
 
     @Override
     public int getItemCount() {
