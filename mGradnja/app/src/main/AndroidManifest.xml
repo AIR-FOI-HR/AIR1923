@@ -14,11 +14,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-<<<<<<< HEAD
+
         <activity android:name=".JobListActivity"></activity>
-=======
+
         <activity android:name=".IstraziIzvodjaceActivity"></activity>
->>>>>>> 7f21d053beb3ad7d8218cb0a21b23f7c1e17b71d
+
         <activity android:name=".UserSearchActivity" />
         <activity android:name=".Registration_performer" />
         <activity android:name=".Registration_user" />

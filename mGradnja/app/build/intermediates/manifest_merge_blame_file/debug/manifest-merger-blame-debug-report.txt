@@ -6,162 +6,86 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-<<<<<<< HEAD
-8-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitgit\mGradnja\app\src\main\AndroidManifest.xml
+8-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitPrichuvni\mGradnja\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitgit\mGradnja\app\src\main\AndroidManifest.xml
+9-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitPrichuvni\mGradnja\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitgit\mGradnja\app\src\main\AndroidManifest.xml:5:5-67
-11-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitgit\mGradnja\app\src\main\AndroidManifest.xml:5:22-64
+11-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitPrichuvni\mGradnja\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitPrichuvni\mGradnja\app\src\main\AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitgit\mGradnja\app\src\main\AndroidManifest.xml:6:5-79
-12-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitgit\mGradnja\app\src\main\AndroidManifest.xml:6:22-76
+12-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitPrichuvni\mGradnja\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitPrichuvni\mGradnja\app\src\main\AndroidManifest.xml:6:22-76
 13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-13-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitgit\mGradnja\app\src\main\AndroidManifest.xml:7:5-76
-13-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitgit\mGradnja\app\src\main\AndroidManifest.xml:7:22-73
+13-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitPrichuvni\mGradnja\app\src\main\AndroidManifest.xml:7:5-76
+13-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitPrichuvni\mGradnja\app\src\main\AndroidManifest.xml:7:22-73
 14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-14-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitgit\mGradnja\app\src\main\AndroidManifest.xml:8:5-80
-14-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitgit\mGradnja\app\src\main\AndroidManifest.xml:8:22-77
+14-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitPrichuvni\mGradnja\app\src\main\AndroidManifest.xml:8:5-80
+14-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitPrichuvni\mGradnja\app\src\main\AndroidManifest.xml:8:22-77
 15
 16    <application
-16-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitgit\mGradnja\app\src\main\AndroidManifest.xml:10:5-35:19
+16-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitPrichuvni\mGradnja\app\src\main\AndroidManifest.xml:10:5-39:19
 17        android:allowBackup="true"
-17-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitgit\mGradnja\app\src\main\AndroidManifest.xml:11:9-35
+17-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitPrichuvni\mGradnja\app\src\main\AndroidManifest.xml:11:9-35
 18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 18-->[androidx.core:core:1.0.1] C:\Users\MarkoMehkek\.gradle\caches\transforms-2\files-2.1\c0a39027978b83a483a047f5c31d0c4e\core-1.0.1\AndroidManifest.xml:22:18-86
 19        android:debuggable="true"
 20        android:icon="@mipmap/ic_launcher"
-20-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitgit\mGradnja\app\src\main\AndroidManifest.xml:12:9-43
+20-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitPrichuvni\mGradnja\app\src\main\AndroidManifest.xml:12:9-43
 21        android:label="@string/app_name"
-21-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitgit\mGradnja\app\src\main\AndroidManifest.xml:13:9-41
+21-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitPrichuvni\mGradnja\app\src\main\AndroidManifest.xml:13:9-41
 22        android:roundIcon="@mipmap/ic_launcher_round"
-22-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitgit\mGradnja\app\src\main\AndroidManifest.xml:14:9-54
+22-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitPrichuvni\mGradnja\app\src\main\AndroidManifest.xml:14:9-54
 23        android:supportsRtl="true"
-23-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitgit\mGradnja\app\src\main\AndroidManifest.xml:15:9-35
+23-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitPrichuvni\mGradnja\app\src\main\AndroidManifest.xml:15:9-35
 24        android:testOnly="true"
 25        android:theme="@style/AppTheme" >
-25-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitgit\mGradnja\app\src\main\AndroidManifest.xml:16:9-40
+25-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitPrichuvni\mGradnja\app\src\main\AndroidManifest.xml:16:9-40
 26        <activity android:name="com.mgradnja.JobListActivity" />
-26-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitgit\mGradnja\app\src\main\AndroidManifest.xml:17:9-62
-26-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitgit\mGradnja\app\src\main\AndroidManifest.xml:17:19-50
-27        <activity android:name="com.mgradnja.UserSearchActivity" />
-27-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitgit\mGradnja\app\src\main\AndroidManifest.xml:18:9-56
-27-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitgit\mGradnja\app\src\main\AndroidManifest.xml:18:19-53
-28        <activity android:name="com.mgradnja.Registration_performer" />
-28-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitgit\mGradnja\app\src\main\AndroidManifest.xml:19:9-60
-28-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitgit\mGradnja\app\src\main\AndroidManifest.xml:19:19-57
-29        <activity android:name="com.mgradnja.Registration_user" />
-29-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitgit\mGradnja\app\src\main\AndroidManifest.xml:20:9-55
-29-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitgit\mGradnja\app\src\main\AndroidManifest.xml:20:19-52
-30        <activity android:name="com.mgradnja.GlavniIzbornikKorisnik" />
-30-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitgit\mGradnja\app\src\main\AndroidManifest.xml:21:9-60
-30-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitgit\mGradnja\app\src\main\AndroidManifest.xml:21:19-57
-31        <activity android:name="com.mgradnja.RegistrationActivity" />
-31-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitgit\mGradnja\app\src\main\AndroidManifest.xml:22:9-58
-31-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitgit\mGradnja\app\src\main\AndroidManifest.xml:22:19-55
-32        <activity android:name="com.mgradnja.LoginActivity" />
-32-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitgit\mGradnja\app\src\main\AndroidManifest.xml:23:9-51
-32-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitgit\mGradnja\app\src\main\AndroidManifest.xml:23:19-48
-33        <activity android:name="com.mgradnja.MainActivity" >
-33-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitgit\mGradnja\app\src\main\AndroidManifest.xml:24:9-30:20
-33-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitgit\mGradnja\app\src\main\AndroidManifest.xml:24:19-47
-34            <intent-filter>
-34-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitgit\mGradnja\app\src\main\AndroidManifest.xml:25:13-29:29
-35                <action android:name="android.intent.action.MAIN" />
-35-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitgit\mGradnja\app\src\main\AndroidManifest.xml:26:17-69
-35-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitgit\mGradnja\app\src\main\AndroidManifest.xml:26:25-66
-36
-37                <category android:name="android.intent.category.LAUNCHER" />
-37-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitgit\mGradnja\app\src\main\AndroidManifest.xml:28:17-77
-37-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitgit\mGradnja\app\src\main\AndroidManifest.xml:28:27-74
-=======
-8-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml
-9        android:targetSdkVersion="29" />
-9-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml
-10
-11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:5:5-67
-11-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:5:22-64
-12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:6:5-79
-12-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:6:22-76
-13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-13-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:7:5-76
-13-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:7:22-73
-14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-14-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:8:5-80
-14-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:8:22-77
-15
-16    <application
-16-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:10:5-35:19
-17        android:allowBackup="true"
-17-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:11:9-35
-18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-18-->[androidx.core:core:1.0.1] C:\Users\Matija\.gradle\caches\transforms-2\files-2.1\c0a39027978b83a483a047f5c31d0c4e\core-1.0.1\AndroidManifest.xml:22:18-86
-19        android:debuggable="true"
-20        android:icon="@mipmap/ic_launcher"
-20-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:12:9-43
-21        android:label="@string/app_name"
-21-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:13:9-41
-22        android:roundIcon="@mipmap/ic_launcher_round"
-22-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:14:9-54
-23        android:supportsRtl="true"
-23-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:15:9-35
-24        android:testOnly="true"
-25        android:theme="@style/AppTheme" >
-25-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:16:9-40
-26        <activity android:name="com.mgradnja.IstraziIzvodjaceActivity" />
-26-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:17:9-71
-26-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:17:19-59
-27        <activity android:name="com.mgradnja.UserSearchActivity" />
-27-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:18:9-56
-27-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:18:19-53
-28        <activity android:name="com.mgradnja.Registration_performer" />
-28-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:19:9-60
-28-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:19:19-57
-29        <activity android:name="com.mgradnja.Registration_user" />
-29-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:20:9-55
-29-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:20:19-52
-30        <activity android:name="com.mgradnja.GlavniIzbornikKorisnik" />
-30-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:21:9-60
-30-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:21:19-57
-31        <activity android:name="com.mgradnja.RegistrationActivity" />
-31-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:22:9-58
-31-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:22:19-55
-32        <activity android:name="com.mgradnja.LoginActivity" />
-32-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:23:9-51
-32-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:23:19-48
-33        <activity android:name="com.mgradnja.MainActivity" >
-33-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:24:9-30:20
-33-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:24:19-47
-34            <intent-filter>
-34-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:25:13-29:29
-35                <action android:name="android.intent.action.MAIN" />
-35-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:26:17-69
-35-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:26:25-66
-36
-37                <category android:name="android.intent.category.LAUNCHER" />
-37-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:28:17-77
-37-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:28:27-74
->>>>>>> 7f21d053beb3ad7d8218cb0a21b23f7c1e17b71d
-38            </intent-filter>
-39        </activity>
-40
-41        <meta-data
-<<<<<<< HEAD
-41-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitgit\mGradnja\app\src\main\AndroidManifest.xml:32:9-34:57
-42            android:name="preloaded_fonts"
-42-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitgit\mGradnja\app\src\main\AndroidManifest.xml:33:13-43
-43            android:resource="@array/preloaded_fonts" />
-43-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitgit\mGradnja\app\src\main\AndroidManifest.xml:34:13-54
-=======
-41-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:32:9-34:57
-42            android:name="preloaded_fonts"
-42-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:33:13-43
-43            android:resource="@array/preloaded_fonts" />
-43-->C:\Users\Matija\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:34:13-54
->>>>>>> 7f21d053beb3ad7d8218cb0a21b23f7c1e17b71d
-44    </application>
-45
-46</manifest>
+26-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitPrichuvni\mGradnja\app\src\main\AndroidManifest.xml:18:9-62
+26-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitPrichuvni\mGradnja\app\src\main\AndroidManifest.xml:18:19-50
+27        <activity android:name="com.mgradnja.IstraziIzvodjaceActivity" />
+27-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitPrichuvni\mGradnja\app\src\main\AndroidManifest.xml:20:9-71
+27-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitPrichuvni\mGradnja\app\src\main\AndroidManifest.xml:20:19-59
+28        <activity android:name="com.mgradnja.UserSearchActivity" />
+28-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitPrichuvni\mGradnja\app\src\main\AndroidManifest.xml:22:9-56
+28-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitPrichuvni\mGradnja\app\src\main\AndroidManifest.xml:22:19-53
+29        <activity android:name="com.mgradnja.Registration_performer" />
+29-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitPrichuvni\mGradnja\app\src\main\AndroidManifest.xml:23:9-60
+29-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitPrichuvni\mGradnja\app\src\main\AndroidManifest.xml:23:19-57
+30        <activity android:name="com.mgradnja.Registration_user" />
+30-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitPrichuvni\mGradnja\app\src\main\AndroidManifest.xml:24:9-55
+30-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitPrichuvni\mGradnja\app\src\main\AndroidManifest.xml:24:19-52
+31        <activity android:name="com.mgradnja.GlavniIzbornikKorisnik" />
+31-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitPrichuvni\mGradnja\app\src\main\AndroidManifest.xml:25:9-60
+31-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitPrichuvni\mGradnja\app\src\main\AndroidManifest.xml:25:19-57
+32        <activity android:name="com.mgradnja.RegistrationActivity" />
+32-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitPrichuvni\mGradnja\app\src\main\AndroidManifest.xml:26:9-58
+32-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitPrichuvni\mGradnja\app\src\main\AndroidManifest.xml:26:19-55
+33        <activity android:name="com.mgradnja.LoginActivity" />
+33-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitPrichuvni\mGradnja\app\src\main\AndroidManifest.xml:27:9-51
+33-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitPrichuvni\mGradnja\app\src\main\AndroidManifest.xml:27:19-48
+34        <activity android:name="com.mgradnja.MainActivity" >
+34-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitPrichuvni\mGradnja\app\src\main\AndroidManifest.xml:28:9-34:20
+34-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitPrichuvni\mGradnja\app\src\main\AndroidManifest.xml:28:19-47
+35            <intent-filter>
+35-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitPrichuvni\mGradnja\app\src\main\AndroidManifest.xml:29:13-33:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitPrichuvni\mGradnja\app\src\main\AndroidManifest.xml:30:17-69
+36-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitPrichuvni\mGradnja\app\src\main\AndroidManifest.xml:30:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitPrichuvni\mGradnja\app\src\main\AndroidManifest.xml:32:17-77
+38-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitPrichuvni\mGradnja\app\src\main\AndroidManifest.xml:32:27-74
+39            </intent-filter>
+40        </activity>
+41
+42        <meta-data
+42-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitPrichuvni\mGradnja\app\src\main\AndroidManifest.xml:36:9-38:57
+43            android:name="preloaded_fonts"
+43-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitPrichuvni\mGradnja\app\src\main\AndroidManifest.xml:37:13-43
+44            android:resource="@array/preloaded_fonts" />
+44-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gitPrichuvni\mGradnja\app\src\main\AndroidManifest.xml:38:13-54
+45    </application>
+46
+47</manifest>

@@ -10,11 +10,11 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
-<<<<<<< HEAD
+
 import android.widget.ImageView;
-=======
+
 import android.widget.Button;
->>>>>>> 7f21d053beb3ad7d8218cb0a21b23f7c1e17b71d
+
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -66,7 +66,7 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
         spinnerKategorije.setAdapter(adapterKategorije);
         spinnerZupanije.setAdapter(adapterZupanije);
 
-<<<<<<< HEAD
+
         ImageView img = (ImageView) findViewById(R.id.imgWrench);
         img.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -83,7 +83,7 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
             }
         });
 
-=======
+
 
 
         btnIstrazi = findViewById(R.id.btnIstrazi);
@@ -103,7 +103,7 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
         intent.putExtra("zupanija", odabranaZupanija);
 
         startActivity(intent);
->>>>>>> 7f21d053beb3ad7d8218cb0a21b23f7c1e17b71d
+
     }
 
 

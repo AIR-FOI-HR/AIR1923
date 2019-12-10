@@ -71,23 +71,10 @@
                 android:scaleType="fitEnd"
                 app:srcCompat="@drawable/ic_person_24dp" />
 
-<<<<<<< HEAD
-                <ImageView
-                    android:id="@+id/imgWrench"
-                    android:layout_width="wrap_content"
-                    android:layout_height="69dp"
-                    android:layout_below="@+id/btnIstrazi"
-                    android:layout_alignParentStart="true"
-                    android:layout_alignParentEnd="true"
-                    android:layout_marginStart="79dp"
-                    android:layout_marginTop="25dp"
-                    android:layout_marginEnd="254dp"
-                    android:clickable="true"
-                    android:padding="3dp"
-                    android:onClick="openJobListActivity"
-                    app:srcCompat="@drawable/ic_wrench_24dp" />
 
-=======
+
+
+
             <ImageView
                 android:id="@+id/imgWrench"
                 android:layout_width="wrap_content"
@@ -101,7 +88,7 @@
                 android:padding="3dp"
                 android:scaleType="fitEnd"
                 app:srcCompat="@drawable/ic_wrench_24dp" />
->>>>>>> 7f21d053beb3ad7d8218cb0a21b23f7c1e17b71d
+
 
                 <Button
                     android:id="@+id/btnIstrazi"

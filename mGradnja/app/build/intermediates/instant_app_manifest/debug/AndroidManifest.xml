@@ -24,11 +24,8 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-<<<<<<< HEAD
         <activity android:name="com.mgradnja.JobListActivity" />
-=======
         <activity android:name="com.mgradnja.IstraziIzvodjaceActivity" />
->>>>>>> 7f21d053beb3ad7d8218cb0a21b23f7c1e17b71d
         <activity android:name="com.mgradnja.UserSearchActivity" />
         <activity android:name="com.mgradnja.Registration_performer" />
         <activity android:name="com.mgradnja.Registration_user" />
