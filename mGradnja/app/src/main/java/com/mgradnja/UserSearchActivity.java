@@ -11,6 +11,7 @@ import android.text.TextWatcher;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.ListView;
@@ -62,6 +63,11 @@ public class UserSearchActivity extends AppCompatActivity {
             public void afterTextChanged(Editable cs) {
                 adapter.getFilter().filter(cs);
             }
+        });
+
+        listView.setOnItemClickListener((parent, view, position, id) -> {
+            Intent intent = new Intent(getApplicationContext(), IzvodjacInfoActivity.class);
+            startActivity(intent);
         });
     }
 

@@ -11,6 +11,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
 
@@ -71,6 +72,7 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
                 OpenIstraziIzvodjaceActivity(odabranaKategorija, odabranaZupanija);
             }
         });
+
     }
 
     private void OpenIstraziIzvodjaceActivity(String odabranaKategorija, String odabranaZupanija) {
