@@ -1,8 +1,10 @@
 package com.mgradnja.Adapters;
 
+import android.graphics.drawable.Drawable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -25,6 +27,7 @@ public class JobAdapter extends RecyclerView.Adapter<JobAdapter.JobViewHolder> {
         public TextView mZavrsetak;
         public TextView mPocetak;
         public TextView mCijena;
+        public ImageView mSlika;
 
 
         public JobViewHolder(@NonNull View itemView) {
@@ -35,6 +38,7 @@ public class JobAdapter extends RecyclerView.Adapter<JobAdapter.JobViewHolder> {
             mPocetak = itemView.findViewById(R.id.txtPočetakPosla);
             mZavrsetak = itemView.findViewById(R.id.txtZavrsetskPosla);
             mNaziv = itemView.findViewById(R.id.txtNazivUpita);
+            mSlika = itemView.findViewById(R.id.Slika);
         }
     }
 
@@ -54,6 +58,7 @@ public class JobAdapter extends RecyclerView.Adapter<JobAdapter.JobViewHolder> {
     @Override
     public void onBindViewHolder(@NonNull JobViewHolder holder, int position) {
 
+        int naziv = 0;
         JobAtributes JA = mListaPoslova.get(position);
 
         holder.mNaziv.setText(JA.getmNazivPosla());
@@ -62,6 +67,9 @@ public class JobAdapter extends RecyclerView.Adapter<JobAdapter.JobViewHolder> {
         holder.mCijena.setText(String.valueOf(JA.getmCijena())+ " Kn");
         holder.mOpis.setText(JA.getmOpisPosla());
         holder.mIzvodjac.setText(String.valueOf("Izvođač: "+JA.getmNazivIzvodjaca()));
+        holder.mSlika.setImageResource(JA.getMbrojSlike());
+
+
     }
 
 

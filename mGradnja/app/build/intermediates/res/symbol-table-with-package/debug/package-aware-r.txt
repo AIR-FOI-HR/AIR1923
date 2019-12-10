@@ -669,6 +669,8 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable brava
+drawable bravaa
 drawable glavni_izbornik_korisnik
 drawable ic_add_circle_24dp
 drawable ic_home_24dp
@@ -679,7 +681,9 @@ drawable ic_person_24dp
 drawable ic_search
 drawable ic_search_24dp
 drawable ic_wrench_24dp
+drawable keramika
 drawable korisnik
+drawable krov
 drawable logo
 drawable notification_action_background
 drawable notification_bg
@@ -696,8 +700,12 @@ drawable notify_panel_notification_icon_bg
 drawable obrtnik
 drawable registracija
 drawable selection_band_overlay
+drawable soboslikar
+drawable staklar
+drawable stol
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable zidar
 font work_sans_bold
 id ALT
 id CTRL
@@ -705,6 +713,7 @@ id FUNCTION
 id META
 id SHIFT
 id SYM
+id Slika
 id action_bar
 id action_bar_activity_content
 id action_bar_container

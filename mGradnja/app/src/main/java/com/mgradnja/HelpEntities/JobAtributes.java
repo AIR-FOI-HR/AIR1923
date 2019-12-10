@@ -5,7 +5,7 @@ import java.util.Date;
 public class JobAtributes {
     private int mbrojPosla;
     private int mbrojUpita;
-    private int mbrojPonude;
+    private int mbrojSlike;
     private float mCijena;
     private String mNazivIzvodjaca;
     private String mOpisPosla;
@@ -13,7 +13,7 @@ public class JobAtributes {
     private Date mPočetakPosla;
     private Date mkrajPosla;
 
-    public JobAtributes( int brojUpita, float cijena, String opisPosla, String nazivPosla, Date pocetakPosla, Date krajPosla, String nazivIzvodjaca){
+    public JobAtributes( int brojUpita, float cijena, String opisPosla, String nazivPosla, Date pocetakPosla, Date krajPosla, String nazivIzvodjaca, int brojSlike){
 
         //mbrojPonude = brojPonude;
         mCijena = cijena;
@@ -24,14 +24,13 @@ public class JobAtributes {
         mPočetakPosla = pocetakPosla;
         mkrajPosla = krajPosla;
         mNazivIzvodjaca = nazivIzvodjaca;
+        mbrojSlike = brojSlike;
     }
-
+    public int getMbrojSlike() {return mbrojSlike;}
     public int getMbrojPosla(){
         return mbrojPosla;
     }
-    public int getMbrojPonude(){
-        return mbrojPonude;
-    }
+
     public int getMbrojUpita(){
         return mbrojUpita;
     }
