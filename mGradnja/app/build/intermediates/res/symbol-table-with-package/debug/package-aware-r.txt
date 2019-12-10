@@ -1322,12 +1322,16 @@ id txtProfilKorisnikTelefonIspis
 id txtProfilMailKorisnika
 id txtProfilTelefonKorisnik
 id txtTelefon
+id txtUpitDatum
+id txtUpitNaziv
+id txtUpitOpis
 id txtZapamti
 id txtZupanija
 id uniform
 id unlabeled
 id up
 id upisaniNaziv
+id upiti_recyclerview
 id useLogo
 id view_offset_helper
 id view_pager
@@ -1410,6 +1414,7 @@ layout fragment_fragment_opis_profil_korisnika
 layout fragment_fragment_recenzije_profil_korisnika
 layout fragment_fragment_upiti_korisnika
 layout list_item_izvodjaci
+layout list_item_upiti_profil_korisnika
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
 layout notification_action

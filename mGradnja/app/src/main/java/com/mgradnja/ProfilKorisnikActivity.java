@@ -39,6 +39,7 @@ public class ProfilKorisnikActivity extends AppCompatActivity {
         viewPagerAdapterProfilKorisnika.addFragment(new FragmentOpisProfilKorisnika(), "OPIS");
         viewPagerAdapterProfilKorisnika.addFragment(new FragmentRecenzijeProfilKorisnika(), "RECENZIJA");
         viewPagerAdapterProfilKorisnika.addFragment(new FragmentUpitiKorisnika(), "UPITI");
+
         viewPager.setAdapter(viewPagerAdapterProfilKorisnika);
 
     }

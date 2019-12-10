@@ -93,9 +93,10 @@ public class EditProfilKorisnikActivity extends AppCompatActivity {
                 txtTelefonEditKorisnik.setText(rs.getString("Telefon"));
                 txtLozinkaEditKorisnik.setText(rs.getString("Lozinka"));
                 txtPlozinkaEditKorisnik.setText(rs.getString("Lozinka"));
-                imgProfilnaEditKorisnik.setImageResource(rs.getByte("Slika"));
+                //imgProfilnaEditKorisnik.setImageResource(rs.getByte("Slika"));
 
             }
+
         }
         catch (SQLException e){
             e.printStackTrace();
@@ -125,6 +126,7 @@ public class EditProfilKorisnikActivity extends AppCompatActivity {
                     }
                     else {
                         Statement st = con.createStatement();
+
 
                         String queriEditKorisnik = "UPDATE Korisnik SET Ime = ('"+ ime +"'), Prezime  = ('"+ prezime +"'), Telefon = ('"+ telefon +"'), Mail = ('"+ mail +"'), Lozinka = ('"+ lozinka +"'), Slika = CAST(('"+ slika +"') as varBinary(Max)) WHERE ID_korisnika=('" + ID + "')";
 
@@ -191,4 +193,6 @@ public class EditProfilKorisnikActivity extends AppCompatActivity {
         }
         super.onActivityResult(requestCode, resultCode, data);
     }
+
+
 }
