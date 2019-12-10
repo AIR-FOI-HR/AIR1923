@@ -78,8 +78,10 @@ public class JobListActivity extends AppCompatActivity {
 
 
 
-        DohvatiSvePoslove();
 
+        DohvatiTrenutnePoslove();
+        DohvatiProslePoslove();
+        DohvatiSvePoslove();
         mRecyclerView = findViewById(R.id.main_recycler);
         mRecyclerView.setHasFixedSize(true);
         mLayoutManager = new LinearLayoutManager(JobListActivity.this);
@@ -95,15 +97,16 @@ public class JobListActivity extends AppCompatActivity {
                 switch(position){
 
                     case 0:
-                        DohvatiTrenutnePoslove();
+
 
 
 
                         poz = 1;
+
                         break;
 
                     case 1:
-                        DohvatiProslePoslove();
+
 
 
                         poz = 2;
@@ -122,9 +125,10 @@ public class JobListActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
+                //mRecyclerView.setVisibility(View.INVISIBLE);
                 if(poz == 1)
                 {
-
+                    if(ListaTrenutnihPoslova.size()==0)  Toast.makeText(JobListActivity.this , "Trenutno nemate poslova koji se izvode!" , Toast.LENGTH_LONG).show();
                     mAdapter = new JobAdapter(ListaTrenutnihPoslova);
                     mRecyclerView.setLayoutManager(mLayoutManager);
                     mRecyclerView.setAdapter(mAdapter);
@@ -139,7 +143,7 @@ public class JobListActivity extends AppCompatActivity {
                 }
                 if(poz == 2)
                 {
-
+                    if(ListaProslihPoslova.size()==0)  Toast.makeText(JobListActivity.this , "Nemate prošle poslove!" , Toast.LENGTH_LONG).show();
                     mAdapter = new JobAdapter(ListaProslihPoslova);
 
                     mRecyclerView.setLayoutManager(mLayoutManager);
@@ -161,9 +165,7 @@ public class JobListActivity extends AppCompatActivity {
 
 
     }
-    public void DisplayResult(View view){
 
-    }
 
     public void DohvatiSvePoslove(){
 
@@ -212,6 +214,16 @@ public class JobListActivity extends AppCompatActivity {
         }
 
 
+        ListaOpisa.clear();
+        ListaUpitID.clear();
+        ListaNaziva.clear();
+        ListaIzvodjacID.clear();
+        ListaPocetka.clear();
+        ListaZavrsetks.clear();
+        ListaCijena.clear();
+
+
+
     }
     public void DohvatiTrenutnePoslove(){
         Connection con = connectionClass.CONN();
@@ -258,6 +270,14 @@ public class JobListActivity extends AppCompatActivity {
 
         }
 
+        ListaOpisa.clear();
+        ListaUpitID.clear();
+        ListaNaziva.clear();
+        ListaIzvodjacID.clear();
+        ListaPocetka.clear();
+        ListaZavrsetks.clear();
+        ListaCijena.clear();
+
     }
     public void DohvatiProslePoslove(){
         Connection con = connectionClass.CONN();
@@ -278,7 +298,7 @@ public class JobListActivity extends AppCompatActivity {
                 ListaPocetka.add(rs.getDate("Datum_pocetka"));
                 ListaZavrsetks.add(rs.getDate("Datum_zavrsetka"));
                 ListaIzvodjacID.add(rs.getString("Naziv_izvodjaca"));
-                seL++;
+               // seL++;
 
             }
 
@@ -303,7 +323,15 @@ public class JobListActivity extends AppCompatActivity {
 
 
 
+
         }
+        ListaOpisa.clear();
+        ListaUpitID.clear();
+        ListaNaziva.clear();
+        ListaIzvodjacID.clear();
+        ListaPocetka.clear();
+        ListaZavrsetks.clear();
+        ListaCijena.clear();
 
     }
 

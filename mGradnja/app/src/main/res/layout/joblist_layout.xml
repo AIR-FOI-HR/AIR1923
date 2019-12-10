@@ -9,7 +9,7 @@
     android:foreground="?android:selectableItemBackground"
     android:clickable="true"
     android:focusable="true"
-    android:background="@color/cardview_light_background"
+    android:backgroundTint="#27D570"
     android:layout_margin="5dp">
 
     <LinearLayout

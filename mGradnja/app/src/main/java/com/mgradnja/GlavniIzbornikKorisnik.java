@@ -14,6 +14,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -35,8 +36,8 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
     "Dubrovacko-neretvanska", "Medjimurska", "Grad Zagreb"};
 
     public ArrayList<String> kategorije = new ArrayList<String>();
-    private Integer id;
-
+    private Integer ID;
+    private Integer BrojRadova = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,7 +45,7 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
 
         //DOHVAT ID-A KORISNIKA IZ PRIJAŠNJE AKTIVNOSTI
         Intent intent = getIntent();
-        Integer ID = intent.getIntExtra("ID_korisnika", 0);
+        ID = intent.getIntExtra("ID_korisnika", 0);
 
         //textView = findViewById(R.id.txtID);
         //textView.setText(ID.toString());
@@ -64,9 +65,15 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
         img.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(GlavniIzbornikKorisnik.this, JobListActivity.class);
-                i.putExtra("ID_korisnika", ID);
-                startActivity(i);
+                ProvjeriRadove();
+                if(BrojRadova == 0) Toast.makeText(GlavniIzbornikKorisnik.this , "Nemate nijedan posao!" , Toast.LENGTH_LONG).show();
+
+                else {
+                    Intent i = new Intent(GlavniIzbornikKorisnik.this, JobListActivity.class);
+                    i.putExtra("ID_korisnika", ID);
+                    startActivity(i);
+                }
+
             }
         });
 
@@ -83,6 +90,23 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
 
             while(rs.next()){
                 kategorije.add(rs.getString("Naziv"));
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+    public void ProvjeriRadove(){
+        ConnectionClass connectionClass = new ConnectionClass();
+        Connection con = connectionClass.CONN();
+
+        String query = "select * from posao p inner join upit u on u.ID_upita = p.ID_upita where u.ID_korisnika = '" + ID + "'";
+        try {
+            Statement statement = con.createStatement();
+            ResultSet rs = statement.executeQuery(query);
+
+            while(rs.next()){
+                BrojRadova++;
             }
 
         } catch (SQLException e) {

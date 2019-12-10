@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     tools:context=".JobListActivity">
 
 
@@ -14,7 +15,7 @@
         android:layout_height="match_parent"
         android:layout_marginStart="0dp"
         android:layout_marginTop="70dp"
-        android:background="#27D570"
+
         android:padding="4dp"
 
         android:scrollbars="vertical" />
@@ -44,16 +45,19 @@
         android:layout_marginStart="5dp"
         android:layout_marginTop="25dp"
         android:layout_marginEnd="41dp"
+        android:textAlignment="center"
+        android:background="@android:color/background_light"
         android:spinnerMode="dialog" />
 
     <Button
         android:id="@+id/btbIzaberiPoslove"
-        android:layout_width="179dp"
-        android:layout_height="wrap_content"
+        android:layout_width="240dp"
+        android:layout_height="59dp"
         android:layout_marginStart="195dp"
-        android:layout_marginTop="22dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="0dp"
+        android:textStyle="bold"
         android:backgroundTint="#27D570"
-        android:onClick="DisplayResult"
 
         android:text="Izaberi"
         app:layout_anchorGravity="end|center" />
