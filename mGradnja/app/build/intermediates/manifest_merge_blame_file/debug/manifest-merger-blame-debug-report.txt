@@ -24,7 +24,7 @@
 14-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:8:22-77
 15
 16    <application
-16-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:10:5-39:19
+16-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:10:5-40:19
 17        android:allowBackup="true"
 17-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:11:9-35
 18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -41,67 +41,70 @@
 24        android:testOnly="true"
 25        android:theme="@style/AppTheme" >
 25-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:16:9-40
-26        <activity
-26-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:17:9-20:68
-27            android:name="com.mgradnja.ProfilKorisnikActivity"
-27-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:18:13-51
-28            android:label="@string/title_activity_profil_korisnik"
-28-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:19:13-67
-29            android:theme="@style/AppTheme.NoActionBar" />
-29-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:20:13-56
-30        <activity android:name="com.mgradnja.IstraziIzvodjaceActivity" />
-30-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:21:9-62
-30-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:21:19-59
-31        <activity android:name="com.mgradnja.UserSearchActivity" />
-31-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:22:9-56
-31-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:22:19-53
-32        <activity android:name="com.mgradnja.Registration_performer" />
-32-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:23:9-60
-32-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:23:19-57
-33        <activity android:name="com.mgradnja.Registration_user" />
-33-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:24:9-55
-33-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:24:19-52
-34        <activity android:name="com.mgradnja.GlavniIzbornikKorisnik" />
-34-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:25:9-60
-34-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:25:19-57
-35        <activity android:name="com.mgradnja.RegistrationActivity" />
-35-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:26:9-58
-35-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:26:19-55
-36        <activity android:name="com.mgradnja.LoginActivity" />
-36-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:27:9-51
-36-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:27:19-48
-37        <activity android:name="com.mgradnja.MainActivity" >
-37-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:28:9-34:20
-37-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:28:19-47
-38            <intent-filter>
-38-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:29:13-33:29
-39                <action android:name="android.intent.action.MAIN" />
-39-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:30:17-69
-39-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:30:25-66
-40
-41                <category android:name="android.intent.category.LAUNCHER" />
-41-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:32:17-77
-41-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:32:27-74
-42            </intent-filter>
-43        </activity>
-44
-45        <meta-data
-45-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:36:9-38:57
-46            android:name="preloaded_fonts"
-46-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:37:13-43
-47            android:resource="@array/preloaded_fonts" />
-47-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:38:13-54
-48
-49        <provider
-49-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\55580b0ab45b69249933074462ab11c2\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
-50            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-50-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\55580b0ab45b69249933074462ab11c2\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
-51            android:authorities="com.mgradnja.lifecycle-process"
-51-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\55580b0ab45b69249933074462ab11c2\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
-52            android:exported="false"
-52-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\55580b0ab45b69249933074462ab11c2\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
-53            android:multiprocess="true" />
-53-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\55580b0ab45b69249933074462ab11c2\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
-54    </application>
-55
-56</manifest>
+26        <activity android:name="com.mgradnja.EditProfilKorisnikActivity" />
+26-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:17:9-73
+26-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:17:19-61
+27        <activity
+27-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:18:9-21:59
+28            android:name="com.mgradnja.ProfilKorisnikActivity"
+28-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:19:13-51
+29            android:label="@string/title_activity_profil_korisnik"
+29-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:20:13-67
+30            android:theme="@style/AppTheme.NoActionBar" />
+30-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:21:13-56
+31        <activity android:name="com.mgradnja.IstraziIzvodjaceActivity" />
+31-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:22:9-62
+31-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:22:19-59
+32        <activity android:name="com.mgradnja.UserSearchActivity" />
+32-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:23:9-56
+32-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:23:19-53
+33        <activity android:name="com.mgradnja.Registration_performer" />
+33-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:24:9-60
+33-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:24:19-57
+34        <activity android:name="com.mgradnja.Registration_user" />
+34-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:25:9-55
+34-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:25:19-52
+35        <activity android:name="com.mgradnja.GlavniIzbornikKorisnik" />
+35-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:26:9-60
+35-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:26:19-57
+36        <activity android:name="com.mgradnja.RegistrationActivity" />
+36-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:27:9-58
+36-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:27:19-55
+37        <activity android:name="com.mgradnja.LoginActivity" />
+37-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:28:9-51
+37-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:28:19-48
+38        <activity android:name="com.mgradnja.MainActivity" >
+38-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:29:9-35:20
+38-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:29:19-47
+39            <intent-filter>
+39-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:30:13-34:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:31:17-69
+40-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:31:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:33:17-77
+42-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:33:27-74
+43            </intent-filter>
+44        </activity>
+45
+46        <meta-data
+46-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:37:9-39:57
+47            android:name="preloaded_fonts"
+47-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:38:13-43
+48            android:resource="@array/preloaded_fonts" />
+48-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:39:13-54
+49
+50        <provider
+50-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\55580b0ab45b69249933074462ab11c2\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+51            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+51-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\55580b0ab45b69249933074462ab11c2\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+52            android:authorities="com.mgradnja.lifecycle-process"
+52-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\55580b0ab45b69249933074462ab11c2\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+53            android:exported="false"
+53-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\55580b0ab45b69249933074462ab11c2\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+54            android:multiprocess="true" />
+54-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\55580b0ab45b69249933074462ab11c2\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+55    </application>
+56
+57</manifest>

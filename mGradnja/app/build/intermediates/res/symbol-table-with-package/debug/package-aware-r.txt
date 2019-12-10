@@ -1087,6 +1087,8 @@ id barrier
 id beginning
 id blocking
 id bottom
+id btnEditKorisnikSpremi
+id btnEditKorisnikUploadSlike
 id btnIstrazi
 id btnNatragNaPrijavu
 id btnPrijava
@@ -1156,6 +1158,7 @@ id imageView12
 id imageView2
 id imageView3
 id imgAdd
+id imgEditKorisnik
 id imgHome
 id imgKorisnik
 id imgNotification
@@ -1273,6 +1276,12 @@ id text_input_password_toggle
 id textinput_counter
 id textinput_error
 id textinput_helper_text
+id textviewIme
+id textviewLozinka
+id textviewMail
+id textviewPLozinka
+id textviewPrezime
+id textviewTelefon
 id time
 id title
 id titleDividerNoCustom
@@ -1287,6 +1296,12 @@ id transition_scene_layoutid_cache
 id transition_transform
 id txtAdresa
 id txtBrojRacuna
+id txtEditKorisnikIme
+id txtEditKorisnikLozinka
+id txtEditKorisnikMail
+id txtEditKorisnikPlozinka
+id txtEditKorisnikPrezime
+id txtEditKorisnikTelefon
 id txtGrad
 id txtID
 id txtImateKorisnickiRacun
@@ -1367,6 +1382,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_edit_profil_korisnik
 layout activity_glavni_izbornik_korisnik
 layout activity_istrazi_izvodjace
 layout activity_login

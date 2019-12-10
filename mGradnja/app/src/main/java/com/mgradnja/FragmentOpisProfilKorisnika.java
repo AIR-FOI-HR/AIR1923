@@ -2,6 +2,9 @@ package com.mgradnja;
 
 import android.content.Context;
 import android.content.Intent;
+import android.database.Cursor;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
 
@@ -12,6 +15,8 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -25,6 +30,8 @@ public class FragmentOpisProfilKorisnika extends Fragment {
 
 
     TextView txtImeKorisnika, txtPrezimeKorisnika, txtMailKorisnika, txtTelefonKorisnika;
+    ImageView imgProfilaKorisnika;
+    Button editKorisnika;
 
 
     public FragmentOpisProfilKorisnika(){
@@ -40,6 +47,7 @@ public class FragmentOpisProfilKorisnika extends Fragment {
         txtPrezimeKorisnika = (TextView) view.findViewById(R.id.txtPrezimeKorisnika);
         txtMailKorisnika = (TextView) view.findViewById(R.id.txtProfilKorisnikMailIspis);
         txtTelefonKorisnika = (TextView) view.findViewById(R.id.txtProfilKorisnikTelefonIspis);
+        imgProfilaKorisnika = (ImageView) view.findViewById(R.id.imgProfilKorisnika);
 
 
         Intent intent = getActivity().getIntent();
@@ -49,6 +57,15 @@ public class FragmentOpisProfilKorisnika extends Fragment {
         dohvatiNovo(ID);
 
 
+        editKorisnika = (Button) view.findViewById(R.id.btnUrediKorisnickiRacun);
+        editKorisnika.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                OtvoriEditRacuna(ID);
+            }
+        });
+
+
         return view;
     }
 
@@ -56,7 +73,9 @@ public class FragmentOpisProfilKorisnika extends Fragment {
         ConnectionClass connectionClass = new ConnectionClass();
         Connection con = connectionClass.CONN();
 
+
         String sql = "SELECT * from Korisnik WHERE ID_korisnika=('" + ID + "')";
+
 
         try{
             Statement statement = con.createStatement();
@@ -67,10 +86,25 @@ public class FragmentOpisProfilKorisnika extends Fragment {
                 txtPrezimeKorisnika.setText(rs.getString("Prezime"));
                 txtMailKorisnika.setText(rs.getString("Mail"));
                 txtTelefonKorisnika.setText(rs.getString("Telefon"));
+                /*if (rs.getString("Slika").equals("")){
+                    imgProfilaKorisnika.setImageResource(R.drawable.korisnik);
+                }
+                else{
+                    imgProfilaKorisnika.setImageResource(rs.getByte("Slika"));
+                }*/
+                imgProfilaKorisnika.setImageResource(rs.getByte("Slika"));
+
             }
         }
         catch (SQLException e){
             e.printStackTrace();
         }
     }
+
+    public void OtvoriEditRacuna(Integer ID){
+        Intent intent = new Intent(getActivity(), EditProfilKorisnikActivity.class);
+        intent.putExtra("ID_korisnika", ID);
+        startActivity(intent);
+    }
+
 }

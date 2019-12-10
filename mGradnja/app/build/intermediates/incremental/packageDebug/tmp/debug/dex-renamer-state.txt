@@ -1,4 +1,4 @@
-#Thu Dec 05 19:03:08 CET 2019
+#Tue Dec 10 15:28:11 CET 2019
 base.0=C\:\\Users\\VEDRAN\\Desktop\\MGRADNJA\\mGradnja\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex

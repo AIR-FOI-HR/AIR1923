@@ -24,6 +24,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.mgradnja.EditProfilKorisnikActivity" />
         <activity
             android:name="com.mgradnja.ProfilKorisnikActivity"
             android:label="@string/title_activity_profil_korisnik"
