@@ -42,6 +42,8 @@ public class IstraziIzvodjaceActivity extends AppCompatActivity {
         filterIzvodjaci = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, izvodjaci);
         lista.setAdapter(filterIzvodjaci);
     }
+
+
     public void DohvatiIzvodjace(String zupanija, String kategorija){
         connectionClass = new ConnectionClass();
         connection = connectionClass.CONN();

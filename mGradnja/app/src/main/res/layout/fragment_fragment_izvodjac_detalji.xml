@@ -45,7 +45,7 @@
             android:paddingLeft="5dp"
             android:layout_margin="10dp"/>
         <TextView
-            android:id="@+id/Oib"
+            android:id="@+id/oibIzvodjaca"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="OIB"
@@ -74,7 +74,7 @@
             android:paddingLeft="5dp"
             android:layout_margin="10dp"/>
         <TextView
-            android:id="@+id/adresa"
+            android:id="@+id/adresaIzvodjaca"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Adresa"
@@ -103,7 +103,7 @@
             android:paddingLeft="5dp"
             android:layout_margin="10dp"/>
         <TextView
-            android:id="@+id/grad"
+            android:id="@+id/gradIzvodjaca"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Grad"
@@ -131,7 +131,7 @@
             android:paddingLeft="5dp"
             android:layout_margin="10dp"/>
         <TextView
-            android:id="@+id/zupanija"
+            android:id="@+id/zupanijaIzvodjaca"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Županija"
@@ -159,7 +159,7 @@
             android:paddingLeft="5dp"
             android:layout_margin="10dp"/>
         <TextView
-            android:id="@+id/kontakt"
+            android:id="@+id/kontaktIzvodjaca"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Kontakt"
@@ -187,7 +187,7 @@
             android:paddingLeft="5dp"
             android:layout_margin="10dp"/>
         <TextView
-            android:id="@+id/mail"
+            android:id="@+id/mailIzvodjaca"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="E-mail"
@@ -200,7 +200,7 @@
             android:layout_marginBottom="15dp"/>
 
         <View
-            android:id="@+id/divider6"
+            android:id="@+id/divider7"
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:background="?android:attr/listDivider" />
@@ -215,7 +215,7 @@
             android:paddingLeft="5dp"
             android:layout_margin="10dp"/>
         <TextView
-            android:id="@+id/brRacuna"
+            android:id="@+id/brRacunaIzvodjaca"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Broj računa"

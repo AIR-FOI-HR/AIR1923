@@ -66,8 +66,8 @@ public class UserSearchActivity extends AppCompatActivity {
         });
 
         listView.setOnItemClickListener((parent, view, position, id) -> {
-            Intent intent = new Intent(getApplicationContext(), IzvodjacInfoActivity.class);
-            startActivity(intent);
+            String nazivIzvodjaca = (String) listView.getItemAtPosition(position);
+            OpenIzvodjacInfoActivity(nazivIzvodjaca);
         });
     }
 
@@ -88,6 +88,13 @@ public class UserSearchActivity extends AppCompatActivity {
         catch (SQLException e){
             e.printStackTrace();
         }
+    }
+
+    private void OpenIzvodjacInfoActivity(String nazivIzvodjaca){
+        Intent intent = new Intent(this, IzvodjacInfoActivity.class);
+        intent.putExtra("nazivIzvodjaca", nazivIzvodjaca);
+
+        startActivity(intent);
     }
 
     @Override

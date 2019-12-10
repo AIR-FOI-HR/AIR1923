@@ -1056,7 +1056,6 @@ id ALT
 id CTRL
 id FUNCTION
 id META
-id Oib
 id SHIFT
 id SYM
 id action0
@@ -1080,7 +1079,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
-id adresa
+id adresaIzvodjaca
 id alertTitle
 id all
 id always
@@ -1090,7 +1089,7 @@ id barrier
 id beginning
 id blocking
 id bottom
-id brRacuna
+id brRacunaIzvodjaca
 id btnIstrazi
 id btnNatragNaPrijavu
 id btnPrijava
@@ -1135,6 +1134,7 @@ id divider3
 id divider4
 id divider5
 id divider6
+id divider7
 id edit_query
 id end
 id end_padder
@@ -1151,7 +1151,7 @@ id fixed
 id forever
 id ghost_view
 id gone
-id grad
+id gradIzvodjaca
 id group_divider
 id groups
 id home
@@ -1175,7 +1175,7 @@ id info
 id invisible
 id italic
 id item_touch_helper_previous_elevation
-id kontakt
+id kontaktIzvodjaca
 id labelaAdresa
 id labelaBrRacuna
 id labelaGrad
@@ -1191,9 +1191,9 @@ id line3
 id listMode
 id list_item
 id listaIzvodjaca
-id listaRecenzijaIzvodjaca
 id lstIzvodjaci
-id mail
+id lstRecenzija
+id mailIzvodjaca
 id masked
 id media_actions
 id message
@@ -1212,6 +1212,7 @@ id normal
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id oibIzvodjaca
 id outline
 id packed
 id parallax
@@ -1332,7 +1333,7 @@ id visible
 id withText
 id wrap
 id wrap_content
-id zupanija
+id zupanijaIzvodjaca
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
 integer app_bar_elevation_anim_duration

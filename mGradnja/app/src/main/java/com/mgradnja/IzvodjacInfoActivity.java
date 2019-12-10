@@ -18,12 +18,13 @@ public class IzvodjacInfoActivity extends AppCompatActivity {
 
     private ViewPager viewPager;
     private TabLayout tabLayout;
+    String nazivIzvodjaca;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_izvodjac_info);
-        
+
         //toolbar = (Toolbar) findViewById(R.id.toolbar);
         tabLayout = (TabLayout) findViewById(R.id.tabLayout);
         viewPager = (ViewPager) findViewById(R.id.myViewPager);
@@ -31,6 +32,9 @@ public class IzvodjacInfoActivity extends AppCompatActivity {
         //setSupportActionBar(toolbar);
         setupViewPager(viewPager);
         tabLayout.setupWithViewPager(viewPager);
+
+        Intent intent = getIntent();
+        nazivIzvodjaca = intent.getStringExtra("nazivIzvodjaca");
 
     }
 
