@@ -5,12 +5,17 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+
+import android.view.View;
+import android.widget.ArrayAdapter;
+
 import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -26,6 +31,7 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
     public Spinner spinnerZupanije;
     public Spinner spinnerKategorije;
     public TextView textView;
+
     public String odabranaZupanija;
     public String odabranaKategorija;
     public Button btnIstrazi;
@@ -83,6 +89,7 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
                 OpenIstraziIzvodjaceActivity(odabranaKategorija, odabranaZupanija);
             }
         });
+
     }
 
     private void OpenIstraziIzvodjaceActivity(String odabranaKategorija, String odabranaZupanija) {
@@ -112,6 +119,7 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
             e.printStackTrace();
         }
     }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

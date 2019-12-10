@@ -1,9 +1,16 @@
 -- Merging decision tree log ---
 manifest
+<<<<<<< HEAD
 ADDED from C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:2:1-42:12
 INJECTED from C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:2:1-42:12
 INJECTED from C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:2:1-42:12
 INJECTED from C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:2:1-42:12
+=======
+ADDED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:2:1-39:12
+>>>>>>> 758da4f46929f01d118584aab96ae27fc804d1ca
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\2946ca0ea6c89dab7d7d9fbc18e54292\material-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\906744c4ddcbc384c5a8d2d69414f8fa\appcompat-1.0.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\508ac768b50158a079142e4dc4915061\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
@@ -40,6 +47,7 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\VEDRAN\.gradle\c
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\8cf450d11667f9427b289f08c2115f5c\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\d31a9dbc3f8404c541e987748c42963b\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\699bc310780b1730bce8fe271ffeca8b\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+<<<<<<< HEAD
 INJECTED from C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:2:1-42:12
 INJECTED from C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:2:1-42:12
 INJECTED from C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:2:1-42:12
@@ -75,6 +83,43 @@ ADDED from C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifes
 		ADDED from C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:8:22-77
 application
 ADDED from C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:10:5-40:19
+=======
+INJECTED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:2:1-39:12
+	package
+		ADDED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:3:5-27
+		INJECTED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:2:1-39:12
+		INJECTED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:2:1-39:12
+		INJECTED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:7:5-76
+	android:name
+		ADDED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:7:22-73
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:8:22-77
+application
+ADDED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:10:5-37:19
+>>>>>>> 758da4f46929f01d118584aab96ae27fc804d1ca
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\2946ca0ea6c89dab7d7d9fbc18e54292\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\2946ca0ea6c89dab7d7d9fbc18e54292\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\508ac768b50158a079142e4dc4915061\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
@@ -90,6 +135,7 @@ MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\VEDRAN\.gradle
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.0.1] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\c0a39027978b83a483a047f5c31d0c4e\core-1.0.1\AndroidManifest.xml:22:18-86
 	android:supportsRtl
+<<<<<<< HEAD
 		ADDED from C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:15:9-35
 	android:label
 		ADDED from C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml:13:9-41
@@ -165,6 +211,71 @@ uses-sdk
 INJECTED from C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml
+=======
+		ADDED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:15:9-35
+	android:label
+		ADDED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:13:9-41
+	android:roundIcon
+		ADDED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:14:9-54
+	android:icon
+		ADDED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:12:9-43
+	android:allowBackup
+		ADDED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:11:9-35
+	android:theme
+		ADDED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:16:9-40
+activity#com.mgradnja.ProfilKorisnikActivity
+ADDED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:17:9-20:68
+	android:label
+		ADDED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:19:13-67
+	android:theme
+		ADDED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:20:13-56
+	android:name
+		ADDED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:18:13-51
+activity#com.mgradnja.Registration_performer
+ADDED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:21:9-60
+	android:name
+		ADDED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:21:19-57
+activity#com.mgradnja.Registration_user
+ADDED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:22:9-55
+	android:name
+		ADDED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:22:19-52
+activity#com.mgradnja.GlavniIzbornikKorisnik
+ADDED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:23:9-60
+	android:name
+		ADDED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:23:19-57
+activity#com.mgradnja.RegistrationActivity
+ADDED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:24:9-58
+	android:name
+		ADDED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:24:19-55
+activity#com.mgradnja.LoginActivity
+ADDED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:25:9-51
+	android:name
+		ADDED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:25:19-48
+activity#com.mgradnja.MainActivity
+ADDED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:26:9-32:20
+	android:name
+		ADDED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:26:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:27:13-31:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:30:27-74
+meta-data#preloaded_fonts
+ADDED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:34:9-36:57
+	android:resource
+		ADDED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:36:13-54
+	android:name
+		ADDED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml:35:13-43
+uses-sdk
+INJECTED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml
+>>>>>>> 758da4f46929f01d118584aab96ae27fc804d1ca
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\2946ca0ea6c89dab7d7d9fbc18e54292\material-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\2946ca0ea6c89dab7d7d9fbc18e54292\material-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\906744c4ddcbc384c5a8d2d69414f8fa\appcompat-1.0.2\AndroidManifest.xml:20:5-44
@@ -237,6 +348,7 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\VEDRAN\.gradle\caches\transfor
 MERGED from [androidx.print:print:1.0.0] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\d31a9dbc3f8404c541e987748c42963b\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\699bc310780b1730bce8fe271ffeca8b\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\699bc310780b1730bce8fe271ffeca8b\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+<<<<<<< HEAD
 INJECTED from C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
@@ -247,6 +359,18 @@ INJECTED from C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidMani
 		INJECTED from C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\src\main\AndroidManifest.xml
+=======
+INJECTED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\src\main\AndroidManifest.xml
+>>>>>>> 758da4f46929f01d118584aab96ae27fc804d1ca
 provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
 ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\55580b0ab45b69249933074462ab11c2\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
 	android:authorities

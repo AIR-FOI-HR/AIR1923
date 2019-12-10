@@ -3,6 +3,7 @@
 3    package="com.mgradnja.test" >
 4
 5    <uses-sdk
+<<<<<<< HEAD
 5-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2872735569186249599.xml:5:5-74
 6        android:minSdkVersion="21"
 6-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2872735569186249599.xml:5:15-41
@@ -21,17 +22,45 @@
 13-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2872735569186249599.xml:15:22-60
 14        android:targetPackage="com.mgradnja" />
 14-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2872735569186249599.xml:12:22-58
+=======
+5-->C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1738647685856610427.xml:5:5-74
+6        android:minSdkVersion="21"
+6-->C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1738647685856610427.xml:5:15-41
+7        android:targetSdkVersion="29" />
+7-->C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1738647685856610427.xml:5:42-71
+8
+9    <instrumentation
+9-->C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1738647685856610427.xml:11:5-15:62
+10        android:name="androidx.test.runner.AndroidJUnitRunner"
+10-->C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1738647685856610427.xml:11:22-76
+11        android:functionalTest="false"
+11-->C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1738647685856610427.xml:14:22-52
+12        android:handleProfiling="false"
+12-->C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1738647685856610427.xml:13:22-53
+13        android:label="Tests for com.mgradnja"
+13-->C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1738647685856610427.xml:15:22-60
+14        android:targetPackage="com.mgradnja" />
+14-->C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1738647685856610427.xml:12:22-58
+>>>>>>> 758da4f46929f01d118584aab96ae27fc804d1ca
 15
 16    <uses-permission android:name="android.permission.REORDER_TASKS" />
 16-->[androidx.test:core:1.1.0] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\b700bfc0f9180812ac817088e66c00b6\core-1.1.0\AndroidManifest.xml:24:5-72
 16-->[androidx.test:core:1.1.0] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\b700bfc0f9180812ac817088e66c00b6\core-1.1.0\AndroidManifest.xml:24:22-69
 17
 18    <application android:debuggable="true" >
+<<<<<<< HEAD
 18-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2872735569186249599.xml:7:5-9:19
 18-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2872735569186249599.xml:7:18-43
 19        <uses-library android:name="android.test.runner" />
 19-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2872735569186249599.xml:8:9-60
 19-->C:\Users\VEDRAN\Desktop\MGRADNJA\mGradnja\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2872735569186249599.xml:8:23-57
+=======
+18-->C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1738647685856610427.xml:7:5-9:19
+18-->C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1738647685856610427.xml:7:18-43
+19        <uses-library android:name="android.test.runner" />
+19-->C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1738647685856610427.xml:8:9-60
+19-->C:\Users\VEDRAN\Desktop\mGradnja\mGradnja\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1738647685856610427.xml:8:23-57
+>>>>>>> 758da4f46929f01d118584aab96ae27fc804d1ca
 20
 21        <activity
 21-->[androidx.test:core:1.1.0] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\b700bfc0f9180812ac817088e66c00b6\core-1.1.0\AndroidManifest.xml:27:9-33:20

@@ -1016,6 +1016,10 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+<<<<<<< HEAD
+=======
+drawable glavni_izbornik_korisnik
+>>>>>>> 758da4f46929f01d118584aab96ae27fc804d1ca
 drawable ic_add_circle_24dp
 drawable ic_home_24dp
 drawable ic_launcher_background
@@ -1179,8 +1183,11 @@ id line1
 id line3
 id listMode
 id list_item
+<<<<<<< HEAD
 id listaIzvodjaca
 id lstIzvodjaci
+=======
+>>>>>>> 758da4f46929f01d118584aab96ae27fc804d1ca
 id masked
 id media_actions
 id message
@@ -1190,7 +1197,10 @@ id mtrl_child_content_container
 id mtrl_internal_children_alpha_tag
 id multiply
 id navigation_header_container
+<<<<<<< HEAD
 id nazivIzvodjaca
+=======
+>>>>>>> 758da4f46929f01d118584aab96ae27fc804d1ca
 id nemateRacun
 id never
 id none
@@ -1224,7 +1234,10 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
+<<<<<<< HEAD
 id search
+=======
+>>>>>>> 758da4f46929f01d118584aab96ae27fc804d1ca
 id search_badge
 id search_bar
 id search_button
@@ -1276,12 +1289,15 @@ id text_input_password_toggle
 id textinput_counter
 id textinput_error
 id textinput_helper_text
+<<<<<<< HEAD
 id textviewIme
 id textviewLozinka
 id textviewMail
 id textviewPLozinka
 id textviewPrezime
 id textviewTelefon
+=======
+>>>>>>> 758da4f46929f01d118584aab96ae27fc804d1ca
 id time
 id title
 id titleDividerNoCustom
@@ -1391,7 +1407,10 @@ layout activity_profil_korisnik
 layout activity_registration
 layout activity_registration_performer
 layout activity_registration_user
+<<<<<<< HEAD
 layout activity_user_search
+=======
+>>>>>>> 758da4f46929f01d118584aab96ae27fc804d1ca
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -1409,7 +1428,10 @@ layout design_text_input_password_icon
 layout fragment_fragment_opis_profil_korisnika
 layout fragment_fragment_recenzije_profil_korisnika
 layout fragment_fragment_upiti_korisnika
+<<<<<<< HEAD
 layout list_item_izvodjaci
+=======
+>>>>>>> 758da4f46929f01d118584aab96ae27fc804d1ca
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
 layout notification_action
@@ -1493,7 +1515,13 @@ string search_menu_title
 string status_bar_notification_info_overflow
 string tab_text_1
 string tab_text_2
+<<<<<<< HEAD
 string title_activity_profil_korisnik
+=======
+string tab_text_3
+string title_activity_profil_korisnik
+string title_activity_user_profile
+>>>>>>> 758da4f46929f01d118584aab96ae27fc804d1ca
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
