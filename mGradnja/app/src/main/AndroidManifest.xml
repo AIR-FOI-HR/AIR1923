@@ -14,20 +14,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-<<<<<<< HEAD
+
         <activity android:name=".EditProfilKorisnikActivity"></activity>
         <activity
             android:name=".ProfilKorisnikActivity"
-            android:label="@string/title_activity_profil_korisnik"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".IstraziIzvodjaceActivity" />
         <activity android:name=".UserSearchActivity" />
-=======
-        <activity
-            android:name=".ProfilKorisnikActivity"
-            android:label="@string/title_activity_profil_korisnik"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
->>>>>>> 758da4f46929f01d118584aab96ae27fc804d1ca
         <activity android:name=".Registration_performer" />
         <activity android:name=".Registration_user" />
         <activity android:name=".GlavniIzbornikKorisnik" />

@@ -23,19 +23,12 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-<<<<<<< HEAD
         <activity android:name="com.mgradnja.EditProfilKorisnikActivity" />
-=======
->>>>>>> 758da4f46929f01d118584aab96ae27fc804d1ca
         <activity
             android:name="com.mgradnja.ProfilKorisnikActivity"
-            android:label="@string/title_activity_profil_korisnik"
             android:theme="@style/AppTheme.NoActionBar" />
-<<<<<<< HEAD
         <activity android:name="com.mgradnja.IstraziIzvodjaceActivity" />
         <activity android:name="com.mgradnja.UserSearchActivity" />
-=======
->>>>>>> 758da4f46929f01d118584aab96ae27fc804d1ca
         <activity android:name="com.mgradnja.Registration_performer" />
         <activity android:name="com.mgradnja.Registration_user" />
         <activity android:name="com.mgradnja.GlavniIzbornikKorisnik" />

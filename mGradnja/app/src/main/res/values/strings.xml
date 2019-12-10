@@ -7,17 +7,9 @@
         <item>Fizička osoba</item>
         <item>Obrt</item>
     </string-array>
-<<<<<<< HEAD
-    <string name="title_activity_profil_korisnik">ProfilKorisnikActivity</string>
-    <string name="tab_text_1">Tab 1</string>
-    <string name="tab_text_2">Tab 2</string>
-=======
-    <string name="title_activity_user_profile">UserProfileActivity</string>
-    <string name="tab_text_1">Tab 1</string>
-    <string name="tab_text_2">Tab 2</string>
-    <string name="tab_text_3">tab_text_3</string>
-    <string name="title_activity_profil_korisnik">ProfilKorisnikActivity</string>
->>>>>>> 758da4f46929f01d118584aab96ae27fc804d1ca
+
+
+
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
