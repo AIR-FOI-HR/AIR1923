@@ -4,15 +4,22 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.database.Cursor;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
+<<<<<<< HEAD
 import android.widget.Button;
 import android.widget.ImageView;
+=======
+
+import android.widget.ImageView;
+
+import android.widget.Button;
+
+>>>>>>> 7183ec62e5ac83d99500d13ab2ee59eb4c0bda06
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -22,17 +29,23 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
-import java.util.List;
 
 public class GlavniIzbornikKorisnik extends AppCompatActivity {
 
     public Spinner spinnerZupanije;
     public Spinner spinnerKategorije;
+<<<<<<< HEAD
 
     Integer ID;
 
     private static ImageView imgAdd;
 
+=======
+    public TextView textView;
+    public String odabranaZupanija;
+    public String odabranaKategorija;
+    public Button btnIstrazi;
+>>>>>>> 7183ec62e5ac83d99500d13ab2ee59eb4c0bda06
 
     public String[] zupanije = new String[]{"Zagrebacka", "Krapinsko-zagorska", "Sisacko-moslavacka",
     "Karlovacka", "Varazdinska", "Koprivnicko-krizevacka", "Bjelovarsko-bilogorska", "Primorsko-goranska",
@@ -41,7 +54,8 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
     "Dubrovacko-neretvanska", "Medjimurska", "Grad Zagreb"};
 
     public ArrayList<String> kategorije = new ArrayList<String>();
-
+    private Integer ID;
+    private Integer BrojRadova = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -65,22 +79,64 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
         spinnerKategorije.setAdapter(adapterKategorije);
         spinnerZupanije.setAdapter(adapterZupanije);
 
+<<<<<<< HEAD
         imgAdd=findViewById(R.id.imgAdd);
         imgAdd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openQueryActivity(ID);
+=======
+
+        ImageView img = (ImageView) findViewById(R.id.imgWrench);
+        img.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ProvjeriRadove();
+                if(BrojRadova == 0) Toast.makeText(GlavniIzbornikKorisnik.this , "Nemate nijedan posao!" , Toast.LENGTH_LONG).show();
+
+                else {
+                    Intent i = new Intent(GlavniIzbornikKorisnik.this, JobListActivity.class);
+                    i.putExtra("ID_korisnika", ID);
+                    startActivity(i);
+                }
+
+>>>>>>> 7183ec62e5ac83d99500d13ab2ee59eb4c0bda06
             }
         });
 
 
+<<<<<<< HEAD
     }
 
     public void openQueryActivity(Integer ID){
         Intent intent = new Intent(this, QueryActivity.class);
         intent.putExtra("ID_korisnika", ID);
         startActivity(intent);
+=======
+
+
+        btnIstrazi = findViewById(R.id.btnIstrazi);
+        btnIstrazi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                odabranaKategorija = spinnerKategorije.getSelectedItem().toString();
+                odabranaZupanija = spinnerZupanije.getSelectedItem().toString();
+                OpenIstraziIzvodjaceActivity(odabranaKategorija, odabranaZupanija);
+            }
+        });
     }
+
+    private void OpenIstraziIzvodjaceActivity(String odabranaKategorija, String odabranaZupanija) {
+        Intent intent = new Intent(this, IstraziIzvodjaceActivity.class);
+        intent.putExtra("kategorija", odabranaKategorija);
+        intent.putExtra("zupanija", odabranaZupanija);
+
+        startActivity(intent);
+
+>>>>>>> 7183ec62e5ac83d99500d13ab2ee59eb4c0bda06
+    }
+
+
 
     public void dohvatiKategorije(){
         ConnectionClass connectionClass = new ConnectionClass();
@@ -93,6 +149,23 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
 
             while(rs.next()){
                 kategorije.add(rs.getString("Naziv"));
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+    public void ProvjeriRadove(){
+        ConnectionClass connectionClass = new ConnectionClass();
+        Connection con = connectionClass.CONN();
+
+        String query = "select * from posao p inner join upit u on u.ID_upita = p.ID_upita where u.ID_korisnika = '" + ID + "'";
+        try {
+            Statement statement = con.createStatement();
+            ResultSet rs = statement.executeQuery(query);
+
+            while(rs.next()){
+                BrojRadova++;
             }
 
         } catch (SQLException e) {
@@ -119,4 +192,12 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
+
+
+
+
+
+
+
+
 }

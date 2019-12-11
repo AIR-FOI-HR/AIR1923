@@ -40,7 +40,11 @@
                 android:layout_marginTop="21dp"
                 android:layout_marginEnd="164dp"
                 android:padding="3dp"
+<<<<<<< HEAD
                 android:clickable="true"
+=======
+                android:scaleType="fitEnd"
+>>>>>>> 7183ec62e5ac83d99500d13ab2ee59eb4c0bda06
                 app:srcCompat="@drawable/ic_add_circle_24dp" />
 
             <ImageView
@@ -54,6 +58,7 @@
                 android:layout_marginTop="25dp"
                 android:layout_marginEnd="85dp"
                 android:padding="3dp"
+                android:scaleType="fitEnd"
                 app:srcCompat="@drawable/ic_notifications_24dp" />
 
             <ImageView
@@ -67,7 +72,12 @@
                 android:layout_marginTop="25dp"
                 android:layout_marginEnd="4dp"
                 android:padding="3dp"
+                android:scaleType="fitEnd"
                 app:srcCompat="@drawable/ic_person_24dp" />
+
+
+
+
 
             <ImageView
                 android:id="@+id/imgWrench"
@@ -80,7 +90,9 @@
                 android:layout_marginTop="25dp"
                 android:layout_marginEnd="254dp"
                 android:padding="3dp"
+                android:scaleType="fitEnd"
                 app:srcCompat="@drawable/ic_wrench_24dp" />
+
 
                 <Button
                     android:id="@+id/btnIstrazi"
@@ -120,6 +132,7 @@
                 android:layout_marginTop="25dp"
                 android:layout_marginEnd="333dp"
                 android:padding="3dp"
+                android:scaleType="fitEnd"
                 app:srcCompat="@drawable/ic_home_24dp" />
 
             <Spinner
@@ -138,16 +151,16 @@
 
                 <ImageView
                     android:id="@+id/imgPozadina"
-                    android:layout_width="409dp"
-                    android:layout_height="372dp"
+                    android:layout_width="412dp"
+                    android:layout_height="379dp"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentEnd="true"
-                    android:layout_marginStart="0dp"
-                    android:layout_marginTop="-15dp"
-                    android:layout_marginEnd="1dp"
+                    android:layout_marginStart="-1dp"
+                    android:layout_marginTop="-39dp"
+                    android:layout_marginEnd="0dp"
                     android:clickable="true"
-                    app:srcCompat="@drawable/glavni_izbornik_korisnik" />
+                    app:srcCompat="@drawable/izbornik_korisnik" />
 
 
 
