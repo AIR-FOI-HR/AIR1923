@@ -1099,6 +1099,7 @@ id btnRegistracija
 id btnRegistracijaIzPrijave
 id btnRegistracijaIzvodjac
 id btnRegistracijaKorisnik
+id btnUpit
 id btnUploadSlike
 id buttonPanel
 id cancel_action
@@ -1128,6 +1129,7 @@ id design_navigation_view
 id dimensions
 id direct
 id disableHome
+id divider0
 id divider1
 id divider2
 id divider3
@@ -1175,12 +1177,14 @@ id info
 id invisible
 id italic
 id item_touch_helper_previous_elevation
+id kalendar
 id kontaktIzvodjaca
 id labelaAdresa
 id labelaBrRacuna
 id labelaGrad
 id labelaKontakt
 id labelaMail
+id labelaNaziv
 id labelaOib
 id labelaZupanija
 id labeled

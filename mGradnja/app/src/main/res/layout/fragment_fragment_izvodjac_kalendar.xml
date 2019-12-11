@@ -38,8 +38,20 @@
         </LinearLayout>
 
         <CalendarView
+            android:id="@+id/kalendar"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:foregroundTint="#27D570"
+            />
+
+        <Button
+            android:id="@+id/btnUpit"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:padding="10dp"
+            android:backgroundTint="#27D570"
+            android:text="Pošalji upit"
+            android:layout_marginLeft="125dp"
             />
 
 

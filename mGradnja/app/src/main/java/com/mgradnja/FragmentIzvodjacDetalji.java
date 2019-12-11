@@ -1,6 +1,8 @@
 package com.mgradnja;
 
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -9,8 +11,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.RatingBar;
 import android.widget.TextView;
 
+import java.sql.Blob;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -21,7 +25,8 @@ public class FragmentIzvodjacDetalji extends Fragment {
     ConnectionClass connectionClass;
     Connection con;
     String nazivIzvodjaca;
-    TextView oib, adresa, grad, zupanija, kontakt, mail, brRacuna;
+    TextView naziv, oib, adresa, grad, zupanija, kontakt, mail, brRacuna;
+    RatingBar ratingBar;
     ImageView profilna;
 
     public FragmentIzvodjacDetalji() {
@@ -34,6 +39,7 @@ public class FragmentIzvodjacDetalji extends Fragment {
         View view = inflater.inflate(R.layout.fragment_fragment_izvodjac_detalji, container, false);
 
         profilna = view.findViewById(R.id.slikaIzvodjaca);
+        naziv = view.findViewById(R.id.nazivIzvodjaca);
         oib = view.findViewById(R.id.oibIzvodjaca);
         adresa = view.findViewById(R.id.adresaIzvodjaca);
         grad = view.findViewById(R.id.gradIzvodjaca);
@@ -41,6 +47,7 @@ public class FragmentIzvodjacDetalji extends Fragment {
         kontakt = view.findViewById(R.id.kontaktIzvodjaca);
         mail = view.findViewById(R.id.mailIzvodjaca);
         brRacuna = view.findViewById(R.id.brRacunaIzvodjaca);
+        ratingBar = view.findViewById(R.id.ratingBar);
 
 
         Intent intent = getActivity().getIntent();
@@ -54,15 +61,25 @@ public class FragmentIzvodjacDetalji extends Fragment {
     private void dohvatiInfoOIzvodjacu(String nazivIzvodjaca) {
         connectionClass = new ConnectionClass();
         con = connectionClass.CONN();
-
-        String sql = "SELECT * from Izvodjac WHERE Naziv=('" + nazivIzvodjaca + "')";
+        Integer idIzvodjaca = null;
+        Float rating = null;
+        Bitmap bitmap = null;
 
         try{
+            String sql = "SELECT * from Izvodjac WHERE Naziv=('" + nazivIzvodjaca + "')";
             Statement statement = con.createStatement();
             ResultSet rs = statement.executeQuery(sql);
 
             while (rs.next()){
-                //profilna
+                idIzvodjaca = rs.getInt("ID_izvodjaca");
+
+                byte[] img = rs.getBytes("Slika");
+                if (img != null){
+                    Bitmap bmp = BitmapFactory.decodeByteArray(img, 0, img.length);
+                    profilna.setImageBitmap(bmp);
+                }
+
+                naziv.setText(rs.getString("Naziv"));
                 oib.setText(rs.getString("OIB"));
                 adresa.setText(rs.getString("Adresa"));
                 grad.setText(rs.getString("Grad"));
@@ -70,6 +87,14 @@ public class FragmentIzvodjacDetalji extends Fragment {
                 kontakt.setText(rs.getString("Telefon"));
                 mail.setText(rs.getString("Mail"));
                 brRacuna.setText(rs.getString("Broj_racuna"));
+            }
+
+            String sql2 = "select avg(ocjena) as rating from Recenzija where ID_izvodjaca=('" + idIzvodjaca + "') ";
+            Statement statement2 = con.createStatement();
+            ResultSet rs2 = statement2.executeQuery(sql2);
+            while (rs2.next()){
+                rating = rs2.getFloat("rating");
+                ratingBar.setRating(rating);
             }
         }
         catch (SQLException e){
