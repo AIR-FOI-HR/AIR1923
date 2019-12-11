@@ -40,11 +40,8 @@
                 android:layout_marginTop="21dp"
                 android:layout_marginEnd="164dp"
                 android:padding="3dp"
-<<<<<<< HEAD
                 android:clickable="true"
-=======
                 android:scaleType="fitEnd"
->>>>>>> 7183ec62e5ac83d99500d13ab2ee59eb4c0bda06
                 app:srcCompat="@drawable/ic_add_circle_24dp" />
 
             <ImageView

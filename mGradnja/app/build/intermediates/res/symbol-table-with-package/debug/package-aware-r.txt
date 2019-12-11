@@ -669,13 +669,9 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
-<<<<<<< HEAD
 drawable back
-drawable glavni_izbornik_korisnik
-=======
 drawable brava
 drawable bravaa
->>>>>>> 7183ec62e5ac83d99500d13ab2ee59eb4c0bda06
 drawable ic_add_circle_24dp
 drawable ic_home_24dp
 drawable ic_launcher_background
@@ -749,11 +745,8 @@ id barrier
 id beginning
 id blocking
 id bottom
-<<<<<<< HEAD
-id btnDatum
-=======
 id btbIzaberiPoslove
->>>>>>> 7183ec62e5ac83d99500d13ab2ee59eb4c0bda06
+id btnDatum
 id btnIstrazi
 id btnNatragNaPrijavu
 id btnPotvrdi
@@ -906,11 +899,8 @@ id top
 id topPanel
 id txtAdresa
 id txtBrojRacuna
-<<<<<<< HEAD
-id txtDatumRadova
-=======
 id txtCijena
->>>>>>> 7183ec62e5ac83d99500d13ab2ee59eb4c0bda06
+id txtDatumRadova
 id txtGrad
 id txtImateKorisnickiRacun
 id txtIme
@@ -920,17 +910,12 @@ id txtMail
 id txtNaslovIzradaUpita
 id txtNaslovStranice
 id txtNaziv
-<<<<<<< HEAD
 id txtNazivRadova
-id txtNemate2
-id txtOib
-id txtOpisRadova
-=======
 id txtNazivUpita
 id txtNemate2
 id txtOib
 id txtOpisPosla
->>>>>>> 7183ec62e5ac83d99500d13ab2ee59eb4c0bda06
+id txtOpisRadova
 id txtPlozinka
 id txtPočetakPosla
 id txtPrezime

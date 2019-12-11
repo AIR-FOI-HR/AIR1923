@@ -1,16 +1,7 @@
-<<<<<<< HEAD
-#Mon Dec 09 16:44:47 CET 2019
+#Wed Dec 11 19:22:55 CET 2019
 base.0=C\:\\Users\\Filip\\Documents\\AIR1923\\mGradnja\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
-=======
-#Tue Dec 10 21:01:19 CET 2019
-base.0=C\:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\gitPrichuvni\\mGradnja\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
->>>>>>> 7183ec62e5ac83d99500d13ab2ee59eb4c0bda06
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-<<<<<<< HEAD
 base.1=C\:\\Users\\Filip\\Documents\\AIR1923\\mGradnja\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
-=======
-base.1=C\:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\gitPrichuvni\\mGradnja\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
->>>>>>> 7183ec62e5ac83d99500d13ab2ee59eb4c0bda06

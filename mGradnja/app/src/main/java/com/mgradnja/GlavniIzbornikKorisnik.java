@@ -10,16 +10,13 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
-<<<<<<< HEAD
 import android.widget.Button;
 import android.widget.ImageView;
-=======
 
 import android.widget.ImageView;
 
 import android.widget.Button;
 
->>>>>>> 7183ec62e5ac83d99500d13ab2ee59eb4c0bda06
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -34,18 +31,15 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
 
     public Spinner spinnerZupanije;
     public Spinner spinnerKategorije;
-<<<<<<< HEAD
 
-    Integer ID;
+    public Integer ID;
 
     private static ImageView imgAdd;
 
-=======
     public TextView textView;
     public String odabranaZupanija;
     public String odabranaKategorija;
     public Button btnIstrazi;
->>>>>>> 7183ec62e5ac83d99500d13ab2ee59eb4c0bda06
 
     public String[] zupanije = new String[]{"Zagrebacka", "Krapinsko-zagorska", "Sisacko-moslavacka",
     "Karlovacka", "Varazdinska", "Koprivnicko-krizevacka", "Bjelovarsko-bilogorska", "Primorsko-goranska",
@@ -54,7 +48,6 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
     "Dubrovacko-neretvanska", "Medjimurska", "Grad Zagreb"};
 
     public ArrayList<String> kategorije = new ArrayList<String>();
-    private Integer ID;
     private Integer BrojRadova = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -79,13 +72,14 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
         spinnerKategorije.setAdapter(adapterKategorije);
         spinnerZupanije.setAdapter(adapterZupanije);
 
-<<<<<<< HEAD
         imgAdd=findViewById(R.id.imgAdd);
         imgAdd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openQueryActivity(ID);
-=======
+                }
+            });
+
 
         ImageView img = (ImageView) findViewById(R.id.imgWrench);
         img.setOnClickListener(new View.OnClickListener() {
@@ -100,20 +94,8 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
                     startActivity(i);
                 }
 
->>>>>>> 7183ec62e5ac83d99500d13ab2ee59eb4c0bda06
             }
         });
-
-
-<<<<<<< HEAD
-    }
-
-    public void openQueryActivity(Integer ID){
-        Intent intent = new Intent(this, QueryActivity.class);
-        intent.putExtra("ID_korisnika", ID);
-        startActivity(intent);
-=======
-
 
         btnIstrazi = findViewById(R.id.btnIstrazi);
         btnIstrazi.setOnClickListener(new View.OnClickListener() {
@@ -124,6 +106,14 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
                 OpenIstraziIzvodjaceActivity(odabranaKategorija, odabranaZupanija);
             }
         });
+
+
+    }
+
+    public void openQueryActivity(Integer ID){
+        Intent intent = new Intent(this, QueryActivity.class);
+        intent.putExtra("ID_korisnika", ID);
+        startActivity(intent);
     }
 
     private void OpenIstraziIzvodjaceActivity(String odabranaKategorija, String odabranaZupanija) {
@@ -133,7 +123,6 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
 
         startActivity(intent);
 
->>>>>>> 7183ec62e5ac83d99500d13ab2ee59eb4c0bda06
     }
 
 
