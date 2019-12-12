@@ -1017,6 +1017,7 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable ic_add_circle_24dp
+drawable ic_chat
 drawable ic_home_24dp
 drawable ic_info
 drawable ic_launcher_background
@@ -1026,8 +1027,10 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_notifications_24dp
 drawable ic_person_24dp
+drawable ic_poziv
 drawable ic_search
 drawable ic_search_24dp
+drawable ic_upit
 drawable ic_wrench_24dp
 drawable izbornik_korisnik
 drawable korisnik
@@ -1099,7 +1102,6 @@ id btnRegistracija
 id btnRegistracijaIzPrijave
 id btnRegistracijaIzvodjac
 id btnRegistracijaKorisnik
-id btnUpit
 id btnUploadSlike
 id buttonPanel
 id cancel_action
@@ -1225,6 +1227,8 @@ id parentPanel
 id parent_matrix
 id percent
 id pin
+id poruka
+id poziv
 id pravniStatus
 id profilnaSlika
 id progressBar
@@ -1435,6 +1439,7 @@ layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 menu top_menu
+menu upit_menu
 mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round

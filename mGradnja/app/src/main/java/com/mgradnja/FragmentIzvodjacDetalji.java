@@ -5,14 +5,19 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.RatingBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.sql.Blob;
 import java.sql.Connection;
@@ -35,7 +40,7 @@ public class FragmentIzvodjacDetalji extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-
+        setHasOptionsMenu(true);
         View view = inflater.inflate(R.layout.fragment_fragment_izvodjac_detalji, container, false);
 
         profilna = view.findViewById(R.id.slikaIzvodjaca);
@@ -57,6 +62,7 @@ public class FragmentIzvodjacDetalji extends Fragment {
 
         return view;
     }
+
 
     private void dohvatiInfoOIzvodjacu(String nazivIzvodjaca) {
         connectionClass = new ConnectionClass();
@@ -101,5 +107,7 @@ public class FragmentIzvodjacDetalji extends Fragment {
             e.printStackTrace();
         }
     }
+
+
 
 }

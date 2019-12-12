@@ -16,23 +16,20 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="vertical">
 
             <ImageView
-                android:layout_marginLeft="45dp"
-                android:layout_marginTop="42dp"
-                android:layout_width="37dp"
-                android:layout_height="51dp"
+                android:layout_width="35dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
                 app:srcCompat="@drawable/ic_info" />
 
             <TextView
+                android:layout_gravity="center_horizontal"
                 android:text="Na označenim datumima izvođač radova je zauzet."
-                android:padding="5dp"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="45dp"
-                android:layout_marginTop="45dp"
-                android:layout_marginBottom="45dp"
-                android:layout_width="match_parent"
+                android:padding="1dp"
+                android:layout_marginBottom="25dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
 
         </LinearLayout>
@@ -42,18 +39,9 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:foregroundTint="#27D570"
-            />
-
-        <Button
-            android:id="@+id/btnUpit"
-            android:layout_width="150dp"
-            android:layout_height="60dp"
-            android:padding="10dp"
             android:backgroundTint="#27D570"
-            android:text="Pošalji upit"
-            android:layout_marginLeft="125dp"
+            android:outlineAmbientShadowColor="#27D570"
             />
-
 
     </LinearLayout>
 </ScrollView>

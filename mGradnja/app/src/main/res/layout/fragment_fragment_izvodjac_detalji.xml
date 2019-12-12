@@ -29,7 +29,9 @@
             android:layout_gravity="center_horizontal"
             android:numStars="5"
             android:layout_marginBottom="5dp"
-            android:progressTint="#27D570"/>
+            android:progressTint="#27D570"
+            android:backgroundTint="#27D570"
+            android:foregroundTint="#27D570"/>
 
         <View
             android:id="@+id/divider0"

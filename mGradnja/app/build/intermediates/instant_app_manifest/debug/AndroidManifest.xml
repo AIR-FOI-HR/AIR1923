@@ -13,6 +13,7 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <application
         android:allowBackup="true"
@@ -26,8 +27,7 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.mgradnja.IzvodjacInfoActivity"
-            android:label="@string/title_activity_izvodjac_info"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:label="@string/title_activity_izvodjac_info" />
         <activity android:name="com.mgradnja.IstraziIzvodjaceActivity" />
         <activity android:name="com.mgradnja.UserSearchActivity" />
         <activity android:name="com.mgradnja.Registration_performer" />

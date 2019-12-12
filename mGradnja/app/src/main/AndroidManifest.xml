@@ -6,6 +6,7 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
 
     <application
         android:allowBackup="true"
@@ -16,8 +17,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".IzvodjacInfoActivity"
-            android:label="@string/title_activity_izvodjac_info"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:label="@string/title_activity_izvodjac_info"></activity>
         <activity android:name=".IstraziIzvodjaceActivity" />
         <activity android:name=".UserSearchActivity" />
         <activity android:name=".Registration_performer" />
