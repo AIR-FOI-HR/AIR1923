@@ -19,6 +19,9 @@ public class UpitiAdapterProfilKorisnika extends RecyclerView.Adapter<UpitiAdapt
         public TextView txtNaziv;
         public TextView txtDatum;
         public TextView txtOpis;
+        public TextView txtAdresa;
+        public TextView txtGrad;
+        public TextView txtZupanija;
 
 
         public UpitiViewHolder(@NonNull View itemView) {
@@ -27,6 +30,9 @@ public class UpitiAdapterProfilKorisnika extends RecyclerView.Adapter<UpitiAdapt
             txtNaziv = itemView.findViewById(R.id.txtUpitNaziv);
             txtDatum = itemView.findViewById(R.id.txtUpitDatum);
             txtOpis = itemView.findViewById(R.id.txtUpitOpis);
+            txtAdresa = itemView.findViewById(R.id.txtUpitAdresa);
+            txtGrad = itemView.findViewById(R.id.txtUpitGrad);
+            txtZupanija = itemView.findViewById(R.id.txtUpitZupanija);
         }
     }
 
@@ -49,6 +55,9 @@ public class UpitiAdapterProfilKorisnika extends RecyclerView.Adapter<UpitiAdapt
         holder.txtOpis.setText(trenutniUpit.getOpis());
         holder.txtDatum.setText(trenutniUpit.getDatum()+"");
         holder.txtNaziv.setText(trenutniUpit.getNaziv());
+        holder.txtAdresa.setText(trenutniUpit.getAdresa());
+        holder.txtGrad.setText(trenutniUpit.getGrad());
+        holder.txtZupanija.setText(trenutniUpit.getZupanija());
 
     }
 

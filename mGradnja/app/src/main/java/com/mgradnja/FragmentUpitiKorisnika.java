@@ -19,6 +19,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class FragmentUpitiKorisnika extends Fragment {
 
@@ -29,8 +30,11 @@ public class FragmentUpitiKorisnika extends Fragment {
     public ArrayList<String> listaNaziva = new ArrayList<String>();
     public ArrayList<Date> listaDatuma = new ArrayList<Date>();
     public ArrayList<String> listaOpisa = new ArrayList<String >();
+    public ArrayList<String> listaAdresa = new ArrayList<String>();
+    public ArrayList<String> listaGradova = new ArrayList<String>();
+    public ArrayList<String> listaZupanija = new ArrayList<String>();
 
-    private String naziv, opis;
+    private String naziv, opis, adresa, grad ,zupanija;
     private Date datum;
 
     public ArrayList<ItemUpitiProfilKorisnika> listaUpita = new ArrayList<ItemUpitiProfilKorisnika>();
@@ -47,7 +51,6 @@ public class FragmentUpitiKorisnika extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_fragment_upiti_korisnika, container, false);
-
 
 
         Intent intent = getActivity().getIntent();
@@ -67,6 +70,7 @@ public class FragmentUpitiKorisnika extends Fragment {
 
     }
 
+
     public void dohvatUpita(Integer ID){
         connectionClass = new ConnectionClass();
         connection = connectionClass.CONN();
@@ -83,6 +87,9 @@ public class FragmentUpitiKorisnika extends Fragment {
                 listaNaziva.add(rs.getString("Naziv"));
                 listaOpisa.add(rs.getString("Opis"));
                 listaDatuma.add(rs.getDate("Datum"));
+                listaAdresa.add(rs.getString("Adresa"));
+                listaGradova.add(rs.getString("Grad"));
+                listaZupanija.add(rs.getString("Zupanija"));
 
             }
         }
@@ -90,16 +97,29 @@ public class FragmentUpitiKorisnika extends Fragment {
             e.printStackTrace();
         }
 
+        listaUpita.clear();
+
         for(int i = 0; i<listaNaziva.size(); i++){
 
             naziv = listaNaziva.get(i);
             datum = listaDatuma.get(i);
             opis = listaOpisa.get(i);
+            adresa = listaAdresa.get(i);
+            grad = listaGradova.get(i);
+            zupanija = listaZupanija.get(i);
 
-            UA = new ItemUpitiProfilKorisnika("Naziv: "+naziv, datum,"Opis: " + opis);
+            UA = new ItemUpitiProfilKorisnika("Naziv: "+naziv, datum,"Opis: " + opis, "Adresa: " + adresa, "Grad: " + grad, "Županija: " + zupanija);
             listaUpita.add(UA);
         }
 
+        listaNaziva.clear();
+        listaOpisa.clear();
+        listaDatuma.clear();
+        listaAdresa.clear();
+        listaGradova.clear();
+        listaZupanija.clear();
+
         }
+
 
 }

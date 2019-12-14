@@ -69,94 +69,95 @@
 
     <TextView
         android:id="@+id/txtProfilMailKorisnika"
-        android:layout_width="103dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="65dp"
-        android:layout_marginTop="263dp"
-        android:layout_marginEnd="243dp"
+        android:layout_below="@+id/imgProfilKorisnika"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="15dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
         android:text="E-mail:"
-        android:textColor="#0C0C0C"
-        android:textSize="18sp" />
+        android:textColor="#0C0C0C"/>
 
     <TextView
         android:id="@+id/txtProfilTelefonKorisnik"
-        android:layout_width="103dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="65dp"
-        android:layout_marginTop="345dp"
-        android:layout_marginEnd="255dp"
+        android:layout_below="@+id/imageView12"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="15dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
         android:text="Telefon:"
-        android:textColor="#0C0C0C"
-        android:textSize="18sp" />
+        android:textColor="#0C0C0C" />
 
     <TextView
         android:id="@+id/txtProfilKorisnikMailIspis"
-        android:layout_width="253dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="65dp"
-        android:layout_marginTop="296dp"
-        android:layout_marginEnd="65dp"
-        android:text="TextView"
-        android:textColor="#000000"
-        android:textSize="18sp" />
-
-    <TextView
-        android:id="@+id/txtProfilKorisnikTelefonIspis"
-        android:layout_width="253dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="65dp"
-        android:layout_marginTop="380dp"
-        android:layout_marginEnd="65dp"
-        android:text="TextView"
-        android:textColor="#000000"
-        android:textSize="18sp" />
-
-    <Button
-        android:id="@+id/btnUrediKorisnickiRacun"
-        android:layout_width="218dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="95dp"
-        android:layout_marginTop="494dp"
-        android:layout_marginEnd="95dp"
-        android:text="Uredi račun" />
-
-    <ImageView
-        android:id="@+id/imageView11"
         android:layout_width="match_parent"
-        android:layout_height="3dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="63dp"
-        android:layout_marginTop="325dp"
-        android:layout_marginEnd="63dp"
-        android:src="@color/colorAccent" />
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtProfilMailKorisnika"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="15dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="TextView"
+        android:textColor="#000000" />
 
     <ImageView
         android:id="@+id/imageView12"
         android:layout_width="match_parent"
         android:layout_height="3dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="63dp"
-        android:layout_marginTop="410dp"
-        android:layout_marginEnd="62dp"
+        android:layout_below="@+id/txtProfilKorisnikMailIspis"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
         android:src="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/txtProfilKorisnikTelefonIspis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtProfilTelefonKorisnik"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="15dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="TextView"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_below="@+id/txtProfilKorisnikTelefonIspis"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:src="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/btnUrediKorisnickiRacun"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/imageView11"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:text="Uredi račun" />
+
+
+
+
 
 </RelativeLayout>
