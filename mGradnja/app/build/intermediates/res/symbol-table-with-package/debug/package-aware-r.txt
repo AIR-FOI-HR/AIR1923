@@ -1198,7 +1198,6 @@ id listMode
 id list_item
 id listaIzvodjaca
 id lstIzvodjaci
-id lstRecenzija
 id mailIzvodjaca
 id masked
 id media_actions
@@ -1218,6 +1217,7 @@ id normal
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id ocjenaRecenzenta
 id oibIzvodjaca
 id outline
 id packed
@@ -1236,6 +1236,7 @@ id progress_circular
 id progress_horizontal
 id radio
 id ratingBar
+id recenzijeRecyclerView
 id right
 id right_icon
 id right_side
@@ -1315,11 +1316,14 @@ id transition_scene_layoutid_cache
 id transition_transform
 id txtAdresa
 id txtBrojRacuna
+id txtDatumRecenzije
 id txtGrad
 id txtID
 id txtImateKorisnickiRacun
 id txtIme
+id txtImeRecenzenta
 id txtIstraziObrt
+id txtKomentarRecenzenta
 id txtLozinka
 id txtMail
 id txtNaslovStranice
@@ -1328,6 +1332,7 @@ id txtNemate2
 id txtOib
 id txtPlozinka
 id txtPrezime
+id txtPrezimeRecenzenta
 id txtTelefon
 id txtZapamti
 id txtZupanija
@@ -1434,6 +1439,7 @@ layout notification_template_media
 layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout recenzije_layout
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material

@@ -10,8 +10,10 @@ import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.drawable.BitmapDrawable;
+import android.media.Image;
 import android.net.Uri;
 import android.os.Bundle;
+import android.util.Base64;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
@@ -21,6 +23,7 @@ import android.widget.Toast;
 
 import java.io.ByteArrayOutputStream;
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.Statement;
@@ -86,7 +89,9 @@ public class Registration_performer extends AppCompatActivity {
         String brRacuna = txtBrRacuna.getText().toString();
         String lozinka = txtLozinka.getText().toString();
         String plozinka = txtPlozinka.getText().toString();
-        byte[] slika = imageViewToByte(imageView);
+        //byte[] slika = imageViewToByte(imageView);
+        String profilna = Base64.encodeToString(imageViewToByte(imageView), Base64.DEFAULT);
+
 
         if (idPravnogStatusa == 0 || oib.equals("") || naziv.equals("") || adresa.equals("") || grad.equals("") || zupanija.equals("") || telefon.equals("") || mail.equals("") || brRacuna.equals("") || lozinka.equals("") || plozinka.equals("")){
             Toast.makeText(getApplicationContext(), "Niste ispunili sve potrebne podatke!", Toast.LENGTH_SHORT).show();
@@ -102,8 +107,9 @@ public class Registration_performer extends AppCompatActivity {
                     else {
                         Statement st = con.createStatement();
 
+                        //CAST(('"+ slika +"') as varBinary(Max))
                         String queryReg = "INSERT INTO Izvodjac(OIB, Naziv, Adresa, Grad, Zupanija, Telefon, Mail, Lozinka, Broj_racuna, Slika, ID_pravnog_statusa) " +
-                                "VALUES(('"+ oib +"'), ('"+ naziv +"'), ('"+ adresa +"'), ('"+ grad +"'), ('"+ zupanija +"'), ('"+ telefon +"'), ('"+ mail +"'), ('"+ lozinka +"'), ('"+ brRacuna +"'), CAST(('"+ slika +"') as varBinary(Max)), ('"+ idPravnogStatusa +"'))";
+                                "VALUES(('"+ oib +"'), ('"+ naziv +"'), ('"+ adresa +"'), ('"+ grad +"'), ('"+ zupanija +"'), ('"+ telefon +"'), ('"+ mail +"'), ('"+ lozinka +"'), ('"+ brRacuna +"'), ('"+ profilna +"'), ('"+ idPravnogStatusa +"'))";
 
                         if (st.executeUpdate(queryReg) == 1){
                             Toast.makeText(getApplicationContext(), "Registracija uspješna, možete se prijaviti!", Toast.LENGTH_LONG).show();
@@ -158,8 +164,6 @@ public class Registration_performer extends AppCompatActivity {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
     }
 
-
-
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data){
 
@@ -177,6 +181,4 @@ public class Registration_performer extends AppCompatActivity {
         }
         super.onActivityResult(requestCode, resultCode, data);
     }
-
-
 }
