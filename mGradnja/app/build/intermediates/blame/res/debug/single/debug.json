@@ -1392,6 +1392,10 @@
         "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\906744c4ddcbc384c5a8d2d69414f8fa\\appcompat-1.0.2\\res\\drawable\\abc_ic_go_search_api_material.xml"
     },
     {
+        "merged": "C:\\Users\\VEDRAN\\Desktop\\mGradnja1\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_item_recenzije_profil_korisnika.xml.flat",
+        "source": "C:\\Users\\VEDRAN\\Desktop\\mGradnja1\\mGradnja\\app\\src\\main\\res\\layout\\list_item_recenzije_profil_korisnika.xml"
+    },
+    {
         "merged": "C:\\Users\\VEDRAN\\Desktop\\mGradnja1\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout-watch-v20_abc_alert_dialog_button_bar_material.xml.flat",
         "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\906744c4ddcbc384c5a8d2d69414f8fa\\appcompat-1.0.2\\res\\layout-watch-v20\\abc_alert_dialog_button_bar_material.xml"
     },

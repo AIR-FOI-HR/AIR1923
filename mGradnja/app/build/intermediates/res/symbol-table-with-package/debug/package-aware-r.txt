@@ -1197,6 +1197,7 @@ id normal
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id ocjenaRecenzijeProfilKorisnika
 id outline
 id packed
 id parallax
@@ -1211,6 +1212,7 @@ id progressBar
 id progress_circular
 id progress_horizontal
 id radio
+id recenzije_recyclerview
 id right
 id right_icon
 id right_side
@@ -1295,6 +1297,7 @@ id transition_scene_layoutid_cache
 id transition_transform
 id txtAdresa
 id txtBrojRacuna
+id txtDatumRecenzijeProfilKorisnika
 id txtEditKorisnikIme
 id txtEditKorisnikLozinka
 id txtEditKorisnikMail
@@ -1307,6 +1310,7 @@ id txtImateKorisnickiRacun
 id txtIme
 id txtImeKorisnika
 id txtIstraziObrt
+id txtKomentarRecenzijeProfilKorisnika
 id txtLozinka
 id txtMail
 id txtNaslovStranice
@@ -1318,6 +1322,7 @@ id txtPrezime
 id txtPrezimeKorisnika
 id txtProfilKorisnikMailIspis
 id txtProfilKorisnikTelefonIspis
+id txtProfilKorisnikaNazivIzvodjaca
 id txtProfilMailKorisnika
 id txtProfilTelefonKorisnik
 id txtTelefon
@@ -1416,6 +1421,7 @@ layout fragment_fragment_opis_profil_korisnika
 layout fragment_fragment_recenzije_profil_korisnika
 layout fragment_fragment_upiti_korisnika
 layout list_item_izvodjaci
+layout list_item_recenzije_profil_korisnika
 layout list_item_upiti_profil_korisnika
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
