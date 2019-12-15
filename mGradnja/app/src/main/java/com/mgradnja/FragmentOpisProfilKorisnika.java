@@ -72,6 +72,17 @@ public class FragmentOpisProfilKorisnika extends Fragment {
         return view;
     }
 
+    @Override
+    public void onResume() {
+        super.onResume();
+
+        Intent intent = getActivity().getIntent();
+        Integer ID = intent.getIntExtra("ID_korisnika", 0);
+
+
+        dohvatiNovo(ID);
+    }
+
     public void dohvatiNovo(Integer ID){
         ConnectionClass connectionClass = new ConnectionClass();
         Connection con = connectionClass.CONN();

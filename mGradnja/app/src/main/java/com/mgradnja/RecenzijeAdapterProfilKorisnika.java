@@ -25,6 +25,7 @@ public class RecenzijeAdapterProfilKorisnika extends RecyclerView.Adapter<Recenz
         public TextView txtDatumRecenzije;
         public TextView txtKomentarRecenzije;
         public RatingBar recenzijaProfilKorisnika;
+        public TextView txtNazivUpitaRecenzija;
 
 
         public RecenzijeViewHolder(@NonNull View itemView) {
@@ -34,6 +35,7 @@ public class RecenzijeAdapterProfilKorisnika extends RecyclerView.Adapter<Recenz
             txtDatumRecenzije = itemView.findViewById(R.id.txtDatumRecenzijeProfilKorisnika);
             txtKomentarRecenzije = itemView.findViewById(R.id.txtKomentarRecenzijeProfilKorisnika);
             recenzijaProfilKorisnika = itemView.findViewById(R.id.ocjenaRecenzijeProfilKorisnika);
+            txtNazivUpitaRecenzija = itemView.findViewById(R.id.txtNazivUpitaRecenzijaProfilKorisnika);
         }
     }
 
@@ -57,6 +59,7 @@ public class RecenzijeAdapterProfilKorisnika extends RecyclerView.Adapter<Recenz
         holder.txtKomentarRecenzije.setText(trenutnaRecenzija.getKomentar());
         holder.txtDatumRecenzije.setText(trenutnaRecenzija.getDatum()+"");
         holder.recenzijaProfilKorisnika.setRating(trenutnaRecenzija.getOcjena());
+        holder.txtNazivUpitaRecenzija.setText(trenutnaRecenzija.getNazivUpita());
     }
 
     @Override

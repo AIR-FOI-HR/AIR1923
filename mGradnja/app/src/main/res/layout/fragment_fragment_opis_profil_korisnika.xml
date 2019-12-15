@@ -25,9 +25,8 @@
         android:layout_width="match_parent"
         android:layout_height="225dp"
         android:background="#FFFFFF"
-
         android:src="@color/colorAccent"/>
-        android:src="@color/colorAccent" />
+
 
     <ImageView
         android:id="@+id/imgProfilKorisnika"
@@ -155,9 +154,5 @@
         android:layout_marginTop="10dp"
         android:layout_marginRight="15dp"
         android:text="Uredi račun" />
-
-
-
-
 
 </RelativeLayout>

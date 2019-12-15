@@ -31,9 +31,6 @@ public class ProfilKorisnikActivity extends AppCompatActivity {
         tabLayout.setupWithViewPager(viewPager);
     }
 
-
-
-
     private void setupViewPager(ViewPager viewPager){
         ViewPagerAdapterProfilKorisnika viewPagerAdapterProfilKorisnika = new ViewPagerAdapterProfilKorisnika(getSupportFragmentManager());
         viewPagerAdapterProfilKorisnika.addFragment(new FragmentOpisProfilKorisnika(), "OPIS");
