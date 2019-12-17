@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home_24dp"
+        android:title="Početna" />
+    <item
+        android:id="@+id/nav_wrench"
+        android:icon="@drawable/ic_wrench_24dp"
+        android:title="Radovi" />
+    <item
+        android:id="@+id/nav_calendar"
+        android:icon="@drawable/ic_calendar_24dp"
+        android:title="Kalendar" />
+    <item
+        android:id="@+id/nav_notifications"
+        android:icon="@drawable/ic_notifications_24dp"
+        android:title="Obavijesti" />
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_person_24dp"
+        android:title="Profil" />
+
+</menu>
