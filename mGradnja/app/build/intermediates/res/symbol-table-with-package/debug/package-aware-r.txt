@@ -1315,7 +1315,6 @@ id txtLozinka
 id txtMail
 id txtNaslovStranice
 id txtNaziv
-id txtNazivUpitaRecenzijaProfilKorisnika
 id txtNemate2
 id txtOib
 id txtPlozinka

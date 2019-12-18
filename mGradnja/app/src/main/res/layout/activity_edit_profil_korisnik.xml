@@ -17,7 +17,7 @@
             android:layout_height="150dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="20dp"
-            tools:srcCompat="@tools:sample/avatars[0]"></ImageView>
+            tools:srcCompat="@drawable/registracija"></ImageView>
 
 
         <Button

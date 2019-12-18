@@ -8,14 +8,12 @@ public class ItemRecenzijaProfilKorisnika {
     private Date datum;
     private String komentar;
     private Integer ocjena;
-    private String nazivUpita;
 
-    public ItemRecenzijaProfilKorisnika (String izvodjac, Date datum, String komentar, Integer ocjena, String nazivUpita){
+    public ItemRecenzijaProfilKorisnika (String izvodjac, Date datum, String komentar, Integer ocjena){
         this.izvodjac = izvodjac;
         this.datum = datum;
         this.komentar = komentar;
         this.ocjena = ocjena;
-        this.nazivUpita = nazivUpita;
     }
 
     public String getIzvodjac(){
@@ -33,9 +31,5 @@ public class ItemRecenzijaProfilKorisnika {
 
     public Integer getOcjena(){
         return this.ocjena;
-    }
-
-    public String getNazivUpita(){
-        return this.nazivUpita;
     }
 }

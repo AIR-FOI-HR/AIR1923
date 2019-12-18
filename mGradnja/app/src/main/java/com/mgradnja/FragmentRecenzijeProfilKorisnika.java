@@ -33,9 +33,8 @@ public class FragmentRecenzijeProfilKorisnika extends Fragment {
     public ArrayList<Date> listaDatumaRecenzija = new ArrayList<>();
     public ArrayList<String> listaKomentaraRecenzija = new ArrayList<>();
     public ArrayList<Integer> listaOcjenaRecenzija = new ArrayList<>();
-    public ArrayList<String> listaNazivaUpita = new ArrayList<>();
 
-    private String nazivIzvodjaca, komentar, nazivUpita;
+    private String nazivIzvodjaca, komentar;
     private Date datumRecenzije;
     private Integer ocjenaRecenzije;
 
@@ -77,8 +76,8 @@ public class FragmentRecenzijeProfilKorisnika extends Fragment {
         connectionClass = new ConnectionClass();
         connection = connectionClass.CONN();
 
-        //String sql = "SELECT Datum, Komentar, Ocjena, Naziv FROM Recenzija r, Izvodjac i WHERE r.ID_korisnika = ('" + ID + "') AND r.ID_izvodjaca=i.ID_izvodjaca";
-        String sql = "SELECT r.Datum, r.Komentar, r.Ocjena, i.Naziv, u.Naziv as 'Naziv upita' FROM Izvodjac i, Recenzija r, Korisnik k, Upit u WHERE r.ID_korisnika=('" + ID + "') AND r.ID_izvodjaca= i.ID_izvodjaca AND r.ID_korisnika=k.ID_korisnika AND k.ID_korisnika=u.ID_korisnika";
+        String sql = "SELECT Datum, Komentar, Ocjena, Naziv FROM Recenzija r, Izvodjac i WHERE r.ID_korisnika = ('" + ID + "') AND r.ID_izvodjaca=i.ID_izvodjaca";
+        //String sql = "SELECT r.Datum, r.Komentar, r.Ocjena, i.Naziv, u.Naziv as 'Naziv upita' FROM Izvodjac i, Recenzija r, Korisnik k, Upit u WHERE r.ID_korisnika=('" + ID + "') AND r.ID_izvodjaca= i.ID_izvodjaca AND r.ID_korisnika=k.ID_korisnika AND k.ID_korisnika=u.ID_korisnika";
 
 
         try {
@@ -92,7 +91,6 @@ public class FragmentRecenzijeProfilKorisnika extends Fragment {
                 listaKomentaraRecenzija.add(rs.getString("Komentar"));
                 listaDatumaRecenzija.add(rs.getDate("Datum"));
                 listaOcjenaRecenzija.add(rs.getInt("Ocjena"));
-                listaNazivaUpita.add(rs.getString("Naziv upita"));
             }
         } catch (SQLException e) {
             e.printStackTrace();
@@ -106,9 +104,8 @@ public class FragmentRecenzijeProfilKorisnika extends Fragment {
             datumRecenzije = listaDatumaRecenzija.get(i);
             komentar = listaKomentaraRecenzija.get(i);
             ocjenaRecenzije = listaOcjenaRecenzija.get(i);
-            nazivUpita = listaNazivaUpita.get(i);
 
-            RA = new ItemRecenzijaProfilKorisnika("Izvođač: " + nazivIzvodjaca, datumRecenzije, komentar, ocjenaRecenzije, "Naslov: "+ nazivUpita);
+            RA = new ItemRecenzijaProfilKorisnika("Izvođač: " + nazivIzvodjaca, datumRecenzije, komentar, ocjenaRecenzije);
             listaRecenzija.add(RA);
         }
 
@@ -116,7 +113,6 @@ public class FragmentRecenzijeProfilKorisnika extends Fragment {
         listaOcjenaRecenzija.clear();
         listaDatumaRecenzija.clear();
         listaKomentaraRecenzija.clear();
-        listaNazivaUpita.clear();
 
     }
 }
