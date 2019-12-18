@@ -23,7 +23,7 @@ import java.text.SimpleDateFormat;
 
 public class DetaljiUpita extends AppCompatActivity {
 
-    Integer ID_upita;
+    Integer ID_upita, ID_izvodjaca;
     Upit upit;
 
     TextView naziv, opis, datum, adresa, grad, zupanija;
@@ -34,6 +34,7 @@ public class DetaljiUpita extends AppCompatActivity {
         setContentView(R.layout.activity_detalji_upita);
 
         Intent intent = getIntent();
+        ID_izvodjaca = intent.getIntExtra("ID_izvodjaca", 0);
         ID_upita = intent.getIntExtra("ID_upita", 0);
 
         DohvatiUpit(ID_upita);
@@ -85,6 +86,7 @@ public class DetaljiUpita extends AppCompatActivity {
             @Override
             public boolean onMenuItemClick(MenuItem item) {
                 Intent intent = new Intent(DetaljiUpita.this, GlavniIzbornikIzvodjac.class);
+                intent.putExtra("ID_izvodjaca", ID_izvodjaca);
                 startActivity(intent);
 
                 return false;

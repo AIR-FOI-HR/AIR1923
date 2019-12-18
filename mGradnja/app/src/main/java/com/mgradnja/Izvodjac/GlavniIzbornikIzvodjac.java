@@ -53,6 +53,8 @@ public class GlavniIzbornikIzvodjac extends AppCompatActivity {
         Intent intent = getIntent();
         ID = intent.getIntExtra("ID_izvodjaca", 0);
 
+        //Toast.makeText(GlavniIzbornikIzvodjac.this ,"ID je " + ID + " ", Toast.LENGTH_LONG).show();
+
         spinnerKategorije = findViewById(R.id.spinKategorijeIzvodjac);
         spinnerZupanije  = findViewById(R.id.spinZupanijeIzvodjac);
 
@@ -84,6 +86,7 @@ public class GlavniIzbornikIzvodjac extends AppCompatActivity {
     private void OpenIstraziUpiteActivity(String odabranaKategorija, String odabranaZupanija) {
 
         Intent intent = new Intent(this, IstraziUpiteIzvodjac.class);
+        intent.putExtra("ID_izvodjaca", ID);
         intent.putExtra("kategorija", odabranaKategorija);
         intent.putExtra("zupanija", odabranaZupanija);
 
@@ -138,6 +141,7 @@ public class GlavniIzbornikIzvodjac extends AppCompatActivity {
                 }
             };
 
+    /*
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuItem item = menu.add("Početna");
@@ -153,5 +157,5 @@ public class GlavniIzbornikIzvodjac extends AppCompatActivity {
 
         //TODO ??
         return true;
-    }
+    } */
 }

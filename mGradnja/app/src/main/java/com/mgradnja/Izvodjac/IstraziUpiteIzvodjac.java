@@ -31,7 +31,7 @@ import java.util.Locale;
 
 public class IstraziUpiteIzvodjac extends AppCompatActivity {
 
-    Integer ID_upita;
+    Integer ID_upita, ID_izvodjaca;
     ConnectionClass connectionClass;
     Connection connection;
     String zupanija, kategorija;
@@ -52,6 +52,7 @@ public class IstraziUpiteIzvodjac extends AppCompatActivity {
         lista = findViewById(R.id.lstUpiti);
 
         Intent intent = getIntent();
+        ID_izvodjaca = intent.getIntExtra("ID_izvodjaca", 0);
         kategorija = intent.getStringExtra("kategorija");
         zupanija = intent.getStringExtra("zupanija");
 
@@ -68,6 +69,7 @@ public class IstraziUpiteIzvodjac extends AppCompatActivity {
                         //Toast.makeText(IstraziUpiteIzvodjac.this, "ID upita je: "+ sifre.get(i) + " ", Toast.LENGTH_LONG ).show();
                         Intent novi = new Intent(IstraziUpiteIzvodjac.this, DetaljiUpita.class);
                         novi.putExtra("ID_upita", sifre.get(i));
+                        novi.putExtra("ID_izvodjaca", ID_izvodjaca);
                         startActivity(novi);
                     }
                 }
@@ -113,6 +115,7 @@ public class IstraziUpiteIzvodjac extends AppCompatActivity {
             @Override
             public boolean onMenuItemClick(MenuItem item) {
                 Intent intent = new Intent(IstraziUpiteIzvodjac.this, GlavniIzbornikIzvodjac.class);
+                intent.putExtra("ID_izvodjaca", ID_izvodjaca);
                 startActivity(intent);
 
                 return false;
