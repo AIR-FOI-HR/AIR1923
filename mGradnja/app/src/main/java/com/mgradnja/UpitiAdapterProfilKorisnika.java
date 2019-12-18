@@ -8,6 +8,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 
 public class UpitiAdapterProfilKorisnika extends RecyclerView.Adapter<UpitiAdapterProfilKorisnika.UpitiViewHolder> {
@@ -52,8 +54,11 @@ public class UpitiAdapterProfilKorisnika extends RecyclerView.Adapter<UpitiAdapt
     public void onBindViewHolder(@NonNull UpitiViewHolder holder, int position) {
         ItemUpitiProfilKorisnika trenutniUpit = listaUpita.get(position);
 
+        DateFormat df = new SimpleDateFormat("dd.MM.yyyy.");
+        String date = df.format(trenutniUpit.getDatum());
+
         holder.txtOpis.setText(trenutniUpit.getOpis());
-        holder.txtDatum.setText(trenutniUpit.getDatum()+"");
+        holder.txtDatum.setText(date);
         holder.txtNaziv.setText(trenutniUpit.getNaziv());
         holder.txtAdresa.setText(trenutniUpit.getAdresa());
         holder.txtGrad.setText(trenutniUpit.getGrad());

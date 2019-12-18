@@ -12,6 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import java.sql.Connection;
 import java.sql.Date;
@@ -43,6 +44,8 @@ public class FragmentUpitiKorisnika extends Fragment {
     private RecyclerView.LayoutManager mLayoutManager;
     public ItemUpitiProfilKorisnika UA;
 
+    TextView txtPorukaUpiti;
+
     public FragmentUpitiKorisnika() {
         // Required empty public constructor
     }
@@ -55,6 +58,8 @@ public class FragmentUpitiKorisnika extends Fragment {
 
         Intent intent = getActivity().getIntent();
         Integer ID = intent.getIntExtra("ID_korisnika", 0);
+
+        txtPorukaUpiti = (TextView) view.findViewById(R.id.txtPorukaUpiti);
 
         dohvatUpita(ID);
 
@@ -118,6 +123,10 @@ public class FragmentUpitiKorisnika extends Fragment {
         listaAdresa.clear();
         listaGradova.clear();
         listaZupanija.clear();
+
+        if (listaUpita.isEmpty()){
+            txtPorukaUpiti.setText("Nemate upita");
+        }
 
         }
 

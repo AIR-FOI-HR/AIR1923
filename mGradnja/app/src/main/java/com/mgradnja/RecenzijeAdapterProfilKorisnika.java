@@ -11,6 +11,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import org.w3c.dom.Text;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 
 import javax.xml.transform.Templates;
@@ -53,9 +55,12 @@ public class RecenzijeAdapterProfilKorisnika extends RecyclerView.Adapter<Recenz
     public void onBindViewHolder(@NonNull RecenzijeViewHolder holder, int position) {
         ItemRecenzijaProfilKorisnika trenutnaRecenzija = listaRecentija.get(position);
 
+        DateFormat df = new SimpleDateFormat("dd.MM.yyyy.");
+        String date = df.format(trenutnaRecenzija.getDatum());
+
         holder.txtIzvodjacRecenzije.setText(trenutnaRecenzija.getIzvodjac());
         holder.txtKomentarRecenzije.setText(trenutnaRecenzija.getKomentar());
-        holder.txtDatumRecenzije.setText(trenutnaRecenzija.getDatum()+"");
+        holder.txtDatumRecenzije.setText(date);
         holder.recenzijaProfilKorisnika.setRating(trenutnaRecenzija.getOcjena());
     }
 

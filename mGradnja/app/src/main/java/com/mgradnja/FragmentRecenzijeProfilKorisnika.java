@@ -14,6 +14,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -44,6 +45,8 @@ public class FragmentRecenzijeProfilKorisnika extends Fragment {
     private RecyclerView.LayoutManager mLayoutManager;
     public ItemRecenzijaProfilKorisnika RA;
 
+    TextView txtPoruka;
+
 
     public FragmentRecenzijeProfilKorisnika() {
         // Required empty public constructor
@@ -56,6 +59,8 @@ public class FragmentRecenzijeProfilKorisnika extends Fragment {
 
         Intent intent = getActivity().getIntent();
         Integer ID = intent.getIntExtra("ID_korisnika", 0);
+
+        txtPoruka = (TextView) view.findViewById(R.id.txtPorukaRecenzije);
 
         dohvatRecenzija(ID);
 
@@ -113,6 +118,10 @@ public class FragmentRecenzijeProfilKorisnika extends Fragment {
         listaOcjenaRecenzija.clear();
         listaDatumaRecenzija.clear();
         listaKomentaraRecenzija.clear();
+
+        if (listaRecenzija.isEmpty()){
+            txtPoruka.setText("Nemate recenzija");
+        }
 
     }
 }
