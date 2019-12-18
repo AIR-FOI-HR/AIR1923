@@ -2,9 +2,9 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/nav_home"
-        android:icon="@drawable/ic_home_24dp"
-        android:title="Početna" />
+        android:id="@+id/nav_assignment"
+        android:icon="@drawable/ic_assignment_24dp"
+        android:title="Ponude" />
     <item
         android:id="@+id/nav_wrench"
         android:icon="@drawable/ic_wrench_24dp"

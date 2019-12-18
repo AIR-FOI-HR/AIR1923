@@ -3,6 +3,8 @@ package com.mgradnja.Izvodjac;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -101,5 +103,23 @@ public class IstraziUpiteIzvodjac extends AppCompatActivity {
         } catch (SQLException e) {
             e.printStackTrace();
         }
+    }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuItem item = menu.add("Početna");
+        item.setIcon(R.drawable.ic_home_white_24dp);
+        item.setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS);
+        item.setOnMenuItemClickListener(new MenuItem.OnMenuItemClickListener() {
+            @Override
+            public boolean onMenuItemClick(MenuItem item) {
+                Intent intent = new Intent(IstraziUpiteIzvodjac.this, GlavniIzbornikIzvodjac.class);
+                startActivity(intent);
+
+                return false;
+            }
+        });
+
+        //TODO ??
+        return true;
     }
 }

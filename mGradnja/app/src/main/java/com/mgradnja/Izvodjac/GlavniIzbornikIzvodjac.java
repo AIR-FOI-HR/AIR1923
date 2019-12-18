@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -12,8 +13,10 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.bottomnavigation.LabelVisibilityMode;
 import com.mgradnja.ConnectionClass;
 import com.mgradnja.Izvodjac.IstraziUpiteIzvodjac;
 import com.mgradnja.R;
@@ -64,6 +67,8 @@ public class GlavniIzbornikIzvodjac extends AppCompatActivity {
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation_izvodjac);
         bottomNavigationView.setOnNavigationItemSelectedListener(navListener);
 
+
+
         btnIstrazi = findViewById(R.id.btnIzvodjacIstrazi);
         btnIstrazi.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -111,7 +116,7 @@ public class GlavniIzbornikIzvodjac extends AppCompatActivity {
 
 
                     switch (item.getItemId()){
-                        case R.id.nav_home:
+                        case R.id.nav_assignment:
 
                             break;
                         case R.id.nav_wrench:
@@ -126,10 +131,27 @@ public class GlavniIzbornikIzvodjac extends AppCompatActivity {
                         case R.id.nav_profile:
 
                             break;
+
                     }
 
                     return  true;
                 }
             };
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuItem item = menu.add("Početna");
+        item.setIcon(R.drawable.ic_home_white_24dp);
+        item.setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS);
+        item.setOnMenuItemClickListener(new MenuItem.OnMenuItemClickListener() {
+            @Override
+            public boolean onMenuItemClick(MenuItem item) {
+                Toast.makeText(GlavniIzbornikIzvodjac.this, "RADI", Toast.LENGTH_LONG ).show();
+                return false;
+            }
+        });
+
+        //TODO ??
+        return true;
+    }
 }
