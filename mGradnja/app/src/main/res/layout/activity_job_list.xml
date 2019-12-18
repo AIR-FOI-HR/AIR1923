@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".JobListActivity">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/main_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="70dp"
+
+        android:background="#27D570"
+        android:padding="4dp"
+
+        android:scrollbars="vertical" />
+
+
+    <TextView
+        android:id="@+id/txtRadovi"
+        android:layout_width="388dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="#27D570"
+        android:backgroundTint="#27D570"
+        android:text="POPIS POSLOVA"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinPoslovi"
+        android:layout_width="196dp"
+        android:layout_height="42dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="41dp"
+        android:textAlignment="center"
+        android:background="@android:color/background_light"
+        android:spinnerMode="dialog" />
+
+    <Button
+        android:id="@+id/btbIzaberiPoslove"
+        android:layout_width="240dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="195dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="0dp"
+        android:textStyle="bold"
+        android:backgroundTint="#27D570"
+
+        android:text="Izaberi"
+        app:layout_anchorGravity="end|center" />
+
+</RelativeLayout>

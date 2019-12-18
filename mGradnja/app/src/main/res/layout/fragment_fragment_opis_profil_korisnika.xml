@@ -104,7 +104,6 @@
         android:layout_marginTop="16dp"
         android:layout_marginRight="15dp"
         android:textSize="18sp"
-        android:textStyle="bold"
         android:text="TextView"
         android:textColor="#000000" />
 
@@ -129,7 +128,6 @@
         android:layout_marginTop="16dp"
         android:layout_marginRight="15dp"
         android:textSize="18sp"
-        android:textStyle="bold"
         android:text="TextView"
         android:textColor="#000000" />
 

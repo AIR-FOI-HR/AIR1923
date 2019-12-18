@@ -20,12 +20,16 @@
             android:name=".ProfilKorisnikActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".IstraziIzvodjaceActivity" />
+
+        <activity android:name=".JobListActivity"></activity>
+
         <activity android:name=".UserSearchActivity" />
         <activity android:name=".Registration_performer" />
         <activity android:name=".Registration_user" />
         <activity android:name=".GlavniIzbornikKorisnik" />
         <activity android:name=".RegistrationActivity" />
         <activity android:name=".LoginActivity" />
+        <activity android:name=".QueryActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

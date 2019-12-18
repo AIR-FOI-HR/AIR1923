@@ -28,6 +28,7 @@ animator mtrl_fab_transformation_sheet_expand_spec
 array com_google_android_gms_fonts_certs
 array com_google_android_gms_fonts_certs_dev
 array com_google_android_gms_fonts_certs_prod
+array poslovi
 array pravniStatusi
 array preloaded_fonts
 attr actionBarDivider
@@ -1010,6 +1011,9 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable back
+drawable brava
+drawable bravaa
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -1029,7 +1033,9 @@ drawable ic_search
 drawable ic_search_24dp
 drawable ic_wrench_24dp
 drawable izbornik_korisnik
+drawable keramika
 drawable korisnik
+drawable krov
 drawable logo
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
@@ -1047,9 +1053,16 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable obrtnik
+drawable rectangle
+drawable rectangle2
 drawable registracija
+drawable selection_band_overlay
+drawable soboslikar
+drawable staklar
+drawable stol
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable zidar
 font work_sans_bold
 id ALT
 id CTRL
@@ -1057,6 +1070,7 @@ id FUNCTION
 id META
 id SHIFT
 id SYM
+id Slika
 id action0
 id action_bar
 id action_bar_activity_content
@@ -1087,10 +1101,13 @@ id barrier
 id beginning
 id blocking
 id bottom
+id btbIzaberiPoslove
+id btnDatum
 id btnEditKorisnikSpremi
 id btnEditKorisnikUploadSlike
 id btnIstrazi
 id btnNatragNaPrijavu
+id btnPotvrdi
 id btnPrijava
 id btnPrijavaIzRegistracije
 id btnPrijaviSe
@@ -1166,6 +1183,13 @@ id imgPozadina
 id imgProfilKorisnika
 id imgProfilPozadina
 id imgProfile
+id imgRectangle1
+id imgRectangle2
+id imgRectangle3
+id imgRectangle4
+id imgRectangle5
+id imgRectangle6
+id imgRectangle7
 id imgWrench
 id info
 id invisible
@@ -1180,6 +1204,7 @@ id listMode
 id list_item
 id listaIzvodjaca
 id lstIzvodjaci
+id main_recycler
 id masked
 id media_actions
 id message
@@ -1250,6 +1275,7 @@ id snap
 id snapMargins
 id spacer
 id spinKategorije
+id spinPoslovi
 id spinZupanije
 id split_action_bar
 id spread
@@ -1270,6 +1296,7 @@ id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id text
 id text2
+id textImeIzvodjaca
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
@@ -1297,6 +1324,8 @@ id transition_scene_layoutid_cache
 id transition_transform
 id txtAdresa
 id txtBrojRacuna
+id txtCijena
+id txtDatumRadova
 id txtDatumRecenzijeProfilKorisnika
 id txtEditKorisnikIme
 id txtEditKorisnikLozinka
@@ -1305,7 +1334,6 @@ id txtEditKorisnikPlozinka
 id txtEditKorisnikPrezime
 id txtEditKorisnikTelefon
 id txtGrad
-id txtID
 id txtImateKorisnickiRacun
 id txtIme
 id txtImeKorisnika
@@ -1313,11 +1341,17 @@ id txtIstraziObrt
 id txtKomentarRecenzijeProfilKorisnika
 id txtLozinka
 id txtMail
+id txtNaslovIzradaUpita
 id txtNaslovStranice
 id txtNaziv
+id txtNazivRadova
+id txtNazivUpita
 id txtNemate2
 id txtOib
+id txtOpisPosla
+id txtOpisRadova
 id txtPlozinka
+id txtPočetakPosla
 id txtPrezime
 id txtPrezimeKorisnika
 id txtProfilKorisnikMailIspis
@@ -1325,6 +1359,7 @@ id txtProfilKorisnikTelefonIspis
 id txtProfilKorisnikaNazivIzvodjaca
 id txtProfilMailKorisnika
 id txtProfilTelefonKorisnik
+id txtRadovi
 id txtTelefon
 id txtUpitAdresa
 id txtUpitDatum
@@ -1333,6 +1368,7 @@ id txtUpitNaziv
 id txtUpitOpis
 id txtUpitZupanija
 id txtZapamti
+id txtZavrsetskPosla
 id txtZupanija
 id uniform
 id unlabeled
@@ -1396,9 +1432,11 @@ layout abc_tooltip
 layout activity_edit_profil_korisnik
 layout activity_glavni_izbornik_korisnik
 layout activity_istrazi_izvodjace
+layout activity_job_list
 layout activity_login
 layout activity_main
 layout activity_profil_korisnik
+layout activity_query
 layout activity_registration
 layout activity_registration_performer
 layout activity_registration_user
@@ -1420,6 +1458,7 @@ layout design_text_input_password_icon
 layout fragment_fragment_opis_profil_korisnika
 layout fragment_fragment_recenzije_profil_korisnika
 layout fragment_fragment_upiti_korisnika
+layout joblist_layout
 layout list_item_izvodjaci
 layout list_item_recenzije_profil_korisnika
 layout list_item_upiti_profil_korisnika
