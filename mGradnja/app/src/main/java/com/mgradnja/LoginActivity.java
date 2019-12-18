@@ -12,6 +12,8 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.mgradnja.Izvodjac.GlavniIzbornikIzvodjac;
+
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.Statement;
@@ -124,6 +126,7 @@ public class LoginActivity extends AppCompatActivity {
                             ID = rsObrtnik.getInt("ID_izvodjaca");
                             poruka = "Prijava uspješna!";
                             uspjeh = true;
+                            OpenGlavniIzbornikIzvodjac(ID);
 
                         }
                         else
@@ -142,6 +145,12 @@ public class LoginActivity extends AppCompatActivity {
             }
             return poruka;
         }
+    }
+
+    private void OpenGlavniIzbornikIzvodjac(Integer id) {
+        Intent intent = new Intent(this, GlavniIzbornikIzvodjac.class);
+        intent.putExtra("ID_izvodjaca", id);
+        startActivity(intent);
     }
 
     private void OpenGlavniIzbornikActivity(Integer ID) {

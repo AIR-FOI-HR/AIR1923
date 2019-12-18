@@ -30,6 +30,9 @@
         <activity android:name=".RegistrationActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".QueryActivity" />
+        <activity android:name=".Izvodjac.GlavniIzbornikIzvodjac" />
+        <activity android:name=".Izvodjac.DetaljiUpita" />
+        <activity android:name=".Izvodjac.IstraziUpiteIzvodjac"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
