@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginBottom="5dp"
+    android:backgroundTint="#DCDFDC"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:selectableItemBackground"
+    app:cardCornerRadius="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/txtUpitNaziv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginRight="15dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/txtUpitDatum"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txtUpitNaziv"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginRight="15dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"></TextView>
+
+
+                <TextView
+                    android:id="@+id/txtUpitOpis"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txtUpitDatum"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginRight="15dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/txtUpitAdresa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txtUpitOpis"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginRight="15dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/txtUpitGrad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txtUpitAdresa"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginRight="15dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/txtUpitZupanija"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txtUpitGrad"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginRight="15dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"></TextView>
+
+        </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
