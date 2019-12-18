@@ -23,7 +23,7 @@ public class IstraziIzvodjaceActivity extends AppCompatActivity {
     ArrayList<Integer> nefiltrirano;
     ListView lista;
     ListAdapter filterIzvodjaci;
-
+    private  int ID;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,6 +34,7 @@ public class IstraziIzvodjaceActivity extends AppCompatActivity {
         lista = findViewById(R.id.lstIzvodjaci);
 
         Intent intent = getIntent();
+        ID=intent.getIntExtra("ID_korisnika", 0);
         kategorija = intent.getStringExtra("kategorija");
         zupanija = intent.getStringExtra("zupanija");
 

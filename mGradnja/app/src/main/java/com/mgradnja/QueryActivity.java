@@ -133,6 +133,7 @@ public class QueryActivity extends AppCompatActivity implements DatePickerDialog
         switch (item.getItemId()) {
             case android.R.id.home:
                 Intent intent = new Intent(this, GlavniIzbornikKorisnik.class);
+                intent.putExtra("ID_korisnika", ID);
                 this.startActivity(intent);
                 break;
         }

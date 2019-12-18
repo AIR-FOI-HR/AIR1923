@@ -115,6 +115,15 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
                 }
             }
         });
+        ImageView img2 = (ImageView) findViewById(R.id.imgHome);
+        img2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(GlavniIzbornikKorisnik.this, OfferListActivity.class);
+                i.putExtra("ID_korisnika", ID);
+                startActivity(i);
+            }
+        });
 
         btnIstrazi = findViewById(R.id.btnIstrazi);
         btnIstrazi.setOnClickListener(new View.OnClickListener() {
@@ -122,7 +131,7 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
             public void onClick(View v) {
                 odabranaKategorija = spinnerKategorije.getSelectedItem().toString();
                 odabranaZupanija = spinnerZupanije.getSelectedItem().toString();
-                OpenIstraziIzvodjaceActivity(odabranaKategorija, odabranaZupanija);
+                OpenIstraziIzvodjaceActivity(odabranaKategorija, odabranaZupanija, ID);
             }
         });
 
@@ -135,10 +144,11 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
         startActivity(intent);
     }
 
-    private void OpenIstraziIzvodjaceActivity(String odabranaKategorija, String odabranaZupanija) {
+    private void OpenIstraziIzvodjaceActivity(String odabranaKategorija, String odabranaZupanija, int ID) {
         Intent intent = new Intent(this, IstraziIzvodjaceActivity.class);
         intent.putExtra("kategorija", odabranaKategorija);
         intent.putExtra("zupanija", odabranaZupanija);
+        intent.putExtra("ID_korisnika", ID);
 
         startActivity(intent);
 

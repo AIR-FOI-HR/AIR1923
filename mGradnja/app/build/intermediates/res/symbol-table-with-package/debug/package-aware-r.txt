@@ -1552,6 +1552,7 @@ id blocking
 id bottom
 id bottom_navigation_izvodjac
 id btbIzaberiPoslove
+id btbIzaberiUpite
 id btnDatum
 id btnEditKorisnikSpremi
 id btnEditKorisnikUploadSlike
@@ -1789,6 +1790,7 @@ id snapMargins
 id spacer
 id spinKategorije
 id spinKategorijeIzvodjac
+id spinPonude
 id spinPoslovi
 id spinZupanije
 id spinZupanijeIzvodjac
@@ -1820,6 +1822,7 @@ id text
 id text2
 id textEnd
 id textImeIzvodjaca
+id textNazivUpita
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
@@ -1862,6 +1865,7 @@ id txtEditKorisnikTelefon
 id txtGrad
 id txtImateKorisnickiRacun
 id txtIme
+id txtImeIzvodjaca
 id txtImeKorisnika
 id txtIstraziObrt
 id txtIstraziUpite
@@ -1878,6 +1882,7 @@ id txtOib
 id txtOpisPosla
 id txtOpisRadova
 id txtPlozinka
+id txtPonude
 id txtPorukaRecenzije
 id txtPorukaUpiti
 id txtPočetakPosla
@@ -1982,6 +1987,7 @@ layout activity_istrazi_upite_izvodjac
 layout activity_job_list
 layout activity_login
 layout activity_main
+layout activity_offer_list
 layout activity_profil_korisnik
 layout activity_query
 layout activity_registration
@@ -2054,6 +2060,7 @@ layout notification_template_media
 layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout offerlist_layout
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material

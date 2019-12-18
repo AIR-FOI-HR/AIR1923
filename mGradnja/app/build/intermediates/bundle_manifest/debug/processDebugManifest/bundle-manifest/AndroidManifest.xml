@@ -23,6 +23,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.mgradnja.OfferListActivity" />
         <activity android:name="com.mgradnja.EditProfilKorisnikActivity" />
         <activity
             android:name="com.mgradnja.ProfilKorisnikActivity"

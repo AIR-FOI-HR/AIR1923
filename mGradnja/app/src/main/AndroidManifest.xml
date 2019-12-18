@@ -14,15 +14,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <activity android:name=".EditProfilKorisnikActivity"></activity>
+        <activity android:name=".OfferListActivity"></activity>
+        <activity android:name=".EditProfilKorisnikActivity" />
         <activity
             android:name=".ProfilKorisnikActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".IstraziIzvodjaceActivity" />
-
-        <activity android:name=".JobListActivity"></activity>
-
+        <activity android:name=".JobListActivity" />
         <activity android:name=".UserSearchActivity" />
         <activity android:name=".Registration_performer" />
         <activity android:name=".Registration_user" />
@@ -32,7 +30,7 @@
         <activity android:name=".QueryActivity" />
         <activity android:name=".Izvodjac.GlavniIzbornikIzvodjac" />
         <activity android:name=".Izvodjac.DetaljiUpita" />
-        <activity android:name=".Izvodjac.IstraziUpiteIzvodjac"/>
+        <activity android:name=".Izvodjac.IstraziUpiteIzvodjac" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
