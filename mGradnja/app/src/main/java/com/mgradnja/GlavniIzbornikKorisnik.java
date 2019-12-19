@@ -29,6 +29,8 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -41,8 +43,6 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
     public Spinner spinnerKategorije;
 
     public Integer ID;
-
-    private static ImageView imgAdd;
 
     public TextView textView;
 
@@ -83,47 +83,9 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
         spinnerKategorije.setAdapter(adapterKategorije);
         spinnerZupanije.setAdapter(adapterZupanije);
 
+        BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation_korisnik);
+        bottomNavigationView.setOnNavigationItemSelectedListener(navListener);
 
-        //Otvaranje profila korisnika
-        imgProfilKorisnika = findViewById(R.id.imgProfile);
-        imgProfilKorisnika.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                otvoriProfil(ID);
-            }
-        });
-        imgAdd=findViewById(R.id.imgAdd);
-        imgAdd.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openQueryActivity(ID);
-                }
-            });
-
-
-        ImageView img = (ImageView) findViewById(R.id.imgWrench);
-        img.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                ProvjeriRadove();
-                if(BrojRadova == 0) Toast.makeText(GlavniIzbornikKorisnik.this , "Nemate nijedan posao!" , Toast.LENGTH_LONG).show();
-
-                else {
-                    Intent i = new Intent(GlavniIzbornikKorisnik.this, JobListActivity.class);
-                    i.putExtra("ID_korisnika", ID);
-                    startActivity(i);
-                }
-            }
-        });
-        ImageView img2 = (ImageView) findViewById(R.id.imgHome);
-        img2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(GlavniIzbornikKorisnik.this, OfferListActivity.class);
-                i.putExtra("ID_korisnika", ID);
-                startActivity(i);
-            }
-        });
 
         btnIstrazi = findViewById(R.id.btnIstrazi);
         btnIstrazi.setOnClickListener(new View.OnClickListener() {
@@ -155,7 +117,6 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
     }
 
 
-
     public void dohvatiKategorije(){
         ConnectionClass connectionClass = new ConnectionClass();
         Connection con = connectionClass.CONN();
@@ -173,6 +134,7 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
             e.printStackTrace();
         }
     }
+
     public void ProvjeriRadove(){
         ConnectionClass connectionClass = new ConnectionClass();
         Connection con = connectionClass.CONN();
@@ -191,9 +153,6 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
         }
     }
 
-
-
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
@@ -206,6 +165,7 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
         switch (item.getItemId()){
             case R.id.search:
                 Intent intent = new Intent(this, UserSearchActivity.class);
+                intent.putExtra("ID_korisnika", ID);
                 this.startActivity(intent);
                 break;
         }
@@ -218,5 +178,51 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
         intent.putExtra("ID_korisnika", ID);
         startActivity(intent);
     }
+
+    private BottomNavigationView.OnNavigationItemSelectedListener navListener =
+            new BottomNavigationView.OnNavigationItemSelectedListener() {
+                @Override
+                public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+
+
+                    switch (item.getItemId()){
+                        case R.id.nav_assignment:
+
+                            Intent i = new Intent(GlavniIzbornikKorisnik.this, OfferListActivity.class);
+                            i.putExtra("ID_korisnika", ID);
+                            startActivity(i);
+
+                            break;
+                        case R.id.nav_wrench:
+
+                            ProvjeriRadove();
+                            if(BrojRadova == 0) Toast.makeText(GlavniIzbornikKorisnik.this , "Nemate nijedan posao!" , Toast.LENGTH_LONG).show();
+                            else {
+                                Intent in = new Intent(GlavniIzbornikKorisnik.this, JobListActivity.class);
+                                in.putExtra("ID_korisnika", ID);
+                                startActivity(in);
+                            }
+
+                            break;
+                        case R.id.nav_upit:
+
+                            openQueryActivity(ID);
+
+                            break;
+                        case R.id.nav_notifications:
+
+
+                            break;
+                        case R.id.nav_profile:
+
+                            otvoriProfil(ID);
+
+                            break;
+                    }
+
+                    return  true;
+                }
+            };
+
 
 }
