@@ -359,6 +359,16 @@ public class OfferListActivity extends AppCompatActivity {
             } catch (SQLException e) {
                 e.printStackTrace();
             }
+            String query4 = "Insert into Posao VALUES(('"+ ID_Upita +"'), ('"+ IzvodjacID +"'))";
+
+            try {
+                Statement statement4 = con.createStatement();
+                ResultSet rs4 = statement4.executeQuery(query4);
+
+
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
             Toast.makeText(OfferListActivity.this , "Ponuda uspjesno prihvacena!" , Toast.LENGTH_LONG).show();
         }
         else {

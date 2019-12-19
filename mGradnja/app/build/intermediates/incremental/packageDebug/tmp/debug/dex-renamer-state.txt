@@ -1,7 +1,7 @@
-#Wed Dec 18 18:58:09 CET 2019
-base.0=C\:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\git18dev1\\mGradnja\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+#Thu Dec 19 17:44:45 CET 2019
+base.0=C\:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\najnovigit\\mGradnja\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=C\:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\git18dev1\\mGradnja\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
+base.1=C\:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\najnovigit\\mGradnja\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex

@@ -1551,6 +1551,7 @@ id beginning
 id blocking
 id bottom
 id bottom_navigation_izvodjac
+id bottom_navigation_korisnik
 id btbIzaberiPoslove
 id btbIzaberiUpite
 id btnDatum
@@ -1637,6 +1638,7 @@ id groups
 id hideable
 id home
 id homeAsUp
+id homeKorisnik
 id icon
 id icon_group
 id ifRoom
@@ -1646,17 +1648,13 @@ id imageView11
 id imageView12
 id imageView2
 id imageView3
-id imgAdd
 id imgEditKorisnik
-id imgHome
 id imgKorisnik
-id imgNotification
 id imgObrtnik
 id imgPocetnaIzvodjac
 id imgPozadina
 id imgProfilKorisnika
 id imgProfilPozadina
-id imgProfile
 id imgRectangle1
 id imgRectangle2
 id imgRectangle3
@@ -1664,7 +1662,6 @@ id imgRectangle4
 id imgRectangle5
 id imgRectangle6
 id imgRectangle7
-id imgWrench
 id info
 id invisible
 id italic
@@ -1716,6 +1713,7 @@ id nav_assignment
 id nav_calendar
 id nav_notifications
 id nav_profile
+id nav_upit
 id nav_wrench
 id navigation_header_container
 id nazivIzvodjaca
@@ -2078,6 +2076,7 @@ layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
 menu navigation_izvodjac
+menu navigation_korisnik
 menu top_menu
 mipmap ic_launcher
 mipmap ic_launcher_foreground
