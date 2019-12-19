@@ -550,6 +550,19 @@ attr tooltipText
 attr track
 attr trackTint
 attr trackTintMode
+attr tsquare_dayBackground
+attr tsquare_dayTextColor
+attr tsquare_displayHeader
+attr tsquare_dividerColor
+attr tsquare_headerTextColor
+attr tsquare_state_current_month
+attr tsquare_state_highlighted
+attr tsquare_state_range_first
+attr tsquare_state_range_last
+attr tsquare_state_range_middle
+attr tsquare_state_selectable
+attr tsquare_state_today
+attr tsquare_titleTextColor
 attr ttcIndex
 attr useCompatPadding
 attr viewInflaterClass
@@ -606,6 +619,19 @@ color bright_foreground_material_dark
 color bright_foreground_material_light
 color button_material_dark
 color button_material_light
+color calendar_active_month_bg
+color calendar_bg
+color calendar_divider
+color calendar_highlighted_day_bg
+color calendar_inactive_month_bg
+color calendar_selected_day_bg
+color calendar_selected_range_bg
+color calendar_text_active
+color calendar_text_highlighted
+color calendar_text_inactive
+color calendar_text_selected
+color calendar_text_selector
+color calendar_text_unselectable
 color cardview_dark_background
 color cardview_light_background
 color cardview_shadow_end_color
@@ -779,6 +805,11 @@ dimen activity_horizontal_margin
 dimen activity_vertical_margin
 dimen appbar_padding
 dimen appbar_padding_top
+dimen calendar_day_headers_paddingbottom
+dimen calendar_month_title_bottommargin
+dimen calendar_month_topmargin
+dimen calendar_text_medium
+dimen calendar_text_small
 dimen cardview_compat_inset_shadow
 dimen cardview_default_elevation
 dimen cardview_default_radius
@@ -1010,6 +1041,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable calendar_bg_selector
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -1020,6 +1052,7 @@ drawable ic_add_circle_24dp
 drawable ic_chat
 drawable ic_home_24dp
 drawable ic_info
+drawable ic_info_kalendar
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_mtrl_chip_checked_black
@@ -1104,6 +1137,7 @@ id btnRegistracijaIzvodjac
 id btnRegistracijaKorisnik
 id btnUploadSlike
 id buttonPanel
+id calendar_grid
 id cancel_action
 id center
 id center_horizontal
@@ -1121,6 +1155,7 @@ id contentPanel
 id coordinator
 id custom
 id customPanel
+id day_view_adapter_class
 id decor_content_parent
 id default_activity_button
 id design_bottom_sheet
@@ -1179,7 +1214,7 @@ id info
 id invisible
 id italic
 id item_touch_helper_previous_elevation
-id kalendar
+id kalendarIzvodjaca
 id kontaktIzvodjaca
 id labelaAdresa
 id labelaBrRacuna
@@ -1422,6 +1457,7 @@ layout fragment_fragment_izvodjac_kalendar
 layout fragment_fragment_izvodjac_recenzije
 layout fragment_izvodjac_info
 layout list_item_izvodjaci
+layout month
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
 layout notification_action
@@ -1444,6 +1480,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+layout week
 menu top_menu
 menu upit_menu
 mipmap ic_launcher
@@ -1493,10 +1530,13 @@ string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
 string character_counter_content_description
 string character_counter_pattern
+string day_name_format
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
+string invalid_date
+string month_name_format
 string mtrl_chip_close_icon_content_description
 string password_toggle_content_description
 string path_password_eye
@@ -1706,6 +1746,10 @@ style Base_Widget_Design_TabLayout
 style Base_Widget_MaterialComponents_Chip
 style Base_Widget_MaterialComponents_TextInputEditText
 style Base_Widget_MaterialComponents_TextInputLayout
+style CalendarCell
+style CalendarCell_CalendarDate
+style CalendarCell_DayHeader
+style CalendarTitle
 style CardView
 style CardView_Dark
 style CardView_Light
@@ -2034,6 +2078,7 @@ styleable BottomAppBar backgroundTint fabAlignmentMode fabCradleMargin fabCradle
 styleable BottomNavigationView elevation itemBackground itemHorizontalTranslationEnabled itemIconSize itemIconTint itemTextAppearanceActive itemTextAppearanceInactive itemTextColor labelVisibilityMode menu
 styleable BottomSheetBehavior_Layout behavior_fitToContents behavior_hideable behavior_peekHeight behavior_skipCollapsed
 styleable ButtonBarLayout allowStacking
+styleable CalendarPickerView android_background tsquare_dayBackground tsquare_dayTextColor tsquare_displayHeader tsquare_dividerColor tsquare_headerTextColor tsquare_titleTextColor
 styleable CardView android_minWidth android_minHeight cardBackgroundColor cardCornerRadius cardElevation cardMaxElevation cardPreventCornerOverlap cardUseCompatPadding contentPadding contentPaddingBottom contentPaddingLeft contentPaddingRight contentPaddingTop
 styleable Chip android_textAppearance android_ellipsize android_maxWidth android_text android_checkable checkedIcon checkedIconEnabled checkedIconVisible chipBackgroundColor chipCornerRadius chipEndPadding chipIcon chipIconEnabled chipIconSize chipIconTint chipIconVisible chipMinHeight chipStartPadding chipStrokeColor chipStrokeWidth closeIcon closeIconEnabled closeIconEndPadding closeIconSize closeIconStartPadding closeIconTint closeIconVisible hideMotionSpec iconEndPadding iconStartPadding rippleColor showMotionSpec textEndPadding textStartPadding
 styleable ChipGroup checkedChip chipSpacing chipSpacingHorizontal chipSpacingVertical singleLine singleSelection
@@ -2089,3 +2134,4 @@ styleable Toolbar android_gravity android_minHeight buttonGravity collapseConten
 styleable View android_theme android_focusable paddingEnd paddingStart theme
 styleable ViewBackgroundHelper android_background backgroundTint backgroundTintMode
 styleable ViewStubCompat android_id android_layout android_inflatedId
+styleable calendar_cell tsquare_state_current_month tsquare_state_highlighted tsquare_state_range_first tsquare_state_range_last tsquare_state_range_middle tsquare_state_selectable tsquare_state_today

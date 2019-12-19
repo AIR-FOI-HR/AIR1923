@@ -22,26 +22,23 @@
                 android:layout_width="35dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center_horizontal"
-                app:srcCompat="@drawable/ic_info" />
+                app:srcCompat="@drawable/ic_info_kalendar" />
 
             <TextView
-                android:layout_gravity="center_horizontal"
-                android:text="Na označenim datumima izvođač radova je zauzet."
-                android:padding="1dp"
-                android:layout_marginBottom="25dp"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="25dp"
+                android:padding="1dp"
+                android:text="Na označenim datumima izvođač radova je zauzet."
+                android:textColor="#27D570" />
 
         </LinearLayout>
 
-        <CalendarView
-            android:id="@+id/kalendar"
+        <com.squareup.timessquare.CalendarPickerView
+            android:id="@+id/kalendarIzvodjaca"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:foregroundTint="#27D570"
-            android:backgroundTint="#27D570"
-            android:outlineAmbientShadowColor="#27D570"
-            />
+            android:layout_height="match_parent" />
 
     </LinearLayout>
 </ScrollView>

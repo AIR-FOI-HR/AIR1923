@@ -9,7 +9,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 
 public class RecenzijaAdapter extends RecyclerView.Adapter<RecenzijaAdapter.RecenzijaViewHolder> {
 
@@ -54,7 +56,8 @@ public class RecenzijaAdapter extends RecyclerView.Adapter<RecenzijaAdapter.Rece
         holder.prezimeRecenzenta.setText(recenzijaEntity.getPrezimeKorisnika());
         holder.recenzija.setRating(recenzijaEntity.getOcjena());
         holder.komentar.setText(recenzijaEntity.getKomentar());
-        holder.datum.setText(recenzijaEntity.getDatum().toString());
+        SimpleDateFormat sdf = new SimpleDateFormat("dd.MM.yyyy");
+        holder.datum.setText(sdf.format(recenzijaEntity.getDatum()));
     }
 
     @Override
