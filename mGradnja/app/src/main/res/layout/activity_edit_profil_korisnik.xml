@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditProfilKorisnikActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgEditKorisnik"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            tools:srcCompat="@drawable/registracija"></ImageView>
+
+
+        <Button
+            android:id="@+id/btnEditKorisnikUploadSlike"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Priloži sliku profila"></Button>
+
+        <TextView
+            android:id="@+id/textviewIme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="Ime:"
+            android:textSize="18sp"
+            android:textStyle="bold"></TextView>
+
+        <EditText
+            android:id="@+id/txtEditKorisnikIme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textAlignment="viewStart"></EditText>
+
+        <TextView
+            android:id="@+id/textviewPrezime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="Prezime:"
+            android:textSize="18sp"
+            android:textStyle="bold"></TextView>
+
+        <EditText
+            android:id="@+id/txtEditKorisnikPrezime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textAlignment="viewStart"></EditText>
+
+        <TextView
+            android:id="@+id/textviewMail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="E-mail:"
+            android:textSize="18sp"
+            android:textStyle="bold"></TextView>
+
+        <EditText
+            android:id="@+id/txtEditKorisnikMail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:textAlignment="viewStart"></EditText>
+
+        <TextView
+            android:id="@+id/textviewTelefon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="Telefon:"
+            android:textSize="18sp"
+            android:textStyle="bold"></TextView>
+
+        <EditText
+            android:id="@+id/txtEditKorisnikTelefon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:inputType="number"
+            android:textAlignment="viewStart"></EditText>
+
+        <TextView
+            android:id="@+id/textviewLozinka"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="Lozinka:"
+            android:textSize="18sp"
+            android:textStyle="bold"></TextView>
+
+        <EditText
+            android:id="@+id/txtEditKorisnikLozinka"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:inputType="textPassword"
+            android:textAlignment="viewStart"></EditText>
+
+        <TextView
+            android:id="@+id/textviewPLozinka"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="Ponovljena lozinka:"
+            android:textSize="18sp"
+            android:textStyle="bold"></TextView>
+
+        <EditText
+            android:id="@+id/txtEditKorisnikPlozinka"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:inputType="textPassword"
+            android:textAlignment="viewStart"></EditText>
+
+        <Button
+            android:id="@+id/btnEditKorisnikSpremi"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Spremi"></Button>
+
+
+    </LinearLayout>
+
+</ScrollView>

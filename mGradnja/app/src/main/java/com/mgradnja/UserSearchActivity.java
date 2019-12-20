@@ -25,7 +25,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 
 public class UserSearchActivity extends AppCompatActivity {
-
+    Integer ID;
     ListView listView;
     EditText upisaniNaziv;
     private ArrayAdapter<String> adapter;
@@ -35,6 +35,9 @@ public class UserSearchActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_search);
+
+        Intent intent=getIntent();
+        ID=intent.getIntExtra("ID_korisnika", 0);
 
         ActionBar actionBar = getSupportActionBar();
         if (actionBar != null){
@@ -108,6 +111,7 @@ public class UserSearchActivity extends AppCompatActivity {
         switch (item.getItemId()){
             case android.R.id.home:
                 Intent intent = new Intent(this, GlavniIzbornikKorisnik.class);
+                intent.putExtra("ID_korisnika", ID);
                 this.startActivity(intent);
                 break;
         }

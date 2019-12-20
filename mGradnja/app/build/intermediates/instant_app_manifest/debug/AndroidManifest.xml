@@ -29,12 +29,22 @@
             android:name="com.mgradnja.IzvodjacInfoActivity"
             android:label="@string/title_activity_izvodjac_info" />
         <activity android:name="com.mgradnja.IstraziIzvodjaceActivity" />
+        <activity android:name="com.mgradnja.OfferListActivity" />
+        <activity android:name="com.mgradnja.EditProfilKorisnikActivity" />
+        <activity
+            android:name="com.mgradnja.ProfilKorisnikActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.mgradnja.JobListActivity" />
         <activity android:name="com.mgradnja.UserSearchActivity" />
         <activity android:name="com.mgradnja.Registration_performer" />
         <activity android:name="com.mgradnja.Registration_user" />
         <activity android:name="com.mgradnja.GlavniIzbornikKorisnik" />
         <activity android:name="com.mgradnja.RegistrationActivity" />
         <activity android:name="com.mgradnja.LoginActivity" />
+        <activity android:name="com.mgradnja.QueryActivity" />
+        <activity android:name="com.mgradnja.Izvodjac.GlavniIzbornikIzvodjac" />
+        <activity android:name="com.mgradnja.Izvodjac.DetaljiUpita" />
+        <activity android:name="com.mgradnja.Izvodjac.IstraziUpiteIzvodjac" />
         <activity android:name="com.mgradnja.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

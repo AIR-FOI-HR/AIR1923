@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentOpisProfilKorisnika">
+
+    <TextView
+        android:id="@+id/section_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <ImageView
+        android:id="@+id/imgProfilPozadina"
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:background="#FFFFFF"
+        android:src="@color/colorAccent"/>
+
+
+    <ImageView
+        android:id="@+id/imgProfilKorisnika"
+        android:layout_width="143dp"
+        android:layout_height="145dp"
+        android:layout_alignBottom="@id/imgProfilPozadina"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="219dp"
+        android:layout_marginBottom="40dp"
+        android:src="@drawable/registracija" />
+
+    <TextView
+        android:id="@+id/txtImeKorisnika"
+        android:layout_width="174dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="28dp"
+        android:text="Ime"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtPrezimeKorisnika"
+        android:layout_width="174dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="28dp"
+        android:text="Prezime"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtProfilMailKorisnika"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgProfilKorisnika"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="15dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="E-mail:"
+        android:textColor="#0C0C0C"/>
+
+    <TextView
+        android:id="@+id/txtProfilTelefonKorisnik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView12"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="15dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="Telefon:"
+        android:textColor="#0C0C0C" />
+
+    <TextView
+        android:id="@+id/txtProfilKorisnikMailIspis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtProfilMailKorisnika"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="15dp"
+        android:textSize="18sp"
+        android:text="TextView"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_below="@+id/txtProfilKorisnikMailIspis"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:src="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/txtProfilKorisnikTelefonIspis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtProfilTelefonKorisnik"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="15dp"
+        android:textSize="18sp"
+        android:text="TextView"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_below="@+id/txtProfilKorisnikTelefonIspis"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:src="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/btnUrediKorisnickiRacun"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/imageView11"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:text="Uredi račun" />
+
+</RelativeLayout>

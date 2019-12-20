@@ -1,20 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GlavniIzbornikKorisnik"
     android:fillViewport="true">
 
-    <TableLayout
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_alignParentBottom="true">
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation_korisnik"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            app:itemHorizontalTranslationEnabled="false"
+            app:labelVisibilityMode="labeled"
+            app:itemTextAppearanceActive="@style/BottomNavigationView"
+            app:itemTextAppearanceInactive="@style/BottomNavigationView"
+            app:menu="@menu/navigation_korisnik"
+            app:itemIconTint="#ffffff"
+            app:itemTextColor="#ffffff"
+            android:background="#27D570"
+            />
+    </LinearLayout>
+
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:stretchColumns="1">
+        android:layout_above="@id/buttons">
+        <!--Scrollable content here-->
             <RelativeLayout
                 android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            tools:context=".GlavniIzbornikKorisnik">
+            android:layout_height="wrap_content">
 
 
             <Spinner
@@ -29,61 +54,8 @@
                 android:layout_marginEnd="42dp"
                 android:spinnerMode="dialog" />
 
-            <ImageView
-                android:id="@+id/imgAdd"
-                android:layout_width="wrap_content"
-                android:layout_height="74dp"
-                android:layout_below="@+id/btnIstrazi"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentEnd="true"
-                android:layout_marginStart="158dp"
-                android:layout_marginTop="21dp"
-                android:layout_marginEnd="164dp"
-                android:padding="3dp"
-                android:scaleType="fitEnd"
-                app:srcCompat="@drawable/ic_add_circle_24dp" />
 
-            <ImageView
-                android:id="@+id/imgNotification"
-                android:layout_width="wrap_content"
-                android:layout_height="70dp"
-                android:layout_below="@+id/btnIstrazi"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentEnd="true"
-                android:layout_marginStart="248dp"
-                android:layout_marginTop="25dp"
-                android:layout_marginEnd="85dp"
-                android:padding="3dp"
-                android:scaleType="fitEnd"
-                app:srcCompat="@drawable/ic_notifications_24dp" />
 
-            <ImageView
-                android:id="@+id/imgProfile"
-                android:layout_width="wrap_content"
-                android:layout_height="69dp"
-                android:layout_below="@+id/btnIstrazi"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentEnd="true"
-                android:layout_marginStart="329dp"
-                android:layout_marginTop="25dp"
-                android:layout_marginEnd="4dp"
-                android:padding="3dp"
-                android:scaleType="fitEnd"
-                app:srcCompat="@drawable/ic_person_24dp" />
-
-            <ImageView
-                android:id="@+id/imgWrench"
-                android:layout_width="wrap_content"
-                android:layout_height="69dp"
-                android:layout_below="@+id/btnIstrazi"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentEnd="true"
-                android:layout_marginStart="79dp"
-                android:layout_marginTop="25dp"
-                android:layout_marginEnd="254dp"
-                android:padding="3dp"
-                android:scaleType="fitEnd"
-                app:srcCompat="@drawable/ic_wrench_24dp" />
 
                 <Button
                     android:id="@+id/btnIstrazi"
@@ -112,19 +84,6 @@
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
-            <ImageView
-                android:id="@+id/imgHome"
-                android:layout_width="wrap_content"
-                android:layout_height="70dp"
-                android:layout_below="@+id/btnIstrazi"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentEnd="true"
-                android:layout_marginStart="0dp"
-                android:layout_marginTop="25dp"
-                android:layout_marginEnd="333dp"
-                android:padding="3dp"
-                android:scaleType="fitEnd"
-                app:srcCompat="@drawable/ic_home_24dp" />
 
             <Spinner
                 android:id="@+id/spinKategorije"
@@ -138,17 +97,7 @@
                 android:layout_marginEnd="41dp"
                 android:spinnerMode="dialog" />
 
-            <TextView
-                android:id="@+id/txtID"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/spinZupanije"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentEnd="true"
-                android:layout_marginStart="34dp"
-                android:layout_marginTop="16dp"
-                android:layout_marginEnd="319dp"
-                android:text=" " />
+
 
                 <ImageView
                     android:id="@+id/imgPozadina"
@@ -163,6 +112,8 @@
                     android:clickable="true"
                     app:srcCompat="@drawable/izbornik_korisnik" />
 
+
+
             </RelativeLayout>
-    </TableLayout>
-</ScrollView>
+    </ScrollView>
+</RelativeLayout>

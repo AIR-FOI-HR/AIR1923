@@ -23,7 +23,7 @@ public class IstraziIzvodjaceActivity extends AppCompatActivity {
     ArrayList<Integer> nefiltrirano;
     ListView lista;
     ListAdapter filterIzvodjaci;
-
+    private  int ID;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,6 +34,7 @@ public class IstraziIzvodjaceActivity extends AppCompatActivity {
         lista = findViewById(R.id.lstIzvodjaci);
 
         Intent intent = getIntent();
+        ID=intent.getIntExtra("ID_korisnika", 0);
         kategorija = intent.getStringExtra("kategorija");
         zupanija = intent.getStringExtra("zupanija");
 
@@ -41,9 +42,20 @@ public class IstraziIzvodjaceActivity extends AppCompatActivity {
 
         filterIzvodjaci = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, izvodjaci);
         lista.setAdapter(filterIzvodjaci);
+
+        lista.setOnItemClickListener((parent, view, position, id) -> {
+            String nazivIzvodjaca = (String) lista.getItemAtPosition(position);
+            OpenIzvodjacInfoActivity(nazivIzvodjaca);
+        });
     }
 
+    private void OpenIzvodjacInfoActivity(String nazivIzvodjaca){
+        Intent intent = new Intent(this, IzvodjacInfoActivity.class);
+        intent.putExtra("nazivIzvodjaca", nazivIzvodjaca);
 
+        startActivity(intent);
+    }
+    
     public void DohvatiIzvodjace(String zupanija, String kategorija){
         connectionClass = new ConnectionClass();
         connection = connectionClass.CONN();
