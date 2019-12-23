@@ -23,6 +23,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
+import java.util.List;
 
 public class GlavniIzbornikKorisnik extends AppCompatActivity {
 
@@ -46,7 +47,11 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
     "Dubrovacko-neretvanska", "Medjimurska", "Grad Zagreb"};
 
     public ArrayList<String> kategorije = new ArrayList<String>();
+    public ArrayList<Integer> ListaPrihvacenihPonuda = new ArrayList<Integer>();
+    public ArrayList<Integer> ListaNeprihvacenihPonuda = new ArrayList<Integer>();
     private Integer BrojRadova = 0;
+    private Integer BrojPonuda = 0;
+    public  Integer IDUpita = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -138,6 +143,46 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
             e.printStackTrace();
         }
     }
+    public void ProvjeriPonude() {
+        ConnectionClass connectionClass = new ConnectionClass();
+        Connection con = connectionClass.CONN();
+
+        String query = "select * from ponuda p inner join upit u on u.ID_upita = p.ID_upita where p.status = 0 and u.ID_korisnika = '" + ID + "'";
+        try {
+            Statement statement = con.createStatement();
+            ResultSet rs = statement.executeQuery(query);
+
+            while(rs.next()){
+              // IDUpita = rs.getInt("ID_upita");
+               ListaNeprihvacenihPonuda.add(rs.getInt("ID_upita"));
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        String query2 = "select * from ponuda p inner join upit u on u.ID_upita = p.ID_upita where p.status = 1 and u.ID_korisnika = '" + ID + "'";
+        try {
+            Statement statement2 = con.createStatement();
+            ResultSet rs2 = statement2.executeQuery(query2);
+
+            while(rs2.next()){
+                // IDUpita = rs.getInt("ID_upita");
+                ListaPrihvacenihPonuda.add(rs2.getInt("ID_upita"));
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        for(int i = 0;i<ListaPrihvacenihPonuda.size();i++){
+            for(int j = 0;j<ListaNeprihvacenihPonuda.size();j++){
+                if(ListaPrihvacenihPonuda.get(i) == ListaNeprihvacenihPonuda.get(j)) {
+                    ListaNeprihvacenihPonuda.remove(j);
+                }
+            }
+
+        }
+        BrojPonuda = ListaNeprihvacenihPonuda.size();
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -173,10 +218,14 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
 
                     switch (item.getItemId()){
                         case R.id.nav_assignment:
+                            ProvjeriPonude();
+                            if(BrojPonuda == 0) Toast.makeText(GlavniIzbornikKorisnik.this , "Nemate nijednu ponudu!" , Toast.LENGTH_LONG).show();
+                            else{
+                                Intent i = new Intent(GlavniIzbornikKorisnik.this, OfferListActivity.class);
+                                i.putExtra("ID_korisnika", ID);
+                                startActivity(i);
+                            }
 
-                            Intent i = new Intent(GlavniIzbornikKorisnik.this, OfferListActivity.class);
-                            i.putExtra("ID_korisnika", ID);
-                            startActivity(i);
 
                             break;
                         case R.id.nav_wrench:
