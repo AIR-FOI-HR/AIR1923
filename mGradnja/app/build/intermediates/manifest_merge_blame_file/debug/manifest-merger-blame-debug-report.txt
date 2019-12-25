@@ -23,7 +23,7 @@
 14-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:8:5-80
 14-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:8:22-77
 15    <uses-permission android:name="android.permission.CALL_PHONE" />
-15-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:9:5-68
+15-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:9:5-69
 15-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:9:22-66
 16
 17    <application
@@ -44,92 +44,95 @@
 25        android:testOnly="true"
 26        android:theme="@style/AppTheme" >
 26-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:17:9-40
-27        <activity
-27-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:19:9-21:77
-28            android:name="com.mgradnja.IzvodjacInfoActivity"
-28-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:20:13-49
-29            android:label="@string/title_activity_izvodjac_info" />
-29-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:21:13-65
-30        <activity android:name="com.mgradnja.IstraziIzvodjaceActivity" />
-30-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:22:9-62
-30-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:22:19-59
-31        <activity android:name="com.mgradnja.OfferListActivity" />
-31-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:23:9-64
-31-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:23:19-52
-32        <activity android:name="com.mgradnja.EditProfilKorisnikActivity" />
-32-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:24:9-64
-32-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:24:19-61
-33        <activity
-33-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:25:9-27:59
-34            android:name="com.mgradnja.ProfilKorisnikActivity"
-34-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:26:13-51
-35            android:theme="@style/AppTheme.NoActionBar" />
-35-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:27:13-56
-36        <activity android:name="com.mgradnja.JobListActivity" />
-36-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:28:9-53
-36-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:28:19-50
-37        <activity android:name="com.mgradnja.UserSearchActivity" />
-37-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:29:9-56
-37-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:29:19-53
-38        <activity android:name="com.mgradnja.Registration_performer" />
-38-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:30:9-60
-38-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:30:19-57
-39        <activity android:name="com.mgradnja.Registration_user" />
-39-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:31:9-55
-39-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:31:19-52
-40        <activity android:name="com.mgradnja.GlavniIzbornikKorisnik" />
-40-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:32:9-60
-40-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:32:19-57
-41        <activity android:name="com.mgradnja.RegistrationActivity" />
-41-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:33:9-58
-41-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:33:19-55
-42        <activity android:name="com.mgradnja.LoginActivity" />
-42-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:34:9-51
-42-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:34:19-48
-43        <activity android:name="com.mgradnja.QueryActivity" />
-43-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:35:9-51
-43-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:35:19-48
-44        <activity android:name="com.mgradnja.Izvodjac.GlavniIzbornikIzvodjac" />
-44-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:36:9-69
-44-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:36:19-66
-45        <activity android:name="com.mgradnja.Izvodjac.DetaljiUpita" />
-45-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:37:9-59
-45-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:37:19-56
-46        <activity android:name="com.mgradnja.Izvodjac.IstraziUpiteIzvodjac" />
-46-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:38:9-67
-46-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:38:19-64
-47        <activity android:name="com.mgradnja.MainActivity" >
-47-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:39:9-45:20
-47-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:39:19-47
-48            <intent-filter>
-48-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:40:13-44:29
-49                <action android:name="android.intent.action.MAIN" />
-49-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:41:17-69
-49-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:41:25-66
-50
-51                <category android:name="android.intent.category.LAUNCHER" />
-51-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:43:17-77
-51-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:43:27-74
-52            </intent-filter>
-53        </activity>
-54
-55        <meta-data
-55-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:47:9-49:57
-56            android:name="preloaded_fonts"
-56-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:48:13-43
-57            android:resource="@array/preloaded_fonts" />
-57-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:49:13-54
-58
-59        <provider
-59-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\MarkoMehkek\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
-60            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-60-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\MarkoMehkek\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
-61            android:authorities="com.mgradnja.lifecycle-process"
-61-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\MarkoMehkek\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
-62            android:exported="false"
-62-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\MarkoMehkek\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
-63            android:multiprocess="true" />
-63-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\MarkoMehkek\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
-64    </application>
-65
-66</manifest>
+27        <activity android:name="com.mgradnja.Izvodjac.JobListActivityIzvodjac" />
+27-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:18:9-79
+27-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:18:19-67
+28        <activity
+28-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:19:9-21:68
+29            android:name="com.mgradnja.IzvodjacInfoActivity"
+29-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:20:13-49
+30            android:label="@string/title_activity_izvodjac_info" />
+30-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:21:13-65
+31        <activity android:name="com.mgradnja.IstraziIzvodjaceActivity" />
+31-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:22:9-62
+31-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:22:19-59
+32        <activity android:name="com.mgradnja.OfferListActivity" />
+32-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:23:9-55
+32-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:23:19-52
+33        <activity android:name="com.mgradnja.EditProfilKorisnikActivity" />
+33-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:24:9-64
+33-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:24:19-61
+34        <activity
+34-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:25:9-27:59
+35            android:name="com.mgradnja.ProfilKorisnikActivity"
+35-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:26:13-51
+36            android:theme="@style/AppTheme.NoActionBar" />
+36-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:27:13-56
+37        <activity android:name="com.mgradnja.JobListActivity" />
+37-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:28:9-53
+37-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:28:19-50
+38        <activity android:name="com.mgradnja.UserSearchActivity" />
+38-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:29:9-56
+38-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:29:19-53
+39        <activity android:name="com.mgradnja.Registration_performer" />
+39-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:30:9-60
+39-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:30:19-57
+40        <activity android:name="com.mgradnja.Registration_user" />
+40-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:31:9-55
+40-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:31:19-52
+41        <activity android:name="com.mgradnja.GlavniIzbornikKorisnik" />
+41-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:32:9-60
+41-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:32:19-57
+42        <activity android:name="com.mgradnja.RegistrationActivity" />
+42-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:33:9-58
+42-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:33:19-55
+43        <activity android:name="com.mgradnja.LoginActivity" />
+43-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:34:9-51
+43-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:34:19-48
+44        <activity android:name="com.mgradnja.QueryActivity" />
+44-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:35:9-51
+44-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:35:19-48
+45        <activity android:name="com.mgradnja.Izvodjac.GlavniIzbornikIzvodjac" />
+45-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:36:9-69
+45-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:36:19-66
+46        <activity android:name="com.mgradnja.Izvodjac.DetaljiUpita" />
+46-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:37:9-59
+46-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:37:19-56
+47        <activity android:name="com.mgradnja.Izvodjac.IstraziUpiteIzvodjac" />
+47-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:38:9-67
+47-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:38:19-64
+48        <activity android:name="com.mgradnja.MainActivity" >
+48-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:39:9-45:20
+48-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:39:19-47
+49            <intent-filter>
+49-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:40:13-44:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:41:17-69
+50-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:41:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:43:17-77
+52-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:43:27-74
+53            </intent-filter>
+54        </activity>
+55
+56        <meta-data
+56-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:47:9-49:57
+57            android:name="preloaded_fonts"
+57-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:48:13-43
+58            android:resource="@array/preloaded_fonts" />
+58-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:49:13-54
+59
+60        <provider
+60-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\MarkoMehkek\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+61            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+61-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\MarkoMehkek\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+62            android:authorities="com.mgradnja.lifecycle-process"
+62-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\MarkoMehkek\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+63            android:exported="false"
+63-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\MarkoMehkek\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+64            android:multiprocess="true" />
+64-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\MarkoMehkek\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+65    </application>
+66
+67</manifest>

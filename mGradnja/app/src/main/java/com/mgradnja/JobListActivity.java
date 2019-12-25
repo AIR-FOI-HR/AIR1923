@@ -196,42 +196,42 @@ public class JobListActivity extends AppCompatActivity {
 
             switch (brojDjelatnosti){
                 case 1:
-                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.krov);
+                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.krov,  " ", "");
                     ListaSvihPoslova.add(JA);
 
                     break;
                 case 2:
-                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.stol);
+                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.stol, " ", " ");
                     ListaSvihPoslova.add(JA);
 
                     break;
                 case 3:
-                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.bravaa);
+                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.bravaa, " ", " ");
                     ListaSvihPoslova.add(JA);
 
                     break;
                 case 4:
-                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.staklar);
+                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.staklar, " ", " ");
                     ListaSvihPoslova.add(JA);
 
                     break;
                 case 5:
-                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.keramika);
+                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.keramika, " ", " ");
                     ListaSvihPoslova.add(JA);
 
                     break;
                 case 6:
-                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.soboslikar);
+                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.soboslikar, " ", " ");
                     ListaSvihPoslova.add(JA);
 
                     break;
                 case 7:
-                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.zidar);
+                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.zidar, " ", " ");
                     ListaSvihPoslova.add(JA);
 
                     break;
                 default:
-                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.ic_wrench_24dp);
+                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.ic_wrench_24dp," ", " ");
                     ListaSvihPoslova.add(JA);
 
                     break;
@@ -295,42 +295,42 @@ public class JobListActivity extends AppCompatActivity {
 
             switch (brojDjelatnosti){
                 case 1:
-                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.krov);
+                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.krov, " ", " ");
                     ListaTrenutnihPoslova.add(JA);
 
                     break;
                 case 2:
-                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.stol);
+                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.stol, " ", " ");
                     ListaTrenutnihPoslova.add(JA);
 
                     break;
                 case 3:
-                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.bravaa);
+                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.bravaa, " ", " ");
                     ListaSvihPoslova.add(JA);
 
                     break;
                 case 4:
-                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.staklar);
+                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.staklar," ", " ");
                     ListaTrenutnihPoslova.add(JA);
 
                     break;
                 case 5:
-                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.keramika);
+                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.keramika, " ", " ");
                     ListaTrenutnihPoslova.add(JA);
 
                     break;
                 case 6:
-                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.soboslikar);
+                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.soboslikar," ", " ");
                     ListaTrenutnihPoslova.add(JA);
 
                     break;
                 case 7:
-                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.zidar);
+                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.zidar, " ", " ");
                     ListaTrenutnihPoslova.add(JA);
 
                     break;
                 default:
-                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.ic_wrench_24dp);
+                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.ic_wrench_24dp," ", "");
                     ListaTrenutnihPoslova.add(JA);
 
                     break;
@@ -392,42 +392,42 @@ public class JobListActivity extends AppCompatActivity {
 
             switch (brojDjelatnosti){
                 case 1:
-                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.krov);
+                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.krov, " ", " ");
                     ListaProslihPoslova.add(JA);
 
                     break;
                 case 2:
-                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.stol);
+                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.stol, " ", " ");
                     ListaProslihPoslova.add(JA);
 
                     break;
                 case 3:
-                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.bravaa);
+                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.bravaa, " ", " ");
                     ListaProslihPoslova.add(JA);
 
                     break;
                 case 4:
-                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.staklar);
+                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.staklar, " ", " ");
                     ListaProslihPoslova.add(JA);
 
                     break;
                 case 5:
-                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.keramika);
+                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.keramika," ", " ");
                     ListaProslihPoslova.add(JA);
 
                     break;
                 case 6:
-                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.soboslikar);
+                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.soboslikar," ", " ");
                     ListaProslihPoslova.add(JA);
 
                     break;
                 case 7:
-                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.zidar);
+                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.zidar," ", " ");
                     ListaProslihPoslova.add(JA);
 
                     break;
                 default:
-                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.ic_wrench_24dp);
+                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.ic_wrench_24dp," ", "");
                     ListaProslihPoslova.add(JA);
 
                     break;
