@@ -18,7 +18,9 @@ import android.widget.Toast;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.bottomnavigation.LabelVisibilityMode;
 import com.mgradnja.ConnectionClass;
+import com.mgradnja.GlavniIzbornikKorisnik;
 import com.mgradnja.Izvodjac.IstraziUpiteIzvodjac;
+import com.mgradnja.JobListActivity;
 import com.mgradnja.R;
 
 import java.sql.Connection;
@@ -93,6 +95,23 @@ public class GlavniIzbornikIzvodjac extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void ProvjeriRadove(){
+        ConnectionClass connectionClass = new ConnectionClass();
+        Connection con = connectionClass.CONN();
+
+        String query = "select * from posao  where ID_izvodjaca = '" + ID + "'";
+        try {
+            Statement statement = con.createStatement();
+            ResultSet rs = statement.executeQuery(query);
+
+            while(rs.next()){
+                BrojRadova++;
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
     public void dohvatiKategorije(){
         ConnectionClass connectionClass = new ConnectionClass();
         Connection con = connectionClass.CONN();
@@ -123,6 +142,13 @@ public class GlavniIzbornikIzvodjac extends AppCompatActivity {
 
                             break;
                         case R.id.nav_wrench:
+                            ProvjeriRadove();
+                            if(BrojRadova == 0) Toast.makeText(GlavniIzbornikIzvodjac.this , "Nemate nijedan posao!" , Toast.LENGTH_LONG).show();
+                            else {
+                                Intent in = new Intent(GlavniIzbornikIzvodjac.this, JobListActivityIzvodjac.class);
+                                in.putExtra("ID_izvodjaca", ID);
+                                startActivity(in);
+                            }
 
                             break;
                         case R.id.nav_calendar:

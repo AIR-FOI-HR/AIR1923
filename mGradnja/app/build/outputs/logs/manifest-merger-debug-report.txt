@@ -81,7 +81,7 @@ ADDED from C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src
 	android:name
 		ADDED from C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:8:22-77
 uses-permission#android.permission.CALL_PHONE
-ADDED from C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:9:5-68
+ADDED from C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:9:5-69
 	android:name
 		ADDED from C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:9:22-66
 application
@@ -112,8 +112,12 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Ma
 		ADDED from C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:12:9-35
 	android:theme
 		ADDED from C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:17:9-40
+activity#com.mgradnja.Izvodjac.JobListActivityIzvodjac
+ADDED from C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:18:9-79
+	android:name
+		ADDED from C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:18:19-67
 activity#com.mgradnja.IzvodjacInfoActivity
-ADDED from C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:19:9-21:77
+ADDED from C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:19:9-21:68
 	android:label
 		ADDED from C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:21:13-65
 	android:name
@@ -123,7 +127,7 @@ ADDED from C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src
 	android:name
 		ADDED from C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:22:19-59
 activity#com.mgradnja.OfferListActivity
-ADDED from C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:23:9-64
+ADDED from C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:23:9-55
 	android:name
 		ADDED from C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\giiit\mGradnja\app\src\main\AndroidManifest.xml:23:19-52
 activity#com.mgradnja.EditProfilKorisnikActivity

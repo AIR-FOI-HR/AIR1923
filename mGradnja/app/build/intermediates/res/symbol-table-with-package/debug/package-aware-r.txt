@@ -1891,7 +1891,9 @@ id text
 id text2
 id textEnd
 id textImeIzvodjaca
+id textImeKorisnika
 id textNazivUpita
+id textPrezimeKorisnika
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
@@ -2060,6 +2062,7 @@ layout activity_istrazi_izvodjace
 layout activity_istrazi_upite_izvodjac
 layout activity_izvodjac_info
 layout activity_job_list
+layout activity_job_list_izvodjac
 layout activity_login
 layout activity_main
 layout activity_offer_list
@@ -2092,6 +2095,7 @@ layout fragment_fragment_opis_profil_korisnika
 layout fragment_fragment_recenzije_profil_korisnika
 layout fragment_fragment_upiti_korisnika
 layout fragment_izvodjac_info
+layout joblist_izvodjac_layout
 layout joblist_layout
 layout list_item_izvodjaci
 layout list_item_recenzije_profil_korisnika
