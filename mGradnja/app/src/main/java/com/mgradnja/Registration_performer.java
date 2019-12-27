@@ -10,7 +10,6 @@ import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.drawable.BitmapDrawable;
-import android.media.Image;
 import android.net.Uri;
 import android.os.Bundle;
 import android.util.Base64;
@@ -23,7 +22,6 @@ import android.widget.Toast;
 
 import java.io.ByteArrayOutputStream;
 import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.Statement;
@@ -55,7 +53,7 @@ public class Registration_performer extends AppCompatActivity {
         txtOIB = findViewById(R.id.txtOib);
         txtNaziv = findViewById(R.id.txtNaziv);
         txtAdresa = findViewById(R.id.txtAdresa);
-        txtGrad = findViewById(R.id.txtGrad);
+        txtGrad = findViewById(R.id.txtCijenaPonude);
         txtZupanija = findViewById(R.id.txtZupanija);
         txtTelefon = findViewById(R.id.txtTelefon);
         txtMail = findViewById(R.id.txtMail);

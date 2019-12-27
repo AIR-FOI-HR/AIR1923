@@ -14,15 +14,12 @@
         >
 
 
-
-
-
         <TextView
             android:id="@+id/txtNaslovIzradaPonude"
             android:layout_width="wrap_content"
             android:layout_height="60dp"
             android:layout_alignParentTop="true"
-            android:layout_marginLeft="105dp"
+            android:layout_marginLeft="75dp"
             android:layout_marginTop="25dp"
             android:clickable="true"
             android:text="Izrada ponude"
@@ -112,7 +109,7 @@
             android:textSize="18sp" />
 
         <EditText
-            android:id="@+id/txtGrad"
+            android:id="@+id/txtCijenaPonude"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="50dp"

@@ -66,7 +66,7 @@ public class QueryActivity extends AppCompatActivity implements DatePickerDialog
 
         txtNazivRadova = findViewById(R.id.txtNazivRadova);
         txtOpisRadova = findViewById(R.id.txtOpisRadova);
-        txtGrad=findViewById(R.id.txtGrad);
+        txtGrad=findViewById(R.id.txtCijenaPonude);
         txtAdresa=findViewById(R.id.txtAdresa);
 
 
