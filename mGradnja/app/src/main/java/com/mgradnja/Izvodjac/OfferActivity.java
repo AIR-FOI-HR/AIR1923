@@ -30,6 +30,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.text.DateFormat;
 import java.text.FieldPosition;
+import java.text.ParseException;
 import java.text.ParsePosition;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -108,7 +109,7 @@ public class OfferActivity extends AppCompatActivity implements DatePickerDialog
         int godina=c.get(Calendar.YEAR);
         int mjesec=c.get(Calendar.MONTH)+1;
         int dan=c.get(Calendar.DAY_OF_MONTH);
-
+        boolean istina = false;
         String currentDate= DateFormat.getDateInstance(DateFormat.SHORT).format(c.getTime());
 
         TextView datum=findViewById(R.id.txtDatumPocetkaRadova);
@@ -120,8 +121,12 @@ public class OfferActivity extends AppCompatActivity implements DatePickerDialog
             RadoviPocetak=godina+"-"+mjesec+"-"+dan;
         }
         else {
-            Datum2.setText(currentDate);
             RadoviKraj=godina+"-"+mjesec+"-"+dan;
+
+            istina = ProvjeriDatume(RadoviPocetak, RadoviKraj);
+            if(istina) Datum2.setText(currentDate);
+
+
         }
     }
     public void DohvatiDatuum(){
@@ -143,6 +148,18 @@ public class OfferActivity extends AppCompatActivity implements DatePickerDialog
         }
     }
 
+    public   boolean ProvjeriDatume(String d1, String d2){
+        SimpleDateFormat dfDate = new SimpleDateFormat("yyyy-MM-dd");
+        boolean b = false;
+        try {
+            b = dfDate.parse(d1).before(dfDate.parse(d2)) || dfDate.parse(d1).equals(dfDate.parse(d2));
+        }
+        catch (ParseException e){
+            Toast.makeText(getApplicationContext(), "Krivi unos datuma!", Toast.LENGTH_SHORT).show();
+        }
+        if(!b) Toast.makeText(getApplicationContext(), "Krivi unos datuma!", Toast.LENGTH_SHORT).show();
+        return b;
+    }
     public void MakeNewOffer(){
 
         Connection con = connectionClass.CONN();
