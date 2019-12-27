@@ -363,7 +363,7 @@ public class OfferListActivity extends AppCompatActivity {
 
             try {
                 Statement statement4 = con.createStatement();
-                ResultSet rs4 = statement4.executeQuery(query4);
+             //   ResultSet rs4 = statement4.executeQuery(query4);
 
 
             } catch (SQLException e) {

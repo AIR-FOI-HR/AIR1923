@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import com.mgradnja.ConnectionClass;
@@ -27,6 +29,7 @@ public class DetaljiUpita extends AppCompatActivity {
     Upit upit;
 
     TextView naziv, opis, datum, adresa, grad, zupanija;
+    Button Posalji;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,6 +57,17 @@ public class DetaljiUpita extends AppCompatActivity {
         adresa.setText(upit.adresa);
         grad.setText(upit.grad);
         zupanija.setText(upit.zupanija);
+        Intent intent9 = new Intent(this, OfferActivity.class);
+
+        Posalji = findViewById(R.id.btnPosaljiPonudu);
+        Posalji.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent9.putExtra("ID_izvodjaca", ID_izvodjaca);
+                intent9.putExtra("ID_upita", ID_upita);
+                startActivity(intent9);
+            }
+        });
     }
 
     private void DohvatiUpit(Integer id_upita) {

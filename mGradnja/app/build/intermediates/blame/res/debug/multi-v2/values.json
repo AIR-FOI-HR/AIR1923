@@ -1,29 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\giiit\\mGradnja\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\gittttttt\\mGradnja\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\giiit\\mGradnja\\app\\src\\main\\res\\values\\preloaded_fonts.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endLines": "4",
-                        "endColumns": "12",
-                        "endOffsets": "165"
-                    },
-                    "to": {
-                        "startLines": "26",
-                        "startColumns": "4",
-                        "startOffsets": "3994",
-                        "endLines": "28",
-                        "endColumns": "12",
-                        "endOffsets": "4100"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\giiit\\mGradnja\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\gittttttt\\mGradnja\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "3,18,13,20,9",
                         "startColumns": "4,4,4,4,4",
@@ -39,6 +20,23 @@
                         "endLines": "942,943,947,948,2811",
                         "endColumns": "12,89,12,79,12",
                         "endOffsets": "65280,65370,65520,65600,186555"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\gittttttt\\mGradnja\\app\\src\\main\\res\\values\\ic_launcher_background.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "56",
+                        "endOffsets": "109"
+                    },
+                    "to": {
+                        "startLines": "325",
+                        "startColumns": "4",
+                        "startOffsets": "20568",
+                        "endColumns": "56",
+                        "endOffsets": "20620"
                     }
                 },
                 {
@@ -75,6 +73,25 @@
                         "endLines": "7307",
                         "endColumns": "24",
                         "endOffsets": "460283"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\gittttttt\\mGradnja\\app\\src\\main\\res\\values\\font_certs.xml",
+                    "from": {
+                        "startLines": "2,6,11",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "57,263,1993",
+                        "endLines": "5,10,15",
+                        "endColumns": "12,19,19",
+                        "endOffsets": "257,1987,3582"
+                    },
+                    "to": {
+                        "startLines": "2,6,11",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "150,352,2077",
+                        "endLines": "5,10,15",
+                        "endColumns": "12,19,19",
+                        "endOffsets": "347,2072,3662"
                     }
                 },
                 {
@@ -116,6 +133,25 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\gittttttt\\mGradnja\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "19,3,1,14,18,10,11,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "699,66,17,495,628,342,388,271",
+                        "endLines": "22,8,1,14,18,10,11,9",
+                        "endColumns": "19,19,45,68,69,44,44,69",
+                        "endOffsets": "825,265,58,559,693,382,428,336"
+                    },
+                    "to": {
+                        "startLines": "16,20,858,871,872,918,919,920",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "3667,3795,54722,55992,56061,63668,63713,63758",
+                        "endLines": "19,25,858,871,872,918,919,920",
+                        "endColumns": "19,19,45,68,69,44,44,69",
+                        "endOffsets": "3790,3989,54763,56056,56126,63708,63753,63823"
+                    }
+                },
+                {
                     "source": "C:\\Users\\MarkoMehkek\\.gradle\\caches\\transforms-2\\files-2.1\\4fe44ae24daa7cfa2dd483a5d3b65a2f\\cardview-1.0.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,35,36,37,38,45,47,50,7",
@@ -132,6 +168,25 @@
                         "endLines": "44,273,274,275,276,458,459,460,976,2830,2833,2836,5477",
                         "endColumns": "51,60,61,61,63,58,56,53,12,12,12,12,24",
                         "endOffsets": "4841,17127,17189,17251,17315,29464,29521,29575,67465,187343,187469,187597,354850"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\gittttttt\\mGradnja\\app\\src\\main\\res\\values\\preloaded_fonts.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "165"
+                    },
+                    "to": {
+                        "startLines": "26",
+                        "startColumns": "4",
+                        "startOffsets": "3994",
+                        "endLines": "28",
+                        "endColumns": "12",
+                        "endOffsets": "4100"
                     }
                 },
                 {
@@ -154,7 +209,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\giiit\\mGradnja\\app\\src\\main\\res\\values\\dimens.xml",
+                    "source": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\gittttttt\\mGradnja\\app\\src\\main\\res\\values\\dimens.xml",
                     "from": {
                         "startLines": "2,3,4,6,5",
                         "startColumns": "4,4,4,4,4",
@@ -168,44 +223,6 @@
                         "startOffsets": "28848,28906,28962,29008,33251",
                         "endColumns": "57,55,45,48,41",
                         "endOffsets": "28901,28957,29003,29052,33288"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\giiit\\mGradnja\\app\\src\\main\\res\\values\\font_certs.xml",
-                    "from": {
-                        "startLines": "2,6,11",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "57,263,1993",
-                        "endLines": "5,10,15",
-                        "endColumns": "12,19,19",
-                        "endOffsets": "257,1987,3582"
-                    },
-                    "to": {
-                        "startLines": "2,6,11",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "150,352,2077",
-                        "endLines": "5,10,15",
-                        "endColumns": "12,19,19",
-                        "endOffsets": "347,2072,3662"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\giiit\\mGradnja\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "20,3,1,14,19,10,11,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "701,66,17,495,630,342,388,271",
-                        "endLines": "23,8,1,14,19,10,11,9",
-                        "endColumns": "19,19,45,68,69,44,44,69",
-                        "endOffsets": "827,265,58,559,695,382,428,336"
-                    },
-                    "to": {
-                        "startLines": "16,20,858,871,872,918,919,920",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "3667,3795,54722,55992,56061,63668,63713,63758",
-                        "endLines": "19,25,858,871,872,918,919,920",
-                        "endColumns": "19,19,45,68,69,44,44,69",
-                        "endOffsets": "3790,3989,54763,56056,56126,63708,63753,63823"
                     }
                 },
                 {
@@ -228,7 +245,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\giiit\\mGradnja\\app\\src\\main\\res\\values\\colors.xml",
+                    "source": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\gittttttt\\mGradnja\\app\\src\\main\\res\\values\\colors.xml",
                     "from": {
                         "startLines": "4,2,3",
                         "startColumns": "4,4,4",
@@ -278,23 +295,6 @@
                         "endLines": "346,347,461,462,463,464,465,466,467,698,699,700,701,702,703,704,705,706,707,708,709,710,711,712,726,727,728,729,730,731,732,733,734,735,736,737,738,739,740,741,742,743,744,745,746,747,748,749,750,751,752,753,754,755,756,757,758,759,760,770,771,783,784,785,786,787,788,789,790,791,792,798,826,917,3274,3278,3280,3286,3288,3817,3818,5724,5987,6019,6061,6068",
                         "endColumns": "68,62,69,67,71,69,60,73,72,60,60,61,63,61,60,67,99,59,65,72,68,56,51,61,71,75,64,58,58,59,59,59,59,59,59,59,59,59,59,58,59,59,59,59,59,59,59,59,59,59,58,59,59,58,58,58,58,58,58,34,34,54,62,54,57,56,49,60,56,33,34,34,69,70,116,12,109,12,128,71,66,24,24,24,24,24",
                         "endOffsets": "21926,21989,29645,29713,29785,29855,29916,29990,30063,45232,45293,45355,45419,45481,45542,45610,45710,45770,45836,45909,45978,46035,46087,46149,46951,47027,47092,47151,47210,47270,47330,47390,47450,47510,47570,47630,47690,47750,47810,47869,47929,47989,48049,48109,48169,48229,48289,48349,48409,48469,48528,48588,48648,48707,48766,48825,48884,48943,49002,49481,49516,50122,50185,50240,50298,50355,50405,50466,50523,50557,50592,50872,52531,63663,219376,219577,219753,220137,220332,258088,258155,367827,388751,390816,392796,393173"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\giiit\\mGradnja\\app\\src\\main\\res\\values\\ic_launcher_background.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endColumns": "56",
-                        "endOffsets": "109"
-                    },
-                    "to": {
-                        "startLines": "325",
-                        "startColumns": "4",
-                        "startOffsets": "20568",
-                        "endColumns": "56",
-                        "endOffsets": "20620"
                     }
                 },
                 {

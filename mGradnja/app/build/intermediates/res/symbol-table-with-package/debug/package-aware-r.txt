@@ -1594,6 +1594,8 @@ id brRacunaIzvodjaca
 id btbIzaberiPoslove
 id btbIzaberiUpite
 id btnDatum
+id btnDatumKraja
+id btnDatumPocetka
 id btnEditKorisnikSpremi
 id btnEditKorisnikUploadSlike
 id btnIstrazi
@@ -1925,7 +1927,9 @@ id transition_transform
 id txtAdresa
 id txtBrojRacuna
 id txtCijena
-id txtDatumRadova
+id txtCijenaPonude
+id txtDatumKrajaRadova
+id txtDatumPocetkaRadova
 id txtDatumRecenzije
 id txtDatumRecenzijeProfilKorisnika
 id txtEditKorisnikIme
@@ -1934,7 +1938,6 @@ id txtEditKorisnikMail
 id txtEditKorisnikPlozinka
 id txtEditKorisnikPrezime
 id txtEditKorisnikTelefon
-id txtGrad
 id txtImateKorisnickiRacun
 id txtIme
 id txtImeIzvodjaca
@@ -1946,6 +1949,7 @@ id txtKomentarRecenzenta
 id txtKomentarRecenzijeProfilKorisnika
 id txtLozinka
 id txtMail
+id txtNaslovIzradaPonude
 id txtNaslovIzradaUpita
 id txtNaslovStranice
 id txtNaziv
@@ -2065,6 +2069,7 @@ layout activity_job_list
 layout activity_job_list_izvodjac
 layout activity_login
 layout activity_main
+layout activity_offer
 layout activity_offer_list
 layout activity_profil_korisnik
 layout activity_query
