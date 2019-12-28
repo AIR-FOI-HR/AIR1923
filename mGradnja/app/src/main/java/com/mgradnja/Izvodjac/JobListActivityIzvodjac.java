@@ -35,7 +35,7 @@ public class JobListActivityIzvodjac extends AppCompatActivity {
     private TextView tv;
     private int poz = 0;
 
-    public String[] poslovi = new String[]{"Trenutni poslovi", "Prošli poslovi"};
+    public String[] poslovi = new String[]{"Trenutni poslovi", "Prošli poslovi", "Budući poslovi"};
 
     public ArrayList<Integer> ListaUpitID = new ArrayList<Integer>();
     public ArrayList<Integer> ListaDjelatnostID = new ArrayList<Integer>();
@@ -61,6 +61,7 @@ public class JobListActivityIzvodjac extends AppCompatActivity {
     Button Izaberi;
     public ArrayList<JobAtributes> ListaTrenutnihPoslova = new ArrayList<>();
     public ArrayList<JobAtributes> ListaProslihPoslova = new ArrayList<>();
+    public ArrayList<JobAtributes> ListaBuducihPoslova = new ArrayList<>();
     public ArrayList<JobAtributes> ListaSvihPoslova = new ArrayList<>();
     public JobAtributes JA;
     private RecyclerView mRecyclerView;
@@ -85,6 +86,7 @@ public class JobListActivityIzvodjac extends AppCompatActivity {
 
         DohvatiTrenutnePoslove();
         DohvatiProslePoslove();
+        DohvatiBuducePoslove();
         DohvatiSvePoslove();
         mRecyclerView = findViewById(R.id.main_recycler);
         mRecyclerView.setHasFixedSize(true);
@@ -115,6 +117,9 @@ public class JobListActivityIzvodjac extends AppCompatActivity {
 
                         poz = 2;
 
+                        break;
+                    case 2:
+                        poz = 3;
                         break;
                 }
             }
@@ -147,6 +152,13 @@ public class JobListActivityIzvodjac extends AppCompatActivity {
                     mRecyclerView.setAdapter(mAdapter);
 
                 }
+                if(poz == 3){
+                    if(ListaBuducihPoslova.size()==0)  Toast.makeText(JobListActivityIzvodjac.this , "Nemate buduće poslove!" , Toast.LENGTH_LONG).show();
+                    mAdapter = new JobAdapterIzvodjac(ListaBuducihPoslova);
+
+                    mRecyclerView.setLayoutManager(mLayoutManager);
+                    mRecyclerView.setAdapter(mAdapter);
+                }
 
             }
         });
@@ -158,7 +170,7 @@ public class JobListActivityIzvodjac extends AppCompatActivity {
     {
         Connection con = connectionClass.CONN();
 
-        String query = "select u.ID_djelatnosti, u.ID_upita, k.Ime, k.Prezime,  u.Naziv as 'Naziv_upita', u.Opis, p.Cijena, p.Datum_pocetka, p.Datum_zavrsetka from  korisnik k inner join upit u  on k.ID_korisnika = u.ID_korisnika inner join ponuda p  on u.ID_upita = p.ID_upita  where p.Status = 1 and p.ID_izvodjaca = '" + ID + "'and p.Datum_zavrsetka > convert(date,GETDATE())";
+        String query = "select u.ID_djelatnosti, u.ID_upita, k.Ime, k.Prezime,  u.Naziv as 'Naziv_upita', u.Opis, p.Cijena, p.Datum_pocetka, p.Datum_zavrsetka from  korisnik k inner join upit u  on k.ID_korisnika = u.ID_korisnika inner join ponuda p  on u.ID_upita = p.ID_upita  where p.Status = 1 and p.ID_izvodjaca = '" + ID + "'and p.Datum_pocetka < convert(date,GETDATE()) and p.Datum_zavrsetka > convert(date,GETDATE())";
         try {
             Statement statement = con.createStatement();
             ResultSet rs = statement.executeQuery(query);
@@ -208,7 +220,7 @@ public class JobListActivityIzvodjac extends AppCompatActivity {
                     break;
                 case 3:
                     JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, " ", R.drawable.bravaa, Ime, Prezime);
-                    ListaSvihPoslova.add(JA);
+                    ListaTrenutnihPoslova.add(JA);
 
                     break;
                 case 4:
@@ -454,6 +466,105 @@ public class JobListActivityIzvodjac extends AppCompatActivity {
         ListaCijena.clear();
         ListaDjelatnostID.clear();
 
+
+    }
+
+    public void DohvatiBuducePoslove(){
+        Connection con = connectionClass.CONN();
+
+        String query = "select u.ID_djelatnosti, u.ID_upita, k.Ime, k.Prezime,  u.Naziv as 'Naziv_upita', u.Opis, p.Cijena, p.Datum_pocetka, p.Datum_zavrsetka from  korisnik k inner join upit u  on k.ID_korisnika = u.ID_korisnika inner join ponuda p  on u.ID_upita = p.ID_upita  where p.Status = 1 and p.ID_izvodjaca = '" + ID + "'and p.Datum_pocetka > convert(date,GETDATE())";
+        try {
+            Statement statement = con.createStatement();
+            ResultSet rs = statement.executeQuery(query);
+
+
+            while(rs.next()){
+                // Broj upit, naziv, opis
+                ListaUpitID.add(rs.getInt("ID_upita"));
+                ListaOpisa.add(rs.getString("Opis"));
+                ListaNaziva.add(rs.getString("Naziv_upita"));
+                ListaCijena.add(rs.getFloat("Cijena"));
+                ListaPocetka.add(rs.getDate("Datum_pocetka"));
+                ListaZavrsetks.add(rs.getDate("Datum_zavrsetka"));
+                ListaIme.add(rs.getString("Ime"));
+                ListaPrezime.add(rs.getString("Prezime"));
+                ListaDjelatnostID.add(rs.getInt("ID_djelatnosti"));
+
+            }
+
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+        for(int i = 0; i<ListaUpitID.size(); i++){
+
+            brojUpita = ListaUpitID.get(i);
+            OpisPosla = ListaOpisa.get(i);
+            Ime = ListaIme.get(i);
+            Prezime = ListaPrezime.get(i);
+            NazivPosla = ListaNaziva.get(i);
+            PocetakPosla = ListaPocetka.get(i);
+            krajPosla = ListaZavrsetks.get(i);
+            cijena = ListaCijena.get(i);
+            brojDjelatnosti = ListaDjelatnostID.get(i);
+
+            switch (brojDjelatnosti){
+                case 1:
+                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, " ", R.drawable.krov, Ime, Prezime);
+                    ListaBuducihPoslova.add(JA);
+
+                    break;
+                case 2:
+                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, " ", R.drawable.stol, Ime, Prezime);
+                    ListaBuducihPoslova.add(JA);
+
+                    break;
+                case 3:
+                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, " ", R.drawable.bravaa, Ime, Prezime);
+                    ListaBuducihPoslova.add(JA);
+
+                    break;
+                case 4:
+                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, " ", R.drawable.staklar,Ime, Prezime);
+                    ListaBuducihPoslova.add(JA);
+
+                    break;
+                case 5:
+                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, " ", R.drawable.keramika, Ime, Prezime);
+                    ListaBuducihPoslova.add(JA);
+
+                    break;
+                case 6:
+                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, " ", R.drawable.soboslikar,Ime, Prezime);
+                    ListaBuducihPoslova.add(JA);
+
+                    break;
+                case 7:
+                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, " ", R.drawable.zidar, Ime, Prezime);
+                    ListaBuducihPoslova.add(JA);
+
+                    break;
+                default:
+                    JA = new JobAtributes(brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, " ", R.drawable.ic_wrench_24dp,Ime, Prezime);
+                    ListaBuducihPoslova.add(JA);
+
+                    break;
+            }
+
+
+
+        }
+
+        ListaOpisa.clear();
+        ListaUpitID.clear();
+        ListaNaziva.clear();
+        ListaIme.clear();
+        ListaPrezime.clear();
+        ListaPocetka.clear();
+        ListaZavrsetks.clear();
+        ListaCijena.clear();
+        ListaDjelatnostID.clear();
 
     }
 }
