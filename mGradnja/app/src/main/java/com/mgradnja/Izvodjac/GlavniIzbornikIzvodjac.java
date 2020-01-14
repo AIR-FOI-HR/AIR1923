@@ -140,6 +140,9 @@ public class GlavniIzbornikIzvodjac extends AppCompatActivity {
                     switch (item.getItemId()){
                         case R.id.nav_assignment:
 
+                            Intent inte = new Intent(GlavniIzbornikIzvodjac.this, OfferListAcitivityIzvodjac.class);
+                            inte.putExtra("ID_izvodjaca", ID);
+                            startActivity(inte);
                             break;
                         case R.id.nav_wrench:
                             ProvjeriRadove();

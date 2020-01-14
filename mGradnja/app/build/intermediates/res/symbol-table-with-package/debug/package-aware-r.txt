@@ -1960,7 +1960,7 @@ id txtOib
 id txtOpisPosla
 id txtOpisRadova
 id txtPlozinka
-id txtPonude
+id txtPonudeIZV
 id txtPorukaRecenzije
 id txtPorukaUpiti
 id txtPočetakPosla
@@ -2071,6 +2071,7 @@ layout activity_login
 layout activity_main
 layout activity_offer
 layout activity_offer_list
+layout activity_offer_list_acitivity_izvodjac
 layout activity_profil_korisnik
 layout activity_query
 layout activity_registration
