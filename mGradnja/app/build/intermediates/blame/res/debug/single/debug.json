@@ -2028,6 +2028,10 @@
         "source": "C:\\Users\\MarkoMehkek\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
+        "merged": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\gittprobaa\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_offerlist_izvodjac_layout.xml.flat",
+        "source": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\gittprobaa\\mGradnja\\app\\src\\main\\res\\layout\\offerlist_izvodjac_layout.xml"
+    },
+    {
         "merged": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\gittprobaa\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_user_search.xml.flat",
         "source": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\gittprobaa\\mGradnja\\app\\src\\main\\res\\layout\\activity_user_search.xml"
     },

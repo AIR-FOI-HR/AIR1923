@@ -13,6 +13,7 @@ import android.widget.Toast;
 
 import com.mgradnja.Adapters.JobAdapterIzvodjac;
 import com.mgradnja.Adapters.OfferAdapter;
+import com.mgradnja.Adapters.OfferAdapterIzvodjac;
 import com.mgradnja.ConnectionClass;
 import com.mgradnja.HelpEntities.JobAtributes;
 import com.mgradnja.OfferListActivity;
@@ -31,6 +32,8 @@ public class OfferListAcitivityIzvodjac extends AppCompatActivity {
 
     private Integer ID;
     private TextView tv;
+    private  Integer ID_upita;
+    private String NazivUpita = "";
 
     private Context context = OfferListAcitivityIzvodjac.this;
 
@@ -63,7 +66,10 @@ public class OfferListAcitivityIzvodjac extends AppCompatActivity {
     public ArrayList<JobAtributes> ListaSvihPonuda = new ArrayList<>();
     public JobAtributes JA;
     private RecyclerView mRecyclerView;
-    private JobAdapterIzvodjac mAdapter;
+
+
+    private OfferAdapterIzvodjac mAdapter;
+
     private RecyclerView.LayoutManager mLayoutManager;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -81,9 +87,25 @@ public class OfferListAcitivityIzvodjac extends AppCompatActivity {
         mLayoutManager = new LinearLayoutManager(OfferListAcitivityIzvodjac.this);
         DohvatiPonude();
         if(ListaSvihPonuda.size()==0)  Toast.makeText(OfferListAcitivityIzvodjac.this , "Trenutno nemate ponuda ni jednu ponudu!" , Toast.LENGTH_LONG).show();
-        mAdapter = new JobAdapterIzvodjac(ListaSvihPonuda);
+        mAdapter = new OfferAdapterIzvodjac(ListaSvihPonuda);
         mRecyclerView.setLayoutManager(mLayoutManager);
         mRecyclerView.setAdapter(mAdapter);
+        mAdapter.setOnClickListener(new OfferAdapterIzvodjac.OnItemClickListener() {
+            @Override
+            public void OnItemClick(int position) {
+
+            }
+
+            @Override
+            public void OnDeleteClick(int position) {
+                ListaSvihPonuda.remove(position);
+                JobAtributes JA;
+                JA = ListaSvihPonuda.get(position);
+                NazivUpita = JA.getmNazivPosla();
+                mAdapter.notifyItemRemoved(position);
+                IzbrisiPonudu(NazivUpita);
+            }
+        });
     }
 
     public void DohvatiPonude(){
@@ -176,5 +198,33 @@ public class OfferListAcitivityIzvodjac extends AppCompatActivity {
         ListaZavrsetks.clear();
         ListaCijena.clear();
         ListaDjelatnostID.clear();
+    }
+
+    public void IzbrisiPonudu(String NazivUpita){
+        Connection con = connectionClass.CONN();
+        String query1 = "Select ID_upita from Upit where Naziv = '" + NazivUpita +"'";
+        try {
+            Statement statement = con.createStatement();
+            ResultSet rs = statement.executeQuery(query1);
+
+            while (rs.next()) {
+                ID_upita = rs.getInt("Naziv");
+            }
+
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        String query = "Delete from Ponuda where ID_upita = '" + ID_upita +"'and ID_izvodjaca = '" + ID + "'";
+        try {
+            Statement statement2 = con.createStatement();
+            ResultSet rs2 = statement2.executeQuery(query);
+
+            Toast.makeText(OfferListAcitivityIzvodjac.this , "Ponuda Izbrisana!" , Toast.LENGTH_LONG).show();
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
     }
 }

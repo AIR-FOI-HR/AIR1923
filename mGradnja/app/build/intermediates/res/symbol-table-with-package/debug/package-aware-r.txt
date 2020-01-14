@@ -1601,6 +1601,7 @@ id btnEditKorisnikUploadSlike
 id btnIstrazi
 id btnIzvodjacIstrazi
 id btnNatragNaPrijavu
+id btnObrisi
 id btnPosaljiPonudu
 id btnPotvrdi
 id btnPrijava
@@ -1611,6 +1612,7 @@ id btnRegistracijaIzPrijave
 id btnRegistracijaIzvodjac
 id btnRegistracijaKorisnik
 id btnUploadSlike
+id btnUredi
 id btnUrediKorisnickiRacun
 id buttonPanel
 id buttons
@@ -2150,6 +2152,7 @@ layout notification_template_media
 layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout offerlist_izvodjac_layout
 layout offerlist_layout
 layout recenzije_layout
 layout select_dialog_item_material
