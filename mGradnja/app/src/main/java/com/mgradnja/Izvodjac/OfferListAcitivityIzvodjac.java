@@ -61,6 +61,7 @@ public class OfferListAcitivityIzvodjac extends AppCompatActivity {
     private int poz = 0;
     private String Ime = "";
 
+    private int brojac = 0;
 
     Button Izaberi;
     public ArrayList<JobAtributes> ListaSvihPonuda = new ArrayList<>();
@@ -86,10 +87,15 @@ public class OfferListAcitivityIzvodjac extends AppCompatActivity {
         mRecyclerView.setHasFixedSize(true);
         mLayoutManager = new LinearLayoutManager(OfferListAcitivityIzvodjac.this);
         DohvatiPonude();
-        if(ListaSvihPonuda.size()==0)  Toast.makeText(OfferListAcitivityIzvodjac.this , "Trenutno nemate ponuda ni jednu ponudu!" , Toast.LENGTH_LONG).show();
+        if(ListaSvihPonuda.size()==0)  Toast.makeText(OfferListAcitivityIzvodjac.this , "Trenutno nemate ni jednu ponudu!" , Toast.LENGTH_LONG).show();
         mAdapter = new OfferAdapterIzvodjac(ListaSvihPonuda);
         mRecyclerView.setLayoutManager(mLayoutManager);
         mRecyclerView.setAdapter(mAdapter);
+        OnClickDelete();
+
+    }
+
+    public void OnClickDelete(){
         mAdapter.setOnClickListener(new OfferAdapterIzvodjac.OnItemClickListener() {
             @Override
             public void OnItemClick(int position) {
@@ -98,16 +104,46 @@ public class OfferListAcitivityIzvodjac extends AppCompatActivity {
 
             @Override
             public void OnDeleteClick(int position) {
-                ListaSvihPonuda.remove(position);
-                JobAtributes JA;
-                JA = ListaSvihPonuda.get(position);
-                NazivUpita = JA.getmNazivPosla();
-                mAdapter.notifyItemRemoved(position);
-                IzbrisiPonudu(NazivUpita);
+                brojac = ListaSvihPonuda.size();
+                if(brojac >1)
+                {
+                    if(position == 0) {
+
+                        JobAtributes JA;
+                        JA = ListaSvihPonuda.get(position);
+                        ListaSvihPonuda.remove(position);
+                        NazivUpita = JA.getmNazivPosla();
+                        mAdapter.notifyItemRemoved(position);
+                        IzbrisiPonudu(NazivUpita);
+                        //tv = findViewById(R.id.txtPonudeIZV);
+                        //tv.setText(NazivUpita);
+                    }
+                    else{
+                        JobAtributes JA;
+                        JA = ListaSvihPonuda.get(position);
+                        ListaSvihPonuda.remove(position);
+                        NazivUpita = JA.getmNazivPosla();
+                        mAdapter.notifyItemRemoved(position);
+                        IzbrisiPonudu(NazivUpita);
+                        //tv = findViewById(R.id.txtPonudeIZV);
+                        //tv.setText(NazivUpita);
+                    }
+
+                }
+                else {
+                    JobAtributes JA;
+                    JA = ListaSvihPonuda.get(0);
+                    ListaSvihPonuda.clear();
+                    NazivUpita = JA.getmNazivPosla();
+                    ID_upita = JA.getMbrojUpita();
+                    mAdapter.notifyItemRemoved(position);
+                    IzbrisiPonudu(NazivUpita);
+
+                }
+
             }
         });
     }
-
     public void DohvatiPonude(){
         Connection con = connectionClass.CONN();
         ListaSvihPonuda.clear();
@@ -200,31 +236,34 @@ public class OfferListAcitivityIzvodjac extends AppCompatActivity {
         ListaDjelatnostID.clear();
     }
 
-    public void IzbrisiPonudu(String NazivUpita){
+    public void IzbrisiPonudu(String Naziv){
         Connection con = connectionClass.CONN();
-        String query1 = "Select ID_upita from Upit where Naziv = '" + NazivUpita +"'";
+        String query1 = "Select ID_upita from Upit where Naziv = '" + Naziv +"'";
         try {
             Statement statement = con.createStatement();
             ResultSet rs = statement.executeQuery(query1);
 
             while (rs.next()) {
-                ID_upita = rs.getInt("Naziv");
+                ID_upita = rs.getInt("ID_upita");
             }
+
 
 
         } catch (SQLException e) {
             e.printStackTrace();
         }
+
         String query = "Delete from Ponuda where ID_upita = '" + ID_upita +"'and ID_izvodjaca = '" + ID + "'";
         try {
             Statement statement2 = con.createStatement();
             ResultSet rs2 = statement2.executeQuery(query);
 
-            Toast.makeText(OfferListAcitivityIzvodjac.this , "Ponuda Izbrisana!" , Toast.LENGTH_LONG).show();
+
 
         } catch (SQLException e) {
             e.printStackTrace();
         }
+        Toast.makeText(OfferListAcitivityIzvodjac.this , "Ponuda Izbrisana!" , Toast.LENGTH_LONG).show();
 
     }
 }

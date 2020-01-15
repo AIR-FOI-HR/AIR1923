@@ -46,6 +46,7 @@ public class GlavniIzbornikIzvodjac extends AppCompatActivity {
             "Dubrovacko-neretvanska", "Medjimurska", "Grad Zagreb"};
     public ArrayList<String> kategorije = new ArrayList<String>();
     private Integer BrojRadova = 0;
+    private Integer BrojPonuda = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -129,6 +130,23 @@ public class GlavniIzbornikIzvodjac extends AppCompatActivity {
             e.printStackTrace();
         }
     }
+    public void ProvjeriPonude(){
+        ConnectionClass connectionClass = new ConnectionClass();
+        Connection con = connectionClass.CONN();
+
+        String query = "select * from ponuda  where ID_izvodjaca = '" + ID + "' and Status = 0";
+        try {
+            Statement statement = con.createStatement();
+            ResultSet rs = statement.executeQuery(query);
+
+            while(rs.next()){
+                BrojPonuda++;
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
 
     //TODO NAVIGACIJA
     private BottomNavigationView.OnNavigationItemSelectedListener navListener =
@@ -139,10 +157,14 @@ public class GlavniIzbornikIzvodjac extends AppCompatActivity {
 
                     switch (item.getItemId()){
                         case R.id.nav_assignment:
+                            ProvjeriPonude();
+                            if(BrojPonuda == 0) Toast.makeText(GlavniIzbornikIzvodjac.this , "Nemate nijednu ponudu!" , Toast.LENGTH_LONG).show();
+                            else {
+                                Intent inte = new Intent(GlavniIzbornikIzvodjac.this, OfferListAcitivityIzvodjac.class);
+                                inte.putExtra("ID_izvodjaca", ID);
+                                startActivity(inte);
+                            }
 
-                            Intent inte = new Intent(GlavniIzbornikIzvodjac.this, OfferListAcitivityIzvodjac.class);
-                            inte.putExtra("ID_izvodjaca", ID);
-                            startActivity(inte);
                             break;
                         case R.id.nav_wrench:
                             ProvjeriRadove();
