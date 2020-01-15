@@ -57,6 +57,7 @@ public class DetaljiUpita extends AppCompatActivity {
         adresa.setText(upit.adresa);
         grad.setText(upit.grad);
         zupanija.setText(upit.zupanija);
+
         Intent intent9 = new Intent(this, OfferActivity.class);
 
         Posalji = findViewById(R.id.btnPosaljiPonudu);

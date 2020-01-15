@@ -70,7 +70,7 @@ public class QueryActivity extends AppCompatActivity implements DatePickerDialog
         txtAdresa=findViewById(R.id.txtAdresa);
 
 
-        potvrdi=findViewById(R.id.btnPotvrdi);
+        potvrdi=findViewById(R.id.btnSpremiPromjene);
         odaberiDatum=findViewById(R.id.btnDatum);
 
         spinnerKategorije = findViewById(R.id.spinKategorije);

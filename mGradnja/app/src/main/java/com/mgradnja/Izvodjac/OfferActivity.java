@@ -1,14 +1,11 @@
 package com.mgradnja.Izvodjac;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.DialogFragment;
 
 import android.app.DatePickerDialog;
 import android.content.Intent;
-import android.graphics.Path;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
@@ -22,16 +19,13 @@ import com.mgradnja.ConnectionClass;
 import com.mgradnja.DatePickerFragment;
 import com.mgradnja.R;
 
-import java.nio.file.OpenOption;
 import java.sql.Connection;
 import java.sql.Date;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.text.DateFormat;
-import java.text.FieldPosition;
 import java.text.ParseException;
-import java.text.ParsePosition;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
@@ -53,9 +47,12 @@ public class OfferActivity extends AppCompatActivity implements DatePickerDialog
     private TextView Naziv;
     private TextView Cena;
     private TextView Ooopis;
+    private TextView PocetakRadovatxt;
+    private TextView KrajRadovatxt;
     ImageButton DatumPocetni;
     ImageButton DatumKraj;
     Button Potvrdi;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,12 +61,16 @@ public class OfferActivity extends AppCompatActivity implements DatePickerDialog
         Intent intent = getIntent();
         ID_Izvodjaca = intent.getIntExtra("ID_izvodjaca", 0);
         ID_Upita = intent.getIntExtra("ID_upita", 0);
+
+
         Naziv = findViewById(R.id.txtNazivUpita);
         DatumPocetni = findViewById(R.id.btnDatumPocetka);
         DatumKraj = findViewById(R.id.btnDatumKraja);
-        Potvrdi = findViewById(R.id.btnPotvrdi);
+        Potvrdi = findViewById(R.id.btnSpremiPromjene);
         Cena = findViewById(R.id.txtCijenaPonude);
         Ooopis = findViewById(R.id.txtOpisRadova);
+        //PocetakRadovatxt = findViewById(R.id.txtDatumPocetkaRadova);
+       // KrajRadovatxt = findViewById(R.id.txtDatumKrajaRadova);
         connectionClass = new ConnectionClass();
         DohvatiNazivUpita();
         DohvatiDatuum();
