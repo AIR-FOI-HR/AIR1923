@@ -22,6 +22,7 @@ public class OfferAdapterIzvodjac extends RecyclerView.Adapter<OfferAdapterIzvod
     public interface OnItemClickListener{
         void OnItemClick(int position);
         void OnDeleteClick(int position);
+        void OnUpdateClick(int position);
     }
     public void setOnClickListener(OnItemClickListener listener){
         mListener = listener;
@@ -73,7 +74,18 @@ public class OfferAdapterIzvodjac extends RecyclerView.Adapter<OfferAdapterIzvod
                     }
                 }
             });
-        }
+            mUredi.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    if(listener != null) {
+                        int position = getAdapterPosition();
+                        if(position != RecyclerView.NO_POSITION) listener.OnUpdateClick(position);
+
+                    }
+                }
+            });
+
+            }
     }
 
     public OfferAdapterIzvodjac(ArrayList<JobAtributes> ListaPoslova){

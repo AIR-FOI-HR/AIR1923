@@ -142,6 +142,29 @@ public class OfferListAcitivityIzvodjac extends AppCompatActivity {
                 }
 
             }
+            public void OnUpdateClick(int position)  {
+                JobAtributes JA;
+                JA = ListaSvihPonuda.get(position);
+                String NazivUpit = JA.getmNazivPosla();
+                Date Pocetak = JA.getmPočetakPosla();
+                Date Kraj = JA.getMkrajPosla();
+                Float Cena = JA.getmCijena();
+                String Opis = JA.getmOpisPosla();
+                Integer IDUpita = JA.getMbrojUpita();
+                String ImeIZV = JA.getmNazivIzvodjaca();
+
+                Intent intent9 = new Intent(OfferListAcitivityIzvodjac.this, UpdateOfferActivity.class);
+                intent9.putExtra("Cijena", Cena);
+                intent9.putExtra("Opis", Opis);
+                intent9.putExtra("Naziv", NazivUpit);
+                intent9.putExtra("Početak", Pocetak);
+                intent9.putExtra("Kraj", Kraj);
+                intent9.putExtra("ID_izvodjaca", ID);
+                intent9.putExtra("ID_upita", IDUpita);
+
+                startActivity(intent9);
+                finish();
+            }
         });
     }
     public void DohvatiPonude(){

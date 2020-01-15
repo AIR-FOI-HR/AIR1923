@@ -6,6 +6,7 @@ import androidx.fragment.app.DialogFragment;
 
 import android.app.DatePickerDialog;
 import android.content.Intent;
+import android.graphics.Path;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
@@ -29,7 +30,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
-public class OfferActivity extends AppCompatActivity implements DatePickerDialog.OnDateSetListener{
+public class UpdateOfferActivity extends AppCompatActivity implements DatePickerDialog.OnDateSetListener{
 
     ConnectionClass connectionClass;
     public String NazivUpita;
@@ -37,8 +38,10 @@ public class OfferActivity extends AppCompatActivity implements DatePickerDialog
     public Integer ID_Upita;
     public String Opis;
     public String Datum;
-    public Date DatumPocetka;
-    public Date DatumKraja;
+
+
+    public Date DatumPocetkaR;
+    public Date DatumKrajaR;
     public float Cijena;
     public int Status;
     public String RadoviPocetak;
@@ -47,32 +50,45 @@ public class OfferActivity extends AppCompatActivity implements DatePickerDialog
     private TextView Naziv;
     private TextView Cena;
     private TextView Ooopis;
-    private TextView PocetakRadovatxt;
-    private TextView KrajRadovatxt;
     ImageButton DatumPocetni;
     ImageButton DatumKraj;
-    Button Potvrdi;
-
+    Button SpremiPromjene;
+    public TextView DatumPocetkaRadova;
+    public TextView DatumKrajaRadova;
+    public TextView tv;
+    public TextView tv2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_offer);
-        Intent intent = getIntent();
-        ID_Izvodjaca = intent.getIntExtra("ID_izvodjaca", 0);
-        ID_Upita = intent.getIntExtra("ID_upita", 0);
-
-
-        Naziv = findViewById(R.id.txtNazivUpita);
-        DatumPocetni = findViewById(R.id.btnDatumPocetka);
-        DatumKraj = findViewById(R.id.btnDatumKraja);
-        Potvrdi = findViewById(R.id.btnSpremiPromjene);
+        setContentView(R.layout.activity_update_offer);
+        SpremiPromjene = findViewById(R.id.btnSpremiPromjene);
         Cena = findViewById(R.id.txtCijenaPonude);
         Ooopis = findViewById(R.id.txtOpisRadova);
-        //PocetakRadovatxt = findViewById(R.id.txtDatumPocetkaRadova);
-       // KrajRadovatxt = findViewById(R.id.txtDatumKrajaRadova);
+        Intent intent = getIntent();
+
+        ID_Izvodjaca = intent.getIntExtra("ID_izvodjaca", 0);
+        ID_Upita = intent.getIntExtra("ID_upita", 0);
+        Cijena = intent.getFloatExtra("Cijena", 0);
+        NazivUpita = intent.getStringExtra("Naziv");
+        Opis = intent.getStringExtra("Opis");
+        DatumPocetkaR = (Date) intent.getSerializableExtra("Početak");
+        DatumKrajaR = (Date) intent.getSerializableExtra("Kraj");
+
+        Naziv = findViewById(R.id.txtNazivUpita);
+        Naziv.setText(NazivUpita);
+        Cena.setText(String.valueOf(Cijena));
+        Ooopis.setText(Opis);
+
+        DatumPocetni = findViewById(R.id.btnDatumPocetka);
+        DatumKraj = findViewById(R.id.btnDatumKraja);
+        DatumPocetkaRadova = findViewById(R.id.txtDatumPocetkaRadova);
+        DatumKrajaRadova = findViewById(R.id.txtDatumKrajaRadova);
+        DatumPocetkaRadova.setText(DatumPocetkaR.toString());
+        DatumKrajaRadova.setText(DatumKrajaR.toString());
+
+
         connectionClass = new ConnectionClass();
-        DohvatiNazivUpita();
         DohvatiDatuum();
         DatumPocetni.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -90,13 +106,13 @@ public class OfferActivity extends AppCompatActivity implements DatePickerDialog
             }
         });
 
-        Potvrdi.setOnClickListener(new View.OnClickListener() {
+        SpremiPromjene.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                MakeNewOffer();
+                UpdateOffer();
+                finish();
             }
         });
-
 
 
     }
@@ -124,12 +140,18 @@ public class OfferActivity extends AppCompatActivity implements DatePickerDialog
         else {
             RadoviKraj=godina+"-"+mjesec+"-"+dan;
 
-            istina = ProvjeriDatume(RadoviPocetak, RadoviKraj);
-            if(istina) Datum2.setText(currentDate);
+            if(RadoviPocetak != null && RadoviKraj != null){
+                istina = ProvjeriDatume(RadoviPocetak, RadoviKraj);
+                if(istina) Datum2.setText(currentDate);
+
+            }
+
+
 
 
         }
     }
+
     public void DohvatiDatuum(){
         ConnectionClass connectionClass = new ConnectionClass();
         Connection con = connectionClass.CONN();
@@ -140,7 +162,7 @@ public class OfferActivity extends AppCompatActivity implements DatePickerDialog
             ResultSet rs = statement.executeQuery(query);
 
             while(rs.next()){
-               Datum = rs.getDate("Datum").toString();
+                Datum = rs.getDate("Datum").toString();
             }
 
 
@@ -161,7 +183,7 @@ public class OfferActivity extends AppCompatActivity implements DatePickerDialog
         if(!b) Toast.makeText(getApplicationContext(), "Krivi unos datuma!", Toast.LENGTH_SHORT).show();
         return b;
     }
-    public void MakeNewOffer(){
+    public void UpdateOffer(){
 
         Connection con = connectionClass.CONN();
 
@@ -171,7 +193,7 @@ public class OfferActivity extends AppCompatActivity implements DatePickerDialog
 
 
 
-        if (Opis.equals("") || RadoviPocetak.equals("") || RadoviKraj.equals("") || Cena.getText().toString().equals("")){
+        if (Opis.equals("")  || Cena.getText().toString().equals("")){
             Toast.makeText(getApplicationContext(), "Niste ispunili sve potrebne podatke!", Toast.LENGTH_SHORT).show();
         }
         else {
@@ -183,18 +205,22 @@ public class OfferActivity extends AppCompatActivity implements DatePickerDialog
                 }
                 else {
                     Statement st = con.createStatement();
-
-                   String queryReg = "INSERT INTO Ponuda (ID_upita, ID_izvodjaca, Datum, Status, Opis, Cijena, Procitana, Datum_pocetka, Datum_zavrsetka) VALUES(('"+ ID_Upita +"'), ('"+ ID_Izvodjaca +"'),  ('"+ Datum +"'), ('"+ Status +"'), ('"+ Opis +"'), ('"+ Cijena +"'), ('"+ Status +"'), ('"+ RadoviPocetak +"'), ('"+ RadoviKraj +"'))";
+                    if(RadoviPocetak == null || RadoviKraj == null) {
+                        RadoviPocetak = DatumPocetkaR.toString();
+                        RadoviKraj = DatumKrajaR.toString();
+                    }
+                    String queryReg = "Update Ponuda set Opis = '" +Opis +"', Cijena = '"+Cijena+"',  Datum_pocetka = '"+ RadoviPocetak +"', Datum_zavrsetka = '"+ RadoviKraj +"' where ID_upita = '"+ID_Upita+"' and ID_izvodjaca = '"+ID_Izvodjaca+"'";
 
 
                     if (st.executeUpdate(queryReg) == 1){
-                        Toast.makeText(getApplicationContext(), "Ponuda izrađena!", Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(), "Ponuda ažurirana!", Toast.LENGTH_LONG).show();
 
                         Cena.setText("");
                         Ooopis.setText("");
-                                          }
+                    }
                     else {
-                        Toast.makeText(getApplicationContext(), "Greška prilikom izrade upita, pokušajte ponovno!", Toast.LENGTH_LONG).show();
+
+                        Toast.makeText(getApplicationContext(), "Greška prilikom uređivanja ponude, pokušajte ponovno!", Toast.LENGTH_LONG).show();
                     }
 
                     con.close();
@@ -209,25 +235,6 @@ public class OfferActivity extends AppCompatActivity implements DatePickerDialog
 
         }
 
-    }
-    public void DohvatiNazivUpita(){
-
-        ConnectionClass connectionClass = new ConnectionClass();
-        Connection con = connectionClass.CONN();
-
-        String query = "select Naziv from Upit where ID_upita  = '" + ID_Upita + "'";
-        try {
-            Statement statement = con.createStatement();
-            ResultSet rs = statement.executeQuery(query);
-
-            while(rs.next()){
-                NazivUpita = rs.getString("Naziv");
-            }
-
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-        Naziv.setText(NazivUpita);
     }
 
 }

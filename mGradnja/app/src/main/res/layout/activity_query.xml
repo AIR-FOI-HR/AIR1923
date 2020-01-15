@@ -271,7 +271,7 @@
             />
 
         <Button
-            android:id="@+id/btnPotvrdi"
+            android:id="@+id/btnSpremiPromjene"
             android:layout_width="320dp"
             android:layout_height="62dp"
             android:layout_alignParentRight="true"

@@ -24,6 +24,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.mgradnja.Izvodjac.UpdateOfferActivity" />
         <activity android:name="com.mgradnja.Izvodjac.OfferListAcitivityIzvodjac" />
         <activity android:name="com.mgradnja.Izvodjac.OfferActivity" />
         <activity android:name="com.mgradnja.Izvodjac.JobListActivityIzvodjac" />

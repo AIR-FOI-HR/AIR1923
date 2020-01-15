@@ -1603,7 +1603,6 @@ id btnIzvodjacIstrazi
 id btnNatragNaPrijavu
 id btnObrisi
 id btnPosaljiPonudu
-id btnPotvrdi
 id btnPrijava
 id btnPrijavaIzRegistracije
 id btnPrijaviSe
@@ -1611,6 +1610,7 @@ id btnRegistracija
 id btnRegistracijaIzPrijave
 id btnRegistracijaIzvodjac
 id btnRegistracijaKorisnik
+id btnSpremiPromjene
 id btnUploadSlike
 id btnUredi
 id btnUrediKorisnickiRacun
@@ -1951,9 +1951,9 @@ id txtKomentarRecenzenta
 id txtKomentarRecenzijeProfilKorisnika
 id txtLozinka
 id txtMail
-id txtNaslovIzradaPonude
 id txtNaslovIzradaUpita
 id txtNaslovStranice
+id txtNaslovUređivanjaPonude
 id txtNaziv
 id txtNazivRadova
 id txtNazivUpita
@@ -2079,6 +2079,7 @@ layout activity_query
 layout activity_registration
 layout activity_registration_performer
 layout activity_registration_user
+layout activity_update_offer
 layout activity_user_search
 layout custom_dialog
 layout design_bottom_navigation_item
