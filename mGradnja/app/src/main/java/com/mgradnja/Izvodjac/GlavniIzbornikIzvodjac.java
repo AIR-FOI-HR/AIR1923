@@ -116,13 +116,16 @@ public class GlavniIzbornikIzvodjac extends AppCompatActivity {
         ConnectionClass connectionClass = new ConnectionClass();
         Connection con = connectionClass.CONN();
 
-        String query = "select Naziv from Djelatnost";
+        //select d.Naziv from [dbo].[Djelatnost] d where d.ID_djelatnosti in
+        //(select ID_djelatnosti from [dbo].[Djelatnosti_izvodjaca] di where di.ID_izvodjaca = 14);
+        String sql = "select d.Naziv from Djelatnost d where d.ID_djelatnosti in (select di.ID_djelatnosti from Djelatnosti_izvodjaca di where di.ID_izvodjaca='" + ID + "')";
         try {
-            Statement statement = con.createStatement();
-            ResultSet rs = statement.executeQuery(query);
 
-            while(rs.next()){
+            Statement statement = con.createStatement();
+            ResultSet rs = statement.executeQuery(sql);
+            while (rs.next()){
                 kategorije.add(rs.getString("Naziv"));
+
             }
 
         } catch (SQLException e) {

@@ -92,7 +92,8 @@ public class IstraziUpiteIzvodjac extends AppCompatActivity {
                     idKategorije = rsFilter.getInt("ID_djelatnosti");
             }
 
-            String sql = "select * from Upit where Zupanija='" + zupanija + "' and ID_djelatnosti='" + idKategorije +"' and Datum >= '" + currentDate +"' ";
+            String sql = "select * from Upit where Zupanija='" + zupanija + "' and ID_djelatnosti='" + idKategorije +"' and Datum >= '" + currentDate +"' " +
+                    " and Upit.ID_upita not in (select Upit.ID_upita from Upit, Posao where Upit.ID_upita = Posao.ID_upita)  ";
             Statement stmtSql = connection.createStatement();
             ResultSet rsSql = stmtSql.executeQuery(sql);
             while (rsSql.next()){
