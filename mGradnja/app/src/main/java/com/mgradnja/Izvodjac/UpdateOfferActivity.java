@@ -37,6 +37,7 @@ public class UpdateOfferActivity extends AppCompatActivity implements DatePicker
     public Integer ID_Izvodjaca;
     public Integer ID_Upita;
     public  Integer Broj_Dana;
+    public long BrDana;
     public String Opis;
     public String Datum;
     public String BrojDanaString;
@@ -53,12 +54,10 @@ public class UpdateOfferActivity extends AppCompatActivity implements DatePicker
     private TextView Cena;
     private TextView Ooopis;
     ImageButton DatumPocetni;
-    ImageButton DatumKraj;
     Button SpremiPromjene;
     public TextView DatumPocetkaRadova;
     public TextView BrojDanatxt;
-    public TextView tv;
-    public TextView tv2;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -83,12 +82,11 @@ public class UpdateOfferActivity extends AppCompatActivity implements DatePicker
         Ooopis.setText(Opis);
 
         DatumPocetni = findViewById(R.id.btnDatumPocetka);
-        DatumKraj = findViewById(R.id.btnDatumKraja);
         BrojDanatxt = findViewById(R.id.txtBrojDana);
         DatumPocetkaRadova = findViewById(R.id.txtDatumPocetkaRadova);
-       // DatumKrajaRadova = findViewById(R.id.txtDatumKrajaRadova);
         DatumPocetkaRadova.setText(DatumPocetkaR.toString());
-      //  DatumKrajaRadova.setText(DatumKrajaR.toString());
+
+        IzracunajBrojDana(DatumPocetkaR, DatumKrajaR);
 
 
         connectionClass = new ConnectionClass();
@@ -101,14 +99,6 @@ public class UpdateOfferActivity extends AppCompatActivity implements DatePicker
             }
         });
 
-       /* DatumKraj.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                DialogFragment datepicker2=new DatePickerFragment();
-                datepicker2.show(getSupportFragmentManager(),"date picker");
-            }
-        });
-*/
         SpremiPromjene.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -137,45 +127,26 @@ public class UpdateOfferActivity extends AppCompatActivity implements DatePicker
         datum.setText(currentDate);
 
     }
-    /*
-    @RequiresApi(api = Build.VERSION_CODES.O)
-    @Override
-    public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
-        Calendar c=Calendar.getInstance();
-        c.set(Calendar.YEAR, year);
-        c.set(Calendar.MONTH,month);
-        c.set(Calendar.DAY_OF_MONTH,dayOfMonth);
-        int godina=c.get(Calendar.YEAR);
-        int mjesec=c.get(Calendar.MONTH)+1;
-        int dan=c.get(Calendar.DAY_OF_MONTH);
-        boolean istina = false;
-        String currentDate= DateFormat.getDateInstance(DateFormat.SHORT).format(c.getTime());
 
-        TextView datum=findViewById(R.id.txtDatumPocetkaRadova);
-        TextView Datum2 = findViewById(R.id.txtDatumKrajaRadova);
-        String sel = "";
-        sel = datum.getText().toString();
-        if(sel.isEmpty()) {
-            datum.setText(currentDate);
-            RadoviPocetak=godina+"-"+mjesec+"-"+dan;
-        }
-        else {
-            RadoviKraj=godina+"-"+mjesec+"-"+dan;
 
-            if(RadoviPocetak != null && RadoviKraj != null){
-                istina = ProvjeriDatume(RadoviPocetak, RadoviKraj);
-                if(istina) Datum2.setText(currentDate);
+    public void IzracunajBrojDana(Date Pocetak, Date Kraj)
+    {
+        long razlika;
+        razlika =Pocetak.getTime()-Kraj.getTime();
 
-            }
+        long mili = 1000;
+        long minute = mili * 60;
+        long sati = minute * 60;
+        BrDana = sati * 24;
+        long ProsloDana = razlika / BrDana;
 
 
 
-
-        }
+        Broj_Dana = (int) ProsloDana;
+        Broj_Dana = Broj_Dana*(-1);
+        BrojDanatxt = findViewById(R.id.txtBrojDana);
+        BrojDanatxt.setText(Broj_Dana.toString());
     }
-
-     */
-
     public void IzracunajDrugiDatum(String RadoviPočetak, int BrDana){
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
         Calendar c = Calendar.getInstance();
@@ -225,11 +196,8 @@ public class UpdateOfferActivity extends AppCompatActivity implements DatePicker
     public void UpdateOffer(){
         BrojDanaString = BrojDanatxt.getText().toString();
         Broj_Dana = Integer.valueOf(BrojDanaString);
+        if(RadoviPocetak == null) RadoviPocetak = DatumPocetkaR.toString();
         IzracunajDrugiDatum(RadoviPocetak, Broj_Dana);
-        tv = findViewById(R.id.txtNaslovUređivanjaPonude);
-        tv.setText(RadoviPocetak);
-        tv2 = findViewById(R.id.txtNazivUpita);
-        tv2.setText(RadoviKraj);
         Connection con = connectionClass.CONN();
 
         Status = 0;

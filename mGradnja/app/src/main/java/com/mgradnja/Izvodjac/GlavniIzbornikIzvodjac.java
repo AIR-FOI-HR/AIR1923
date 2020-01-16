@@ -160,6 +160,7 @@ public class GlavniIzbornikIzvodjac extends AppCompatActivity {
 
                     switch (item.getItemId()){
                         case R.id.nav_assignment:
+                            BrojPonuda = 0;
                             ProvjeriPonude();
                             if(BrojPonuda == 0) Toast.makeText(GlavniIzbornikIzvodjac.this , "Nemate nijednu ponudu!" , Toast.LENGTH_LONG).show();
                             else {

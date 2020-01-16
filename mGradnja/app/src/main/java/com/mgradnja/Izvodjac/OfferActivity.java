@@ -24,6 +24,7 @@ import java.sql.Date;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.sql.Time;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -35,10 +36,12 @@ public class OfferActivity extends AppCompatActivity implements DatePickerDialog
     public String NazivUpita;
     public Integer ID_Izvodjaca;
     public Integer ID_Upita;
+    public Integer BrojDana;
+    public String BrojDanaString;
     public String Opis;
     public String Datum;
     public Date DatumPocetka;
-    public Date DatumKraja;
+    public Date DatumKrajaR;
     public float Cijena;
     public int Status;
     public String RadoviPocetak;
@@ -47,11 +50,11 @@ public class OfferActivity extends AppCompatActivity implements DatePickerDialog
     private TextView Naziv;
     private TextView Cena;
     private TextView Ooopis;
-    private TextView PocetakRadovatxt;
-    private TextView KrajRadovatxt;
+    public TextView BrojDanatxt;
     ImageButton DatumPocetni;
-    ImageButton DatumKraj;
     Button Potvrdi;
+    public TextView tv;
+    public  TextView tv2;
 
 
     @Override
@@ -65,12 +68,9 @@ public class OfferActivity extends AppCompatActivity implements DatePickerDialog
 
         Naziv = findViewById(R.id.txtNazivUpita);
         DatumPocetni = findViewById(R.id.btnDatumPocetka);
-        DatumKraj = findViewById(R.id.btnDatumKraja);
         Potvrdi = findViewById(R.id.btnSpremiPromjene);
         Cena = findViewById(R.id.txtCijenaPonude);
         Ooopis = findViewById(R.id.txtOpisRadova);
-        //PocetakRadovatxt = findViewById(R.id.txtDatumPocetkaRadova);
-       // KrajRadovatxt = findViewById(R.id.txtDatumKrajaRadova);
         connectionClass = new ConnectionClass();
         DohvatiNazivUpita();
         DohvatiDatuum();
@@ -79,16 +79,10 @@ public class OfferActivity extends AppCompatActivity implements DatePickerDialog
             public void onClick(View v) {
                 DialogFragment datepicker=new DatePickerFragment();
                 datepicker.show(getSupportFragmentManager(),"date picker");
+
             }
         });
 
-        DatumKraj.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                DialogFragment datepicker2=new DatePickerFragment();
-                datepicker2.show(getSupportFragmentManager(),"date picker");
-            }
-        });
 
         Potvrdi.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -97,6 +91,7 @@ public class OfferActivity extends AppCompatActivity implements DatePickerDialog
             }
         });
 
+        BrojDanatxt = findViewById(R.id.txtBrojDana);
 
 
     }
@@ -110,25 +105,28 @@ public class OfferActivity extends AppCompatActivity implements DatePickerDialog
         int godina=c.get(Calendar.YEAR);
         int mjesec=c.get(Calendar.MONTH)+1;
         int dan=c.get(Calendar.DAY_OF_MONTH);
-        boolean istina = false;
+        RadoviPocetak=godina+"-"+mjesec+"-"+dan;
+
         String currentDate= DateFormat.getDateInstance(DateFormat.SHORT).format(c.getTime());
 
-        TextView datum=findViewById(R.id.txtDatumPocetkaRadova);
-        TextView Datum2 = findViewById(R.id.txtDatumKrajaRadova);
-        String sel = "";
-        sel = datum.getText().toString();
-        if(sel.isEmpty()) {
+            TextView datum=findViewById(R.id.txtDatumPocetkaRadova);
             datum.setText(currentDate);
-            RadoviPocetak=godina+"-"+mjesec+"-"+dan;
+
+    }
+    public void IzracunajDrugiDatum(String RadoviPočetak, int BrDana){
+        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+        Calendar c = Calendar.getInstance();
+        try{
+            c.setTime(dateFormat.parse(RadoviPočetak));
+
         }
-        else {
-            RadoviKraj=godina+"-"+mjesec+"-"+dan;
-
-            istina = ProvjeriDatume(RadoviPocetak, RadoviKraj);
-            if(istina) Datum2.setText(currentDate);
-
-
+        catch (ParseException e){
+            e.printStackTrace();
         }
+
+        c.add(Calendar.DAY_OF_YEAR, BrDana);
+        DatumKrajaR = new Date(c.getTimeInMillis());
+        RadoviKraj = dateFormat.format(DatumKrajaR);
     }
     public void DohvatiDatuum(){
         ConnectionClass connectionClass = new ConnectionClass();
@@ -162,7 +160,9 @@ public class OfferActivity extends AppCompatActivity implements DatePickerDialog
         return b;
     }
     public void MakeNewOffer(){
-
+        BrojDanaString = BrojDanatxt.getText().toString();
+        BrojDana = Integer.valueOf(BrojDanaString);
+        IzracunajDrugiDatum(RadoviPocetak, BrojDana);
         Connection con = connectionClass.CONN();
 
         Status = 0;

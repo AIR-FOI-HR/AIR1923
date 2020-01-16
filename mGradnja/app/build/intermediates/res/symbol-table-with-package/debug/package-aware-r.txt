@@ -1594,7 +1594,6 @@ id brRacunaIzvodjaca
 id btbIzaberiPoslove
 id btbIzaberiUpite
 id btnDatum
-id btnDatumKraja
 id btnDatumPocetka
 id btnEditKorisnikSpremi
 id btnEditKorisnikUploadSlike
@@ -1931,7 +1930,6 @@ id txtBrojDana
 id txtBrojRacuna
 id txtCijena
 id txtCijenaPonude
-id txtDatumKrajaRadova
 id txtDatumPocetkaRadova
 id txtDatumRecenzije
 id txtDatumRecenzijeProfilKorisnika
@@ -1953,8 +1951,8 @@ id txtKomentarRecenzijeProfilKorisnika
 id txtLozinka
 id txtMail
 id txtNaslovIzradaUpita
+id txtNaslovNovePonude
 id txtNaslovStranice
-id txtNaslovUređivanjaPonude
 id txtNaziv
 id txtNazivRadova
 id txtNazivUpita
