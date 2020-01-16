@@ -36,8 +36,10 @@ public class UpdateOfferActivity extends AppCompatActivity implements DatePicker
     public String NazivUpita;
     public Integer ID_Izvodjaca;
     public Integer ID_Upita;
+    public  Integer Broj_Dana;
     public String Opis;
     public String Datum;
+    public String BrojDanaString;
 
 
     public Date DatumPocetkaR;
@@ -54,7 +56,7 @@ public class UpdateOfferActivity extends AppCompatActivity implements DatePicker
     ImageButton DatumKraj;
     Button SpremiPromjene;
     public TextView DatumPocetkaRadova;
-    public TextView DatumKrajaRadova;
+    public TextView BrojDanatxt;
     public TextView tv;
     public TextView tv2;
 
@@ -82,10 +84,11 @@ public class UpdateOfferActivity extends AppCompatActivity implements DatePicker
 
         DatumPocetni = findViewById(R.id.btnDatumPocetka);
         DatumKraj = findViewById(R.id.btnDatumKraja);
+        BrojDanatxt = findViewById(R.id.txtBrojDana);
         DatumPocetkaRadova = findViewById(R.id.txtDatumPocetkaRadova);
-        DatumKrajaRadova = findViewById(R.id.txtDatumKrajaRadova);
+       // DatumKrajaRadova = findViewById(R.id.txtDatumKrajaRadova);
         DatumPocetkaRadova.setText(DatumPocetkaR.toString());
-        DatumKrajaRadova.setText(DatumKrajaR.toString());
+      //  DatumKrajaRadova.setText(DatumKrajaR.toString());
 
 
         connectionClass = new ConnectionClass();
@@ -98,14 +101,14 @@ public class UpdateOfferActivity extends AppCompatActivity implements DatePicker
             }
         });
 
-        DatumKraj.setOnClickListener(new View.OnClickListener() {
+       /* DatumKraj.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 DialogFragment datepicker2=new DatePickerFragment();
                 datepicker2.show(getSupportFragmentManager(),"date picker");
             }
         });
-
+*/
         SpremiPromjene.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -115,7 +118,26 @@ public class UpdateOfferActivity extends AppCompatActivity implements DatePicker
         });
 
 
+
     }
+    @RequiresApi(api = Build.VERSION_CODES.O)
+    @Override
+    public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
+        Calendar c=Calendar.getInstance();
+        c.set(Calendar.YEAR, year);
+        c.set(Calendar.MONTH,month);
+        c.set(Calendar.DAY_OF_MONTH,dayOfMonth);
+        int godina=c.get(Calendar.YEAR);
+        int mjesec=c.get(Calendar.MONTH)+1;
+        int dan=c.get(Calendar.DAY_OF_MONTH);
+        RadoviPocetak=godina+"-"+mjesec+"-"+dan;
+        String currentDate= DateFormat.getDateInstance(DateFormat.SHORT).format(c.getTime());
+
+        TextView datum=findViewById(R.id.txtDatumPocetkaRadova);
+        datum.setText(currentDate);
+
+    }
+    /*
     @RequiresApi(api = Build.VERSION_CODES.O)
     @Override
     public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
@@ -152,6 +174,23 @@ public class UpdateOfferActivity extends AppCompatActivity implements DatePicker
         }
     }
 
+     */
+
+    public void IzracunajDrugiDatum(String RadoviPočetak, int BrDana){
+        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+        Calendar c = Calendar.getInstance();
+        try{
+            c.setTime(dateFormat.parse(RadoviPočetak));
+
+        }
+        catch (ParseException e){
+            e.printStackTrace();
+        }
+
+        c.add(Calendar.DAY_OF_YEAR, BrDana);
+        DatumKrajaR = new Date(c.getTimeInMillis());
+        RadoviKraj = dateFormat.format(DatumKrajaR);
+    }
     public void DohvatiDatuum(){
         ConnectionClass connectionClass = new ConnectionClass();
         Connection con = connectionClass.CONN();
@@ -184,7 +223,13 @@ public class UpdateOfferActivity extends AppCompatActivity implements DatePicker
         return b;
     }
     public void UpdateOffer(){
-
+        BrojDanaString = BrojDanatxt.getText().toString();
+        Broj_Dana = Integer.valueOf(BrojDanaString);
+        IzracunajDrugiDatum(RadoviPocetak, Broj_Dana);
+        tv = findViewById(R.id.txtNaslovUređivanjaPonude);
+        tv.setText(RadoviPocetak);
+        tv2 = findViewById(R.id.txtNazivUpita);
+        tv2.setText(RadoviKraj);
         Connection con = connectionClass.CONN();
 
         Status = 0;

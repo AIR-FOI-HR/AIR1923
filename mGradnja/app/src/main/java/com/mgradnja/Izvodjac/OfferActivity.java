@@ -192,6 +192,10 @@ public class OfferActivity extends AppCompatActivity implements DatePickerDialog
 
                         Cena.setText("");
                         Ooopis.setText("");
+
+                        Intent inte = new Intent(OfferActivity.this, GlavniIzbornikIzvodjac.class);
+                        inte.putExtra("ID_izvodjaca", ID_Izvodjaca);
+                        startActivity(inte);
                                           }
                     else {
                         Toast.makeText(getApplicationContext(), "Greška prilikom izrade upita, pokušajte ponovno!", Toast.LENGTH_LONG).show();
