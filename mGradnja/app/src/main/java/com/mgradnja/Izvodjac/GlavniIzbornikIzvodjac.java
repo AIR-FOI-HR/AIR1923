@@ -20,6 +20,7 @@ import com.google.android.material.bottomnavigation.LabelVisibilityMode;
 import com.mgradnja.ConnectionClass;
 import com.mgradnja.GlavniIzbornikKorisnik;
 import com.mgradnja.Izvodjac.IstraziUpiteIzvodjac;
+import com.mgradnja.IzvodjacKalendarActivity;
 import com.mgradnja.JobListActivity;
 import com.mgradnja.R;
 
@@ -181,8 +182,12 @@ public class GlavniIzbornikIzvodjac extends AppCompatActivity {
 
                             break;
                         case R.id.nav_calendar:
+                            Intent otvoriKalendar = new Intent(GlavniIzbornikIzvodjac.this, IzvodjacKalendarActivity.class);
+                            otvoriKalendar.putExtra("ID_izvodjaca", ID);
+                            startActivity(otvoriKalendar);
 
                             break;
+
                         case R.id.nav_notifications:
 
                             break;

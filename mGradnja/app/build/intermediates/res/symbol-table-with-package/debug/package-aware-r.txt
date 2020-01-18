@@ -1720,6 +1720,7 @@ id info
 id invisible
 id italic
 id item_touch_helper_previous_elevation
+id izvodjacevKalendar
 id kalendarIzvodjaca
 id kontaktIzvodjaca
 id labelaAdresa
@@ -2066,6 +2067,7 @@ layout activity_glavni_izbornik_korisnik
 layout activity_istrazi_izvodjace
 layout activity_istrazi_upite_izvodjac
 layout activity_izvodjac_info
+layout activity_izvodjac_kalendar
 layout activity_job_list
 layout activity_job_list_izvodjac
 layout activity_login
