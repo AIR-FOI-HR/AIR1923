@@ -69,7 +69,7 @@ public class FragmentIzvodjacKalendar extends Fragment {
                         + "." + (calSelected.get(Calendar.MONTH) + 1)
                         + "." + calSelected.get(Calendar.YEAR) + ".";
 
-                Toast.makeText(getContext(), selectedDate, Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getContext(), selectedDate, Toast.LENGTH_SHORT).show();
             }
 
             @Override

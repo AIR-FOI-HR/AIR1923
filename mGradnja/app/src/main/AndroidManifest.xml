@@ -15,7 +15,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Izvodjac.UpdateOfferActivity"></activity>
+        <activity android:name=".IzvodjacKalendarActivity"></activity>
+        <activity android:name=".Izvodjac.UpdateOfferActivity" />
         <activity android:name=".Izvodjac.OfferListAcitivityIzvodjac" />
         <activity android:name=".Izvodjac.OfferActivity" />
         <activity android:name=".Izvodjac.JobListActivityIzvodjac" />
