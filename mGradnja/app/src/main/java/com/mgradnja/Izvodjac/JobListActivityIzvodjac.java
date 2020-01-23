@@ -170,7 +170,7 @@ public class JobListActivityIzvodjac extends AppCompatActivity {
     {
         Connection con = connectionClass.CONN();
 
-        String query = "select u.ID_djelatnosti, u.ID_upita, k.Ime, k.Prezime,  u.Naziv as 'Naziv_upita', u.Opis, p.Cijena, p.Datum_pocetka, p.Datum_zavrsetka from  korisnik k inner join upit u  on k.ID_korisnika = u.ID_korisnika inner join ponuda p  on u.ID_upita = p.ID_upita  where p.Status = 1 and p.ID_izvodjaca = '" + ID + "'and p.Datum_pocetka < convert(date,GETDATE()) and p.Datum_zavrsetka > convert(date,GETDATE())";
+        String query = "select u.ID_djelatnosti, u.ID_upita, k.Ime, k.Prezime,  u.Naziv as 'Naziv_upita', u.Opis, p.Cijena, p.Datum_pocetka, p.Datum_zavrsetka from  korisnik k inner join upit u  on k.ID_korisnika = u.ID_korisnika inner join ponuda p  on u.ID_upita = p.ID_upita  where p.Status = 1 and p.ID_izvodjaca = '" + ID + "'and p.Datum_pocetka <= convert(date,GETDATE()) and p.Datum_zavrsetka >= convert(date,GETDATE())";
         try {
             Statement statement = con.createStatement();
             ResultSet rs = statement.executeQuery(query);

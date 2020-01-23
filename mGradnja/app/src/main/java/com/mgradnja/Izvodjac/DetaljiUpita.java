@@ -9,6 +9,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.mgradnja.ConnectionClass;
 import com.mgradnja.R;
@@ -26,6 +27,7 @@ import java.text.SimpleDateFormat;
 public class DetaljiUpita extends AppCompatActivity {
 
     Integer ID_upita, ID_izvodjaca;
+    Integer BrojPonuda = 0;
     Upit upit;
 
     TextView naziv, opis, datum, adresa, grad, zupanija;
@@ -66,11 +68,34 @@ public class DetaljiUpita extends AppCompatActivity {
             public void onClick(View v) {
                 intent9.putExtra("ID_izvodjaca", ID_izvodjaca);
                 intent9.putExtra("ID_upita", ID_upita);
-                startActivity(intent9);
+                IzbrojiPonude();
+                if(BrojPonuda > 0) Toast.makeText(getApplicationContext(), "Već imate ponudu za ovaj upit!", Toast.LENGTH_SHORT).show();
+                else {
+                    startActivity(intent9);
+                }
             }
         });
     }
 
+    private void IzbrojiPonude(){
+
+        ConnectionClass connectionClass = new ConnectionClass();
+        Connection con = connectionClass.CONN();
+
+        String query = "select * from Ponuda where ID_upita = '" + ID_upita + "' and ID_izvodjaca = '" + ID_izvodjaca+"'";
+        try {
+            Statement statement = con.createStatement();
+            ResultSet rs = statement.executeQuery(query);
+
+            while(rs.next()){
+                BrojPonuda++;
+            }
+
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
     private void DohvatiUpit(Integer id_upita) {
         ConnectionClass connectionClass = new ConnectionClass();
         Connection con = connectionClass.CONN();
