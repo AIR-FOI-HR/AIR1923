@@ -6,6 +6,7 @@ public class JobAtributes {
     private int mbrojPosla;
     private int mbrojUpita;
     private int mbrojSlike;
+    private int mPlaceno;
     private float mCijena;
     private String mNazivIzvodjaca;
     private String mOpisPosla;
@@ -15,11 +16,11 @@ public class JobAtributes {
     private Date mPočetakPosla;
     private Date mkrajPosla;
 
-    public JobAtributes( int brojUpita, float cijena, String opisPosla, String nazivPosla, Date pocetakPosla, Date krajPosla, String nazivIzvodjaca, int brojSlike, String ime, String prezime){
+    public JobAtributes(int placeno, int brojUpita, float cijena, String opisPosla, String nazivPosla, Date pocetakPosla, Date krajPosla, String nazivIzvodjaca, int brojSlike, String ime, String prezime){
 
-        //mbrojPonude = brojPonude;
+
         mCijena = cijena;
-       // mbrojPosla = brojPosla;
+        mPlaceno = placeno;
         mbrojUpita = brojUpita;
         mNazivPosla = nazivPosla;
         mOpisPosla = opisPosla;
@@ -43,6 +44,7 @@ public class JobAtributes {
         return mOpisPosla;
 
     }
+    public int getmPlaceno(){return mPlaceno;}
     public String getmNazivPosla(){
         return mNazivPosla;
     }

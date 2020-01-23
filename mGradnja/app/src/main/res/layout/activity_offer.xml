@@ -137,7 +137,7 @@
             android:layout_marginEnd="46dp"
             android:layout_marginRight="46dp"
             android:background="#27D570"
-            android:text="Spremi promjene" />
+            android:text="IZRADI PONUDU" />
 
         <ImageButton
             android:id="@+id/btnDatumPocetka"

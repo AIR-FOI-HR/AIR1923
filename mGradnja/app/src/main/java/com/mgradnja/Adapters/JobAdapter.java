@@ -4,6 +4,7 @@ import android.graphics.drawable.Drawable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -28,6 +29,8 @@ public class JobAdapter extends RecyclerView.Adapter<JobAdapter.JobViewHolder> {
         public TextView mPocetak;
         public TextView mCijena;
         public ImageView mSlika;
+        public Button mCash;
+        public Button mCard;
 
 
         public JobViewHolder(@NonNull View itemView) {
@@ -39,6 +42,9 @@ public class JobAdapter extends RecyclerView.Adapter<JobAdapter.JobViewHolder> {
             mZavrsetak = itemView.findViewById(R.id.txtZavrsetskPosla);
             mNaziv = itemView.findViewById(R.id.txtNazivUpita);
             mSlika = itemView.findViewById(R.id.Slika);
+            mCash = itemView.findViewById(R.id.btnGotovina);
+            mCard = itemView.findViewById(R.id.btnOnline);
+
         }
     }
 
@@ -68,6 +74,11 @@ public class JobAdapter extends RecyclerView.Adapter<JobAdapter.JobViewHolder> {
         holder.mOpis.setText(JA.getmOpisPosla());
         holder.mIzvodjac.setText(String.valueOf("Izvođač: "+JA.getmNazivIzvodjaca()));
         holder.mSlika.setImageResource(JA.getMbrojSlike());
+        if(JA.getmPlaceno() == 1) {
+            holder.mCash.setVisibility(View.GONE);
+            holder.mCard.setVisibility(View.GONE);
+        }
+
 
 
     }

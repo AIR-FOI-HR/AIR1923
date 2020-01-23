@@ -1593,14 +1593,17 @@ id bottom_navigation_korisnik
 id brRacunaIzvodjaca
 id btbIzaberiPoslove
 id btbIzaberiUpite
+id btn
 id btnDatum
 id btnDatumPocetka
 id btnEditKorisnikSpremi
 id btnEditKorisnikUploadSlike
+id btnGotovina
 id btnIstrazi
 id btnIzvodjacIstrazi
 id btnNatragNaPrijavu
 id btnObrisi
+id btnOnline
 id btnPosaljiPonudu
 id btnPrijava
 id btnPrijavaIzRegistracije

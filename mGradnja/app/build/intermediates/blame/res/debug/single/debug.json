@@ -20,24 +20,24 @@
         "source": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\gittomm\\mGradnja\\app\\src\\main\\res\\layout\\list_item_upiti_profil_korisnika.xml"
     },
     {
-        "merged": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\gittomm\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_picker_header_toggle.xml.flat",
-        "source": "C:\\Users\\MarkoMehkek\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\layout\\mtrl_picker_header_toggle.xml"
-    },
-    {
         "merged": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\gittomm\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_half_black_16dp.png.flat",
         "source": "C:\\Users\\MarkoMehkek\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\gittomm\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_picker_header_toggle.xml.flat",
+        "source": "C:\\Users\\MarkoMehkek\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\layout\\mtrl_picker_header_toggle.xml"
     },
     {
         "merged": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\gittomm\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_error.xml.flat",
         "source": "C:\\Users\\MarkoMehkek\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\color\\mtrl_error.xml"
     },
     {
-        "merged": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\gittomm\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_pressed_holo_light.9.png.flat",
-        "source": "C:\\Users\\MarkoMehkek\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_light.9.png"
-    },
-    {
         "merged": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\gittomm\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\MarkoMehkek\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\gittomm\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_pressed_holo_light.9.png.flat",
+        "source": "C:\\Users\\MarkoMehkek\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_light.9.png"
     },
     {
         "merged": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\gittomm\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_grow_fade_in_from_bottom.xml.flat",
@@ -48,12 +48,12 @@
         "source": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\gittomm\\mGradnja\\app\\src\\main\\res\\drawable\\staklar.png"
     },
     {
-        "merged": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\gittomm\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_upit.xml.flat",
-        "source": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\gittomm\\mGradnja\\app\\src\\main\\res\\drawable\\ic_upit.xml"
-    },
-    {
         "merged": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\gittomm\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
         "source": "C:\\Users\\MarkoMehkek\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\gittomm\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_upit.xml.flat",
+        "source": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\gittomm\\mGradnja\\app\\src\\main\\res\\drawable\\ic_upit.xml"
     },
     {
         "merged": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\gittomm\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_menu_overflow_material.xml.flat",
@@ -120,12 +120,12 @@
         "source": "C:\\Users\\MarkoMehkek\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\color\\material_on_surface_disabled.xml"
     },
     {
-        "merged": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\gittomm\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_month.xml.flat",
-        "source": "C:\\Users\\MarkoMehkek\\.gradle\\caches\\transforms-2\\files-2.1\\e7b7e31393e5f414ca31dd76d9a8fa1f\\android-times-square-1.6.5\\res\\layout\\month.xml"
-    },
-    {
         "merged": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\gittomm\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\MarkoMehkek\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\gittomm\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_month.xml.flat",
+        "source": "C:\\Users\\MarkoMehkek\\.gradle\\caches\\transforms-2\\files-2.1\\e7b7e31393e5f414ca31dd76d9a8fa1f\\android-times-square-1.6.5\\res\\layout\\month.xml"
     },
     {
         "merged": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\gittomm\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_search_api_material.xml.flat",
@@ -136,16 +136,16 @@
         "source": "C:\\Users\\MarkoMehkek\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\gittomm\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_focused_holo.9.png.flat",
-        "source": "C:\\Users\\MarkoMehkek\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png"
+        "merged": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\gittomm\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_half_black_36dp.png.flat",
+        "source": "C:\\Users\\MarkoMehkek\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
     {
         "merged": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\gittomm\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action.xml.flat",
         "source": "C:\\Users\\MarkoMehkek\\.gradle\\caches\\transforms-2\\files-2.1\\e9dab9c67c1ee3668e0bbf86c6d8cbd8\\core-1.1.0\\res\\layout-v21\\notification_action.xml"
     },
     {
-        "merged": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\gittomm\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_half_black_36dp.png.flat",
-        "source": "C:\\Users\\MarkoMehkek\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png"
+        "merged": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\gittomm\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_focused_holo.9.png.flat",
+        "source": "C:\\Users\\MarkoMehkek\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png"
     },
     {
         "merged": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\gittomm\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_offerlist_izvodjac_layout.xml.flat",

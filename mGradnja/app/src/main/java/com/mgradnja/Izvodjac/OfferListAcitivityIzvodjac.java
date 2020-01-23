@@ -207,42 +207,42 @@ public class OfferListAcitivityIzvodjac extends AppCompatActivity {
 
             switch (brojDjelatnosti) {
                 case 1:
-                    JA = new JobAtributes(brojUpita, cijena, OpisPosla, NazivPosla, PocetakPosla, krajPosla, " ", R.drawable.krov,Ime, Prezime);
+                    JA = new JobAtributes(1, brojUpita, cijena, OpisPosla, NazivPosla, PocetakPosla, krajPosla, " ", R.drawable.krov,Ime, Prezime);
                     ListaSvihPonuda.add(JA);
 
                     break;
                 case 2:
-                    JA = new JobAtributes(brojUpita, cijena, OpisPosla, NazivPosla, PocetakPosla, krajPosla, " ", R.drawable.stol,Ime, Prezime);
+                    JA = new JobAtributes(1, brojUpita, cijena, OpisPosla, NazivPosla, PocetakPosla, krajPosla, " ", R.drawable.stol,Ime, Prezime);
                     ListaSvihPonuda.add(JA);
 
                     break;
                 case 3:
-                    JA = new JobAtributes(brojUpita, cijena, OpisPosla, NazivPosla, PocetakPosla, krajPosla, " ", R.drawable.bravaa,Ime, Prezime);
+                    JA = new JobAtributes(1, brojUpita, cijena, OpisPosla, NazivPosla, PocetakPosla, krajPosla, " ", R.drawable.bravaa,Ime, Prezime);
                     ListaSvihPonuda.add(JA);
 
                     break;
                 case 4:
-                    JA = new JobAtributes(brojUpita, cijena, OpisPosla, NazivPosla, PocetakPosla, krajPosla, " ", R.drawable.staklar,Ime, Prezime);
+                    JA = new JobAtributes(1, brojUpita, cijena, OpisPosla, NazivPosla, PocetakPosla, krajPosla, " ", R.drawable.staklar,Ime, Prezime);
                     ListaSvihPonuda.add(JA);
 
                     break;
                 case 5:
-                    JA = new JobAtributes(brojUpita, cijena, OpisPosla, NazivPosla, PocetakPosla, krajPosla, " ", R.drawable.keramika,Ime, Prezime);
+                    JA = new JobAtributes(1, brojUpita, cijena, OpisPosla, NazivPosla, PocetakPosla, krajPosla, " ", R.drawable.keramika,Ime, Prezime);
                     ListaSvihPonuda.add(JA);
 
                     break;
                 case 6:
-                    JA = new JobAtributes(brojUpita, cijena, OpisPosla, NazivPosla, PocetakPosla, krajPosla, " ", R.drawable.soboslikar,Ime, Prezime);
+                    JA = new JobAtributes(1, brojUpita, cijena, OpisPosla, NazivPosla, PocetakPosla, krajPosla, " ", R.drawable.soboslikar,Ime, Prezime);
                     ListaSvihPonuda.add(JA);
 
                     break;
                 case 7:
-                    JA = new JobAtributes(brojUpita, cijena, OpisPosla, NazivPosla, PocetakPosla, krajPosla, " ", R.drawable.zidar, Ime, Prezime);
+                    JA = new JobAtributes(1, brojUpita, cijena, OpisPosla, NazivPosla, PocetakPosla, krajPosla, " ", R.drawable.zidar, Ime, Prezime);
                     ListaSvihPonuda.add(JA);
 
                     break;
                 default:
-                    JA = new JobAtributes(brojUpita, cijena, OpisPosla, NazivPosla, PocetakPosla, krajPosla, " ", R.drawable.ic_wrench_24dp, Ime, Prezime);
+                    JA = new JobAtributes(1, brojUpita, cijena, OpisPosla, NazivPosla, PocetakPosla, krajPosla, " ", R.drawable.ic_wrench_24dp, Ime, Prezime);
                     ListaSvihPonuda.add(JA);
 
                     break;

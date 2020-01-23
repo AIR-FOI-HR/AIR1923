@@ -251,42 +251,42 @@ public class OfferListActivity extends AppCompatActivity {
 
             switch (brojDjelatnosti) {
                 case 1:
-                    JA = new JobAtributes(brojUpita, cijena, OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.krov, " ", " ");
+                    JA = new JobAtributes(1, brojUpita, cijena, OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.krov, " ", " ");
                     ListaSvihPonuda.add(JA);
 
                     break;
                 case 2:
-                    JA = new JobAtributes(brojUpita, cijena, OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.stol, " ", " ");
+                    JA = new JobAtributes(1, brojUpita, cijena, OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.stol, " ", " ");
                     ListaSvihPonuda.add(JA);
 
                     break;
                 case 3:
-                    JA = new JobAtributes(brojUpita, cijena, OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.bravaa, " ", " ");
+                    JA = new JobAtributes(1, brojUpita, cijena, OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.bravaa, " ", " ");
                     ListaSvihPonuda.add(JA);
 
                     break;
                 case 4:
-                    JA = new JobAtributes(brojUpita, cijena, OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.staklar, " ", " ");
+                    JA = new JobAtributes(1, brojUpita, cijena, OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.staklar, " ", " ");
                     ListaSvihPonuda.add(JA);
 
                     break;
                 case 5:
-                    JA = new JobAtributes(brojUpita, cijena, OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.keramika, " ", " ");
+                    JA = new JobAtributes(1, brojUpita, cijena, OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.keramika, " ", " ");
                     ListaSvihPonuda.add(JA);
 
                     break;
                 case 6:
-                    JA = new JobAtributes(brojUpita, cijena, OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.soboslikar, " ", " ");
+                    JA = new JobAtributes(1, brojUpita, cijena, OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.soboslikar, " ", " ");
                     ListaSvihPonuda.add(JA);
 
                     break;
                 case 7:
-                    JA = new JobAtributes(brojUpita, cijena, OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.zidar, " ", " ");
+                    JA = new JobAtributes(1, brojUpita, cijena, OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.zidar, " ", " ");
                     ListaSvihPonuda.add(JA);
 
                     break;
                 default:
-                    JA = new JobAtributes(brojUpita, cijena, OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.ic_wrench_24dp, " ", " ");
+                    JA = new JobAtributes(1, brojUpita, cijena, OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.ic_wrench_24dp, " ", " ");
                     ListaSvihPonuda.add(JA);
 
                     break;
@@ -359,7 +359,7 @@ public class OfferListActivity extends AppCompatActivity {
             } catch (SQLException e) {
                 e.printStackTrace();
             }
-            String query4 = "Insert into Posao VALUES(('"+ ID_Upita +"'), ('"+ IzvodjacID +"'))";
+            String query4 = "Insert into Posao VALUES(('"+ ID_Upita +"'), ('"+ IzvodjacID +"'), ('" + 0 + "'))";
 
             try {
                 Statement statement4 = con.createStatement();
