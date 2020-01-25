@@ -83,7 +83,6 @@ public class JobListActivity extends AppCompatActivity {
 
 
 
-
         DohvatiTrenutnePoslove();
         DohvatiProslePoslove();
         DohvatiBuducePoslove();
@@ -163,9 +162,9 @@ public class JobListActivity extends AppCompatActivity {
             }
         });
 
-
-
     }
+
+
 
 
     public void DohvatiSvePoslove(){
