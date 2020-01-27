@@ -4,6 +4,7 @@ import java.sql.Date;
 
 public class ItemUpitiProfilKorisnika {
 
+    private Integer ID;
     private String naziv;
     private Date datum;
     private String opis;
@@ -11,13 +12,18 @@ public class ItemUpitiProfilKorisnika {
     private String grad;
     private String zupanija;
 
-    public ItemUpitiProfilKorisnika(String naziv, Date datum, String opis, String adresa, String grad, String zupanija){
+    public ItemUpitiProfilKorisnika(Integer ID, String naziv, Date datum, String opis, String adresa, String grad, String zupanija){
+        this.ID = ID;
         this.naziv = naziv;
         this.datum = datum;
         this.opis = opis;
         this.adresa = adresa;
         this.grad = grad;
         this.zupanija = zupanija;
+    }
+
+    public Integer getID() {
+        return this.ID;
     }
 
     public String getNaziv() {
@@ -43,4 +49,5 @@ public class ItemUpitiProfilKorisnika {
     public String getZupanija(){
         return this.zupanija;
     }
+
 }

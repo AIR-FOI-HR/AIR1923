@@ -6,145 +6,145 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml
+8-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml
+9-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:5:5-67
-11-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:5:22-64
+11-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:6:5-79
-12-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:6:22-76
+12-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:6:22-76
 13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-13-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:7:5-76
-13-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:7:22-73
+13-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:7:5-76
+13-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:7:22-73
 14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-14-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:8:5-80
-14-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:8:22-77
+14-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:8:5-80
+14-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:8:22-77
 15    <uses-permission android:name="android.permission.CALL_PHONE" />
-15-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:9:5-69
-15-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:9:22-66
+15-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:9:5-69
+15-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:9:22-66
 16
 17    <application
-17-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:11:5-54:19
+17-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:11:5-54:19
 18        android:allowBackup="true"
-18-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:12:9-35
+18-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:12:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-19-->[androidx.core:core:1.1.0] C:\Users\MarkoMehkek\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
+19-->[androidx.core:core:1.1.0] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
 20        android:debuggable="true"
 21        android:icon="@mipmap/ic_launcher"
-21-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:13:9-43
+21-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:13:9-43
 22        android:label="@string/app_name"
-22-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:14:9-41
+22-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:14:9-41
 23        android:roundIcon="@mipmap/ic_launcher_round"
-23-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:15:9-54
+23-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:15:9-54
 24        android:supportsRtl="true"
-24-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:16:9-35
+24-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:16:9-35
 25        android:testOnly="true"
 26        android:theme="@style/AppTheme" >
-26-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:17:9-40
+26-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:17:9-40
 27        <activity android:name="com.mgradnja.IzvodjacKalendarActivity" />
-27-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:18:9-71
-27-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:18:19-59
+27-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:18:9-71
+27-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:18:19-59
 28        <activity android:name="com.mgradnja.Izvodjac.UpdateOfferActivity" />
-28-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:19:9-66
-28-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:19:19-63
+28-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:19:9-66
+28-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:19:19-63
 29        <activity android:name="com.mgradnja.Izvodjac.OfferListAcitivityIzvodjac" />
-29-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:20:9-73
-29-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:20:19-70
+29-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:20:9-73
+29-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:20:19-70
 30        <activity android:name="com.mgradnja.Izvodjac.OfferActivity" />
-30-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:21:9-60
-30-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:21:19-57
+30-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:21:9-60
+30-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:21:19-57
 31        <activity android:name="com.mgradnja.Izvodjac.JobListActivityIzvodjac" />
-31-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:22:9-70
-31-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:22:19-67
+31-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:22:9-70
+31-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:22:19-67
 32        <activity
-32-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:23:9-25:68
+32-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:23:9-25:68
 33            android:name="com.mgradnja.IzvodjacInfoActivity"
-33-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:24:13-49
+33-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:24:13-49
 34            android:label="@string/title_activity_izvodjac_info" />
-34-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:25:13-65
+34-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:25:13-65
 35        <activity android:name="com.mgradnja.IstraziIzvodjaceActivity" />
-35-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:26:9-62
-35-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:26:19-59
+35-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:26:9-62
+35-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:26:19-59
 36        <activity android:name="com.mgradnja.OfferListActivity" />
-36-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:27:9-55
-36-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:27:19-52
+36-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:27:9-55
+36-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:27:19-52
 37        <activity android:name="com.mgradnja.EditProfilKorisnikActivity" />
-37-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:28:9-64
-37-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:28:19-61
+37-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:28:9-64
+37-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:28:19-61
 38        <activity
-38-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:29:9-31:59
+38-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:29:9-31:59
 39            android:name="com.mgradnja.ProfilKorisnikActivity"
-39-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:30:13-51
+39-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:30:13-51
 40            android:theme="@style/AppTheme.NoActionBar" />
-40-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:31:13-56
+40-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:31:13-56
 41        <activity android:name="com.mgradnja.JobListActivity" />
-41-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:32:9-53
-41-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:32:19-50
+41-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:32:9-53
+41-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:32:19-50
 42        <activity android:name="com.mgradnja.UserSearchActivity" />
-42-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:33:9-56
-42-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:33:19-53
+42-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:33:9-56
+42-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:33:19-53
 43        <activity android:name="com.mgradnja.Registration_performer" />
-43-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:34:9-60
-43-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:34:19-57
+43-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:34:9-60
+43-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:34:19-57
 44        <activity android:name="com.mgradnja.Registration_user" />
-44-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:35:9-55
-44-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:35:19-52
+44-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:35:9-55
+44-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:35:19-52
 45        <activity android:name="com.mgradnja.GlavniIzbornikKorisnik" />
-45-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:36:9-60
-45-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:36:19-57
+45-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:36:9-60
+45-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:36:19-57
 46        <activity android:name="com.mgradnja.RegistrationActivity" />
-46-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:37:9-58
-46-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:37:19-55
+46-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:37:9-58
+46-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:37:19-55
 47        <activity android:name="com.mgradnja.LoginActivity" />
-47-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:38:9-51
-47-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:38:19-48
+47-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:38:9-51
+47-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:38:19-48
 48        <activity android:name="com.mgradnja.QueryActivity" />
-48-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:39:9-51
-48-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:39:19-48
+48-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:39:9-51
+48-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:39:19-48
 49        <activity android:name="com.mgradnja.Izvodjac.GlavniIzbornikIzvodjac" />
-49-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:40:9-69
-49-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:40:19-66
+49-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:40:9-69
+49-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:40:19-66
 50        <activity android:name="com.mgradnja.Izvodjac.DetaljiUpita" />
-50-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:41:9-59
-50-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:41:19-56
+50-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:41:9-59
+50-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:41:19-56
 51        <activity android:name="com.mgradnja.Izvodjac.IstraziUpiteIzvodjac" />
-51-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:42:9-67
-51-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:42:19-64
+51-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:42:9-67
+51-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:42:19-64
 52        <activity android:name="com.mgradnja.MainActivity" >
-52-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:43:9-49:20
-52-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:43:19-47
+52-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:43:9-49:20
+52-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:43:19-47
 53            <intent-filter>
-53-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:44:13-48:29
+53-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:44:13-48:29
 54                <action android:name="android.intent.action.MAIN" />
-54-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:45:17-69
-54-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:45:25-66
+54-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:45:17-69
+54-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:45:25-66
 55
 56                <category android:name="android.intent.category.LAUNCHER" />
-56-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:47:17-77
-56-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:47:27-74
+56-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:47:17-77
+56-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:47:27-74
 57            </intent-filter>
 58        </activity>
 59
 60        <meta-data
-60-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:51:9-53:57
+60-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:51:9-53:57
 61            android:name="preloaded_fonts"
-61-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:52:13-43
+61-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:52:13-43
 62            android:resource="@array/preloaded_fonts" />
-62-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gittomm\mGradnja\app\src\main\AndroidManifest.xml:53:13-54
+62-->C:\Users\VEDRAN\Desktop\26.1.2020\mGradnja\app\src\main\AndroidManifest.xml:53:13-54
 63
 64        <provider
-64-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\MarkoMehkek\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+64-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
 65            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-65-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\MarkoMehkek\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+65-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
 66            android:authorities="com.mgradnja.lifecycle-process"
-66-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\MarkoMehkek\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+66-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
 67            android:exported="false"
-67-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\MarkoMehkek\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+67-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
 68            android:multiprocess="true" />
-68-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\MarkoMehkek\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+68-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
 69    </application>
 70
 71</manifest>

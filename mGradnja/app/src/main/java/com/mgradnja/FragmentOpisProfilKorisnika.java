@@ -34,7 +34,6 @@ public class FragmentOpisProfilKorisnika extends Fragment {
 
 
     TextView txtImeKorisnika, txtPrezimeKorisnika, txtMailKorisnika, txtTelefonKorisnika;
-    ImageView imgProfilaKorisnika;
     Button editKorisnika;
 
 
@@ -52,7 +51,6 @@ public class FragmentOpisProfilKorisnika extends Fragment {
         txtPrezimeKorisnika = (TextView) view.findViewById(R.id.txtPrezimeKorisnika);
         txtMailKorisnika = (TextView) view.findViewById(R.id.txtProfilKorisnikMailIspis);
         txtTelefonKorisnika = (TextView) view.findViewById(R.id.txtProfilKorisnikTelefonIspis);
-        imgProfilaKorisnika = (ImageView) view.findViewById(R.id.imgProfilKorisnika);
 
 
         Intent intent = getActivity().getIntent();
@@ -98,15 +96,6 @@ public class FragmentOpisProfilKorisnika extends Fragment {
                 txtPrezimeKorisnika.setText(rs.getString("Prezime"));
                 txtMailKorisnika.setText(rs.getString("Mail"));
                 txtTelefonKorisnika.setText(rs.getString("Telefon"));
-
-                /*if (rs.getString("Slika").equals("")){
-                    imgProfilaKorisnika.setImageResource(R.drawable.korisnik);
-                }
-                else{
-                    imgProfilaKorisnika.setImageResource(rs.getByte("Slika"));
-                }*/
-                imgProfilaKorisnika.setImageResource(rs.getByte("Slika"));
-
 
             }
         }

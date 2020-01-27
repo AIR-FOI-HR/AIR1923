@@ -31,8 +31,7 @@ public class EditProfilKorisnikActivity extends AppCompatActivity {
 
     ConnectionClass connectionClass;
     EditText txtImeEditKorisnika, txtPrezimeEditKorisnika, txtTelefonEditKorisnik, txtMailEditKorisnik, txtLozinkaEditKorisnik, txtPlozinkaEditKorisnik;
-    ImageView imgProfilnaEditKorisnik;
-    Button btnSpremiEditKorisnika, btnEdtiProfilneSlikeKorisnik;
+    Button btnSpremiEditKorisnika;
 
     final int REQUEST_CODE_GALLERY = 999;
 
@@ -49,9 +48,7 @@ public class EditProfilKorisnikActivity extends AppCompatActivity {
         txtTelefonEditKorisnik = (EditText) findViewById(R.id.txtEditKorisnikTelefon);
         txtLozinkaEditKorisnik = (EditText) findViewById(R.id.txtEditKorisnikLozinka);
         txtPlozinkaEditKorisnik = (EditText) findViewById(R.id.txtEditKorisnikPlozinka);
-        imgProfilnaEditKorisnik = (ImageView) findViewById(R.id.imgEditKorisnik);
         btnSpremiEditKorisnika = (Button) findViewById(R.id.btnEditKorisnikSpremi);
-        btnEdtiProfilneSlikeKorisnik = (Button) findViewById(R.id.btnEditKorisnikUploadSlike);
 
 
         //DOHVAT ID-A KORISNIKA IZ PRIJAŠNJE AKTIVNOSTI
@@ -60,11 +57,6 @@ public class EditProfilKorisnikActivity extends AppCompatActivity {
 
         dohvatPodatakaEditKorisnik(ID);
 
-        btnEdtiProfilneSlikeKorisnik.setOnClickListener(v -> ActivityCompat.requestPermissions(
-                EditProfilKorisnikActivity.this,
-                new String[]{Manifest.permission.READ_EXTERNAL_STORAGE},
-                REQUEST_CODE_GALLERY
-        ));
 
         btnSpremiEditKorisnika.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -93,7 +85,6 @@ public class EditProfilKorisnikActivity extends AppCompatActivity {
                 txtTelefonEditKorisnik.setText(rs.getString("Telefon"));
                 txtLozinkaEditKorisnik.setText(rs.getString("Lozinka"));
                 txtPlozinkaEditKorisnik.setText(rs.getString("Lozinka"));
-                //imgProfilnaEditKorisnik.setImageResource(rs.getByte("Slika"));
 
             }
 
@@ -111,7 +102,6 @@ public class EditProfilKorisnikActivity extends AppCompatActivity {
         String telefon = txtTelefonEditKorisnik.getText().toString();
         String lozinka = txtLozinkaEditKorisnik.getText().toString();
         String pLozinka = txtPlozinkaEditKorisnik.getText().toString();
-        byte[] slika = imageViewToByteKorisnik(imgProfilnaEditKorisnik);
 
         if (ime.equals("") || prezime.equals("") || mail.equals("") || telefon.equals("") || lozinka.equals("") || pLozinka.equals("")){
             Toast.makeText(getApplicationContext(), "Niste ispunili sve potrebne podatke!", Toast.LENGTH_SHORT).show();
@@ -128,7 +118,7 @@ public class EditProfilKorisnikActivity extends AppCompatActivity {
                         Statement st = con.createStatement();
 
 
-                        String queriEditKorisnik = "UPDATE Korisnik SET Ime = ('"+ ime +"'), Prezime  = ('"+ prezime +"'), Telefon = ('"+ telefon +"'), Mail = ('"+ mail +"'), Lozinka = ('"+ lozinka +"'), Slika = CAST(('"+ slika +"') as varBinary(Max)) WHERE ID_korisnika=('" + ID + "')";
+                        String queriEditKorisnik = "UPDATE Korisnik SET Ime = ('"+ ime +"'), Prezime  = ('"+ prezime +"'), Telefon = ('"+ telefon +"'), Mail = ('"+ mail +"'), Lozinka = ('"+ lozinka +"') WHERE ID_korisnika=('" + ID + "')";
 
                         if (st.executeUpdate(queriEditKorisnik) == 1){
                             Toast.makeText(getApplicationContext(), "Podaci su uspješno promijenjeni!", Toast.LENGTH_LONG).show();
@@ -152,46 +142,6 @@ public class EditProfilKorisnikActivity extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(), "Lozinka i ponovljena lozinka se ne poklapaju!", Toast.LENGTH_SHORT).show();
             }
         }
-    }
-
-    public static byte[] imageViewToByteKorisnik(ImageView image){
-        Bitmap bitmap = ((BitmapDrawable)image.getDrawable()).getBitmap();
-        ByteArrayOutputStream stream = new ByteArrayOutputStream();
-        bitmap.compress(Bitmap.CompressFormat.PNG, 100, stream);
-        byte[] byteArray = stream.toByteArray();
-        return byteArray;
-    }
-
-    @Override
-    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults){
-        if (requestCode == REQUEST_CODE_GALLERY){
-            if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED){
-                Intent intent = new Intent(Intent.ACTION_PICK);
-                intent.setType("image/*");
-                startActivityForResult(intent, REQUEST_CODE_GALLERY);
-            }else{
-                Toast.makeText(getApplicationContext(), "Nemate prava", Toast.LENGTH_SHORT).show();
-            }
-            return;
-        }
-        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-    }
-
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data){
-        if (resultCode == RESULT_OK && requestCode == REQUEST_CODE_GALLERY){
-            Uri uri = data.getData();
-
-            try{
-                InputStream inputStream = getContentResolver().openInputStream(uri);
-                Bitmap bitmap = BitmapFactory.decodeStream(inputStream);
-                imgProfilnaEditKorisnik.setImageBitmap(bitmap);
-            }
-            catch (FileNotFoundException e){
-                e.printStackTrace();
-            }
-        }
-        super.onActivityResult(requestCode, resultCode, data);
     }
 
 
