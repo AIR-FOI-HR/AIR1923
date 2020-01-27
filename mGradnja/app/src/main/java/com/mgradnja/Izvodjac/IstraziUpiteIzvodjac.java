@@ -12,10 +12,13 @@ import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.mgradnja.ConnectionClass;
+import com.mgradnja.GlavniIzbornikKorisnik;
 import com.mgradnja.R;
 
 import java.sql.Connection;
@@ -45,6 +48,11 @@ public class IstraziUpiteIzvodjac extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_istrazi_upite_izvodjac);
+
+        ActionBar actionBar = getSupportActionBar();
+        if (actionBar != null){
+            actionBar.setDisplayHomeAsUpEnabled(true);
+        }
 
         upiti = new ArrayList<>();
         sifre = new ArrayList<>();
@@ -107,23 +115,23 @@ public class IstraziUpiteIzvodjac extends AppCompatActivity {
             e.printStackTrace();
         }
     }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        MenuItem item = menu.add("Početna");
-        item.setIcon(R.drawable.ic_home_white_24dp);
-        item.setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS);
-        item.setOnMenuItemClickListener(new MenuItem.OnMenuItemClickListener() {
-            @Override
-            public boolean onMenuItemClick(MenuItem item) {
-                Intent intent = new Intent(IstraziUpiteIzvodjac.this, GlavniIzbornikIzvodjac.class);
-                intent.putExtra("ID_izvodjaca", ID_izvodjaca);
-                startActivity(intent);
-
-                return false;
-            }
-        });
-
-        //TODO ??
         return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()){
+            case android.R.id.home:
+                Intent intent = new Intent(this, GlavniIzbornikIzvodjac.class);
+                intent.putExtra("ID_izvodjaca", ID_izvodjaca);
+                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                this.startActivity(intent);
+                finish();
+                break;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

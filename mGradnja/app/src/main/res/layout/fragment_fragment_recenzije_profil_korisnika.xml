@@ -8,7 +8,10 @@
     <TextView
         android:id="@+id/txtPorukaRecenzije"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"/>
 
 
     <androidx.recyclerview.widget.RecyclerView

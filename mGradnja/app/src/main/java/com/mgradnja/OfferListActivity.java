@@ -1,5 +1,7 @@
 package com.mgradnja;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -9,6 +11,8 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -19,6 +23,7 @@ import android.widget.Toast;
 
 import com.mgradnja.Adapters.OfferAdapter;
 import com.mgradnja.HelpEntities.JobAtributes;
+import com.mgradnja.Izvodjac.GlavniIzbornikIzvodjac;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -80,9 +85,16 @@ public class OfferListActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_offer_list);
 
+        ActionBar actionBar = getSupportActionBar();
+        if (actionBar != null){
+            actionBar.setDisplayHomeAsUpEnabled(true);
+        }
+
         connectionClass = new ConnectionClass();
+
         Intent intent = getIntent();
         ID = intent.getIntExtra("ID_korisnika", 0);
+
         DohvatiTrenutneUpite();
         /*
         Spinner spinPon = findViewById(R.id.spinPonude);
@@ -402,5 +414,33 @@ public class OfferListActivity extends AppCompatActivity {
 
             }
         });
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()){
+            case android.R.id.home:
+                Intent intent = new Intent(this, GlavniIzbornikKorisnik.class);
+                intent.putExtra("ID_korisnika", ID);
+                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                this.startActivity(intent);
+                finish();
+                break;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void onBackPressed(){
+        Intent intent = new Intent(this, GlavniIzbornikKorisnik.class);
+        intent.putExtra("ID_korisnika", ID);
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        this.startActivity(intent);
+        finish();
     }
 }

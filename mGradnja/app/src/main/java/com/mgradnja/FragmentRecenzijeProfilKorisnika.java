@@ -120,7 +120,7 @@ public class FragmentRecenzijeProfilKorisnika extends Fragment {
         listaKomentaraRecenzija.clear();
 
         if (listaRecenzija.isEmpty()){
-            txtPoruka.setText("Nemate recenzija");
+            txtPoruka.setText("Trenutno nema recenzija...");
         }
 
     }

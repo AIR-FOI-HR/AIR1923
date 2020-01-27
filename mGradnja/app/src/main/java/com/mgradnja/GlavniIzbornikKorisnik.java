@@ -14,6 +14,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -56,6 +57,10 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_glavni_izbornik_korisnik);
+
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setSubtitle("Početna");
+        //actionBar.setLogo(R.drawable.ic_info);
 
         //DOHVAT ID-A KORISNIKA IZ PRIJAŠNJE AKTIVNOSTI
         Intent intent = getIntent();
@@ -102,7 +107,6 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
         intent.putExtra("kategorija", odabranaKategorija);
         intent.putExtra("zupanija", odabranaZupanija);
         intent.putExtra("ID_korisnika", ID);
-
         startActivity(intent);
 
     }
@@ -259,5 +263,8 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
                 }
             };
 
-
+    @Override
+    public void onBackPressed(){
+        finish();
+    }
 }

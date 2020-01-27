@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -16,12 +15,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.google.android.material.bottomnavigation.LabelVisibilityMode;
 import com.mgradnja.ConnectionClass;
-import com.mgradnja.GlavniIzbornikKorisnik;
-import com.mgradnja.Izvodjac.IstraziUpiteIzvodjac;
-import com.mgradnja.IzvodjacKalendarActivity;
-import com.mgradnja.JobListActivity;
 import com.mgradnja.R;
 
 import java.sql.Connection;
@@ -93,7 +87,6 @@ public class GlavniIzbornikIzvodjac extends AppCompatActivity {
         intent.putExtra("ID_izvodjaca", ID);
         intent.putExtra("kategorija", odabranaKategorija);
         intent.putExtra("zupanija", odabranaZupanija);
-
         startActivity(intent);
     }
 
@@ -185,7 +178,6 @@ public class GlavniIzbornikIzvodjac extends AppCompatActivity {
                             Intent otvoriKalendar = new Intent(GlavniIzbornikIzvodjac.this, IzvodjacKalendarActivity.class);
                             otvoriKalendar.putExtra("ID_izvodjaca", ID);
                             startActivity(otvoriKalendar);
-
                             break;
 
                         case R.id.nav_notifications:
@@ -200,6 +192,11 @@ public class GlavniIzbornikIzvodjac extends AppCompatActivity {
                     return  true;
                 }
             };
+
+    @Override
+    public void onBackPressed(){
+        finish();
+    }
 
     /*
     @Override

@@ -1,4 +1,4 @@
-package com.mgradnja;
+package com.mgradnja.Izvodjac;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
@@ -10,7 +10,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import com.mgradnja.ConnectionClass;
 import com.mgradnja.Izvodjac.GlavniIzbornikIzvodjac;
+import com.mgradnja.R;
 import com.squareup.timessquare.CalendarPickerView;
 
 import java.sql.Connection;
@@ -115,7 +117,6 @@ public class IzvodjacKalendarActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         return true;
-        //return super.onCreateOptionsMenu(menu);
     }
 
     @Override

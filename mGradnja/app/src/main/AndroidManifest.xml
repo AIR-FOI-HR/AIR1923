@@ -15,7 +15,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".IzvodjacKalendarActivity"></activity>
+        <activity android:name=".Izvodjac.IzvodjacKalendarActivity"></activity>
         <activity android:name=".Izvodjac.UpdateOfferActivity" />
         <activity android:name=".Izvodjac.OfferListAcitivityIzvodjac" />
         <activity android:name=".Izvodjac.OfferActivity" />
@@ -26,9 +26,7 @@
         <activity android:name=".IstraziIzvodjaceActivity" />
         <activity android:name=".OfferListActivity" />
         <activity android:name=".EditProfilKorisnikActivity" />
-        <activity
-            android:name=".ProfilKorisnikActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ProfilKorisnikActivity" />
         <activity android:name=".JobListActivity" />
         <activity android:name=".UserSearchActivity" />
         <activity android:name=".Registration_performer" />

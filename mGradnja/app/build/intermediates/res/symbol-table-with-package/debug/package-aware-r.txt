@@ -1450,6 +1450,7 @@ drawable ic_calendar_black_24dp
 drawable ic_chat
 drawable ic_clear_black_24dp
 drawable ic_edit_black_24dp
+drawable ic_exit
 drawable ic_home_24dp
 drawable ic_home_white_24dp
 drawable ic_info
@@ -1742,6 +1743,7 @@ id line3
 id listMode
 id list_item
 id listaIzvodjaca
+id logout
 id lstIzvodjaci
 id lstUpiti
 id mailIzvodjaca
@@ -1960,6 +1962,7 @@ id txtNaslovStranice
 id txtNaziv
 id txtNazivRadova
 id txtNazivUpita
+id txtNemaRecenzija
 id txtNemate2
 id txtOib
 id txtOpisPosla
@@ -1985,7 +1988,6 @@ id txtUpitGrad
 id txtUpitNaziv
 id txtUpitOpis
 id txtUpitZupanija
-id txtZapamti
 id txtZavrsetskPosla
 id txtZupanija
 id unchecked
@@ -2179,6 +2181,7 @@ layout text_view_without_line_height
 layout week
 menu navigation_izvodjac
 menu navigation_korisnik
+menu profil_menu
 menu top_menu
 menu upit_menu
 mipmap ic_launcher
