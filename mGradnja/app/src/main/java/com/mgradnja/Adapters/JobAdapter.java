@@ -25,8 +25,8 @@ public class JobAdapter extends RecyclerView.Adapter<JobAdapter.JobViewHolder> {
     private OnItemClickListener mListener;
     public interface OnItemClickListener{
         void OnItemClick(int position);
-        void OnDeleteClick(int position);
-        void OnUpdateClick(int position);
+        void OnlinePayClick(int position);
+        void OnCashClick(int position);
     }
     public void setOnClickListener(OnItemClickListener listener){
         mListener = listener;
@@ -73,7 +73,7 @@ public class JobAdapter extends RecyclerView.Adapter<JobAdapter.JobViewHolder> {
                 public void onClick(View v) {
                     if(listener != null) {
                         int position = getAdapterPosition();
-                        if(position != RecyclerView.NO_POSITION) listener.OnItemClick(position);
+                        if(position != RecyclerView.NO_POSITION) listener.OnlinePayClick(position);
 
 
                     }
@@ -85,7 +85,7 @@ public class JobAdapter extends RecyclerView.Adapter<JobAdapter.JobViewHolder> {
                 public void onClick(View v) {
                     if(listener != null) {
                         int position = getAdapterPosition();
-                        if(position != RecyclerView.NO_POSITION) listener.OnItemClick(position);
+                        if(position != RecyclerView.NO_POSITION) listener.OnCashClick(position);
 
 
                     }

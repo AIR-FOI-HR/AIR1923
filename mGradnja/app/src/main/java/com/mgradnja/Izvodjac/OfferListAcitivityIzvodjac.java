@@ -115,8 +115,7 @@ public class OfferListAcitivityIzvodjac extends AppCompatActivity {
                         NazivUpita = JA.getmNazivPosla();
                         mAdapter.notifyItemRemoved(position);
                         IzbrisiPonudu(NazivUpita);
-                        //tv = findViewById(R.id.txtPonudeIZV);
-                        //tv.setText(NazivUpita);
+
                     }
                     else{
                         JobAtributes JA;
@@ -125,8 +124,7 @@ public class OfferListAcitivityIzvodjac extends AppCompatActivity {
                         NazivUpita = JA.getmNazivPosla();
                         mAdapter.notifyItemRemoved(position);
                         IzbrisiPonudu(NazivUpita);
-                        //tv = findViewById(R.id.txtPonudeIZV);
-                        //tv.setText(NazivUpita);
+
                     }
 
                 }
