@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
+    android:padding="5dp"
     tools:context=".JobListActivity">
 
 
@@ -21,20 +21,6 @@
 
         android:scrollbars="vertical" />
 
-
-    <TextView
-        android:id="@+id/txtRadovi"
-        android:layout_width="388dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="0dp"
-        android:layout_marginEnd="0dp"
-        android:background="#27D570"
-        android:backgroundTint="#27D570"
-        android:text="POPIS POSLOVA"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        android:textStyle="bold" />
 
     <Spinner
         android:id="@+id/spinPoslovi"

@@ -60,6 +60,7 @@ public class QueryActivity extends AppCompatActivity implements DatePickerDialog
         ActionBar actionBar = getSupportActionBar();
         if (actionBar != null) {
             actionBar.setDisplayHomeAsUpEnabled(true);
+            actionBar.setTitle("Izrada upita");
         }
 
         connectionClass = new ConnectionClass();

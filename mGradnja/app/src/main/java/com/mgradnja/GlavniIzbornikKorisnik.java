@@ -33,13 +33,9 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
 
     public Integer ID;
 
-    public TextView textView;
-
     public String odabranaZupanija;
     public String odabranaKategorija;
     public Button btnIstrazi;
-
-    public ImageView imgProfilKorisnika;
 
     public String[] zupanije = new String[]{"Zagrebacka", "Krapinsko-zagorska", "Sisacko-moslavacka",
     "Karlovacka", "Varazdinska", "Koprivnicko-krizevacka", "Bjelovarsko-bilogorska", "Primorsko-goranska",
@@ -57,10 +53,6 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_glavni_izbornik_korisnik);
-
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.setSubtitle("Početna");
-        //actionBar.setLogo(R.drawable.ic_info);
 
         //DOHVAT ID-A KORISNIKA IZ PRIJAŠNJE AKTIVNOSTI
         Intent intent = getIntent();

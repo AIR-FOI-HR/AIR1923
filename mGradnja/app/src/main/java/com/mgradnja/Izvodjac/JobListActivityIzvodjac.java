@@ -36,7 +36,6 @@ public class JobListActivityIzvodjac extends AppCompatActivity {
     ConnectionClass connectionClass;
     String hh = "Poslovi";
     private Integer ID;
-    private TextView tv;
     private int poz = 0;
 
     public String[] poslovi = new String[]{"Trenutni poslovi", "Prošli poslovi", "Budući poslovi"};
@@ -80,6 +79,7 @@ public class JobListActivityIzvodjac extends AppCompatActivity {
         ActionBar actionBar = getSupportActionBar();
         if (actionBar != null){
             actionBar.setDisplayHomeAsUpEnabled(true);
+            actionBar.setTitle("Popis poslova");
         }
 
         connectionClass = new ConnectionClass();
@@ -278,7 +278,6 @@ public class JobListActivityIzvodjac extends AppCompatActivity {
     }
     public void DohvatiProslePoslove(){
         Connection con = connectionClass.CONN();
-        tv = findViewById(R.id.txtRadovi);
         int seL = 0;
         String query = "select u.ID_djelatnosti, u.ID_upita, k.Ime, k.Prezime,  u.Naziv as 'Naziv_upita', u.Opis, p.Cijena, p.Datum_pocetka, p.Datum_zavrsetka from  korisnik k inner join upit u  on k.ID_korisnika = u.ID_korisnika inner join ponuda p  on u.ID_upita = p.ID_upita  where p.Status = 1 and p.ID_izvodjaca = '" + ID + "'and p.Datum_zavrsetka < convert(date,GETDATE())";
         try {

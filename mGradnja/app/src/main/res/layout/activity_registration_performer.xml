@@ -27,6 +27,14 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+        <Button
+            android:id="@+id/btnOdabirDjelatnosti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="Odaberite djelatnosti"/>
+
         <Spinner
             android:id="@+id/pravniStatus"
             android:layout_width="match_parent"
@@ -140,22 +148,6 @@
             android:hint="Potvrda lozinke"
             android:inputType="textPassword"
             android:textAlignment="viewStart"></EditText>
-
-        <ImageView
-            android:id="@+id/profilnaSlika"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="20dp"
-            app:srcCompat="@drawable/registracija"></ImageView>
-
-        <Button
-            android:id="@+id/btnUploadSlike"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="10dp"
-            android:text="Priloži sliku profila"></Button>
 
         <Button
             android:id="@+id/btnRegistracija"

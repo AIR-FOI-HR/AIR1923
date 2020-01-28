@@ -32,7 +32,6 @@ public class FragmentIzvodjacDetalji extends Fragment {
     String nazivIzvodjaca;
     TextView naziv, oib, adresa, grad, zupanija, kontakt, mail, brRacuna;
     RatingBar ratingBar;
-    ImageView profilna;
 
     public FragmentIzvodjacDetalji() {
 
@@ -43,7 +42,6 @@ public class FragmentIzvodjacDetalji extends Fragment {
         setHasOptionsMenu(true);
         View view = inflater.inflate(R.layout.fragment_fragment_izvodjac_detalji, container, false);
 
-        profilna = view.findViewById(R.id.slikaIzvodjaca);
         naziv = view.findViewById(R.id.nazivIzvodjaca);
         oib = view.findViewById(R.id.oibIzvodjaca);
         adresa = view.findViewById(R.id.adresaIzvodjaca);
@@ -69,7 +67,6 @@ public class FragmentIzvodjacDetalji extends Fragment {
         con = connectionClass.CONN();
         Integer idIzvodjaca = null;
         Float rating = null;
-        Bitmap bitmap = null;
 
         try{
             String sql = "SELECT * from Izvodjac WHERE Naziv=('" + nazivIzvodjaca + "')";
@@ -78,12 +75,6 @@ public class FragmentIzvodjacDetalji extends Fragment {
 
             while (rs.next()){
                 idIzvodjaca = rs.getInt("ID_izvodjaca");
-
-                byte[] img = rs.getBytes("Slika");
-                if (img != null){
-                    Bitmap bmp = BitmapFactory.decodeByteArray(img, 0, img.length);
-                    profilna.setImageBitmap(bmp);
-                }
 
                 naziv.setText(rs.getString("Naziv"));
                 oib.setText(rs.getString("OIB"));

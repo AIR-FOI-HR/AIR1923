@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:context=".QueryActivity"
-        >
+        android:layout_marginTop="-50dp">
 
 
         <ImageView
@@ -100,19 +100,6 @@
             android:adjustViewBounds="false"
             android:cropToPadding="false"
             app:srcCompat="@drawable/rectangle" />
-
-
-        <TextView
-            android:id="@+id/txtNaslovIzradaUpita"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="20dp"
-            android:clickable="true"
-            android:text="Izrada upita"
-            android:textColor="#000000"
-            android:textSize="30dp"
-            android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"

@@ -31,7 +31,8 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="7dp"
         android:layout_marginEnd="23dp"
-        android:hint="Unesite mail" />
+        android:hint="Unesite mail"
+        android:maxLines="1"/>
 
     <EditText
         android:id="@+id/txtLozinka"
@@ -47,6 +48,7 @@
         android:layout_marginTop="7dp"
         android:layout_marginEnd="23dp"
         android:ems="10"
+        android:maxLines="1"
         android:hint="Unesite lozinku"
         android:inputType="textPassword" />
 

@@ -1604,6 +1604,7 @@ id btnIstrazi
 id btnIzvodjacIstrazi
 id btnNatragNaPrijavu
 id btnObrisi
+id btnOdabirDjelatnosti
 id btnOnline
 id btnPosaljiPonudu
 id btnPrijava
@@ -1614,7 +1615,6 @@ id btnRegistracijaIzPrijave
 id btnRegistracijaIzvodjac
 id btnRegistracijaKorisnik
 id btnSpremiPromjene
-id btnUploadSlike
 id btnUredi
 id btnUrediKorisnickiRacun
 id buttonPanel
@@ -1696,7 +1696,6 @@ id groups
 id hideable
 id home
 id homeAsUp
-id homeKorisnik
 id icon
 id icon_group
 id ifRoom
@@ -1728,13 +1727,19 @@ id izvodjacevKalendar
 id kalendarIzvodjaca
 id kontaktIzvodjaca
 id labelaAdresa
+id labelaAdresaUpita
 id labelaBrRacuna
+id labelaDatum
 id labelaGrad
+id labelaGradUpita
 id labelaKontakt
 id labelaMail
 id labelaNaziv
 id labelaOib
+id labelaOpis
+id labelaRating
 id labelaZupanija
+id labelaZupanijaUpita
 id labeled
 id largeLabel
 id left
@@ -1817,7 +1822,6 @@ id pin
 id poruka
 id poziv
 id pravniStatus
-id profilnaSlika
 id progressBar
 id progress_circular
 id progress_horizontal
@@ -1858,7 +1862,6 @@ id showHome
 id showTitle
 id skipCollapsed
 id slide
-id slikaIzvodjaca
 id smallLabel
 id snackbar_action
 id snackbar_text
@@ -1956,7 +1959,6 @@ id txtKomentarRecenzenta
 id txtKomentarRecenzijeProfilKorisnika
 id txtLozinka
 id txtMail
-id txtNaslovIzradaUpita
 id txtNaslovNovePonude
 id txtNaslovStranice
 id txtNaziv
@@ -1968,7 +1970,6 @@ id txtOib
 id txtOpisPosla
 id txtOpisRadova
 id txtPlozinka
-id txtPonudeIZV
 id txtPorukaRecenzije
 id txtPorukaUpiti
 id txtPočetakPosla
@@ -1980,7 +1981,6 @@ id txtProfilKorisnikTelefonIspis
 id txtProfilKorisnikaNazivIzvodjaca
 id txtProfilMailKorisnika
 id txtProfilTelefonKorisnik
-id txtRadovi
 id txtTelefon
 id txtUpitAdresa
 id txtUpitDatum

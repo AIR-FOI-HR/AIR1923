@@ -84,6 +84,7 @@ public class OfferListAcitivityIzvodjac extends AppCompatActivity {
         ActionBar actionBar = getSupportActionBar();
         if (actionBar != null){
             actionBar.setDisplayHomeAsUpEnabled(true);
+            actionBar.setTitle("Popis ponuda");
         }
 
         connectionClass = new ConnectionClass();
@@ -171,7 +172,7 @@ public class OfferListAcitivityIzvodjac extends AppCompatActivity {
                 intent9.putExtra("ID_upita", IDUpita);
 
                 startActivity(intent9);
-                finish();
+                //finish();
             }
         });
     }

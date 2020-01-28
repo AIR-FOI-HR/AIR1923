@@ -88,6 +88,7 @@ public class OfferListActivity extends AppCompatActivity {
         ActionBar actionBar = getSupportActionBar();
         if (actionBar != null){
             actionBar.setDisplayHomeAsUpEnabled(true);
+            actionBar.setTitle("Popis ponuda");
         }
 
         connectionClass = new ConnectionClass();

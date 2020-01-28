@@ -198,21 +198,4 @@ public class GlavniIzbornikIzvodjac extends AppCompatActivity {
         finish();
     }
 
-    /*
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        MenuItem item = menu.add("Početna");
-        item.setIcon(R.drawable.ic_home_white_24dp);
-        item.setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS);
-        item.setOnMenuItemClickListener(new MenuItem.OnMenuItemClickListener() {
-            @Override
-            public boolean onMenuItemClick(MenuItem item) {
-                Toast.makeText(GlavniIzbornikIzvodjac.this, "RADI", Toast.LENGTH_LONG ).show();
-                return false;
-            }
-        });
-
-        //TODO ??
-        return true;
-    } */
 }

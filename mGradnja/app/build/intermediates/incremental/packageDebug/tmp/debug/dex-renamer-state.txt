@@ -1,4 +1,4 @@
-#Mon Jan 27 12:07:38 CET 2020
+#Tue Jan 28 13:32:51 CET 2020
 base.0=C\:\\Users\\LUKA\\Desktop\\air_projekt\\mGradnja\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex

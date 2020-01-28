@@ -1,10 +1,12 @@
 package com.mgradnja;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 
 import android.Manifest;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
@@ -13,6 +15,7 @@ import android.graphics.drawable.BitmapDrawable;
 import android.net.Uri;
 import android.os.Bundle;
 import android.util.Base64;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
@@ -24,16 +27,21 @@ import java.io.ByteArrayOutputStream;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.ArrayList;
 
 public class Registration_performer extends AppCompatActivity {
 
     ConnectionClass connectionClass;
-    Button registracija, natragNaPrijavu, uploadSlike;
+    Button registracija, natragNaPrijavu, btnDjelatnost;
     EditText txtOIB, txtNaziv, txtAdresa, txtGrad, txtZupanija, txtTelefon, txtMail, txtBrRacuna, txtLozinka, txtPlozinka;
     Spinner idPravniStatus;
-    ImageView imageView;
-    final int REQUEST_CODE_GALLERY = 999;
+    ArrayList<String> listaDjelatnosti = new ArrayList<>();
+    String[] listItems;
+    boolean[] checkedItems;
+    ArrayList<Integer> odabraneDjelatnosti = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +49,59 @@ public class Registration_performer extends AppCompatActivity {
         setContentView(R.layout.activity_registration_performer);
 
         connectionClass = new ConnectionClass();
+        btnDjelatnost = findViewById(R.id.btnOdabirDjelatnosti);
+
+        dohvatiDjelatnosti();
+        listItems = new String[listaDjelatnosti.size()];
+        listItems = listaDjelatnosti.toArray(listItems);
+        checkedItems = new boolean[listItems.length];
+
+        btnDjelatnost.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                AlertDialog.Builder builder = new AlertDialog.Builder(Registration_performer.this);
+                builder.setTitle("Vaše djelatnosti:");
+                builder.setMultiChoiceItems(listItems, checkedItems, new DialogInterface.OnMultiChoiceClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int position, boolean isChecked) {
+                        if (isChecked){
+                            odabraneDjelatnosti.add(position);
+                        }
+                        else {
+                            odabraneDjelatnosti.remove(Integer.valueOf(position));
+                        }
+                    }
+                });
+
+                builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        String item = "";
+                        for (int i = 0; i < odabraneDjelatnosti.size(); i++) {
+                            item = item + (odabraneDjelatnosti.get(i)+1);
+                            if (i != odabraneDjelatnosti.size() - 1) {
+                                item = item + ", ";
+                            }
+                        }
+                        //Toast.makeText(getApplicationContext(), item, Toast.LENGTH_LONG).show();
+                    }
+                });
+
+                builder.setNeutralButton("Odustani", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        for (int i = 0; i < checkedItems.length; i++) {
+                            checkedItems[i] = false;
+                            odabraneDjelatnosti.clear();
+                        }
+                    }
+                });
+
+                AlertDialog dialog = builder.create();
+                dialog.show();
+            }
+        });
+
 
         Spinner pravniStatus = findViewById(R.id.pravniStatus);
         ArrayAdapter<String> statusAdapter = new ArrayAdapter<String>(Registration_performer.this,
@@ -48,7 +109,6 @@ public class Registration_performer extends AppCompatActivity {
         statusAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         pravniStatus.setAdapter(statusAdapter);
 
-        imageView = findViewById(R.id.profilnaSlika);
         idPravniStatus = findViewById(R.id.pravniStatus);
         txtOIB = findViewById(R.id.txtOib);
         txtNaziv = findViewById(R.id.txtNaziv);
@@ -60,20 +120,49 @@ public class Registration_performer extends AppCompatActivity {
         txtBrRacuna = findViewById(R.id.txtBrojRacuna);
         txtLozinka = findViewById(R.id.txtLozinka);
         txtPlozinka = findViewById(R.id.txtPlozinka);
-        uploadSlike = findViewById(R.id.btnUploadSlike);
         registracija = findViewById(R.id.btnRegistracija);
         natragNaPrijavu = findViewById(R.id.btnNatragNaPrijavu);
-
-        uploadSlike.setOnClickListener(v -> ActivityCompat.requestPermissions(
-                Registration_performer.this,
-                new String[]{Manifest.permission.READ_EXTERNAL_STORAGE},
-                REQUEST_CODE_GALLERY
-        ));
 
         registracija.setOnClickListener(v -> doRegistration());
         natragNaPrijavu.setOnClickListener(v -> backToLogin());
 
     }
+
+
+    public void dohvatiDjelatnosti(){
+        ConnectionClass connectionClass = new ConnectionClass();
+        Connection con = connectionClass.CONN();
+
+        try {
+            String query = "select Naziv from Djelatnost";
+            Statement statement = con.createStatement();
+            ResultSet rs = statement.executeQuery(query);
+            while(rs.next()){
+                listaDjelatnosti.add(rs.getString("Naziv"));
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public int dohvatiNoviId(String oib){
+        ConnectionClass connectionClass = new ConnectionClass();
+        Connection con = connectionClass.CONN();
+        int ID = 0;
+
+        try {
+            String query = "SELECT ID_izvodjaca FROM Izvodjac WHERE OIB = ('"+ oib+ "')";
+            Statement statement = con.createStatement();
+            ResultSet rs = statement.executeQuery(query);
+            while(rs.next()){
+                ID = rs.getInt("ID_izvodjaca");
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return ID;
+    }
+
 
     public void doRegistration(){
         Long idPravnogStatusa = idPravniStatus.getSelectedItemId();
@@ -87,8 +176,6 @@ public class Registration_performer extends AppCompatActivity {
         String brRacuna = txtBrRacuna.getText().toString();
         String lozinka = txtLozinka.getText().toString();
         String plozinka = txtPlozinka.getText().toString();
-        //byte[] slika = imageViewToByte(imageView);
-        String profilna = Base64.encodeToString(imageViewToByte(imageView), Base64.DEFAULT);
 
 
         if (idPravnogStatusa == 0 || oib.equals("") || naziv.equals("") || adresa.equals("") || grad.equals("") || zupanija.equals("") || telefon.equals("") || mail.equals("") || brRacuna.equals("") || lozinka.equals("") || plozinka.equals("")){
@@ -104,13 +191,34 @@ public class Registration_performer extends AppCompatActivity {
                     }
                     else {
                         Statement st = con.createStatement();
-
-                        //CAST(('"+ slika +"') as varBinary(Max))
-                        String queryReg = "INSERT INTO Izvodjac(OIB, Naziv, Adresa, Grad, Zupanija, Telefon, Mail, Lozinka, Broj_racuna, Slika, ID_pravnog_statusa) " +
-                                "VALUES(('"+ oib +"'), ('"+ naziv +"'), ('"+ adresa +"'), ('"+ grad +"'), ('"+ zupanija +"'), ('"+ telefon +"'), ('"+ mail +"'), ('"+ lozinka +"'), ('"+ brRacuna +"'), ('"+ profilna +"'), ('"+ idPravnogStatusa +"'))";
+                        String queryReg = "INSERT INTO Izvodjac(OIB, Naziv, Adresa, Grad, Zupanija, Telefon, Mail, Lozinka, Broj_racuna, ID_pravnog_statusa) " +
+                                "VALUES(('"+ oib +"'), ('"+ naziv +"'), ('"+ adresa +"'), ('"+ grad +"'), ('"+ zupanija +"'), ('"+ telefon +"'), ('"+ mail +"'), ('"+ lozinka +"'), ('"+ brRacuna +"'), ('"+ idPravnogStatusa +"'))";
 
                         if (st.executeUpdate(queryReg) == 1){
+                            int noviID = dohvatiNoviId(oib);
+
+                            for (int i = 0; i < odabraneDjelatnosti.size(); i++){
+                                Statement st2 = con.createStatement();
+                                String queryReg2 = "INSERT INTO Djelatnosti_izvodjaca(ID_djelatnosti, ID_izvodjaca) VALUES ( ("+(odabraneDjelatnosti.get(i)+1)+"), ("+noviID+") )";
+                                st2.executeUpdate(queryReg2);
+                            }
+
                             Toast.makeText(getApplicationContext(), "Registracija uspješna, možete se prijaviti!", Toast.LENGTH_LONG).show();
+                            idPravniStatus.setSelection(0);
+                            txtOIB.getText().clear();
+                            txtNaziv.getText().clear();
+                            txtMail.getText().clear();
+                            txtBrRacuna.getText().clear();
+                            txtLozinka.getText().clear();
+                            txtPlozinka.getText().clear();
+                            txtAdresa.getText().clear();
+                            txtGrad.getText().clear();
+                            txtZupanija.getText().clear();
+                            txtTelefon.getText().clear();
+                            for (int i = 0; i < checkedItems.length; i++) {
+                                checkedItems[i] = false;
+                                odabraneDjelatnosti.clear();
+                            }
                         }
                         else {
                             Toast.makeText(getApplicationContext(), "Greška prilikom registracije, pokušajte ponovno!", Toast.LENGTH_LONG).show();
@@ -136,47 +244,15 @@ public class Registration_performer extends AppCompatActivity {
     public void backToLogin(){
         Intent intent = new Intent(this, LoginActivity.class);
         startActivity(intent);
-    }
-
-    public static byte[] imageViewToByte(ImageView image){
-        Bitmap bitmap = ((BitmapDrawable)image.getDrawable()).getBitmap();
-        ByteArrayOutputStream stream = new ByteArrayOutputStream();
-        bitmap.compress(Bitmap.CompressFormat.PNG, 100, stream);
-        byte[] byteArray = stream.toByteArray();
-        return byteArray;
+        finish();
     }
 
     @Override
-    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults){
-        if (requestCode == REQUEST_CODE_GALLERY){
-            if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED){
-                Intent intent = new Intent(Intent.ACTION_PICK);
-                intent.setType("image/*");
-                startActivityForResult(intent, REQUEST_CODE_GALLERY);
-            }
-            else {
-                Toast.makeText(getApplicationContext(), "Nemate prava pristupa", Toast.LENGTH_SHORT).show();
-            }
-            return;
-        }
-        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+    public void onBackPressed(){
+        Intent intent = new Intent(this, RegistrationActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(intent);
+        finish();
     }
 
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data){
-
-        if (resultCode == RESULT_OK && requestCode == REQUEST_CODE_GALLERY){
-            Uri uri = data.getData();
-
-            try{
-                InputStream inputStream = getContentResolver().openInputStream(uri);
-                Bitmap bitmap = BitmapFactory.decodeStream(inputStream);
-                imageView.setImageBitmap(bitmap);
-            }
-            catch (FileNotFoundException e){
-                e.printStackTrace();
-            }
-        }
-        super.onActivityResult(requestCode, resultCode, data);
-    }
 }
