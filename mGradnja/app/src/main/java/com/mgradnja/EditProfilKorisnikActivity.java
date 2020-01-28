@@ -1,6 +1,7 @@
 package com.mgradnja;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 
@@ -12,6 +13,8 @@ import android.graphics.BitmapFactory;
 import android.graphics.drawable.BitmapDrawable;
 import android.net.Uri;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -33,12 +36,18 @@ public class EditProfilKorisnikActivity extends AppCompatActivity {
     EditText txtImeEditKorisnika, txtPrezimeEditKorisnika, txtTelefonEditKorisnik, txtMailEditKorisnik, txtLozinkaEditKorisnik, txtPlozinkaEditKorisnik;
     Button btnSpremiEditKorisnika;
 
-    final int REQUEST_CODE_GALLERY = 999;
+    Integer ID;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_profil_korisnik);
+
+        ActionBar actionBar = getSupportActionBar();
+        if (actionBar != null){
+            actionBar.setDisplayHomeAsUpEnabled(true);
+            actionBar.setTitle("Korisnički račun");
+        }
 
         connectionClass = new ConnectionClass();
 
@@ -53,7 +62,7 @@ public class EditProfilKorisnikActivity extends AppCompatActivity {
 
         //DOHVAT ID-A KORISNIKA IZ PRIJAŠNJE AKTIVNOSTI
         Intent intent = getIntent();
-        Integer ID = intent.getIntExtra("ID_korisnika", 0);
+        ID = intent.getIntExtra("ID_korisnika", 0);
 
         dohvatPodatakaEditKorisnik(ID);
 
@@ -62,6 +71,7 @@ public class EditProfilKorisnikActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 spremiEditKorisnik(ID);
+                finish();
             }
         });
 
@@ -142,6 +152,25 @@ public class EditProfilKorisnikActivity extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(), "Lozinka i ponovljena lozinka se ne poklapaju!", Toast.LENGTH_SHORT).show();
             }
         }
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()){
+            case android.R.id.home:
+                //Intent intent = new Intent(this, ProfilKorisnikActivity.class);
+                //intent.putExtra("ID_korisnika", ID);
+                //intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                //this.startActivity(intent);
+                finish();
+                break;
+        }
+        return super.onOptionsItemSelected(item);
     }
 
 

@@ -41,106 +41,107 @@
 23-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:15:9-54
 24        android:supportsRtl="true"
 24-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:16:9-35
-25        android:theme="@style/AppTheme" >
-25-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:17:9-40
-26        <activity android:name="com.mgradnja.Izvodjac.IzvodjacKalendarActivity" />
-26-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:18:9-80
-26-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:18:19-68
-27        <activity android:name="com.mgradnja.Izvodjac.UpdateOfferActivity" />
-27-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:19:9-66
-27-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:19:19-63
-28        <activity android:name="com.mgradnja.Izvodjac.OfferListAcitivityIzvodjac" />
-28-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:20:9-73
-28-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:20:19-70
-29        <activity android:name="com.mgradnja.Izvodjac.OfferActivity" />
-29-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:21:9-60
-29-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:21:19-57
-30        <activity android:name="com.mgradnja.Izvodjac.JobListActivityIzvodjac" />
-30-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:22:9-70
-30-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:22:19-67
-31        <activity
-31-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:23:9-25:68
-32            android:name="com.mgradnja.IzvodjacInfoActivity"
-32-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:24:13-49
-33            android:label="@string/title_activity_izvodjac_info" />
-33-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:25:13-65
-34        <activity android:name="com.mgradnja.IstraziIzvodjaceActivity" />
-34-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:26:9-62
-34-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:26:19-59
-35        <activity android:name="com.mgradnja.OfferListActivity" />
-35-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:27:9-55
-35-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:27:19-52
-36        <activity android:name="com.mgradnja.EditProfilKorisnikActivity" />
-36-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:28:9-64
-36-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:28:19-61
-37        <activity android:name="com.mgradnja.ProfilKorisnikActivity" />
-37-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:29:9-60
-37-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:29:19-57
-38        <activity android:name="com.mgradnja.JobListActivity" />
-38-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:30:9-53
-38-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:30:19-50
-39        <activity android:name="com.mgradnja.UserSearchActivity" />
-39-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:31:9-56
-39-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:31:19-53
-40        <activity android:name="com.mgradnja.Registration_performer" />
-40-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:32:9-60
-40-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:32:19-57
-41        <activity android:name="com.mgradnja.Registration_user" />
-41-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:33:9-55
-41-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:33:19-52
-42        <activity android:name="com.mgradnja.GlavniIzbornikKorisnik" />
-42-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:34:9-60
-42-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:34:19-57
-43        <activity android:name="com.mgradnja.RegistrationActivity" />
-43-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:35:9-58
-43-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:35:19-55
-44        <activity android:name="com.mgradnja.LoginActivity" />
-44-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:36:9-51
-44-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:36:19-48
-45        <activity android:name="com.mgradnja.QueryActivity" />
-45-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:37:9-51
-45-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:37:19-48
-46        <activity android:name="com.mgradnja.Izvodjac.GlavniIzbornikIzvodjac" />
-46-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:38:9-69
-46-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:38:19-66
-47        <activity android:name="com.mgradnja.Izvodjac.DetaljiUpita" />
-47-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:39:9-59
-47-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:39:19-56
-48        <activity android:name="com.mgradnja.Izvodjac.IstraziUpiteIzvodjac" />
-48-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:40:9-67
-48-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:40:19-64
-49        <activity android:name="com.mgradnja.MainActivity" >
-49-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:41:9-47:20
-49-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:41:19-47
-50            <intent-filter>
-50-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:42:13-46:29
-51                <action android:name="android.intent.action.MAIN" />
-51-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:43:17-69
-51-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:43:25-66
-52
-53                <category android:name="android.intent.category.LAUNCHER" />
-53-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:45:17-77
-53-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:45:27-74
-54            </intent-filter>
-55        </activity>
-56
-57        <meta-data
-57-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:49:9-51:57
-58            android:name="preloaded_fonts"
-58-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:50:13-43
-59            android:resource="@array/preloaded_fonts" />
-59-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:51:13-54
-60
-61        <provider
-61-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\LUKA\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
-62            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-62-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\LUKA\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
-63            android:authorities="com.mgradnja.lifecycle-process"
-63-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\LUKA\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
-64            android:exported="false"
-64-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\LUKA\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
-65            android:multiprocess="true" />
-65-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\LUKA\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
-66    </application>
-67
-68</manifest>
+25        android:testOnly="true"
+26        android:theme="@style/AppTheme" >
+26-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:17:9-40
+27        <activity android:name="com.mgradnja.Izvodjac.IzvodjacKalendarActivity" />
+27-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:18:9-80
+27-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:18:19-68
+28        <activity android:name="com.mgradnja.Izvodjac.UpdateOfferActivity" />
+28-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:19:9-66
+28-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:19:19-63
+29        <activity android:name="com.mgradnja.Izvodjac.OfferListAcitivityIzvodjac" />
+29-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:20:9-73
+29-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:20:19-70
+30        <activity android:name="com.mgradnja.Izvodjac.OfferActivity" />
+30-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:21:9-60
+30-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:21:19-57
+31        <activity android:name="com.mgradnja.Izvodjac.JobListActivityIzvodjac" />
+31-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:22:9-70
+31-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:22:19-67
+32        <activity
+32-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:23:9-25:68
+33            android:name="com.mgradnja.IzvodjacInfoActivity"
+33-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:24:13-49
+34            android:label="@string/title_activity_izvodjac_info" />
+34-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:25:13-65
+35        <activity android:name="com.mgradnja.IstraziIzvodjaceActivity" />
+35-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:26:9-62
+35-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:26:19-59
+36        <activity android:name="com.mgradnja.OfferListActivity" />
+36-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:27:9-55
+36-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:27:19-52
+37        <activity android:name="com.mgradnja.EditProfilKorisnikActivity" />
+37-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:28:9-64
+37-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:28:19-61
+38        <activity android:name="com.mgradnja.ProfilKorisnikActivity" />
+38-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:29:9-60
+38-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:29:19-57
+39        <activity android:name="com.mgradnja.JobListActivity" />
+39-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:30:9-53
+39-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:30:19-50
+40        <activity android:name="com.mgradnja.UserSearchActivity" />
+40-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:31:9-56
+40-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:31:19-53
+41        <activity android:name="com.mgradnja.Registration_performer" />
+41-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:32:9-60
+41-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:32:19-57
+42        <activity android:name="com.mgradnja.Registration_user" />
+42-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:33:9-55
+42-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:33:19-52
+43        <activity android:name="com.mgradnja.GlavniIzbornikKorisnik" />
+43-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:34:9-60
+43-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:34:19-57
+44        <activity android:name="com.mgradnja.RegistrationActivity" />
+44-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:35:9-58
+44-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:35:19-55
+45        <activity android:name="com.mgradnja.LoginActivity" />
+45-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:36:9-51
+45-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:36:19-48
+46        <activity android:name="com.mgradnja.QueryActivity" />
+46-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:37:9-51
+46-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:37:19-48
+47        <activity android:name="com.mgradnja.Izvodjac.GlavniIzbornikIzvodjac" />
+47-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:38:9-69
+47-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:38:19-66
+48        <activity android:name="com.mgradnja.Izvodjac.DetaljiUpita" />
+48-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:39:9-59
+48-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:39:19-56
+49        <activity android:name="com.mgradnja.Izvodjac.IstraziUpiteIzvodjac" />
+49-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:40:9-67
+49-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:40:19-64
+50        <activity android:name="com.mgradnja.MainActivity" >
+50-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:41:9-47:20
+50-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:41:19-47
+51            <intent-filter>
+51-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:42:13-46:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:43:17-69
+52-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:43:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:45:17-77
+54-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:45:27-74
+55            </intent-filter>
+56        </activity>
+57
+58        <meta-data
+58-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:49:9-51:57
+59            android:name="preloaded_fonts"
+59-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:50:13-43
+60            android:resource="@array/preloaded_fonts" />
+60-->C:\Users\LUKA\Desktop\air_projekt\mGradnja\app\src\main\AndroidManifest.xml:51:13-54
+61
+62        <provider
+62-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\LUKA\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+63            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+63-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\LUKA\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+64            android:authorities="com.mgradnja.lifecycle-process"
+64-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\LUKA\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+65            android:exported="false"
+65-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\LUKA\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+66            android:multiprocess="true" />
+66-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\LUKA\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+67    </application>
+68
+69</manifest>
