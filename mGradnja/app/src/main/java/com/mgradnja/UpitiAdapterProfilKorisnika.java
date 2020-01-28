@@ -1,20 +1,38 @@
 package com.mgradnja;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.mgradnja.Adapters.OfferAdapter;
+
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 
+import butterknife.OnLongClick;
+
 public class UpitiAdapterProfilKorisnika extends RecyclerView.Adapter<UpitiAdapterProfilKorisnika.UpitiViewHolder> {
 
     private ArrayList<ItemUpitiProfilKorisnika> listaUpita;
+    private OnItemClickListener mListener;
+
+    //private View itemView;
+
+    public interface OnItemClickListener{
+        void DeleteItemClick(int position);
+    }
+
+    public void setOnItemClickListener(OnItemClickListener listener){
+        mListener = listener;
+    }
 
     public static class UpitiViewHolder extends RecyclerView.ViewHolder{
 
@@ -24,9 +42,10 @@ public class UpitiAdapterProfilKorisnika extends RecyclerView.Adapter<UpitiAdapt
         public TextView txtAdresa;
         public TextView txtGrad;
         public TextView txtZupanija;
+        public Button btnIzbrisi;
 
 
-        public UpitiViewHolder(@NonNull View itemView) {
+        public UpitiViewHolder(@NonNull View itemView, final OnItemClickListener listener) {
             super(itemView);
 
             txtNaziv = itemView.findViewById(R.id.txtUpitNaziv);
@@ -35,7 +54,24 @@ public class UpitiAdapterProfilKorisnika extends RecyclerView.Adapter<UpitiAdapt
             txtAdresa = itemView.findViewById(R.id.txtUpitAdresa);
             txtGrad = itemView.findViewById(R.id.txtUpitGrad);
             txtZupanija = itemView.findViewById(R.id.txtUpitZupanija);
+            btnIzbrisi = itemView.findViewById(R.id.btnIzbrišiUpit);
+
+            btnIzbrisi.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    if(listener != null){
+                        int position = getAdapterPosition();
+                        if (position != RecyclerView.NO_POSITION){
+                            listener.DeleteItemClick(position);
+                        }
+                    }
+                }
+            });
         }
+
+
+
+
     }
 
     public UpitiAdapterProfilKorisnika(ArrayList<ItemUpitiProfilKorisnika> listaUpitaa) {
@@ -46,7 +82,7 @@ public class UpitiAdapterProfilKorisnika extends RecyclerView.Adapter<UpitiAdapt
     @Override
     public UpitiViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view  = LayoutInflater.from(parent.getContext()).inflate(R.layout.list_item_upiti_profil_korisnika, parent, false);
-        UpitiViewHolder uvh = new UpitiViewHolder(view);
+        UpitiViewHolder uvh = new UpitiViewHolder(view, mListener); //mListener DODAN***********************************************************************************
         return  uvh;
     }
 
@@ -70,4 +106,6 @@ public class UpitiAdapterProfilKorisnika extends RecyclerView.Adapter<UpitiAdapt
     public int getItemCount() {
         return listaUpita.size();
     }
+
+
 }

@@ -37,6 +37,7 @@ public class ViewPagerAdapterProfilKorisnika extends FragmentPagerAdapter {
         return fragmentTitle.get(position);
     }
 
+
 }
 
 

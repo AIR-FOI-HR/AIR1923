@@ -1598,9 +1598,9 @@ id btn
 id btnDatum
 id btnDatumPocetka
 id btnEditKorisnikSpremi
-id btnEditKorisnikUploadSlike
 id btnGotovina
 id btnIstrazi
+id btnIzbrišiUpit
 id btnIzvodjacIstrazi
 id btnNatragNaPrijavu
 id btnObrisi
@@ -1705,12 +1705,10 @@ id imageView11
 id imageView12
 id imageView2
 id imageView3
-id imgEditKorisnik
 id imgKorisnik
 id imgObrtnik
 id imgPocetnaIzvodjac
 id imgPozadina
-id imgProfilKorisnika
 id imgProfilPozadina
 id imgRectangle1
 id imgRectangle2
