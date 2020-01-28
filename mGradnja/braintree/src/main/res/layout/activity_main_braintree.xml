@@ -33,30 +33,47 @@
         android:orientation="vertical">
 
         <TextView
+            android:id="@+id/naslov"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:textStyle="bold"
-            android:text="Plaćanje (u €)"
             android:textSize="25sp"/>
 
+        <TextView
+            android:id="@+id/obavijest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#27D570"
+            android:text="Plaćanje se obavlja u Eurima"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15sp"
+            android:inputType="none" />
+
+        <TextView
+            android:id="@+id/euri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#27D570"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15sp"
+            android:inputType="none" />
+
         <EditText
+            android:id="@+id/amount"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/amount"
             android:backgroundTint="#27D570"
-            android:hint="Unesite iznos"
-            android:inputType="number"
-            android:imeOptions="actionDone"/>
+            android:imeOptions="actionDone"
+            android:inputType="none" />
 
         <Button
-            android:clickable="true"
-            android:layout_gravity="center_horizontal"
             android:id="@+id/btn_pay"
-            android:text="Plati"
+            android:layout_width="178dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
             android:background="#27D570"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:clickable="true" />
     </LinearLayout>
 
 </RelativeLayout>

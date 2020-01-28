@@ -1,4 +1,4 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 29
@@ -6,7 +6,6 @@ android {
 
 
     defaultConfig {
-        applicationId "com.example.braintree"
         minSdkVersion 21
         targetSdkVersion 29
         versionCode 1
@@ -35,4 +34,7 @@ dependencies {
     implementation 'com.braintreepayments.api:drop-in:3.7.1'
     implementation 'com.android.volley:volley:1.1.1'
     implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'com.posadskiy:currency-converter:1.0.0'
+
+
 }

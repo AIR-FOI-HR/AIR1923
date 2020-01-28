@@ -496,7 +496,16 @@ public class JobListActivity extends AppCompatActivity {
         //diajalog boks TODO
     }
     public void PokreniOnlinePlacanje(Integer BrojUpita){
-        Toast.makeText(JobListActivity.this , BrojUpita.toString(), Toast.LENGTH_LONG).show();
+        //Toast.makeText(JobListActivity.this , BrojUpita.toString(), Toast.LENGTH_LONG).show();
+        try {
+            Intent intent = new Intent(JobListActivity.this, Class.forName("com.example.braintree.MainActivityBrainTree"));
+            intent.putExtra("BrojUpita", BrojUpita);
+            intent.putExtra("ID_korisnika", ID);
+            startActivity(intent);
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+
+        }
 
 
     }
