@@ -1,9 +1,13 @@
 package com.mgradnja;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.widget.ArrayAdapter;
 import android.widget.ListAdapter;
 import android.widget.ListView;
@@ -29,12 +33,17 @@ public class IstraziIzvodjaceActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_istrazi_izvodjace);
 
+        ActionBar actionBar = getSupportActionBar();
+        if (actionBar != null){
+            actionBar.setDisplayHomeAsUpEnabled(true);
+        }
+
         izvodjaci = new ArrayList<>();
         nefiltrirano = new ArrayList<>();
         lista = findViewById(R.id.lstIzvodjaci);
 
         Intent intent = getIntent();
-        ID=intent.getIntExtra("ID_korisnika", 0);
+        ID = intent.getIntExtra("ID_korisnika", 0);
         kategorija = intent.getStringExtra("kategorija");
         zupanija = intent.getStringExtra("zupanija");
 
@@ -90,6 +99,25 @@ public class IstraziIzvodjaceActivity extends AppCompatActivity {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-
     }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()){
+            case android.R.id.home:
+                Intent intent = new Intent(this, GlavniIzbornikKorisnik.class);
+                intent.putExtra("ID_korisnika", ID);
+                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                this.startActivity(intent);
+                finish();
+                break;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
 }

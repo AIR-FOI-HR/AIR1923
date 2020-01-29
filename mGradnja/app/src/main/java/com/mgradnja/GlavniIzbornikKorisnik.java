@@ -14,6 +14,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -32,13 +33,9 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
 
     public Integer ID;
 
-    public TextView textView;
-
     public String odabranaZupanija;
     public String odabranaKategorija;
     public Button btnIstrazi;
-
-    public ImageView imgProfilKorisnika;
 
     public String[] zupanije = new String[]{"Zagrebacka", "Krapinsko-zagorska", "Sisacko-moslavacka",
     "Karlovacka", "Varazdinska", "Koprivnicko-krizevacka", "Bjelovarsko-bilogorska", "Primorsko-goranska",
@@ -102,7 +99,6 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
         intent.putExtra("kategorija", odabranaKategorija);
         intent.putExtra("zupanija", odabranaZupanija);
         intent.putExtra("ID_korisnika", ID);
-
         startActivity(intent);
 
     }
@@ -259,5 +255,8 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
                 }
             };
 
-
+    @Override
+    public void onBackPressed(){
+        finish();
+    }
 }

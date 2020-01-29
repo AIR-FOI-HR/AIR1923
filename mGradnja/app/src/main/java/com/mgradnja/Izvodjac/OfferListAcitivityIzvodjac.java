@@ -1,5 +1,7 @@
 package com.mgradnja.Izvodjac;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -7,6 +9,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -77,10 +81,15 @@ public class OfferListAcitivityIzvodjac extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_offer_list_acitivity_izvodjac);
 
+        ActionBar actionBar = getSupportActionBar();
+        if (actionBar != null){
+            actionBar.setDisplayHomeAsUpEnabled(true);
+            actionBar.setTitle("Popis ponuda");
+        }
+
         connectionClass = new ConnectionClass();
         Intent intent = getIntent();
         ID = intent.getIntExtra("ID_izvodjaca", 0);
-
 
 
         mRecyclerView = findViewById(R.id.main_recycler);
@@ -161,7 +170,7 @@ public class OfferListAcitivityIzvodjac extends AppCompatActivity {
                 intent9.putExtra("ID_upita", IDUpita);
 
                 startActivity(intent9);
-                finish();
+                //finish();
             }
         });
     }
@@ -286,5 +295,24 @@ public class OfferListAcitivityIzvodjac extends AppCompatActivity {
         }
         Toast.makeText(OfferListAcitivityIzvodjac.this , "Ponuda Izbrisana!" , Toast.LENGTH_LONG).show();
 
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()){
+            case android.R.id.home:
+                Intent intent = new Intent(this, GlavniIzbornikIzvodjac.class);
+                intent.putExtra("ID_izvodjaca", ID);
+                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                this.startActivity(intent);
+                finish();
+                break;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

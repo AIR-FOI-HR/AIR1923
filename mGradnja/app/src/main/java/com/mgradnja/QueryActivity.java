@@ -60,6 +60,7 @@ public class QueryActivity extends AppCompatActivity implements DatePickerDialog
         ActionBar actionBar = getSupportActionBar();
         if (actionBar != null) {
             actionBar.setDisplayHomeAsUpEnabled(true);
+            actionBar.setTitle("Izrada upita");
         }
 
         connectionClass = new ConnectionClass();
@@ -130,7 +131,9 @@ public class QueryActivity extends AppCompatActivity implements DatePickerDialog
             case android.R.id.home:
                 Intent intent = new Intent(this, GlavniIzbornikKorisnik.class);
                 intent.putExtra("ID_korisnika", ID);
+                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 this.startActivity(intent);
+                finish();
                 break;
         }
         return super.onOptionsItemSelected(item);
@@ -238,5 +241,12 @@ public class QueryActivity extends AppCompatActivity implements DatePickerDialog
 
         }
 
-
+    @Override
+    public void onBackPressed(){
+        Intent intent = new Intent(this, GlavniIzbornikKorisnik.class);
+        intent.putExtra("ID_korisnika", ID);
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        this.startActivity(intent);
+        finish();
+    }
 }

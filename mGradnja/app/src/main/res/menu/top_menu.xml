@@ -7,9 +7,4 @@
         android:id="@+id/search"
         android:icon="@drawable/ic_search"
         app:showAsAction="always" />
-    <item
-        android:title=""
-        android:id="@+id/homeKorisnik"
-        android:icon="@drawable/ic_home_white_24dp"
-        app:showAsAction="always" />
 </menu>

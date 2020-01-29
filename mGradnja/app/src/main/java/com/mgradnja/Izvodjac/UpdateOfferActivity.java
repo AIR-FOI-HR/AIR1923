@@ -1,6 +1,8 @@
 package com.mgradnja.Izvodjac;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.DialogFragment;
 
@@ -9,6 +11,8 @@ import android.content.Intent;
 import android.graphics.Path;
 import android.os.Build;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.DatePicker;
@@ -18,6 +22,7 @@ import android.widget.Toast;
 
 import com.mgradnja.ConnectionClass;
 import com.mgradnja.DatePickerFragment;
+import com.mgradnja.GlavniIzbornikKorisnik;
 import com.mgradnja.R;
 
 import java.sql.Connection;
@@ -63,6 +68,13 @@ public class UpdateOfferActivity extends AppCompatActivity implements DatePicker
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_update_offer);
+
+        ActionBar actionBar = getSupportActionBar();
+        if (actionBar != null){
+            actionBar.setDisplayHomeAsUpEnabled(true);
+            actionBar.setTitle("Uredi ponudu");
+        }
+
         SpremiPromjene = findViewById(R.id.btnSpremiPromjene);
         Cena = findViewById(R.id.txtCijenaPonude);
         Ooopis = findViewById(R.id.txtOpisRadova);
@@ -103,6 +115,9 @@ public class UpdateOfferActivity extends AppCompatActivity implements DatePicker
             @Override
             public void onClick(View v) {
                 UpdateOffer();
+                Intent intent1 = new Intent(getApplicationContext(), GlavniIzbornikIzvodjac.class);
+                intent1.putExtra("ID_izvodjaca", ID_Izvodjaca);
+                startActivity(intent1);
                 finish();
             }
         });
@@ -248,6 +263,21 @@ public class UpdateOfferActivity extends AppCompatActivity implements DatePicker
 
         }
 
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()){
+            case android.R.id.home:
+                finish();
+                break;
+        }
+        return super.onOptionsItemSelected(item);
     }
 
 }

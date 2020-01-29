@@ -15,6 +15,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.sql.Connection;
@@ -33,6 +34,7 @@ public class FragmentIzvodjacRecenzije extends Fragment {
     String ime, prezime, komentar;
     Date datum;
     Integer ocjena;
+    TextView poruka;
 
     public ArrayList<String> listaImena = new ArrayList<>();
     public ArrayList<String> listaPrezimena = new ArrayList<>();
@@ -58,6 +60,8 @@ public class FragmentIzvodjacRecenzije extends Fragment {
 
         Intent intent = getActivity().getIntent();
         nazivIzvodjaca = intent.getStringExtra("nazivIzvodjaca");
+
+        poruka = view.findViewById(R.id.txtNemaRecenzija);
 
         dohvatiRecenzijeZaIzvodaca(nazivIzvodjaca);
 
@@ -108,6 +112,10 @@ public class FragmentIzvodjacRecenzije extends Fragment {
 
             recenzijaEntity = new RecenzijaEntity(ime, prezime, komentar, datum, ocjena);
             listaRecenzija.add(recenzijaEntity);
+        }
+
+        if (listaRecenzija.isEmpty()){
+            poruka.setText("Trenutno nema recenzija...");
         }
     }
 

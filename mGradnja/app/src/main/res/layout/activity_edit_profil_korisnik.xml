@@ -11,22 +11,6 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <ImageView
-            android:id="@+id/imgEditKorisnik"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="20dp"
-            tools:srcCompat="@drawable/registracija"></ImageView>
-
-
-        <Button
-            android:id="@+id/btnEditKorisnikUploadSlike"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="10dp"
-            android:text="Priloži sliku profila"></Button>
 
         <TextView
             android:id="@+id/textviewIme"

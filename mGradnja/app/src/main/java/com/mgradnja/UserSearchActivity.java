@@ -36,8 +36,8 @@ public class UserSearchActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_search);
 
-        Intent intent=getIntent();
-        ID=intent.getIntExtra("ID_korisnika", 0);
+        Intent intent = getIntent();
+        ID = intent.getIntExtra("ID_korisnika", 0);
 
         ActionBar actionBar = getSupportActionBar();
         if (actionBar != null){
@@ -95,15 +95,14 @@ public class UserSearchActivity extends AppCompatActivity {
 
     private void OpenIzvodjacInfoActivity(String nazivIzvodjaca){
         Intent intent = new Intent(this, IzvodjacInfoActivity.class);
+        intent.putExtra("ID_korisnika", ID);
         intent.putExtra("nazivIzvodjaca", nazivIzvodjaca);
-
         startActivity(intent);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         return true;
-        //return super.onCreateOptionsMenu(menu);
     }
 
     @Override

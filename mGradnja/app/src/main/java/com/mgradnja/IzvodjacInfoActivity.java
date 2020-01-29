@@ -112,9 +112,9 @@ public class IzvodjacInfoActivity extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(), "Poruka", Toast.LENGTH_LONG).show();
                 break;
             case android.R.id.home:
-                Intent intent = new Intent(this, UserSearchActivity.class);
-                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                this.startActivity(intent);
+                //Intent intent = new Intent(this, UserSearchActivity.class);
+                //intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                //this.startActivity(intent);
                 finish();
                 break;
 

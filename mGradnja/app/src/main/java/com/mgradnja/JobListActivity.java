@@ -1,11 +1,15 @@
 package com.mgradnja;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -73,6 +77,12 @@ public class JobListActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_job_list);
+
+        ActionBar actionBar = getSupportActionBar();
+        if (actionBar != null){
+            actionBar.setDisplayHomeAsUpEnabled(true);
+            actionBar.setTitle("Popis poslova");
+        }
 
         connectionClass = new ConnectionClass();
         Intent intent = getIntent();
@@ -744,7 +754,6 @@ public class JobListActivity extends AppCompatActivity {
     }
     public void DohvatiProslePoslove(){
         Connection con = connectionClass.CONN();
-        tv = findViewById(R.id.txtRadovi);
         int seL = 0;
         String query = "select u.ID_djelatnosti, u.ID_upita, i.Naziv as 'Naziv_izvodjaca', u.Naziv as 'Naziv_upita', u.Opis, p.Cijena, p.Datum_pocetka, p.Datum_zavrsetka from izvodjac i inner join ponuda p on i.ID_izvodjaca = p.ID_izvodjaca inner join upit u  on u.ID_upita = p.ID_upita  where p.Status = 1 and u.ID_korisnika = '" + ID + "'and p.Datum_zavrsetka < convert(date,GETDATE())";
         try {
@@ -970,6 +979,25 @@ public class JobListActivity extends AppCompatActivity {
         ListaCijena.clear();
         ListaDjelatnostID.clear();
 
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()){
+            case android.R.id.home:
+                Intent intent = new Intent(this, GlavniIzbornikKorisnik.class);
+                intent.putExtra("ID_izvodjaca", ID);
+                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                this.startActivity(intent);
+                finish();
+                break;
+        }
+        return super.onOptionsItemSelected(item);
     }
 
 

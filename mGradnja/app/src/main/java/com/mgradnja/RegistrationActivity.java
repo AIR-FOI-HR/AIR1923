@@ -32,15 +32,26 @@ public class RegistrationActivity extends AppCompatActivity {
     public void openUserRegistration(){
         Intent intent = new Intent(this, Registration_user.class);
         startActivity(intent);
+        finish();
     }
 
     public void openPerformerRegistration(){
         Intent intent = new Intent(this, Registration_performer.class);
         startActivity(intent);
+        finish();
     }
 
     public void openLoginActivity(){
         Intent intent = new Intent(this, LoginActivity.class);
         startActivity(intent);
+        finish();
+    }
+
+    @Override
+    public void onBackPressed(){
+        Intent intent = new Intent(this, MainActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(intent);
+        finish();
     }
 }

@@ -11,29 +11,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:context=".OfferActivity"
+        android:layout_marginTop="-90dp"
         >
 
-
-        <TextView
-            android:id="@+id/txtNaslovNovePonude"
-            android:layout_width="wrap_content"
-            android:layout_height="60dp"
-            android:layout_alignParentTop="true"
-            android:layout_marginLeft="75dp"
-            android:layout_marginTop="25dp"
-            android:clickable="true"
-            android:text="Uredi ponudu"
-            android:textAlignment="center"
-            android:textColor="#000000"
-            android:textSize="35sp"
-            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/txtNazivUpita"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="50dp"
-            android:layout_marginTop="130dp"
+            android:layout_marginTop="120dp"
             android:text="Naziv upita"
             android:textColor="#000000"
             android:textSize="24sp"
@@ -45,8 +32,8 @@
             android:layout_marginLeft="50dp"
             android:layout_marginTop="180dp"
             android:text="Datum početka radova"
-            android:textColor="#000000"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            android:textColor="#27D570"/>
 
         <TextView
             android:id="@+id/txtDatumPocetkaRadova"
@@ -62,9 +49,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="50dp"
-            android:layout_marginTop="265dp"
+            android:layout_marginTop="275dp"
             android:text="Trajanje radova u danima"
-            android:textColor="#000000"
+            android:textColor="#27D570"
             android:textSize="18sp" />
 
         <EditText
@@ -72,7 +59,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="50dp"
-            android:layout_marginTop="300dp"
+            android:layout_marginTop="310dp"
             android:background="@null"
             android:hint="Upišite broj dana trajanja radova"
             android:inputType="number"
@@ -86,17 +73,18 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="50dp"
-            android:layout_marginTop="350dp"
+            android:layout_marginTop="360dp"
             android:text="Opis ponude"
-            android:textColor="#000000"
+            android:textColor="#27D570"
             android:textSize="18sp" />
 
         <EditText
             android:id="@+id/txtOpisRadova"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="50dp"
-            android:layout_marginTop="380dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="390dp"
             android:background="@null"
             android:gravity="top|start"
             android:hint="Opišite..."
@@ -109,9 +97,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="50dp"
-            android:layout_marginTop="425dp"
+            android:layout_marginTop="490dp"
             android:text="Cijena"
-            android:textColor="#000000"
+            android:textColor="#27D570"
             android:textSize="18sp" />
 
         <EditText
@@ -119,7 +107,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="50dp"
-            android:layout_marginTop="450dp"
+            android:layout_marginTop="520dp"
             android:background="@null"
             android:hint="Upišite cijenu u HRK"
             android:inputType="number"
@@ -133,7 +121,7 @@
             android:layout_height="62dp"
             android:layout_alignParentRight="true"
             android:layout_marginStart="45dp"
-            android:layout_marginTop="500dp"
+            android:layout_marginTop="590dp"
             android:layout_marginEnd="46dp"
             android:layout_marginRight="46dp"
             android:background="#27D570"

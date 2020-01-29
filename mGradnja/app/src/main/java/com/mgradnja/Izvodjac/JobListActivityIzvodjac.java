@@ -1,11 +1,15 @@
 package com.mgradnja.Izvodjac;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -32,7 +36,6 @@ public class JobListActivityIzvodjac extends AppCompatActivity {
     ConnectionClass connectionClass;
     String hh = "Poslovi";
     private Integer ID;
-    private TextView tv;
     private int poz = 0;
 
     public String[] poslovi = new String[]{"Trenutni poslovi", "Prošli poslovi", "Budući poslovi"};
@@ -67,10 +70,18 @@ public class JobListActivityIzvodjac extends AppCompatActivity {
     private RecyclerView mRecyclerView;
     private RecyclerView.Adapter mAdapter;
     private RecyclerView.LayoutManager mLayoutManager;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_job_list_izvodjac);
+
+        ActionBar actionBar = getSupportActionBar();
+        if (actionBar != null){
+            actionBar.setDisplayHomeAsUpEnabled(true);
+            actionBar.setTitle("Popis poslova");
+        }
+
         connectionClass = new ConnectionClass();
         Intent intent = getIntent();
         ID = intent.getIntExtra("ID_izvodjaca", 0);
@@ -267,7 +278,6 @@ public class JobListActivityIzvodjac extends AppCompatActivity {
     }
     public void DohvatiProslePoslove(){
         Connection con = connectionClass.CONN();
-        tv = findViewById(R.id.txtRadovi);
         int seL = 0;
         String query = "select u.ID_djelatnosti, u.ID_upita, k.Ime, k.Prezime,  u.Naziv as 'Naziv_upita', u.Opis, p.Cijena, p.Datum_pocetka, p.Datum_zavrsetka from  korisnik k inner join upit u  on k.ID_korisnika = u.ID_korisnika inner join ponuda p  on u.ID_upita = p.ID_upita  where p.Status = 1 and p.ID_izvodjaca = '" + ID + "'and p.Datum_zavrsetka < convert(date,GETDATE())";
         try {
@@ -566,5 +576,24 @@ public class JobListActivityIzvodjac extends AppCompatActivity {
         ListaCijena.clear();
         ListaDjelatnostID.clear();
 
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()){
+            case android.R.id.home:
+                Intent intent = new Intent(this, GlavniIzbornikIzvodjac.class);
+                intent.putExtra("ID_izvodjaca", ID);
+                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                this.startActivity(intent);
+                finish();
+                break;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

@@ -2,6 +2,7 @@ package com.mgradnja;
 
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.View;
@@ -25,7 +26,7 @@ public class LoginActivity extends AppCompatActivity {
     Button prijava, registracija;
     ProgressBar progressBar;
     Integer ID;
-
+    SharedPreferences sp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +39,8 @@ public class LoginActivity extends AppCompatActivity {
         prijava = findViewById(R.id.btnPrijaviSe);
         registracija = findViewById(R.id.btnRegistracijaIzPrijave);
         progressBar = findViewById(R.id.progressBar);
+
+        sp = getSharedPreferences("login", MODE_PRIVATE);
 
         registracija.setOnClickListener(v -> openRegistrationActivity());
 
@@ -115,6 +118,10 @@ public class LoginActivity extends AppCompatActivity {
                         if(rsKorisnik.next())
                         {
                             ID = rsKorisnik.getInt("ID_korisnika");
+                            SharedPreferences.Editor editor = sp.edit();
+                            editor.putInt("id", ID);
+                            editor.putString("korisnik", "korisnik");
+                            editor.commit();
                             poruka = "Prijava uspješna!";
                             uspjeh =true;
                             OpenGlavniIzbornikActivity(ID);
@@ -124,6 +131,10 @@ public class LoginActivity extends AppCompatActivity {
                         else if (rsObrtnik.next())
                         {
                             ID = rsObrtnik.getInt("ID_izvodjaca");
+                            SharedPreferences.Editor editor = sp.edit();
+                            editor.putInt("id", ID);
+                            editor.putString("izvodjac", "izvodjac");
+                            editor.commit();
                             poruka = "Prijava uspješna!";
                             uspjeh = true;
                             OpenGlavniIzbornikIzvodjac(ID);
@@ -149,14 +160,18 @@ public class LoginActivity extends AppCompatActivity {
 
     private void OpenGlavniIzbornikIzvodjac(Integer id) {
         Intent intent = new Intent(this, GlavniIzbornikIzvodjac.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         intent.putExtra("ID_izvodjaca", id);
         startActivity(intent);
+        finish();
     }
 
     private void OpenGlavniIzbornikActivity(Integer ID) {
         Intent intent = new Intent(this, GlavniIzbornikKorisnik.class);
         intent.putExtra("ID_korisnika", ID);
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
+        finish();
     }
 
     public void openRegistrationActivity(){
@@ -164,7 +179,14 @@ public class LoginActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    @Override
+    public void onBackPressed(){
+        Intent intent = new Intent(this, MainActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(intent);
+        finish();
     }
+}
 
 
 
