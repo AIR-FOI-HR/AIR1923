@@ -25,7 +25,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.mgradnja.Izvodjac.IzvodjacKalendarActivity" />
+        <activity android:name="com.mgradnja.IzvodjacKalendarActivity" />
         <activity android:name="com.mgradnja.Izvodjac.UpdateOfferActivity" />
         <activity android:name="com.mgradnja.Izvodjac.OfferListAcitivityIzvodjac" />
         <activity android:name="com.mgradnja.Izvodjac.OfferActivity" />
@@ -36,7 +36,9 @@
         <activity android:name="com.mgradnja.IstraziIzvodjaceActivity" />
         <activity android:name="com.mgradnja.OfferListActivity" />
         <activity android:name="com.mgradnja.EditProfilKorisnikActivity" />
-        <activity android:name="com.mgradnja.ProfilKorisnikActivity" />
+        <activity
+            android:name="com.mgradnja.ProfilKorisnikActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name="com.mgradnja.JobListActivity" />
         <activity android:name="com.mgradnja.UserSearchActivity" />
         <activity android:name="com.mgradnja.Registration_performer" />

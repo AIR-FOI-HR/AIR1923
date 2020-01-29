@@ -4,9 +4,11 @@ import android.graphics.drawable.Drawable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -20,6 +22,15 @@ import java.util.List;
 public class JobAdapter extends RecyclerView.Adapter<JobAdapter.JobViewHolder> {
 
     private  ArrayList<JobAtributes>  mListaPoslova;
+    private OnItemClickListener mListener;
+    public interface OnItemClickListener{
+        void OnItemClick(int position);
+        void OnlinePayClick(int position);
+        void OnCashClick(int position);
+    }
+    public void setOnClickListener(OnItemClickListener listener){
+        mListener = listener;
+    }
     public static class JobViewHolder extends RecyclerView.ViewHolder {
 
         public TextView mNaziv;
@@ -33,7 +44,7 @@ public class JobAdapter extends RecyclerView.Adapter<JobAdapter.JobViewHolder> {
         public Button mCard;
 
 
-        public JobViewHolder(@NonNull View itemView) {
+        public JobViewHolder(@NonNull View itemView, OnItemClickListener listener) {
             super(itemView);
             mCijena = itemView.findViewById(R.id.txtCijena);
             mOpis = itemView.findViewById(R.id.txtOpisPosla);
@@ -45,8 +56,47 @@ public class JobAdapter extends RecyclerView.Adapter<JobAdapter.JobViewHolder> {
             mCash = itemView.findViewById(R.id.btnGotovina);
             mCard = itemView.findViewById(R.id.btnOnline);
 
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    if(listener != null) {
+                        int position = getAdapterPosition();
+                        if(position != RecyclerView.NO_POSITION) listener.OnItemClick(position);
+
+
+                    }
+                }
+            });
+
+            mCard.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    if(listener != null) {
+                        int position = getAdapterPosition();
+                        if(position != RecyclerView.NO_POSITION) listener.OnlinePayClick(position);
+
+
+                    }
+                }
+            });
+
+            mCash.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    if(listener != null) {
+                        int position = getAdapterPosition();
+                        if(position != RecyclerView.NO_POSITION) listener.OnCashClick(position);
+
+
+                    }
+                }
+            });
+
+
         }
+
     }
+
 
     public JobAdapter(ArrayList<JobAtributes> ListaPoslova){
         mListaPoslova = ListaPoslova;
@@ -55,7 +105,7 @@ public class JobAdapter extends RecyclerView.Adapter<JobAdapter.JobViewHolder> {
     @Override
     public JobViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.joblist_layout, parent, false);
-        JobViewHolder jvh = new JobViewHolder(v);
+        JobViewHolder jvh = new JobViewHolder(v, mListener);
 
         return jvh;
     }

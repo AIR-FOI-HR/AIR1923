@@ -58,6 +58,9 @@ public class JobListActivity extends AppCompatActivity {
     private Date krajPosla;
     private int brojDjelatnosti;
     private int placeno;
+    private int brojac;
+    private int brojPlacenogUpita;
+ //   private int kontrola;
 
     Button Izaberi;
     public ArrayList<JobAtributes> ListaTrenutnihPoslova = new ArrayList<>();
@@ -66,7 +69,7 @@ public class JobListActivity extends AppCompatActivity {
     public ArrayList<JobAtributes> ListaSvihPoslova = new ArrayList<>();
     public JobAtributes JA;
     private RecyclerView mRecyclerView;
-    private RecyclerView.Adapter mAdapter;
+    private JobAdapter mAdapter;
     private RecyclerView.LayoutManager mLayoutManager;
 
 
@@ -93,7 +96,6 @@ public class JobListActivity extends AppCompatActivity {
 
 
 
-
         DohvatiTrenutnePoslove();
         DohvatiProslePoslove();
         DohvatiBuducePoslove();
@@ -104,7 +106,7 @@ public class JobListActivity extends AppCompatActivity {
         mAdapter = new JobAdapter(ListaSvihPoslova);
         mRecyclerView.setLayoutManager(mLayoutManager);
         mRecyclerView.setAdapter(mAdapter);
-
+        OnClickPay(poz);
 
 
         spinPos.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
@@ -114,16 +116,11 @@ public class JobListActivity extends AppCompatActivity {
 
                     case 0:
 
-
-
-
                         poz = 1;
 
                         break;
 
                     case 1:
-
-
 
                         poz = 2;
 
@@ -151,6 +148,7 @@ public class JobListActivity extends AppCompatActivity {
                     mAdapter = new JobAdapter(ListaTrenutnihPoslova);
                     mRecyclerView.setLayoutManager(mLayoutManager);
                     mRecyclerView.setAdapter(mAdapter);
+                    OnClickPay(poz);
 
                 }
                 if(poz == 2)
@@ -160,6 +158,7 @@ public class JobListActivity extends AppCompatActivity {
 
                     mRecyclerView.setLayoutManager(mLayoutManager);
                     mRecyclerView.setAdapter(mAdapter);
+                    OnClickPay(poz);
 
                 }
                 if(poz == 3){
@@ -168,16 +167,358 @@ public class JobListActivity extends AppCompatActivity {
 
                     mRecyclerView.setLayoutManager(mLayoutManager);
                     mRecyclerView.setAdapter(mAdapter);
+                    OnClickPay(poz);
                 }
 
             }
         });
 
+    }
+
+    public void OnClickPay(int poz){
+       switch (poz) {
+           case 0:
+
+               mAdapter.setOnClickListener(new JobAdapter.OnItemClickListener() {
+                   @Override
+                   public void OnItemClick(int position) {
+
+                   }
+
+                   @Override
+                   public void OnlinePayClick(int position) {
+                       brojac = ListaSvihPoslova.size();
+                       if(brojac >1)
+                       {
+                           if(position == 0) {
+
+                               JobAtributes JA;
+                               JA = ListaSvihPoslova.get(position);
+                               brojPlacenogUpita = JA.getMbrojUpita();
+                               PokreniOnlinePlacanje(brojPlacenogUpita);
+
+                           }
+                           else{
+                               JobAtributes JA;
+                               JA = ListaSvihPoslova.get(position);
+
+                               brojPlacenogUpita = JA.getMbrojUpita();
+                               PokreniOnlinePlacanje(brojPlacenogUpita);
+
+                           }
+
+                       }
+                       else {
+                           JobAtributes JA;
+                           JA = ListaSvihPoslova.get(0);
+
+                           brojPlacenogUpita = JA.getMbrojUpita();
+                           PokreniOnlinePlacanje(brojPlacenogUpita);
+
+                       }
+
+                   }
+
+                   @Override
+                   public void OnCashClick(int position) {
+                       brojac = ListaSvihPoslova.size();
+                       if(brojac >1)
+                       {
+                           if(position == 0) {
+
+                               JobAtributes JA;
+                               JA = ListaSvihPoslova.get(position);
+                               brojPlacenogUpita = JA.getMbrojUpita();
+                               PokreniGotovinskoPlacanje(brojPlacenogUpita);
+
+                           }
+                           else{
+                               JobAtributes JA;
+                               JA = ListaSvihPoslova.get(position);
+
+                               brojPlacenogUpita = JA.getMbrojUpita();
+                               PokreniGotovinskoPlacanje(brojPlacenogUpita);
+
+                           }
+
+                       }
+                       else {
+                           JobAtributes JA;
+                           JA = ListaSvihPoslova.get(0);
+
+                           brojPlacenogUpita = JA.getMbrojUpita();
+                           PokreniGotovinskoPlacanje(brojPlacenogUpita);
+
+                       }
+
+                   }
+
+
+
+               });
+               break;
+           case 1:
+               mAdapter.setOnClickListener(new JobAdapter.OnItemClickListener() {
+                   @Override
+                   public void OnItemClick(int position) {
+
+                   }
+
+                   @Override
+                   public void OnlinePayClick(int position) {
+                       brojac = ListaTrenutnihPoslova.size();
+                       if(brojac >1)
+                       {
+                           if(position == 0) {
+
+                               JobAtributes JA;
+                               JA = ListaTrenutnihPoslova.get(position);
+                               brojPlacenogUpita = JA.getMbrojUpita();
+                               PokreniOnlinePlacanje(brojPlacenogUpita);
+
+                           }
+                           else{
+                               JobAtributes JA;
+                               JA = ListaTrenutnihPoslova.get(position);
+
+                               brojPlacenogUpita = JA.getMbrojUpita();
+                               PokreniOnlinePlacanje(brojPlacenogUpita);
+
+                           }
+
+                       }
+                       else {
+                           JobAtributes JA;
+                           JA = ListaTrenutnihPoslova.get(0);
+
+                           brojPlacenogUpita = JA.getMbrojUpita();
+                           PokreniOnlinePlacanje(brojPlacenogUpita);
+
+                       }
+
+                   }
+
+                   @Override
+                   public void OnCashClick(int position) {
+                       brojac = ListaTrenutnihPoslova.size();
+                       if(brojac >1)
+                       {
+                           if(position == 0) {
+
+                               JobAtributes JA;
+                               JA = ListaTrenutnihPoslova.get(position);
+                               brojPlacenogUpita = JA.getMbrojUpita();
+                               PokreniGotovinskoPlacanje(brojPlacenogUpita);
+
+                           }
+                           else{
+                               JobAtributes JA;
+                               JA = ListaTrenutnihPoslova.get(position);
+
+                               brojPlacenogUpita = JA.getMbrojUpita();
+                               PokreniGotovinskoPlacanje(brojPlacenogUpita);
+
+                           }
+
+                       }
+                       else {
+                           JobAtributes JA;
+                           JA = ListaTrenutnihPoslova.get(0);
+
+                           brojPlacenogUpita = JA.getMbrojUpita();
+                           PokreniGotovinskoPlacanje(brojPlacenogUpita);
+
+                       }
+
+                   }
+
+
+
+               });
+               break;
+
+           case 2:
+               mAdapter.setOnClickListener(new JobAdapter.OnItemClickListener() {
+                   @Override
+                   public void OnItemClick(int position) {
+
+                   }
+
+                   @Override
+                   public void OnlinePayClick(int position) {
+                       brojac = ListaProslihPoslova.size();
+                       if(brojac >1)
+                       {
+                           if(position == 0) {
+
+                               JobAtributes JA;
+                               JA = ListaProslihPoslova.get(position);
+                               brojPlacenogUpita = JA.getMbrojUpita();
+                               PokreniOnlinePlacanje(brojPlacenogUpita);
+
+                           }
+                           else{
+                               JobAtributes JA;
+                               JA = ListaProslihPoslova.get(position);
+
+                               brojPlacenogUpita = JA.getMbrojUpita();
+                               PokreniOnlinePlacanje(brojPlacenogUpita);
+
+                           }
+
+                       }
+                       else {
+                           JobAtributes JA;
+                           JA = ListaProslihPoslova.get(0);
+
+                           brojPlacenogUpita = JA.getMbrojUpita();
+                           PokreniOnlinePlacanje(brojPlacenogUpita);
+
+                       }
+
+                   }
+
+                   @Override
+                   public void OnCashClick(int position) {
+                       brojac = ListaProslihPoslova.size();
+                       if(brojac >1)
+                       {
+                           if(position == 0) {
+
+                               JobAtributes JA;
+                               JA = ListaProslihPoslova.get(position);
+                               brojPlacenogUpita = JA.getMbrojUpita();
+                               PokreniGotovinskoPlacanje(brojPlacenogUpita);
+
+                           }
+                           else{
+                               JobAtributes JA;
+                               JA = ListaProslihPoslova.get(position);
+
+                               brojPlacenogUpita = JA.getMbrojUpita();
+                               PokreniGotovinskoPlacanje(brojPlacenogUpita);
+
+                           }
+
+                       }
+                       else {
+                           JobAtributes JA;
+                           JA = ListaProslihPoslova.get(0);
+
+                           brojPlacenogUpita = JA.getMbrojUpita();
+                           PokreniGotovinskoPlacanje(brojPlacenogUpita);
+
+                       }
+
+                   }
+
+
+
+               });
+               break;
+
+           case 3:
+               mAdapter.setOnClickListener(new JobAdapter.OnItemClickListener() {
+                   @Override
+                   public void OnItemClick(int position) {
+
+                   }
+
+                   @Override
+                   public void OnlinePayClick(int position) {
+                       brojac = ListaBuducihPoslova.size();
+                       if(brojac >1)
+                       {
+                           if(position == 0) {
+
+                               JobAtributes JA;
+                               JA = ListaBuducihPoslova.get(position);
+                               brojPlacenogUpita = JA.getMbrojUpita();
+                               PokreniOnlinePlacanje(brojPlacenogUpita);
+
+                           }
+                           else{
+                               JobAtributes JA;
+                               JA = ListaBuducihPoslova.get(position);
+
+                               brojPlacenogUpita = JA.getMbrojUpita();
+                               PokreniOnlinePlacanje(brojPlacenogUpita);
+
+                           }
+
+                       }
+                       else {
+                           JobAtributes JA;
+                           JA = ListaBuducihPoslova.get(0);
+
+                           brojPlacenogUpita = JA.getMbrojUpita();
+                           PokreniOnlinePlacanje(brojPlacenogUpita);
+
+                       }
+
+                   }
+
+                   @Override
+                   public void OnCashClick(int position) {
+                       brojac = ListaBuducihPoslova.size();
+                       if(brojac >1)
+                       {
+                           if(position == 0) {
+
+                               JobAtributes JA;
+                               JA = ListaBuducihPoslova.get(position);
+                               brojPlacenogUpita = JA.getMbrojUpita();
+                               PokreniGotovinskoPlacanje(brojPlacenogUpita);
+
+                           }
+                           else{
+                               JobAtributes JA;
+                               JA = ListaBuducihPoslova.get(position);
+
+                               brojPlacenogUpita = JA.getMbrojUpita();
+                               PokreniGotovinskoPlacanje(brojPlacenogUpita);
+
+                           }
+
+                       }
+                       else {
+                           JobAtributes JA;
+                           JA = ListaBuducihPoslova.get(0);
+
+                           brojPlacenogUpita = JA.getMbrojUpita();
+                           PokreniGotovinskoPlacanje(brojPlacenogUpita);
+
+                       }
+
+                   }
+
+
+
+               });
+               break;
+       }
+    }
+
+    public void PokreniGotovinskoPlacanje(Integer BrojUpita){
+
+        Toast.makeText(JobListActivity.this , BrojUpita.toString(), Toast.LENGTH_LONG).show();
+
+        //diajalog boks TODO
+    }
+    public void PokreniOnlinePlacanje(Integer BrojUpita){
+        //Toast.makeText(JobListActivity.this , BrojUpita.toString(), Toast.LENGTH_LONG).show();
+        try {
+            Intent intent = new Intent(JobListActivity.this, Class.forName("com.example.braintree.MainActivityBrainTree"));
+            intent.putExtra("BrojUpita", BrojUpita);
+            intent.putExtra("ID_korisnika", ID);
+            startActivity(intent);
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+
+        }
 
 
     }
-
-
     public void DohvatiSvePoslove(){
 
         Connection con = connectionClass.CONN();
