@@ -1,10 +1,20 @@
+<<<<<<< HEAD
 #Thu Jan 30 19:37:48 CET 2020
+=======
+#Thu Jan 30 12:47:12 CET 2020
+>>>>>>> 09dd9e98034ac66da9a70d5302ace292e5ff51cb
 path.2=classes_0.dex
 path.1=classes.dex
 path.0=classes.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
+<<<<<<< HEAD
 base.2=C\:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\out\\classes_0.dex
 base.1=C\:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
 base.0=C\:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+=======
+base.2=C\:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\gitgitgit\\mGradnja\\app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\out\\classes_0.dex
+base.1=C\:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\gitgitgit\\mGradnja\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
+base.0=C\:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\gitgitgit\\mGradnja\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+>>>>>>> 09dd9e98034ac66da9a70d5302ace292e5ff51cb

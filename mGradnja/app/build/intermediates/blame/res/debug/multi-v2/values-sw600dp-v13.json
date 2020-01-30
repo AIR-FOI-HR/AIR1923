@@ -1,7 +1,11 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+=======
+            "outputFile": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\gitgitgit\\mGradnja\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+>>>>>>> 09dd9e98034ac66da9a70d5302ace292e5ff51cb
             "map": [
                 {
                     "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",

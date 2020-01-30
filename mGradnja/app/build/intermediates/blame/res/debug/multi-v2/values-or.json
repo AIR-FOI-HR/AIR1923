@@ -1,7 +1,11 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-or\\values-or.xml",
+=======
+            "outputFile": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\gitgitgit\\mGradnja\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-or\\values-or.xml",
+>>>>>>> 09dd9e98034ac66da9a70d5302ace292e5ff51cb
             "map": [
                 {
                     "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\values-or\\values-or.xml",

@@ -1,7 +1,11 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+=======
+            "outputFile": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\gitgitgit\\mGradnja\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+>>>>>>> 09dd9e98034ac66da9a70d5302ace292e5ff51cb
             "map": [
                 {
                     "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\values-v16\\values-v16.xml",
@@ -9,6 +13,7 @@
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
+<<<<<<< HEAD
                         "endLines": "5",
                         "endColumns": "12",
                         "endOffsets": "223"
@@ -20,6 +25,36 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "334"
+=======
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endColumns": "65",
+                        "endOffsets": "161"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\MarkoMehkek\\.gradle\\caches\\transforms-2\\files-2.1\\b07085cca598f17478cda1c42e0f62ac\\jetified-drop-in-3.7.1\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2,6,15",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "100,295,788",
+                        "endLines": "5,14,25",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "290,783,1388"
+                    },
+                    "to": {
+                        "startLines": "7,11,20",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "339,534,1027",
+                        "endLines": "10,19,30",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "529,1022,1627"
+>>>>>>> 09dd9e98034ac66da9a70d5302ace292e5ff51cb
                     }
                 },
                 {
@@ -53,9 +88,16 @@
                     "to": {
                         "startLines": "2",
                         "startColumns": "4",
+<<<<<<< HEAD
                         "startOffsets": "100",
                         "endColumns": "65",
                         "endOffsets": "161"
+=======
+                        "startOffsets": "166",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "334"
+>>>>>>> 09dd9e98034ac66da9a70d5302ace292e5ff51cb
                     }
                 }
             ]

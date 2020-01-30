@@ -1,7 +1,11 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+=======
+            "outputFile": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\gitgitgit\\mGradnja\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+>>>>>>> 09dd9e98034ac66da9a70d5302ace292e5ff51cb
             "map": [
                 {
                     "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\7b3a0614fe4d395b1a2de2e8cf5e6bcf\\jetified-card-form-3.5.0\\res\\values-land\\values-land.xml",
@@ -48,7 +52,45 @@
                     }
                 },
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\values-land\\values-land.xml",
+=======
+                    "source": "C:\\Users\\MarkoMehkek\\.gradle\\caches\\transforms-2\\files-2.1\\b07085cca598f17478cda1c42e0f62ac\\jetified-drop-in-3.7.1\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,131,202,264,325",
+                        "endColumns": "75,70,61,60,59",
+                        "endOffsets": "126,197,259,320,380"
+                    },
+                    "to": {
+                        "startLines": "5,6,10,11,12",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "264,340,621,683,744",
+                        "endColumns": "75,70,61,60,59",
+                        "endOffsets": "335,406,678,739,799"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\MarkoMehkek\\.gradle\\caches\\transforms-2\\files-2.1\\9979f5892d0b7b38b7f4b92d71084ab4\\jetified-card-form-3.5.0\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,119,192",
+                        "endColumns": "63,72,72",
+                        "endOffsets": "114,187,260"
+                    },
+                    "to": {
+                        "startLines": "7,8,9",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "411,475,548",
+                        "endColumns": "63,72,72",
+                        "endOffsets": "470,543,616"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\MarkoMehkek\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\values-land\\values-land.xml",
+>>>>>>> 09dd9e98034ac66da9a70d5302ace292e5ff51cb
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,24,30",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

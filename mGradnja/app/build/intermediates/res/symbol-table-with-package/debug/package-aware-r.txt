@@ -1800,7 +1800,10 @@ id btnRegistracijaKorisnik
 id btnSpremiPromjene
 id btnUredi
 id btnUrediKorisnickiRacun
+<<<<<<< HEAD
 id btnUrediRacunIzvodjaca
+=======
+>>>>>>> 09dd9e98034ac66da9a70d5302ace292e5ff51cb
 id btn_pay
 id buttonPanel
 id buttons
@@ -1992,7 +1995,10 @@ id notification_background
 id notification_main_column
 id notification_main_column_container
 id obavijest
+<<<<<<< HEAD
 id ocjenaProfilIzvodjacaRecenzija
+=======
+>>>>>>> 09dd9e98034ac66da9a70d5302ace292e5ff51cb
 id ocjenaRecenzenta
 id ocjenaRecenzijeProfilKorisnika
 id off
