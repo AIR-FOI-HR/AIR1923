@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginBottom="5dp"
+    android:backgroundTint="#DCDFDC"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:selectableItemBackground"
+    app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtProfilIzvodjacaImeRecenzija"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="6dp"
+                android:layout_weight="0.54"
+                android:textColor="#27D570"
+                android:textSize="20dp"
+                android:text="Benaglo"/>
+
+
+            <RatingBar
+                android:id="@+id/ocjenaProfilIzvodjacaRecenzija"
+                style="@android:style/Widget.Holo.RatingBar.Indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:progressTint="#27D570"
+                android:stepSize="1" />
+
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtProfilIzvodjacaPrezimeRecenzija"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="6dp"
+            android:layout_weight="0.54"
+            android:textColor="#27D570"
+            android:textSize="20dp"
+            android:text="Benaglo"/>
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtKomentarProfilIzvodjacaRecenzija"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="2dp"
+                android:text="Lorem ipsum bispum ad aspera ad astra manistra ante procos dorcos tuibi morcos."
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtDatumRecenzijeProfilIzvodjaca"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="12dp"
+                android:layout_weight="0.54"
+                android:text="11.06.2019."
+                android:textColor="#5A5858" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

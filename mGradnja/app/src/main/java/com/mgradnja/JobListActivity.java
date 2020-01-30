@@ -991,7 +991,7 @@ public class JobListActivity extends AppCompatActivity {
         switch (item.getItemId()){
             case android.R.id.home:
                 Intent intent = new Intent(this, GlavniIzbornikKorisnik.class);
-                intent.putExtra("ID_izvodjaca", ID);
+                intent.putExtra("ID_korisnika", ID);
                 intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 this.startActivity(intent);
                 finish();

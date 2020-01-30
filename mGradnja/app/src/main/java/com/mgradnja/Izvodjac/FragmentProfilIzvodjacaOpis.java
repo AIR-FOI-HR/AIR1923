@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.RatingBar;
 import android.widget.TextView;
 
 import androidx.fragment.app.Fragment;
@@ -24,6 +25,7 @@ public class FragmentProfilIzvodjacaOpis extends Fragment {
 
     TextView txtNazivIzvodjaca, txtAdresaIzvodjaca, txtGradIzvodjaca, txtZupanijaIzvodjaca, txtMailIzvodjaca, txtTelefonIzvodjaca, txtBrojRacunaIzvodjaca, txtOIBIzvodjaca;
     Button btnUrediRacunIzvodjaca;
+    RatingBar prosjecnaOcjena;
 
     public FragmentProfilIzvodjacaOpis(){
 
@@ -42,6 +44,7 @@ public class FragmentProfilIzvodjacaOpis extends Fragment {
         txtTelefonIzvodjaca = (TextView) view.findViewById(R.id.txtProfilIzvodjacaTelefonIspis);
         txtOIBIzvodjaca = (TextView) view.findViewById(R.id.txtProfilIzvodjacaOIBIspis);
         btnUrediRacunIzvodjaca = (Button) view.findViewById(R.id.btnUrediRacunIzvodjaca);
+        prosjecnaOcjena = (RatingBar) view.findViewById(R.id.ratingProsjecnaOcjena);
 
         Intent intent = getActivity().getIntent();
         Integer ID = intent.getIntExtra("ID_izvodjaca", 0);
@@ -54,9 +57,6 @@ public class FragmentProfilIzvodjacaOpis extends Fragment {
                 uredjivanjeProfila(ID);
             }
         });
-
-
-
 
         return view;
     }
@@ -78,6 +78,8 @@ public class FragmentProfilIzvodjacaOpis extends Fragment {
         ConnectionClass connectionClass = new ConnectionClass();
         Connection con = connectionClass.CONN();
 
+        Float avgOcjena = null;
+
 
 
         try{
@@ -97,6 +99,15 @@ public class FragmentProfilIzvodjacaOpis extends Fragment {
                 txtBrojRacunaIzvodjaca.setText(rs.getString("Broj_racuna"));
 
             }
+
+            String sql2 = "select avg(ocjena) as rating from Recenzija where ID_izvodjaca=('" + ID + "') ";
+            Statement statement2 = con.createStatement();
+            ResultSet rs2 = statement2.executeQuery(sql2);
+            while (rs2.next()){
+                avgOcjena = rs2.getFloat("rating");
+                prosjecnaOcjena.setRating(avgOcjena);
+            }
+
         }
         catch (SQLException e){
             e.printStackTrace();

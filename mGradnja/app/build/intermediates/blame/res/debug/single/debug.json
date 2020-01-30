@@ -44,12 +44,12 @@
         "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\b583c0056dae8f5b59bcf37f9c711b65\\jetified-drop-in-3.7.1\\res\\drawable-mdpi-v4\\bt_ic_paypal.png"
     },
     {
-        "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_chronometer.xml.flat",
-        "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\e9dab9c67c1ee3668e0bbf86c6d8cbd8\\core-1.1.0\\res\\layout\\notification_template_part_chronometer.xml"
-    },
-    {
         "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_slide_out_top.xml.flat",
         "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_chronometer.xml.flat",
+        "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\e9dab9c67c1ee3668e0bbf86c6d8cbd8\\core-1.1.0\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
         "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_info.xml.flat",
@@ -92,12 +92,12 @@
         "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\color\\abc_tint_spinner.xml"
     },
     {
-        "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_bt_ic_discover.png.flat",
-        "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\7b3a0614fe4d395b1a2de2e8cf5e6bcf\\jetified-card-form-3.5.0\\res\\drawable-xhdpi-v4\\bt_ic_discover.png"
-    },
-    {
         "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\raw_tokenize_credit_card_mutation.graphql.flat",
         "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\d6973898fd37ff6c363b1bf316145bff\\jetified-braintree-2.18.1\\res\\raw\\tokenize_credit_card_mutation.graphql"
+    },
+    {
+        "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_bt_ic_discover.png.flat",
+        "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\7b3a0614fe4d395b1a2de2e8cf5e6bcf\\jetified-card-form-3.5.0\\res\\drawable-xhdpi-v4\\bt_ic_discover.png"
     },
     {
         "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_pressed_holo_light.9.png.flat",
@@ -148,12 +148,12 @@
         "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\drawable\\ic_mtrl_chip_checked_circle.xml"
     },
     {
-        "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_longpressed_holo.9.png.flat",
-        "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_list_longpressed_holo.9.png"
-    },
-    {
         "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\animator_mtrl_btn_unelevated_state_list_anim.xml.flat",
         "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\animator\\mtrl_btn_unelevated_state_list_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_longpressed_holo.9.png.flat",
+        "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_list_longpressed_holo.9.png"
     },
     {
         "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_activity_chooser_view.xml.flat",
@@ -204,12 +204,12 @@
         "source": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\src\\main\\res\\layout\\activity_job_list_izvodjac.xml"
     },
     {
-        "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_bt_ic_postal_code_dark.png.flat",
-        "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\7b3a0614fe4d395b1a2de2e8cf5e6bcf\\jetified-card-form-3.5.0\\res\\drawable-xxhdpi-v4\\bt_ic_postal_code_dark.png"
-    },
-    {
         "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_bt_ic_postal_code_dark.png.flat",
+        "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\7b3a0614fe4d395b1a2de2e8cf5e6bcf\\jetified-card-form-3.5.0\\res\\drawable-xxhdpi-v4\\bt_ic_postal_code_dark.png"
     },
     {
         "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_seekbar_track_material.xml.flat",
@@ -244,16 +244,16 @@
         "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\7b3a0614fe4d395b1a2de2e8cf5e6bcf\\jetified-card-form-3.5.0\\res\\drawable-mdpi-v4\\bt_ic_postal_code_dark.png"
     },
     {
-        "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_bt_ic_vaulted_visa.png.flat",
-        "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\b583c0056dae8f5b59bcf37f9c711b65\\jetified-drop-in-3.7.1\\res\\drawable-mdpi-v4\\bt_ic_vaulted_visa.png"
+        "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_bt_ic_mastercard.png.flat",
+        "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\7b3a0614fe4d395b1a2de2e8cf5e6bcf\\jetified-card-form-3.5.0\\res\\drawable-mdpi-v4\\bt_ic_mastercard.png"
     },
     {
         "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_recenzije_layout.xml.flat",
         "source": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\src\\main\\res\\layout\\recenzije_layout.xml"
     },
     {
-        "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_bt_ic_mastercard.png.flat",
-        "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\7b3a0614fe4d395b1a2de2e8cf5e6bcf\\jetified-card-form-3.5.0\\res\\drawable-mdpi-v4\\bt_ic_mastercard.png"
+        "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_bt_ic_vaulted_visa.png.flat",
+        "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\b583c0056dae8f5b59bcf37f9c711b65\\jetified-drop-in-3.7.1\\res\\drawable-mdpi-v4\\bt_ic_vaulted_visa.png"
     },
     {
         "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
@@ -272,12 +272,12 @@
         "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\b583c0056dae8f5b59bcf37f9c711b65\\jetified-drop-in-3.7.1\\res\\drawable-xxxhdpi-v4\\bt_ic_sms_code_dark.png"
     },
     {
-        "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xxxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_fragment_opis_profil_korisnika.xml.flat",
         "source": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\src\\main\\res\\layout\\fragment_fragment_opis_profil_korisnika.xml"
+    },
+    {
+        "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xxxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_bt_ic_vaulted_unionpay.png.flat",
@@ -292,12 +292,12 @@
         "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\e9dab9c67c1ee3668e0bbf86c6d8cbd8\\core-1.1.0\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
     },
     {
-        "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_material_dark.xml.flat",
-        "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\color\\abc_primary_text_material_dark.xml"
-    },
-    {
         "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_material_dark.xml.flat",
+        "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\color\\abc_primary_text_material_dark.xml"
     },
     {
         "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_bt_ic_vaulted_jcb.png.flat",
@@ -340,36 +340,36 @@
         "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
     },
     {
-        "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_bt_ic_card_dark.png.flat",
-        "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\7b3a0614fe4d395b1a2de2e8cf5e6bcf\\jetified-card-form-3.5.0\\res\\drawable-mdpi-v4\\bt_ic_card_dark.png"
-    },
-    {
         "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
-        "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_alert_dialog_actions.xml.flat",
-        "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\layout\\mtrl_alert_dialog_actions.xml"
-    },
-    {
-        "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
-        "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+        "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_bt_ic_card_dark.png.flat",
+        "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\7b3a0614fe4d395b1a2de2e8cf5e6bcf\\jetified-card-form-3.5.0\\res\\drawable-mdpi-v4\\bt_ic_card_dark.png"
     },
     {
         "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\anim_btn_checkbox_to_checked_box_inner_merged_animation.xml.flat",
         "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\anim\\btn_checkbox_to_checked_box_inner_merged_animation.xml"
     },
     {
+        "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
+        "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_alert_dialog_actions.xml.flat",
+        "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\layout\\mtrl_alert_dialog_actions.xml"
+    },
+    {
         "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_fragment_recenzije_profil_korisnika.xml.flat",
         "source": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\src\\main\\res\\layout\\fragment_fragment_recenzije_profil_korisnika.xml"
     },
     {
-        "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_layout_snackbar.xml.flat",
-        "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\layout\\mtrl_layout_snackbar.xml"
-    },
-    {
         "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
         "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_layout_snackbar.xml.flat",
+        "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\layout\\mtrl_layout_snackbar.xml"
     },
     {
         "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\raw_delete_payment_method_mutation.graphql.flat",
@@ -440,12 +440,12 @@
         "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
     },
     {
-        "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
-    },
-    {
         "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_browser_actions_context_menu_row.xml.flat",
         "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\c18ea2bebf3d3f70044b8f352bfcc396\\browser-1.0.0\\res\\layout\\browser_actions_context_menu_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\interpolator-v21_mtrl_fast_out_slow_in.xml.flat",
@@ -492,20 +492,20 @@
         "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\e9dab9c67c1ee3668e0bbf86c6d8cbd8\\core-1.1.0\\res\\drawable\\notification_bg_low.xml"
     },
     {
-        "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_btn_text_btn_bg_color_selector.xml.flat",
-        "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\color\\mtrl_btn_text_btn_bg_color_selector.xml"
-    },
-    {
         "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_bt_ic_vaulted_maestro.png.flat",
         "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\b583c0056dae8f5b59bcf37f9c711b65\\jetified-drop-in-3.7.1\\res\\drawable-hdpi-v4\\bt_ic_vaulted_maestro.png"
     },
     {
-        "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\color_material_slider_inactive_tick_marks_color.xml.flat",
-        "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\color\\material_slider_inactive_tick_marks_color.xml"
+        "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_btn_text_btn_bg_color_selector.xml.flat",
+        "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\color\\mtrl_btn_text_btn_bg_color_selector.xml"
     },
     {
         "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_bt_ic_mastercard.png.flat",
         "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\7b3a0614fe4d395b1a2de2e8cf5e6bcf\\jetified-card-form-3.5.0\\res\\drawable-xhdpi-v4\\bt_ic_mastercard.png"
+    },
+    {
+        "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\color_material_slider_inactive_tick_marks_color.xml.flat",
+        "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\color\\material_slider_inactive_tick_marks_color.xml"
     },
     {
         "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-watch-v20_abc_dialog_material_background.xml.flat",
@@ -536,12 +536,12 @@
         "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_bt_ic_vaulted_visa.png.flat",
         "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\b583c0056dae8f5b59bcf37f9c711b65\\jetified-drop-in-3.7.1\\res\\drawable-xhdpi-v4\\bt_ic_vaulted_visa.png"
+    },
+    {
+        "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_bt_ic_vaulted_jcb.png.flat",
@@ -752,12 +752,12 @@
         "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\767612e54049c1347a891905a7e9d5e4\\media-1.0.0\\res\\layout\\notification_template_media.xml"
     },
     {
-        "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
-        "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png"
-    },
-    {
         "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_tabs_ripple_color.xml.flat",
         "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\color\\mtrl_tabs_ripple_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
+        "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png"
     },
     {
         "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_bt_ic_paypal.png.flat",
@@ -880,12 +880,12 @@
         "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\7b3a0614fe4d395b1a2de2e8cf5e6bcf\\jetified-card-form-3.5.0\\res\\drawable-hdpi-v4\\bt_ic_mobile_number.png"
     },
     {
-        "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_bt_ic_vaulted_venmo.png.flat",
-        "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\b583c0056dae8f5b59bcf37f9c711b65\\jetified-drop-in-3.7.1\\res\\drawable-hdpi-v4\\bt_ic_vaulted_venmo.png"
-    },
-    {
         "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_bt_ic_android_pay.png.flat",
         "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\b583c0056dae8f5b59bcf37f9c711b65\\jetified-drop-in-3.7.1\\res\\drawable-mdpi-v4\\bt_ic_android_pay.png"
+    },
+    {
+        "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_bt_ic_vaulted_venmo.png.flat",
+        "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\b583c0056dae8f5b59bcf37f9c711b65\\jetified-drop-in-3.7.1\\res\\drawable-hdpi-v4\\bt_ic_vaulted_venmo.png"
     },
     {
         "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_bt_ic_vaulted_diners_club.png.flat",
@@ -912,12 +912,12 @@
         "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
-        "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout-land_mtrl_picker_header_dialog.xml.flat",
-        "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\layout-land\\mtrl_picker_header_dialog.xml"
-    },
-    {
         "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_bt_ic_paypal.png.flat",
         "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\b583c0056dae8f5b59bcf37f9c711b65\\jetified-drop-in-3.7.1\\res\\drawable-xhdpi-v4\\bt_ic_paypal.png"
+    },
+    {
+        "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout-land_mtrl_picker_header_dialog.xml.flat",
+        "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\layout-land\\mtrl_picker_header_dialog.xml"
     },
     {
         "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -932,20 +932,20 @@
         "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
-        "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_search_url_text.xml.flat",
-        "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\color\\abc_search_url_text.xml"
-    },
-    {
         "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_btn_text_color_selector.xml.flat",
         "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\color\\mtrl_btn_text_color_selector.xml"
     },
     {
-        "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
-        "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+        "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_search_url_text.xml.flat",
+        "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\color\\abc_search_url_text.xml"
     },
     {
         "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_text_view_with_line_height_from_layout.xml.flat",
         "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\layout\\text_view_with_line_height_from_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
         "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
@@ -956,12 +956,12 @@
         "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\color\\material_on_primary_emphasis_high_type.xml"
     },
     {
-        "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_tabs_legacy_text_color_selector.xml.flat",
-        "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\color\\mtrl_tabs_legacy_text_color_selector.xml"
-    },
-    {
         "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_bt_ic_vaulted_unknown.png.flat",
         "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\b583c0056dae8f5b59bcf37f9c711b65\\jetified-drop-in-3.7.1\\res\\drawable-xxhdpi-v4\\bt_ic_vaulted_unknown.png"
+    },
+    {
+        "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_tabs_legacy_text_color_selector.xml.flat",
+        "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\color\\mtrl_tabs_legacy_text_color_selector.xml"
     },
     {
         "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_bt_enrollment_card.xml.flat",
@@ -1148,12 +1148,12 @@
         "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\layout\\design_layout_snackbar_include.xml"
     },
     {
-        "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_calendar_24dp.xml.flat",
-        "source": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\src\\main\\res\\drawable\\ic_calendar_24dp.xml"
-    },
-    {
         "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_istrazi_upite_izvodjac.xml.flat",
         "source": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\src\\main\\res\\layout\\activity_istrazi_upite_izvodjac.xml"
+    },
+    {
+        "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_calendar_24dp.xml.flat",
+        "source": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\src\\main\\res\\drawable\\ic_calendar_24dp.xml"
     },
     {
         "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_bt_ic_diners_club.png.flat",
@@ -2170,6 +2170,10 @@
     {
         "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
         "source": "C:\\Users\\VEDRAN\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_item_recenzija_profil_izvodjaca.xml.flat",
+        "source": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\src\\main\\res\\layout\\list_item_recenzija_profil_izvodjaca.xml"
     },
     {
         "merged": "C:\\Users\\VEDRAN\\Desktop\\30.01.2020\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_bt_ic_vaulted_amex.png.flat",

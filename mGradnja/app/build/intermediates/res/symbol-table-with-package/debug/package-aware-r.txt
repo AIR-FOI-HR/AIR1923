@@ -1992,6 +1992,7 @@ id notification_background
 id notification_main_column
 id notification_main_column_container
 id obavijest
+id ocjenaProfilIzvodjacaRecenzija
 id ocjenaRecenzenta
 id ocjenaRecenzijeProfilKorisnika
 id off
@@ -2017,6 +2018,8 @@ id progress_circular
 id progress_horizontal
 id radio
 id ratingBar
+id ratingProsjecnaOcjena
+id recenzijeIzvodjac_recyclerview
 id recenzijeRecyclerView
 id recenzije_recyclerview
 id right
@@ -2142,6 +2145,7 @@ id txtCijena
 id txtCijenaPonude
 id txtDatumPocetkaRadova
 id txtDatumRecenzije
+id txtDatumRecenzijeProfilIzvodjaca
 id txtDatumRecenzijeProfilKorisnika
 id txtEditAdresaIzvodjaca
 id txtEditBrojRacunaIzvodjaca
@@ -2164,6 +2168,7 @@ id txtImeKorisnika
 id txtImeRecenzenta
 id txtIstraziObrt
 id txtIstraziUpite
+id txtKomentarProfilIzvodjacaRecenzija
 id txtKomentarRecenzenta
 id txtKomentarRecenzijeProfilKorisnika
 id txtLozinka
@@ -2181,6 +2186,7 @@ id txtOpisPosla
 id txtOpisRadova
 id txtPlozinka
 id txtPorukaRecenzije
+id txtPorukaRecenzijeIzvodjac
 id txtPorukaUpiti
 id txtPočetakPosla
 id txtPrezime
@@ -2191,8 +2197,10 @@ id txtProfilIzvodjacaAdresaIspis
 id txtProfilIzvodjacaBrojRacuna
 id txtProfilIzvodjacaBrojRacunaIspis
 id txtProfilIzvodjacaGradIspis
+id txtProfilIzvodjacaImeRecenzija
 id txtProfilIzvodjacaMailIspis
 id txtProfilIzvodjacaOIBIspis
+id txtProfilIzvodjacaPrezimeRecenzija
 id txtProfilIzvodjacaTelefonIspis
 id txtProfilIzvodjacaZupanijaIspis
 id txtProfilKorisnikMailIspis
@@ -2359,6 +2367,7 @@ layout fragment_recenzije_profil_izvodjaca
 layout joblist_izvodjac_layout
 layout joblist_layout
 layout list_item_izvodjaci
+layout list_item_recenzija_profil_izvodjaca
 layout list_item_recenzije_profil_korisnika
 layout list_item_upiti_profil_korisnika
 layout month

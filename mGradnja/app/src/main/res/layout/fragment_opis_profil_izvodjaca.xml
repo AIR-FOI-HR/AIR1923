@@ -25,14 +25,28 @@
         android:textSize="18dp"
         android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/txtProfilOIBIzvodjaca"
-            android:layout_width="match_parent"
+        <RatingBar
+            android:id="@+id/ratingProsjecnaOcjena"
+            style="@android:style/Widget.Holo.RatingBar.Indicator"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/txtNazivIzvodjacaProfil"
             android:layout_gravity="center_horizontal"
             android:layout_marginLeft="15dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="15dp"
+            android:numStars="5"
+            android:progressTint="#27D570"
+            android:stepSize="1" />
+
+        <TextView
+            android:id="@+id/txtProfilOIBIzvodjaca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ratingProsjecnaOcjena"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="8dp"
             android:layout_marginRight="15dp"
             android:textSize="18sp"
             android:textStyle="bold"
