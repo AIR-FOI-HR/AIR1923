@@ -27,11 +27,11 @@ public class ProfilIzvodjacaActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profil_izvodjaca);
 
-        /*ActionBar actionBar = getSupportActionBar();
+        ActionBar actionBar = getSupportActionBar();
         if (actionBar != null){
             actionBar.setDisplayHomeAsUpEnabled(true);
             actionBar.setTitle("Korisnički račun");
-        }*/
+        }
 
         Intent intent = getIntent();
         ID = intent.getIntExtra("ID_izvodjaca", 0);

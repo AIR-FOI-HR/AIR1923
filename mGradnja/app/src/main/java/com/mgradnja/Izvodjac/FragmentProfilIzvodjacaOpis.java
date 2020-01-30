@@ -48,6 +48,13 @@ public class FragmentProfilIzvodjacaOpis extends Fragment {
 
         dohvatiPodatkeIzvodjaca(ID);
 
+        btnUrediRacunIzvodjaca.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                uredjivanjeProfila(ID);
+            }
+        });
+
 
 
 
@@ -94,5 +101,11 @@ public class FragmentProfilIzvodjacaOpis extends Fragment {
         catch (SQLException e){
             e.printStackTrace();
         }
+    }
+
+    private void uredjivanjeProfila(Integer ID) {
+        Intent intentProfil = new Intent(getActivity(), EditProfilaIzvodjacaActivity.class);
+        intentProfil.putExtra("ID_izvodjaca", ID);
+        startActivity(intentProfil);
     }
 }
