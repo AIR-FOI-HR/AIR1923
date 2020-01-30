@@ -105,6 +105,10 @@ public class FragmentProfilIzvodjacaOpis extends Fragment {
             ResultSet rs2 = statement2.executeQuery(sql2);
             while (rs2.next()){
                 avgOcjena = rs2.getFloat("rating");
+
+            }
+
+            if (avgOcjena > 0){
                 prosjecnaOcjena.setRating(avgOcjena);
             }
 

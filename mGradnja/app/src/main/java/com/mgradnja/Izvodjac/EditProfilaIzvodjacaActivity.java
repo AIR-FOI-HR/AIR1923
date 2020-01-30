@@ -1,10 +1,13 @@
 package com.mgradnja.Izvodjac;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -162,5 +165,24 @@ public class EditProfilaIzvodjacaActivity extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(), "Lozinka i ponovljena lozinka nisu iste!", Toast.LENGTH_SHORT).show();
             }
         }
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()){
+            case android.R.id.home:
+                //Intent intent = new Intent(this, ProfilIzvodjacaActivity.class);
+                //intent.putExtra("ID_izvodjaca", ID);
+                //intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                //this.startActivity(intent);
+                finish();
+                break;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

@@ -59,7 +59,7 @@ public class FragmentProfilIzvodjacaRecenzije extends Fragment {
         Intent intent = getActivity().getIntent();
         Integer ID = intent.getIntExtra("ID_izvodjaca", 0);
 
-        txtPoruka = (TextView) view.findViewById(R.id.txtPorukaRecenzije);
+        txtPoruka = (TextView) view.findViewById(R.id.txtPorukaRecenzijeIzvodjac);
 
         dohvatRecenzijaIzvodjaca(ID);
 
@@ -122,7 +122,7 @@ public class FragmentProfilIzvodjacaRecenzije extends Fragment {
         listaKomentaraRecenzija.clear();
 
         if (listaRecenzijaIzvodjaca.isEmpty()){
-            txtPoruka.setText("Trenutno nema recenzija...");
+            txtPoruka.setText("Trenutno nema recenzija.");
         }
 
     }

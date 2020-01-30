@@ -165,70 +165,66 @@
 75            </intent-filter>
 76        </activity>
 77        <activity android:name="com.example.braintree.MainActivityBrainTree" >
-77-->[:braintree] C:\Users\VEDRAN\Desktop\30.01.2020\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:9-40:20
+77-->[:braintree] C:\Users\VEDRAN\Desktop\30.01.2020\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:9-38:20
 77-->[:braintree] C:\Users\VEDRAN\Desktop\30.01.2020\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:19-77
 78            <intent-filter>
-78-->C:\Users\VEDRAN\Desktop\30.01.2020\mGradnja\app\src\main\AndroidManifest.xml:44:13-48:29
+78-->[:braintree] C:\Users\VEDRAN\Desktop\30.01.2020\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:13-37:29
 79                <action android:name="android.intent.action.MAIN" />
 79-->C:\Users\VEDRAN\Desktop\30.01.2020\mGradnja\app\src\main\AndroidManifest.xml:45:17-69
 79-->C:\Users\VEDRAN\Desktop\30.01.2020\mGradnja\app\src\main\AndroidManifest.xml:45:25-66
-80
-81                <category android:name="android.intent.category.LAUNCHER" />
-81-->C:\Users\VEDRAN\Desktop\30.01.2020\mGradnja\app\src\main\AndroidManifest.xml:47:17-77
-81-->C:\Users\VEDRAN\Desktop\30.01.2020\mGradnja\app\src\main\AndroidManifest.xml:47:27-74
-82            </intent-filter>
-83        </activity>
-84        <activity
-84-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\b583c0056dae8f5b59bcf37f9c711b65\jetified-drop-in-3.7.1\AndroidManifest.xml:18:9-20:62
-85            android:name="com.braintreepayments.api.threedsecure.ThreeDSecureWebViewActivity"
-85-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\b583c0056dae8f5b59bcf37f9c711b65\jetified-drop-in-3.7.1\AndroidManifest.xml:19:13-94
-86            android:theme="@style/bt_three_d_secure_theme" />
-86-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\b583c0056dae8f5b59bcf37f9c711b65\jetified-drop-in-3.7.1\AndroidManifest.xml:20:13-59
-87        <activity
-87-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\b583c0056dae8f5b59bcf37f9c711b65\jetified-drop-in-3.7.1\AndroidManifest.xml:21:9-23:64
-88            android:name="com.braintreepayments.api.dropin.DropInActivity"
-88-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\b583c0056dae8f5b59bcf37f9c711b65\jetified-drop-in-3.7.1\AndroidManifest.xml:22:13-75
-89            android:theme="@style/bt_drop_in_activity_theme" />
-89-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\b583c0056dae8f5b59bcf37f9c711b65\jetified-drop-in-3.7.1\AndroidManifest.xml:23:13-61
-90        <activity
-90-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\b583c0056dae8f5b59bcf37f9c711b65\jetified-drop-in-3.7.1\AndroidManifest.xml:24:9-26:65
-91            android:name="com.braintreepayments.api.dropin.AddCardActivity"
-91-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\b583c0056dae8f5b59bcf37f9c711b65\jetified-drop-in-3.7.1\AndroidManifest.xml:25:13-76
-92            android:theme="@style/bt_add_card_activity_theme" />
-92-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\b583c0056dae8f5b59bcf37f9c711b65\jetified-drop-in-3.7.1\AndroidManifest.xml:26:13-62
-93        <activity
-93-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\b583c0056dae8f5b59bcf37f9c711b65\jetified-drop-in-3.7.1\AndroidManifest.xml:27:9-29:70
-94            android:name="com.braintreepayments.api.dropin.VaultManagerActivity"
-94-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\b583c0056dae8f5b59bcf37f9c711b65\jetified-drop-in-3.7.1\AndroidManifest.xml:28:13-81
-95            android:theme="@style/bt_vault_manager_activity_theme" />
-95-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\b583c0056dae8f5b59bcf37f9c711b65\jetified-drop-in-3.7.1\AndroidManifest.xml:29:13-67
-96        <activity
-96-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\d6973898fd37ff6c363b1bf316145bff\jetified-braintree-2.18.1\AndroidManifest.xml:15:9-17:62
-97            android:name="com.braintreepayments.api.AndroidPayActivity"
-97-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\d6973898fd37ff6c363b1bf316145bff\jetified-braintree-2.18.1\AndroidManifest.xml:16:13-72
-98            android:theme="@style/bt_transparent_activity" />
-98-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\d6973898fd37ff6c363b1bf316145bff\jetified-braintree-2.18.1\AndroidManifest.xml:17:13-59
-99        <activity
-99-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\d6973898fd37ff6c363b1bf316145bff\jetified-braintree-2.18.1\AndroidManifest.xml:18:9-20:62
-100            android:name="com.braintreepayments.api.GooglePaymentActivity"
-100-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\d6973898fd37ff6c363b1bf316145bff\jetified-braintree-2.18.1\AndroidManifest.xml:19:13-75
-101            android:theme="@style/bt_transparent_activity" />
-101-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\d6973898fd37ff6c363b1bf316145bff\jetified-braintree-2.18.1\AndroidManifest.xml:20:13-59
+80            </intent-filter>
+81        </activity>
+82        <activity
+82-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\b583c0056dae8f5b59bcf37f9c711b65\jetified-drop-in-3.7.1\AndroidManifest.xml:18:9-20:62
+83            android:name="com.braintreepayments.api.threedsecure.ThreeDSecureWebViewActivity"
+83-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\b583c0056dae8f5b59bcf37f9c711b65\jetified-drop-in-3.7.1\AndroidManifest.xml:19:13-94
+84            android:theme="@style/bt_three_d_secure_theme" />
+84-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\b583c0056dae8f5b59bcf37f9c711b65\jetified-drop-in-3.7.1\AndroidManifest.xml:20:13-59
+85        <activity
+85-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\b583c0056dae8f5b59bcf37f9c711b65\jetified-drop-in-3.7.1\AndroidManifest.xml:21:9-23:64
+86            android:name="com.braintreepayments.api.dropin.DropInActivity"
+86-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\b583c0056dae8f5b59bcf37f9c711b65\jetified-drop-in-3.7.1\AndroidManifest.xml:22:13-75
+87            android:theme="@style/bt_drop_in_activity_theme" />
+87-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\b583c0056dae8f5b59bcf37f9c711b65\jetified-drop-in-3.7.1\AndroidManifest.xml:23:13-61
+88        <activity
+88-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\b583c0056dae8f5b59bcf37f9c711b65\jetified-drop-in-3.7.1\AndroidManifest.xml:24:9-26:65
+89            android:name="com.braintreepayments.api.dropin.AddCardActivity"
+89-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\b583c0056dae8f5b59bcf37f9c711b65\jetified-drop-in-3.7.1\AndroidManifest.xml:25:13-76
+90            android:theme="@style/bt_add_card_activity_theme" />
+90-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\b583c0056dae8f5b59bcf37f9c711b65\jetified-drop-in-3.7.1\AndroidManifest.xml:26:13-62
+91        <activity
+91-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\b583c0056dae8f5b59bcf37f9c711b65\jetified-drop-in-3.7.1\AndroidManifest.xml:27:9-29:70
+92            android:name="com.braintreepayments.api.dropin.VaultManagerActivity"
+92-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\b583c0056dae8f5b59bcf37f9c711b65\jetified-drop-in-3.7.1\AndroidManifest.xml:28:13-81
+93            android:theme="@style/bt_vault_manager_activity_theme" />
+93-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\b583c0056dae8f5b59bcf37f9c711b65\jetified-drop-in-3.7.1\AndroidManifest.xml:29:13-67
+94        <activity
+94-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\d6973898fd37ff6c363b1bf316145bff\jetified-braintree-2.18.1\AndroidManifest.xml:15:9-17:62
+95            android:name="com.braintreepayments.api.AndroidPayActivity"
+95-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\d6973898fd37ff6c363b1bf316145bff\jetified-braintree-2.18.1\AndroidManifest.xml:16:13-72
+96            android:theme="@style/bt_transparent_activity" />
+96-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\d6973898fd37ff6c363b1bf316145bff\jetified-braintree-2.18.1\AndroidManifest.xml:17:13-59
+97        <activity
+97-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\d6973898fd37ff6c363b1bf316145bff\jetified-braintree-2.18.1\AndroidManifest.xml:18:9-20:62
+98            android:name="com.braintreepayments.api.GooglePaymentActivity"
+98-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\d6973898fd37ff6c363b1bf316145bff\jetified-braintree-2.18.1\AndroidManifest.xml:19:13-75
+99            android:theme="@style/bt_transparent_activity" />
+99-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\d6973898fd37ff6c363b1bf316145bff\jetified-braintree-2.18.1\AndroidManifest.xml:20:13-59
+100
+101        <service android:name="com.braintreepayments.api.internal.AnalyticsIntentService" />
+101-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\d6973898fd37ff6c363b1bf316145bff\jetified-braintree-2.18.1\AndroidManifest.xml:23:9-93
+101-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\d6973898fd37ff6c363b1bf316145bff\jetified-braintree-2.18.1\AndroidManifest.xml:23:18-90
 102
-103        <service android:name="com.braintreepayments.api.internal.AnalyticsIntentService" />
-103-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\d6973898fd37ff6c363b1bf316145bff\jetified-braintree-2.18.1\AndroidManifest.xml:23:9-93
-103-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\d6973898fd37ff6c363b1bf316145bff\jetified-braintree-2.18.1\AndroidManifest.xml:23:18-90
-104
-105        <provider
-105-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
-106            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-106-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
-107            android:authorities="com.mgradnja.lifecycle-process"
-107-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
-108            android:exported="false"
-108-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
-109            android:multiprocess="true" />
-109-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
-110    </application>
-111
-112</manifest>
+103        <provider
+103-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+104            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+104-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+105            android:authorities="com.mgradnja.lifecycle-process"
+105-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+106            android:exported="false"
+106-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+107            android:multiprocess="true" />
+107-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\VEDRAN\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+108    </application>
+109
+110</manifest>
