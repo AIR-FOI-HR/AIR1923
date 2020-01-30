@@ -51,7 +51,7 @@ public class ProfilKorisnikActivity extends AppCompatActivity {
     private void setupViewPager(ViewPager viewPager){
         ViewPagerAdapterProfilKorisnika viewPagerAdapterProfilKorisnika = new ViewPagerAdapterProfilKorisnika(getSupportFragmentManager());
         viewPagerAdapterProfilKorisnika.addFragment(new FragmentOpisProfilKorisnika(), "OPIS");
-        viewPagerAdapterProfilKorisnika.addFragment(new FragmentRecenzijeProfilKorisnika(), "RECENZIJA");
+        viewPagerAdapterProfilKorisnika.addFragment(new FragmentRecenzijeProfilKorisnika(), "RECENZIJE");
         viewPagerAdapterProfilKorisnika.addFragment(new FragmentUpitiKorisnika(), "UPITI");
 
         viewPager.setAdapter(viewPagerAdapterProfilKorisnika);

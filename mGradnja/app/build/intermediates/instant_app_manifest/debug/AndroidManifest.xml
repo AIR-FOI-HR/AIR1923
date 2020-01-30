@@ -24,8 +24,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/AppTheme" >
-        <activity android:name="com.mgradnja.IzvodjacKalendarActivity" />
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
+        <activity android:name="com.mgradnja.Izvodjac.ProfilIzvodjacaActivity" />
+        <activity android:name="com.mgradnja.Izvodjac.IzvodjacKalendarActivity" />
         <activity android:name="com.mgradnja.Izvodjac.UpdateOfferActivity" />
         <activity android:name="com.mgradnja.Izvodjac.OfferListAcitivityIzvodjac" />
         <activity android:name="com.mgradnja.Izvodjac.OfferActivity" />
@@ -36,9 +38,7 @@
         <activity android:name="com.mgradnja.IstraziIzvodjaceActivity" />
         <activity android:name="com.mgradnja.OfferListActivity" />
         <activity android:name="com.mgradnja.EditProfilKorisnikActivity" />
-        <activity
-            android:name="com.mgradnja.ProfilKorisnikActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.mgradnja.ProfilKorisnikActivity" />
         <activity android:name="com.mgradnja.JobListActivity" />
         <activity android:name="com.mgradnja.UserSearchActivity" />
         <activity android:name="com.mgradnja.Registration_performer" />
@@ -61,6 +61,46 @@
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name="com.braintreepayments.api.BraintreeBrowserSwitchActivity"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="com.mgradnja.braintree" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.braintree.MainActivityBrainTree" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.braintreepayments.api.threedsecure.ThreeDSecureWebViewActivity"
+            android:theme="@style/bt_three_d_secure_theme" />
+        <activity
+            android:name="com.braintreepayments.api.dropin.DropInActivity"
+            android:theme="@style/bt_drop_in_activity_theme" />
+        <activity
+            android:name="com.braintreepayments.api.dropin.AddCardActivity"
+            android:theme="@style/bt_add_card_activity_theme" />
+        <activity
+            android:name="com.braintreepayments.api.dropin.VaultManagerActivity"
+            android:theme="@style/bt_vault_manager_activity_theme" />
+        <activity
+            android:name="com.braintreepayments.api.AndroidPayActivity"
+            android:theme="@style/bt_transparent_activity" />
+        <activity
+            android:name="com.braintreepayments.api.GooglePaymentActivity"
+            android:theme="@style/bt_transparent_activity" />
+
+        <service android:name="com.braintreepayments.api.internal.AnalyticsIntentService" />
 
         <provider
             android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"

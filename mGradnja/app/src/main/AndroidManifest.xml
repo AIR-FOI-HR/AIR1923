@@ -8,7 +8,6 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
 
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -16,7 +15,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Izvodjac.IzvodjacKalendarActivity"></activity>
+        <activity android:name=".Izvodjac.ProfilIzvodjacaActivity" />
+        <activity android:name=".Izvodjac.IzvodjacKalendarActivity" />
         <activity android:name=".Izvodjac.UpdateOfferActivity" />
         <activity android:name=".Izvodjac.OfferListAcitivityIzvodjac" />
         <activity android:name=".Izvodjac.OfferActivity" />

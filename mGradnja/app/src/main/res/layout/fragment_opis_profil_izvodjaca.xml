@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Izvodjac.FragmentProfilIzvodjacaOpis">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/txtNazivIzvodjacaProfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="15dp"
+        android:text="Naziv izvodjaca d.o.o."
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtProfilOIBIzvodjaca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtNazivIzvodjacaProfil"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="15dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="OIB:"
+            android:textColor="#0C0C0C"/>
+
+        <TextView
+            android:id="@+id/txtProfilIzvodjacaOIBIspis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtProfilOIBIzvodjaca"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="15dp"
+            android:textSize="18sp"
+            android:text="TextView"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_below="@+id/txtProfilIzvodjacaOIBIspis"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:src="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/txtProfilMailIzvodjaca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView16"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="15dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="E-mail:"
+        android:textColor="#0C0C0C"/>
+
+    <TextView
+        android:id="@+id/txtProfilIzvodjacaMailIspis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtProfilMailIzvodjaca"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="15dp"
+        android:textSize="18sp"
+        android:text="TextView"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_below="@+id/txtProfilIzvodjacaMailIspis"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:src="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/txtProfilTelefonIzvodjaca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView11"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="15dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="Telefon:"
+        android:textColor="#0C0C0C" />
+
+
+    <TextView
+        android:id="@+id/txtProfilIzvodjacaTelefonIspis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtProfilTelefonIzvodjaca"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="15dp"
+        android:textSize="18sp"
+        android:text="TextView"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_below="@+id/txtProfilIzvodjacaTelefonIspis"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:src="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/txtProfilIzvodjacaAdresa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView12"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="15dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="Adresa: "
+        android:textColor="#0C0C0C" />
+
+    <TextView
+        android:id="@+id/txtProfilIzvodjacaAdresaIspis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtProfilIzvodjacaAdresa"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="15dp"
+        android:textSize="18sp"
+        android:text="TextView"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/txtProfilIzvodjacaGradIspis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtProfilIzvodjacaAdresaIspis"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="15dp"
+        android:textSize="18sp"
+        android:text="TextView"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/txtProfilIzvodjacaZupanijaIspis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtProfilIzvodjacaGradIspis"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="15dp"
+        android:textSize="18sp"
+        android:text="TextView"
+        android:textColor="#000000" />
+
+
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_below="@+id/txtProfilIzvodjacaZupanijaIspis"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:src="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/txtProfilIzvodjacaBrojRacuna"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView13"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="15dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="Broj računa: "
+        android:textColor="#0C0C0C" />
+
+    <TextView
+        android:id="@+id/txtProfilIzvodjacaBrojRacunaIspis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtProfilIzvodjacaBrojRacuna"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="15dp"
+        android:textSize="18sp"
+        android:text="TextView"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_below="@+id/txtProfilIzvodjacaBrojRacunaIspis"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:src="@color/colorAccent" />
+
+
+    <Button
+        android:id="@+id/btnUrediRacunIzvodjaca"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/imageView14"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:text="Uredi račun" />
+
+    </LinearLayout>
+
+</ScrollView>

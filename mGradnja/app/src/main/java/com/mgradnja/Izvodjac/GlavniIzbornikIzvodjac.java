@@ -16,6 +16,7 @@ import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.mgradnja.ConnectionClass;
+import com.mgradnja.ProfilKorisnikActivity;
 import com.mgradnja.R;
 
 import java.sql.Connection;
@@ -184,6 +185,7 @@ public class GlavniIzbornikIzvodjac extends AppCompatActivity {
 
                             break;
                         case R.id.nav_profile:
+                            otvoriProfil(ID);
 
                             break;
 
@@ -196,6 +198,12 @@ public class GlavniIzbornikIzvodjac extends AppCompatActivity {
     @Override
     public void onBackPressed(){
         finish();
+    }
+
+    private void otvoriProfil(Integer ID) {
+        Intent intentProfil = new Intent(this, ProfilIzvodjacaActivity.class);
+        intentProfil.putExtra("ID_izvodjaca", ID);
+        startActivity(intentProfil);
     }
 
 }
