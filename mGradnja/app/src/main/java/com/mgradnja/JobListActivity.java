@@ -2,10 +2,13 @@ package com.mgradnja;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
@@ -36,7 +39,8 @@ public class JobListActivity extends AppCompatActivity {
     private TextView tv;
     private int poz = 0;
 
-    public String[] poslovi = new String[]{"Trenutni poslovi", "Prošli poslovi", "Budući poslovi"};
+    private Context context = JobListActivity.this;
+    public String[] poslovi = new String[]{"Trenutni poslovi", "Prošli poslovi", "Budući poslovi", "Plaćeni poslovi", "Neplaćeni poslovi"};
 
     public ArrayList<Integer> ListaUpitID = new ArrayList<Integer>();
     public ArrayList<Integer> ListaDjelatnostID = new ArrayList<Integer>();
@@ -67,6 +71,8 @@ public class JobListActivity extends AppCompatActivity {
     public ArrayList<JobAtributes> ListaProslihPoslova = new ArrayList<>();
     public ArrayList<JobAtributes> ListaBuducihPoslova = new ArrayList<>();
     public ArrayList<JobAtributes> ListaSvihPoslova = new ArrayList<>();
+    public ArrayList<JobAtributes> ListaPlacenihPoslova = new ArrayList<>();
+    public ArrayList<JobAtributes> ListaNeplacenihPoslova = new ArrayList<>();
     public JobAtributes JA;
     private RecyclerView mRecyclerView;
     private JobAdapter mAdapter;
@@ -100,6 +106,8 @@ public class JobListActivity extends AppCompatActivity {
         DohvatiProslePoslove();
         DohvatiBuducePoslove();
         DohvatiSvePoslove();
+        DohvatiNeplacenePoslove();
+        DohvatiPlacenePoslove();
         mRecyclerView = findViewById(R.id.main_recycler);
         mRecyclerView.setHasFixedSize(true);
         mLayoutManager = new LinearLayoutManager(JobListActivity.this);
@@ -127,6 +135,12 @@ public class JobListActivity extends AppCompatActivity {
                         break;
                     case 2:
                         poz = 3;
+                        break;
+                    case 3:
+                        poz = 4;
+                        break;
+                    case 4:
+                        poz = 5;
                         break;
                 }
             }
@@ -164,6 +178,22 @@ public class JobListActivity extends AppCompatActivity {
                 if(poz == 3){
                     if(ListaBuducihPoslova.size()==0)  Toast.makeText(JobListActivity.this , "Nemate buduće poslove!" , Toast.LENGTH_LONG).show();
                     mAdapter = new JobAdapter(ListaBuducihPoslova);
+
+                    mRecyclerView.setLayoutManager(mLayoutManager);
+                    mRecyclerView.setAdapter(mAdapter);
+                    OnClickPay(poz);
+                }
+                if(poz == 4){
+                    if(ListaPlacenihPoslova.size()==0)  Toast.makeText(JobListActivity.this , "Nemate plaćenih poslove!" , Toast.LENGTH_LONG).show();
+                    mAdapter = new JobAdapter(ListaPlacenihPoslova);
+
+                    mRecyclerView.setLayoutManager(mLayoutManager);
+                    mRecyclerView.setAdapter(mAdapter);
+                    OnClickPay(poz);
+                }
+                if(poz == 5){
+                    if(ListaNeplacenihPoslova.size()==0)  Toast.makeText(JobListActivity.this , "Nemate neplaćenih poslove!" , Toast.LENGTH_LONG).show();
+                    mAdapter = new JobAdapter(ListaNeplacenihPoslova);
 
                     mRecyclerView.setLayoutManager(mLayoutManager);
                     mRecyclerView.setAdapter(mAdapter);
@@ -496,12 +526,120 @@ public class JobListActivity extends AppCompatActivity {
 
                });
                break;
+
+           case 5:
+               mAdapter.setOnClickListener(new JobAdapter.OnItemClickListener() {
+                   @Override
+                   public void OnItemClick(int position) {
+
+                   }
+
+                   @Override
+                   public void OnlinePayClick(int position) {
+                       brojac = ListaNeplacenihPoslova.size();
+                       if(brojac >1)
+                       {
+                           if(position == 0) {
+
+                               JobAtributes JA;
+                               JA = ListaNeplacenihPoslova.get(position);
+                               brojPlacenogUpita = JA.getMbrojUpita();
+                               PokreniOnlinePlacanje(brojPlacenogUpita);
+
+                           }
+                           else{
+                               JobAtributes JA;
+                               JA = ListaNeplacenihPoslova.get(position);
+
+                               brojPlacenogUpita = JA.getMbrojUpita();
+                               PokreniOnlinePlacanje(brojPlacenogUpita);
+
+                           }
+
+                       }
+                       else {
+                           JobAtributes JA;
+                           JA = ListaNeplacenihPoslova.get(0);
+
+                           brojPlacenogUpita = JA.getMbrojUpita();
+                           PokreniOnlinePlacanje(brojPlacenogUpita);
+
+                       }
+
+                   }
+
+                   @Override
+                   public void OnCashClick(int position) {
+                       brojac = ListaNeplacenihPoslova.size();
+                       if(brojac >1)
+                       {
+                           if(position == 0) {
+
+                               JobAtributes JA;
+                               JA = ListaNeplacenihPoslova.get(position);
+                               brojPlacenogUpita = JA.getMbrojUpita();
+                               PokreniGotovinskoPlacanje(brojPlacenogUpita);
+
+                           }
+                           else{
+                               JobAtributes JA;
+                               JA = ListaNeplacenihPoslova.get(position);
+
+                               brojPlacenogUpita = JA.getMbrojUpita();
+                               PokreniGotovinskoPlacanje(brojPlacenogUpita);
+
+                           }
+
+                       }
+                       else {
+                           JobAtributes JA;
+                           JA = ListaNeplacenihPoslova.get(0);
+
+                           brojPlacenogUpita = JA.getMbrojUpita();
+                           PokreniGotovinskoPlacanje(brojPlacenogUpita);
+
+                       }
+
+                   }
+
+
+
+               });
+               break;
        }
     }
 
     public void PokreniGotovinskoPlacanje(Integer BrojUpita){
 
-        Toast.makeText(JobListActivity.this , BrojUpita.toString(), Toast.LENGTH_LONG).show();
+        Connection con = connectionClass.CONN();
+        DialogInterface.OnClickListener dialogClickListener = new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                switch (which){
+                    case DialogInterface.BUTTON_POSITIVE:
+                        String query = "Update posao Set Placeno=1 Where ID_upita='" + BrojUpita + "'";
+                        try {
+                            Statement statement = con.createStatement();
+                            ResultSet rs = statement.executeQuery(query);
+
+                        } catch (SQLException e) {
+                            e.printStackTrace();
+                        }
+                        Toast.makeText(JobListActivity.this , "Odabrali ste plaćanje gotovinom za izabrani posao! Izvođač radova će biti obaviješten." , Toast.LENGTH_LONG).show();
+                        Intent intent = new Intent(JobListActivity.this, GlavniIzbornikKorisnik.class);
+                        intent.putExtra("ID_korisnika", ID);
+                        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                        JobListActivity.this.startActivity(intent);
+                        finish();
+                        break;
+                    case DialogInterface.BUTTON_NEGATIVE:
+
+                        break;
+                }
+            }
+        };
+        AlertDialog.Builder builder = new AlertDialog.Builder(context);
+        builder.setMessage("Jeste li sigurni da želite platiti gotovinom?").setPositiveButton("DA", dialogClickListener).setNegativeButton("NE", dialogClickListener).show();
 
         //diajalog boks TODO
     }
@@ -980,6 +1118,240 @@ public class JobListActivity extends AppCompatActivity {
         ListaDjelatnostID.clear();
 
     }
+    public void DohvatiPlacenePoslove(){
+        Connection con = connectionClass.CONN();
+
+        String query = "select u.ID_djelatnosti, u.ID_upita, i.Naziv as 'Naziv_izvodjaca', u.Naziv as 'Naziv_upita', u.Opis, p.Cijena, p.Datum_pocetka, p.Datum_zavrsetka from izvodjac i inner join ponuda p on i.ID_izvodjaca = p.ID_izvodjaca inner join upit u  on u.ID_upita = p.ID_upita  where p.Status = 1 and u.ID_korisnika = '" + ID + "'";
+        try {
+            Statement statement = con.createStatement();
+            ResultSet rs = statement.executeQuery(query);
+
+
+            while(rs.next()){
+                // Broj upit, naziv, opis
+                ListaUpitID.add(rs.getInt("ID_upita"));
+                ListaOpisa.add(rs.getString("Opis"));
+                ListaNaziva.add(rs.getString("Naziv_upita"));
+                ListaCijena.add(rs.getFloat("Cijena"));
+                ListaPocetka.add(rs.getDate("Datum_pocetka"));
+                ListaZavrsetks.add(rs.getDate("Datum_zavrsetka"));
+                ListaIzvodjacID.add(rs.getString("Naziv_izvodjaca"));
+                ListaDjelatnostID.add(rs.getInt("ID_djelatnosti"));
+
+
+            }
+
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        String query2 = "select po.placeno from  posao po inner join ponuda p on po.ID_upita = p.ID_upita inner join upit u  on u.ID_upita = p.ID_upita  where p.Status = 1 and u.ID_korisnika = '" + ID + "'";
+
+        try {
+            Statement statement = con.createStatement();
+            ResultSet rs2 = statement.executeQuery(query2);
+
+
+            while(rs2.next()){
+                // Broj upit, naziv, opis
+                ListaPlaceno.add(rs2.getInt("placeno"));
+
+
+            }
+
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+        for(int i = 0; i<ListaUpitID.size(); i++){
+
+            placeno = ListaPlaceno.get(i);
+            brojUpita = ListaUpitID.get(i);
+            OpisPosla = ListaOpisa.get(i);
+            NazivIzvodjaca = ListaIzvodjacID.get(i);
+            NazivPosla = ListaNaziva.get(i);
+            PocetakPosla = ListaPocetka.get(i);
+            krajPosla = ListaZavrsetks.get(i);
+            cijena = ListaCijena.get(i);
+            brojDjelatnosti = ListaDjelatnostID.get(i);
+
+            if(placeno == 1) {
+                switch (brojDjelatnosti){
+                    case 1:
+                        JA = new JobAtributes(placeno,brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.krov,  " ", "");
+                        ListaPlacenihPoslova.add(JA);
+
+                        break;
+                    case 2:
+                        JA = new JobAtributes(placeno,brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.stol, " ", " ");
+                        ListaPlacenihPoslova.add(JA);
+
+                        break;
+                    case 3:
+                        JA = new JobAtributes(placeno,brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.bravaa, " ", " ");
+                        ListaPlacenihPoslova.add(JA);
+
+                        break;
+                    case 4:
+                        JA = new JobAtributes(placeno,brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.staklar, " ", " ");
+                        ListaPlacenihPoslova.add(JA);
+
+                        break;
+                    case 5:
+                        JA = new JobAtributes(placeno,brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.keramika, " ", " ");
+                        ListaPlacenihPoslova.add(JA);
+
+                        break;
+                    case 6:
+                        JA = new JobAtributes(placeno,brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.soboslikar, " ", " ");
+                        ListaPlacenihPoslova.add(JA);
+
+                        break;
+                    case 7:
+                        JA = new JobAtributes(placeno,brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.zidar, " ", " ");
+                        ListaPlacenihPoslova.add(JA);
+
+                        break;
+                    default:
+                        JA = new JobAtributes(placeno,brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.ic_wrench_24dp," ", " ");
+                        ListaPlacenihPoslova.add(JA);
+
+                        break;
+                }
+
+            }
+
+        }
+
+        ListaPlaceno.clear();
+        ListaOpisa.clear();
+        ListaUpitID.clear();
+        ListaNaziva.clear();
+        ListaIzvodjacID.clear();
+        ListaPocetka.clear();
+        ListaZavrsetks.clear();
+        ListaCijena.clear();
+        ListaDjelatnostID.clear();
+
+    }
+    public void DohvatiNeplacenePoslove(){
+        Connection con = connectionClass.CONN();
+
+        String query = "select u.ID_djelatnosti, u.ID_upita, i.Naziv as 'Naziv_izvodjaca', u.Naziv as 'Naziv_upita', u.Opis, p.Cijena, p.Datum_pocetka, p.Datum_zavrsetka from izvodjac i inner join ponuda p on i.ID_izvodjaca = p.ID_izvodjaca inner join upit u  on u.ID_upita = p.ID_upita  where p.Status = 1 and u.ID_korisnika = '" + ID + "'";
+        try {
+            Statement statement = con.createStatement();
+            ResultSet rs = statement.executeQuery(query);
+
+
+            while(rs.next()){
+                // Broj upit, naziv, opis
+                ListaUpitID.add(rs.getInt("ID_upita"));
+                ListaOpisa.add(rs.getString("Opis"));
+                ListaNaziva.add(rs.getString("Naziv_upita"));
+                ListaCijena.add(rs.getFloat("Cijena"));
+                ListaPocetka.add(rs.getDate("Datum_pocetka"));
+                ListaZavrsetks.add(rs.getDate("Datum_zavrsetka"));
+                ListaIzvodjacID.add(rs.getString("Naziv_izvodjaca"));
+                ListaDjelatnostID.add(rs.getInt("ID_djelatnosti"));
+
+
+            }
+
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        String query2 = "select po.placeno from  posao po inner join ponuda p on po.ID_upita = p.ID_upita inner join upit u  on u.ID_upita = p.ID_upita  where p.Status = 1 and u.ID_korisnika = '" + ID + "'";
+
+        try {
+            Statement statement = con.createStatement();
+            ResultSet rs2 = statement.executeQuery(query2);
+
+
+            while(rs2.next()){
+                // Broj upit, naziv, opis
+                ListaPlaceno.add(rs2.getInt("placeno"));
+
+
+            }
+
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+        for(int i = 0; i<ListaUpitID.size(); i++){
+
+            placeno = ListaPlaceno.get(i);
+            brojUpita = ListaUpitID.get(i);
+            OpisPosla = ListaOpisa.get(i);
+            NazivIzvodjaca = ListaIzvodjacID.get(i);
+            NazivPosla = ListaNaziva.get(i);
+            PocetakPosla = ListaPocetka.get(i);
+            krajPosla = ListaZavrsetks.get(i);
+            cijena = ListaCijena.get(i);
+            brojDjelatnosti = ListaDjelatnostID.get(i);
+
+            if(placeno == 0) {
+                switch (brojDjelatnosti){
+                    case 1:
+                        JA = new JobAtributes(placeno,brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.krov,  " ", "");
+                        ListaNeplacenihPoslova.add(JA);
+
+                        break;
+                    case 2:
+                        JA = new JobAtributes(placeno,brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.stol, " ", " ");
+                        ListaNeplacenihPoslova.add(JA);
+
+                        break;
+                    case 3:
+                        JA = new JobAtributes(placeno,brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.bravaa, " ", " ");
+                        ListaNeplacenihPoslova.add(JA);
+
+                        break;
+                    case 4:
+                        JA = new JobAtributes(placeno,brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.staklar, " ", " ");
+                        ListaNeplacenihPoslova.add(JA);
+
+                        break;
+                    case 5:
+                        JA = new JobAtributes(placeno,brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.keramika, " ", " ");
+                        ListaNeplacenihPoslova.add(JA);
+
+                        break;
+                    case 6:
+                        JA = new JobAtributes(placeno,brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.soboslikar, " ", " ");
+                        ListaNeplacenihPoslova.add(JA);
+
+                        break;
+                    case 7:
+                        JA = new JobAtributes(placeno,brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.zidar, " ", " ");
+                        ListaNeplacenihPoslova.add(JA);
+
+                        break;
+                    default:
+                        JA = new JobAtributes(placeno,brojUpita, cijena,  OpisPosla, NazivPosla, PocetakPosla, krajPosla, NazivIzvodjaca, R.drawable.ic_wrench_24dp," ", " ");
+                        ListaNeplacenihPoslova.add(JA);
+
+                        break;
+                }
+
+            }
+
+        }
+
+        ListaPlaceno.clear();
+        ListaOpisa.clear();
+        ListaUpitID.clear();
+        ListaNaziva.clear();
+        ListaIzvodjacID.clear();
+        ListaPocetka.clear();
+        ListaZavrsetks.clear();
+        ListaCijena.clear();
+        ListaDjelatnostID.clear();
+
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -991,7 +1363,7 @@ public class JobListActivity extends AppCompatActivity {
         switch (item.getItemId()){
             case android.R.id.home:
                 Intent intent = new Intent(this, GlavniIzbornikKorisnik.class);
-                intent.putExtra("ID_izvodjaca", ID);
+                intent.putExtra("ID_korisnika", ID);
                 intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 this.startActivity(intent);
                 finish();

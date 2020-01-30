@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\gittomm\\mGradnja\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "C:\\Users\\MarkoMehkek\\Desktop\\naredbe\\Nova mapa\\gitgitgit\\mGradnja\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
                     "source": "C:\\Users\\MarkoMehkek\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\values-v21\\values-v21.xml",
@@ -58,6 +58,25 @@
                         "endLines": "307,310,314,318",
                         "endColumns": "12,12,12,12",
                         "endOffsets": "22828,22991,23285,23580"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\MarkoMehkek\\.gradle\\caches\\transforms-2\\files-2.1\\b07085cca598f17478cda1c42e0f62ac\\jetified-drop-in-3.7.1\\res\\values-v21\\values-v21.xml",
+                    "from": {
+                        "startLines": "2,11,17",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,535,923",
+                        "endLines": "10,16,27",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "530,918,1530"
+                    },
+                    "to": {
+                        "startLines": "378,387,393",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "27433,27913,28301",
+                        "endLines": "386,392,403",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "27908,28296,28908"
                     }
                 },
                 {

@@ -79,7 +79,7 @@ public class MainActivityBrainTree extends AppCompatActivity {
         setTitle("Plaćanje posla");
 
 
-        String query = "Select cijena From ponuda Where ponuda.ID_upita='"+ ID_upita+"'";
+        String query = "Select cijena From ponuda Where ponuda.Status = 1 and ponuda.ID_upita='"+ ID_upita+"'";
         try {
             Statement statement = con.createStatement();
             ResultSet rs = statement.executeQuery(query);
