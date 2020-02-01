@@ -36,6 +36,7 @@ public class IzvodjacInfoActivity extends AppCompatActivity {
     private TabLayout tabLayout;
     String nazivIzvodjaca;
     String kontaktIzvodjaca;
+    Integer ID_korisnika;
     ConnectionClass connectionClass;
     Connection con;
 
@@ -46,6 +47,8 @@ public class IzvodjacInfoActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
         nazivIzvodjaca = intent.getStringExtra("nazivIzvodjaca");
+        ID_korisnika = intent.getIntExtra("ID_korisnika", 0);
+
         DohvatiKontaktIzvodjaca(nazivIzvodjaca);
 
         ActionBar actionBar = getSupportActionBar();
@@ -111,6 +114,15 @@ public class IzvodjacInfoActivity extends AppCompatActivity {
             case R.id.poruka:
                 Toast.makeText(getApplicationContext(), "Poruka", Toast.LENGTH_LONG).show();
                 break;
+
+            case R.id.napisiRecenziju:
+                Intent recenzija = new Intent(getApplicationContext(), RecenzijaKorisnikaActivity.class);
+                recenzija.putExtra("nazivIzvodjaca", nazivIzvodjaca);
+                recenzija.putExtra("ID_korisnika", ID_korisnika);
+                startActivity(recenzija);
+                finish();
+                break;
+
             case android.R.id.home:
                 //Intent intent = new Intent(this, UserSearchActivity.class);
                 //intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
