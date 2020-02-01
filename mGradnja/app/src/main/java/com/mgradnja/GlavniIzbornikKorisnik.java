@@ -94,6 +94,12 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void otvoriObavijesti(Integer ID){
+        Intent intent = new Intent(this,ObavijestiKorisnik.class);
+        intent.putExtra("ID_korisnika", ID);
+        startActivity(intent);
+    }
+
     private void OpenIstraziIzvodjaceActivity(String odabranaKategorija, String odabranaZupanija, int ID) {
         Intent intent = new Intent(this, IstraziIzvodjaceActivity.class);
         intent.putExtra("kategorija", odabranaKategorija);
@@ -242,6 +248,7 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
                             break;
                         case R.id.nav_notifications:
 
+                            otvoriObavijesti(ID);
 
                             break;
                         case R.id.nav_profile:

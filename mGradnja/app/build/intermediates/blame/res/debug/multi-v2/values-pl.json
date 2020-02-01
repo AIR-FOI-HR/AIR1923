@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pl\\values-pl.xml",
+            "outputFile": "C:\\Users\\Filip\\Desktop\\obavijesti_korisnik\\mGradnja\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pl\\values-pl.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\e8f490c452f693b80998a6a5111a0594\\jetified-card-form-3.5.0\\res\\values-pl\\values-pl.xml",

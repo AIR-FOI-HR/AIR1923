@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sv\\values-sv.xml",
+            "outputFile": "C:\\Users\\Filip\\Desktop\\obavijesti_korisnik\\mGradnja\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sv\\values-sv.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\4a088d3fee87d2352e4c741dcf3b49fb\\jetified-drop-in-3.7.1\\res\\values-sv\\values-sv.xml",

@@ -25,6 +25,7 @@
         android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
+        <activity android:name="com.mgradnja.ObavijestiKorisnik" />
         <activity android:name="com.mgradnja.Izvodjac.NovaPorukaIzvodjac" />
         <activity android:name="com.mgradnja.Izvodjac.EditProfilaIzvodjacaActivity" />
         <activity android:name="com.mgradnja.Izvodjac.ProfilIzvodjacaActivity" />

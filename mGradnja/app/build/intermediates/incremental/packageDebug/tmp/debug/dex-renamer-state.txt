@@ -1,10 +1,10 @@
-#Sat Feb 01 13:02:53 CET 2020
+#Sat Feb 01 20:37:22 CET 2020
 path.2=classes_0.dex
 path.1=classes.dex
 path.0=classes.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
-base.2=C\:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\out\\classes_0.dex
-base.1=C\:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
-base.0=C\:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+base.2=C\:\\Users\\Filip\\Desktop\\obavijesti_korisnik\\mGradnja\\app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\out\\classes_0.dex
+base.1=C\:\\Users\\Filip\\Desktop\\obavijesti_korisnik\\mGradnja\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
+base.0=C\:\\Users\\Filip\\Desktop\\obavijesti_korisnik\\mGradnja\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex

@@ -1784,6 +1784,7 @@ id btnEditKorisnikSpremi
 id btnGotovina
 id btnIstrazi
 id btnIzaberiPosao
+id btnIzaberiPosaoKorisnik
 id btnIzbrišiUpit
 id btnIzvodjacIstrazi
 id btnNatragNaPrijavu
@@ -2015,6 +2016,7 @@ id peekHeight
 id percent
 id pin
 id poruka
+id porukaKorisnik
 id poziv
 id pravniStatus
 id progressBar
@@ -2073,6 +2075,7 @@ id spinProfilIzvodjacaZupanije
 id spinZupanije
 id spinZupanijeIzvodjac
 id spinerPoslova
+id spinerPoslovaKorisnik
 id split_action_bar
 id spread
 id spread_inside
@@ -2322,6 +2325,7 @@ layout activity_job_list_izvodjac
 layout activity_login
 layout activity_main
 layout activity_main_braintree
+layout activity_obavijesti_korisnik
 layout activity_obavjesti_izvodjac
 layout activity_offer
 layout activity_offer_list
