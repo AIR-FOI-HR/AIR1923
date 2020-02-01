@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pl\\values-pl.xml",
+            "outputFile": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pl\\values-pl.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\e8f490c452f693b80998a6a5111a0594\\jetified-card-form-3.5.0\\res\\values-pl\\values-pl.xml",
+                    "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\7cc9eec3cf011140df9b0eeea866268f\\jetified-card-form-3.5.0\\res\\values-pl\\values-pl.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\e7b7e31393e5f414ca31dd76d9a8fa1f\\android-times-square-1.6.5\\res\\values-pl\\values-pl.xml",
+                    "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\e7b7e31393e5f414ca31dd76d9a8fa1f\\android-times-square-1.6.5\\res\\values-pl\\values-pl.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "4",
@@ -38,7 +38,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\values-pl\\values-pl.xml",
+                    "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\e9dab9c67c1ee3668e0bbf86c6d8cbd8\\core-1.1.0\\res\\values-pl\\values-pl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "94",
+                        "startColumns": "4",
+                        "startOffsets": "7482",
+                        "endColumns": "100",
+                        "endOffsets": "7578"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\values-pl\\values-pl.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -55,7 +72,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\4a088d3fee87d2352e4c741dcf3b49fb\\jetified-drop-in-3.7.1\\res\\values-pl\\values-pl.xml",
+                    "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\879976df0181d2425075e58c64970b0d\\jetified-drop-in-3.7.1\\res\\values-pl\\values-pl.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -69,23 +86,6 @@
                         "startOffsets": "2817,2869,2914,2969,3376,3425,3497,3940,3983,4128,4223,4275,4341,4397,4457,4521,4571,4629,4693,4756,4812,4872,4951,5003,5046,5729,5977,6019,6061,6223,6270,6348,6425,6486,6579,6676,6875,6972,7058,7210",
                         "endColumns": "51,44,54,80,48,71,80,42,144,94,51,65,55,59,63,49,57,63,62,55,59,78,51,42,42,98,41,41,82,46,77,76,60,92,96,198,96,85,151,66",
                         "endOffsets": "2864,2909,2964,3045,3420,3492,3573,3978,4123,4218,4270,4336,4392,4452,4516,4566,4624,4688,4751,4807,4867,4946,4998,5041,5084,5823,6014,6056,6139,6265,6343,6420,6481,6574,6671,6870,6967,7053,7205,7272"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\e9dab9c67c1ee3668e0bbf86c6d8cbd8\\core-1.1.0\\res\\values-pl\\values-pl.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "94",
-                        "startColumns": "4",
-                        "startOffsets": "7482",
-                        "endColumns": "100",
-                        "endOffsets": "7578"
                     }
                 }
             ]

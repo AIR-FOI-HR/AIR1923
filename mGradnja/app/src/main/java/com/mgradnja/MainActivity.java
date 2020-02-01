@@ -28,10 +28,9 @@ public class MainActivity extends AppCompatActivity {
         if (sp.contains("id") && sp.contains("korisnik")){
             OpenGlavniIzbornikActivity(sp.getInt("id", 0));
         }
-        //UKLJUČITI DOK SE NAPRAVI PROFIL ZA IZVOĐAČA RADOVA
-        //else if (sp.contains("id") && sp.contains("izvodjac")){
-        //    OpenGlavniIzbornikIzvodjac(sp.getInt("id", 0));
-        //}
+        else if (sp.contains("id") && sp.contains("izvodjac")){
+            OpenGlavniIzbornikIzvodjac(sp.getInt("id", 0));
+        }
 
         btnPrijava = findViewById(R.id.btnPrijava);
         btnRegistracija = findViewById(R.id.btnRegistracija);

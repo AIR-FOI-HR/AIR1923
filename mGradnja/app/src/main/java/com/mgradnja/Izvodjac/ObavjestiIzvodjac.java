@@ -165,9 +165,10 @@ public class ObavjestiIzvodjac extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item){
         switch (item.getItemId()){
             case android.R.id.home:
-                Intent intent = new Intent(this, GlavniIzbornikIzvodjac.class);
-                intent.putExtra("ID_izvodjaca", ID);
-                this.startActivity(intent);
+                //Intent intent = new Intent(this, GlavniIzbornikIzvodjac.class);
+                //intent.putExtra("ID_izvodjaca", ID);
+                //this.startActivity(intent);
+                finish();
                 break;
         }
         return super.onOptionsItemSelected(item);

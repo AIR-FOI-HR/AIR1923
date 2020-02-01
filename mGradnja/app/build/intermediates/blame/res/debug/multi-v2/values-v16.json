@@ -1,10 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "outputFile": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\e9dab9c67c1ee3668e0bbf86c6d8cbd8\\core-1.1.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endColumns": "65",
+                        "endOffsets": "161"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +40,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\4a088d3fee87d2352e4c741dcf3b49fb\\jetified-drop-in-3.7.1\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\879976df0181d2425075e58c64970b0d\\jetified-drop-in-3.7.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2,6,15",
                         "startColumns": "4,4,4",
@@ -39,23 +56,6 @@
                         "endLines": "10,19,30",
                         "endColumns": "12,12,12",
                         "endOffsets": "529,1022,1627"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\e9dab9c67c1ee3668e0bbf86c6d8cbd8\\core-1.1.0\\res\\values-v16\\values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "100",
-                        "endColumns": "65",
-                        "endOffsets": "161"
                     }
                 }
             ]

@@ -15,8 +15,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Izvodjac.NovaPorukaIzvodjac"></activity>
-        <activity android:name=".Izvodjac.EditProfilaIzvodjacaActivity"></activity>
+        <activity android:name=".RecenzijaKorisnikaActivity"></activity>
+        <activity android:name=".Izvodjac.NovaPorukaIzvodjac" />
+        <activity android:name=".Izvodjac.EditProfilaIzvodjacaActivity" />
         <activity android:name=".Izvodjac.ProfilIzvodjacaActivity" />
         <activity android:name=".Izvodjac.IzvodjacKalendarActivity" />
         <activity android:name=".Izvodjac.UpdateOfferActivity" />
