@@ -21,4 +21,5 @@
         <item>Trenutni poslovi</item>
         <item>Prošli poslovi</item>
     </string-array>
+    <string name="title_activity_testtt">TESTTT</string>
 </resources>

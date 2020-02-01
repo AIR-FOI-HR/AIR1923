@@ -24,8 +24,6 @@ public class UpitiAdapterProfilKorisnika extends RecyclerView.Adapter<UpitiAdapt
     private ArrayList<ItemUpitiProfilKorisnika> listaUpita;
     private OnItemClickListener mListener;
 
-    //private View itemView;
-
     public interface OnItemClickListener{
         void DeleteItemClick(int position);
     }
@@ -82,7 +80,7 @@ public class UpitiAdapterProfilKorisnika extends RecyclerView.Adapter<UpitiAdapt
     @Override
     public UpitiViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view  = LayoutInflater.from(parent.getContext()).inflate(R.layout.list_item_upiti_profil_korisnika, parent, false);
-        UpitiViewHolder uvh = new UpitiViewHolder(view, mListener); //mListener DODAN***********************************************************************************
+        UpitiViewHolder uvh = new UpitiViewHolder(view, mListener);
         return  uvh;
     }
 

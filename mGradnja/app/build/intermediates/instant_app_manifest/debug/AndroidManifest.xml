@@ -27,6 +27,8 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
         <activity android:name="com.mgradnja.Izvodjac.NovaPorukaIzvodjac" />
+        <activity android:name="com.mgradnja.Izvodjac.EditProfilaIzvodjacaActivity" />
+        <activity android:name="com.mgradnja.Izvodjac.ProfilIzvodjacaActivity" />
         <activity android:name="com.mgradnja.Izvodjac.IzvodjacKalendarActivity" />
         <activity android:name="com.mgradnja.Izvodjac.UpdateOfferActivity" />
         <activity android:name="com.mgradnja.Izvodjac.OfferListAcitivityIzvodjac" />
@@ -78,8 +80,6 @@
         <activity android:name="com.example.braintree.MainActivityBrainTree" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity

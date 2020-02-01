@@ -71,7 +71,7 @@ public class EditProfilKorisnikActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 spremiEditKorisnik(ID);
-                finish();
+                //finish();
             }
         });
 
@@ -132,6 +132,8 @@ public class EditProfilKorisnikActivity extends AppCompatActivity {
 
                         if (st.executeUpdate(queriEditKorisnik) == 1){
                             Toast.makeText(getApplicationContext(), "Podaci su uspješno promijenjeni!", Toast.LENGTH_LONG).show();
+                            con.close();
+                            finish();
                         }
                         else {
                             Toast.makeText(getApplicationContext(), "Greška prilikom pohrane, pokušajte ponovno!", Toast.LENGTH_LONG).show();

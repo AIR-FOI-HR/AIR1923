@@ -1,10 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:2:1-56:12
-MERGED from [:braintree] C:\Users\Filip\Desktop\novi pull\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-43:12
+ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:2:1-58:12
+MERGED from [:braintree] C:\Users\Filip\Desktop\novi pull\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-41:12
 MERGED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\4a088d3fee87d2352e4c741dcf3b49fb\jetified-drop-in-3.7.1\AndroidManifest.xml:2:1-32:12
 MERGED from [com.braintreepayments:card-form:3.5.0] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\e8f490c452f693b80998a6a5111a0594\jetified-card-form-3.5.0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.material:material:1.2.0-alpha02] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\89960a8f9b5e73731627972c56f94153\material-1.2.0-alpha02\AndroidManifest.xml:17:1-24:12
@@ -60,20 +60,20 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\Filip\.gradle\caches\transform
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\3a992d8307f21a8f15eb649383ba6a6a\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.braintreepayments.api:visa-checkout:1.0.0] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\e4c2c525ed4c8d5910a83a7d2b2cce28\jetified-visa-checkout-1.0.0\AndroidManifest.xml:2:1-12:12
 MERGED from [com.paypal.android.sdk:data-collector:2.18.1] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\9c92211cf6298402b48cd624dbce82e8\jetified-data-collector-2.18.1\AndroidManifest.xml:2:1-13:12
-INJECTED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:2:1-58:12
 	package
 		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:3:5-27
 		INJECTED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:2:1-56:12
+		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:2:1-58:12
 		INJECTED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:2:1-56:12
+		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:2:1-58:12
 		INJECTED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:2:11-69
@@ -114,9 +114,9 @@ ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifes
 	android:name
 		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:9:22-66
 application
-ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:11:5-54:19
-MERGED from [:braintree] C:\Users\Filip\Desktop\novi pull\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-41:19
-MERGED from [:braintree] C:\Users\Filip\Desktop\novi pull\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-41:19
+ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:11:5-56:19
+MERGED from [:braintree] C:\Users\Filip\Desktop\novi pull\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-39:19
+MERGED from [:braintree] C:\Users\Filip\Desktop\novi pull\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-39:19
 MERGED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\4a088d3fee87d2352e4c741dcf3b49fb\jetified-drop-in-3.7.1\AndroidManifest.xml:15:5-30:19
 MERGED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\4a088d3fee87d2352e4c741dcf3b49fb\jetified-drop-in-3.7.1\AndroidManifest.xml:15:5-30:19
 MERGED from [com.google.android.material:material:1.2.0-alpha02] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\89960a8f9b5e73731627972c56f94153\material-1.2.0-alpha02\AndroidManifest.xml:22:5-20
@@ -157,116 +157,124 @@ activity#com.mgradnja.Izvodjac.NovaPorukaIzvodjac
 ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:18:9-74
 	android:name
 		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:18:19-62
+activity#com.mgradnja.Izvodjac.EditProfilaIzvodjacaActivity
+ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:19:9-84
+	android:name
+		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:19:19-72
+activity#com.mgradnja.Izvodjac.ProfilIzvodjacaActivity
+ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:20:9-70
+	android:name
+		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:20:19-67
 activity#com.mgradnja.Izvodjac.IzvodjacKalendarActivity
-ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:19:9-71
+ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:21:9-71
 	android:name
-		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:19:19-68
+		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:21:19-68
 activity#com.mgradnja.Izvodjac.UpdateOfferActivity
-ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:20:9-66
+ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:22:9-66
 	android:name
-		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:20:19-63
+		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:22:19-63
 activity#com.mgradnja.Izvodjac.OfferListAcitivityIzvodjac
-ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:21:9-73
+ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:23:9-73
 	android:name
-		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:21:19-70
+		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:23:19-70
 activity#com.mgradnja.Izvodjac.OfferActivity
-ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:22:9-60
+ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:24:9-60
 	android:name
-		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:22:19-57
+		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:24:19-57
 activity#com.mgradnja.Izvodjac.JobListActivityIzvodjac
-ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:23:9-70
+ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:25:9-70
 	android:name
-		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:23:19-67
+		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:25:19-67
 activity#com.mgradnja.Izvodjac.ObavjestiIzvodjac
-ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:24:9-64
+ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:26:9-64
 	android:name
-		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:24:19-61
+		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:26:19-61
 activity#com.mgradnja.IzvodjacInfoActivity
-ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:25:9-27:68
+ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:27:9-29:68
 	android:label
-		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:27:13-65
+		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:29:13-65
 	android:name
-		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:26:13-49
+		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:28:13-49
 activity#com.mgradnja.IstraziIzvodjaceActivity
-ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:28:9-62
+ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:30:9-62
 	android:name
-		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:28:19-59
+		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:30:19-59
 activity#com.mgradnja.OfferListActivity
-ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:29:9-55
+ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:31:9-55
 	android:name
-		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:29:19-52
+		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:31:19-52
 activity#com.mgradnja.EditProfilKorisnikActivity
-ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:30:9-64
+ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:32:9-64
 	android:name
-		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:30:19-61
+		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:32:19-61
 activity#com.mgradnja.ProfilKorisnikActivity
-ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:31:9-60
+ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:33:9-60
 	android:name
-		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:31:19-57
+		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:33:19-57
 activity#com.mgradnja.JobListActivity
-ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:32:9-53
+ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:34:9-53
 	android:name
-		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:32:19-50
+		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:34:19-50
 activity#com.mgradnja.UserSearchActivity
-ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:33:9-56
+ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:35:9-56
 	android:name
-		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:33:19-53
+		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:35:19-53
 activity#com.mgradnja.Registration_performer
-ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:34:9-60
-	android:name
-		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:34:19-57
-activity#com.mgradnja.Registration_user
-ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:35:9-55
-	android:name
-		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:35:19-52
-activity#com.mgradnja.GlavniIzbornikKorisnik
 ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:36:9-60
 	android:name
 		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:36:19-57
+activity#com.mgradnja.Registration_user
+ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:37:9-55
+	android:name
+		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:37:19-52
+activity#com.mgradnja.GlavniIzbornikKorisnik
+ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:38:9-60
+	android:name
+		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:38:19-57
 activity#com.mgradnja.RegistrationActivity
-ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:37:9-58
+ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:39:9-58
 	android:name
-		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:37:19-55
+		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:39:19-55
 activity#com.mgradnja.LoginActivity
-ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:38:9-51
+ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:40:9-51
 	android:name
-		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:38:19-48
+		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:40:19-48
 activity#com.mgradnja.QueryActivity
-ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:39:9-51
+ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:41:9-51
 	android:name
-		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:39:19-48
+		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:41:19-48
 activity#com.mgradnja.Izvodjac.GlavniIzbornikIzvodjac
-ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:40:9-69
+ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:42:9-69
 	android:name
-		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:40:19-66
+		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:42:19-66
 activity#com.mgradnja.Izvodjac.DetaljiUpita
-ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:41:9-59
+ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:43:9-59
 	android:name
-		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:41:19-56
+		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:43:19-56
 activity#com.mgradnja.Izvodjac.IstraziUpiteIzvodjac
-ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:42:9-67
+ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:44:9-67
 	android:name
-		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:42:19-64
+		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:44:19-64
 activity#com.mgradnja.MainActivity
-ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:43:9-49:20
+ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:45:9-51:20
 	android:name
-		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:43:19-47
+		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:45:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:44:13-48:29
+ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:46:13-50:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:45:17-69
+ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:47:17-69
 	android:name
-		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:45:25-66
+		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:47:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:47:17-77
+ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:49:17-77
 	android:name
-		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:47:27-74
+		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:49:27-74
 meta-data#preloaded_fonts
-ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:51:9-53:57
+ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:53:9-55:57
 	android:resource
-		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:53:13-54
+		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:55:13-54
 	android:name
-		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:52:13-43
+		ADDED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:54:13-43
 uses-sdk
 INJECTED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml
@@ -420,9 +428,11 @@ ADDED from [:braintree] C:\Users\Filip\Desktop\novi pull\mGradnja\braintree\buil
 	android:scheme
 		ADDED from [:braintree] C:\Users\Filip\Desktop\novi pull\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:23-66
 activity#com.example.braintree.MainActivityBrainTree
-ADDED from [:braintree] C:\Users\Filip\Desktop\novi pull\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:9-40:20
+ADDED from [:braintree] C:\Users\Filip\Desktop\novi pull\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:9-38:20
 	android:name
 		ADDED from [:braintree] C:\Users\Filip\Desktop\novi pull\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:19-77
+intent-filter#action:name:android.intent.action.MAIN
+ADDED from [:braintree] C:\Users\Filip\Desktop\novi pull\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:13-37:29
 activity#com.braintreepayments.api.threedsecure.ThreeDSecureWebViewActivity
 ADDED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\4a088d3fee87d2352e4c741dcf3b49fb\jetified-drop-in-3.7.1\AndroidManifest.xml:18:9-20:62
 MERGED from [com.braintreepayments.api:braintree:2.18.1] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\275ab35cbe76e2925dcd886f8f55aa33\jetified-braintree-2.18.1\AndroidManifest.xml:21:9-103

@@ -27,7 +27,7 @@
 15-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:9:22-66
 16
 17    <application
-17-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:11:5-54:19
+17-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:11:5-56:19
 18        android:allowBackup="true"
 18-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:12:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -49,133 +49,135 @@
 28        <activity android:name="com.mgradnja.Izvodjac.NovaPorukaIzvodjac" />
 28-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:18:9-74
 28-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:18:19-62
-29        <activity android:name="com.mgradnja.Izvodjac.IzvodjacKalendarActivity" />
-29-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:19:9-71
-29-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:19:19-68
-30        <activity android:name="com.mgradnja.Izvodjac.UpdateOfferActivity" />
-30-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:20:9-66
-30-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:20:19-63
-31        <activity android:name="com.mgradnja.Izvodjac.OfferListAcitivityIzvodjac" />
-31-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:21:9-73
-31-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:21:19-70
-32        <activity android:name="com.mgradnja.Izvodjac.OfferActivity" />
-32-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:22:9-60
-32-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:22:19-57
-33        <activity android:name="com.mgradnja.Izvodjac.JobListActivityIzvodjac" />
-33-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:23:9-70
-33-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:23:19-67
-34        <activity android:name="com.mgradnja.Izvodjac.ObavjestiIzvodjac" />
-34-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:24:9-64
-34-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:24:19-61
-35        <activity
-35-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:25:9-27:68
-36            android:name="com.mgradnja.IzvodjacInfoActivity"
-36-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:26:13-49
-37            android:label="@string/title_activity_izvodjac_info" />
-37-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:27:13-65
-38        <activity android:name="com.mgradnja.IstraziIzvodjaceActivity" />
-38-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:28:9-62
-38-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:28:19-59
-39        <activity android:name="com.mgradnja.OfferListActivity" />
-39-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:29:9-55
-39-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:29:19-52
-40        <activity android:name="com.mgradnja.EditProfilKorisnikActivity" />
-40-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:30:9-64
-40-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:30:19-61
-41        <activity android:name="com.mgradnja.ProfilKorisnikActivity" />
-41-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:31:9-60
-41-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:31:19-57
-42        <activity android:name="com.mgradnja.JobListActivity" />
-42-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:32:9-53
-42-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:32:19-50
-43        <activity android:name="com.mgradnja.UserSearchActivity" />
-43-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:33:9-56
-43-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:33:19-53
-44        <activity android:name="com.mgradnja.Registration_performer" />
-44-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:34:9-60
-44-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:34:19-57
-45        <activity android:name="com.mgradnja.Registration_user" />
-45-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:35:9-55
-45-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:35:19-52
-46        <activity android:name="com.mgradnja.GlavniIzbornikKorisnik" />
+29        <activity android:name="com.mgradnja.Izvodjac.EditProfilaIzvodjacaActivity" />
+29-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:19:9-84
+29-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:19:19-72
+30        <activity android:name="com.mgradnja.Izvodjac.ProfilIzvodjacaActivity" />
+30-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:20:9-70
+30-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:20:19-67
+31        <activity android:name="com.mgradnja.Izvodjac.IzvodjacKalendarActivity" />
+31-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:21:9-71
+31-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:21:19-68
+32        <activity android:name="com.mgradnja.Izvodjac.UpdateOfferActivity" />
+32-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:22:9-66
+32-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:22:19-63
+33        <activity android:name="com.mgradnja.Izvodjac.OfferListAcitivityIzvodjac" />
+33-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:23:9-73
+33-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:23:19-70
+34        <activity android:name="com.mgradnja.Izvodjac.OfferActivity" />
+34-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:24:9-60
+34-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:24:19-57
+35        <activity android:name="com.mgradnja.Izvodjac.JobListActivityIzvodjac" />
+35-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:25:9-70
+35-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:25:19-67
+36        <activity android:name="com.mgradnja.Izvodjac.ObavjestiIzvodjac" />
+36-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:26:9-64
+36-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:26:19-61
+37        <activity
+37-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:27:9-29:68
+38            android:name="com.mgradnja.IzvodjacInfoActivity"
+38-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:28:13-49
+39            android:label="@string/title_activity_izvodjac_info" />
+39-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:29:13-65
+40        <activity android:name="com.mgradnja.IstraziIzvodjaceActivity" />
+40-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:30:9-62
+40-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:30:19-59
+41        <activity android:name="com.mgradnja.OfferListActivity" />
+41-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:31:9-55
+41-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:31:19-52
+42        <activity android:name="com.mgradnja.EditProfilKorisnikActivity" />
+42-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:32:9-64
+42-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:32:19-61
+43        <activity android:name="com.mgradnja.ProfilKorisnikActivity" />
+43-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:33:9-60
+43-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:33:19-57
+44        <activity android:name="com.mgradnja.JobListActivity" />
+44-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:34:9-53
+44-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:34:19-50
+45        <activity android:name="com.mgradnja.UserSearchActivity" />
+45-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:35:9-56
+45-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:35:19-53
+46        <activity android:name="com.mgradnja.Registration_performer" />
 46-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:36:9-60
 46-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:36:19-57
-47        <activity android:name="com.mgradnja.RegistrationActivity" />
-47-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:37:9-58
-47-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:37:19-55
-48        <activity android:name="com.mgradnja.LoginActivity" />
-48-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:38:9-51
-48-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:38:19-48
-49        <activity android:name="com.mgradnja.QueryActivity" />
-49-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:39:9-51
-49-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:39:19-48
-50        <activity android:name="com.mgradnja.Izvodjac.GlavniIzbornikIzvodjac" />
-50-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:40:9-69
-50-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:40:19-66
-51        <activity android:name="com.mgradnja.Izvodjac.DetaljiUpita" />
-51-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:41:9-59
-51-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:41:19-56
-52        <activity android:name="com.mgradnja.Izvodjac.IstraziUpiteIzvodjac" />
-52-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:42:9-67
-52-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:42:19-64
-53        <activity android:name="com.mgradnja.MainActivity" >
-53-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:43:9-49:20
-53-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:43:19-47
-54            <intent-filter>
-54-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:44:13-48:29
-55                <action android:name="android.intent.action.MAIN" />
-55-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:45:17-69
-55-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:45:25-66
-56
-57                <category android:name="android.intent.category.LAUNCHER" />
-57-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:47:17-77
-57-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:47:27-74
-58            </intent-filter>
-59        </activity>
-60
-61        <meta-data
-61-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:51:9-53:57
-62            android:name="preloaded_fonts"
-62-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:52:13-43
-63            android:resource="@array/preloaded_fonts" />
-63-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:53:13-54
-64
-65        <activity
-65-->[:braintree] C:\Users\Filip\Desktop\novi pull\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:9-33:20
-66            android:name="com.braintreepayments.api.BraintreeBrowserSwitchActivity"
-66-->[:braintree] C:\Users\Filip\Desktop\novi pull\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:13-84
-67            android:launchMode="singleTask" >
-67-->[:braintree] C:\Users\Filip\Desktop\novi pull\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-44
-68            <intent-filter>
-68-->[:braintree] C:\Users\Filip\Desktop\novi pull\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-32:29
-69                <action android:name="android.intent.action.VIEW" />
-69-->[:braintree] C:\Users\Filip\Desktop\novi pull\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:17-69
-69-->[:braintree] C:\Users\Filip\Desktop\novi pull\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:25-66
-70
-71                <category android:name="android.intent.category.DEFAULT" />
-71-->[:braintree] C:\Users\Filip\Desktop\novi pull\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:17-76
-71-->[:braintree] C:\Users\Filip\Desktop\novi pull\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:27-73
-72                <category android:name="android.intent.category.BROWSABLE" />
-72-->[:braintree] C:\Users\Filip\Desktop\novi pull\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:17-78
-72-->[:braintree] C:\Users\Filip\Desktop\novi pull\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:27-75
-73
-74                <data android:scheme="com.mgradnja.braintree" />
-74-->[:braintree] C:\Users\Filip\Desktop\novi pull\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:17-69
-74-->[:braintree] C:\Users\Filip\Desktop\novi pull\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:23-66
-75            </intent-filter>
-76        </activity>
-77        <activity android:name="com.example.braintree.MainActivityBrainTree" >
-77-->[:braintree] C:\Users\Filip\Desktop\novi pull\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:9-40:20
-77-->[:braintree] C:\Users\Filip\Desktop\novi pull\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:19-77
-78            <intent-filter>
-78-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:44:13-48:29
-79                <action android:name="android.intent.action.MAIN" />
-79-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:45:17-69
-79-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:45:25-66
-80
-81                <category android:name="android.intent.category.LAUNCHER" />
-81-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:47:17-77
-81-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:47:27-74
+47        <activity android:name="com.mgradnja.Registration_user" />
+47-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:37:9-55
+47-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:37:19-52
+48        <activity android:name="com.mgradnja.GlavniIzbornikKorisnik" />
+48-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:38:9-60
+48-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:38:19-57
+49        <activity android:name="com.mgradnja.RegistrationActivity" />
+49-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:39:9-58
+49-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:39:19-55
+50        <activity android:name="com.mgradnja.LoginActivity" />
+50-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:40:9-51
+50-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:40:19-48
+51        <activity android:name="com.mgradnja.QueryActivity" />
+51-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:41:9-51
+51-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:41:19-48
+52        <activity android:name="com.mgradnja.Izvodjac.GlavniIzbornikIzvodjac" />
+52-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:42:9-69
+52-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:42:19-66
+53        <activity android:name="com.mgradnja.Izvodjac.DetaljiUpita" />
+53-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:43:9-59
+53-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:43:19-56
+54        <activity android:name="com.mgradnja.Izvodjac.IstraziUpiteIzvodjac" />
+54-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:44:9-67
+54-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:44:19-64
+55        <activity android:name="com.mgradnja.MainActivity" >
+55-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:45:9-51:20
+55-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:45:19-47
+56            <intent-filter>
+56-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:46:13-50:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:47:17-69
+57-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:47:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:49:17-77
+59-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:49:27-74
+60            </intent-filter>
+61        </activity>
+62
+63        <meta-data
+63-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:53:9-55:57
+64            android:name="preloaded_fonts"
+64-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:54:13-43
+65            android:resource="@array/preloaded_fonts" />
+65-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:55:13-54
+66
+67        <activity
+67-->[:braintree] C:\Users\Filip\Desktop\novi pull\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:9-33:20
+68            android:name="com.braintreepayments.api.BraintreeBrowserSwitchActivity"
+68-->[:braintree] C:\Users\Filip\Desktop\novi pull\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:13-84
+69            android:launchMode="singleTask" >
+69-->[:braintree] C:\Users\Filip\Desktop\novi pull\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-44
+70            <intent-filter>
+70-->[:braintree] C:\Users\Filip\Desktop\novi pull\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-32:29
+71                <action android:name="android.intent.action.VIEW" />
+71-->[:braintree] C:\Users\Filip\Desktop\novi pull\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:17-69
+71-->[:braintree] C:\Users\Filip\Desktop\novi pull\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:25-66
+72
+73                <category android:name="android.intent.category.DEFAULT" />
+73-->[:braintree] C:\Users\Filip\Desktop\novi pull\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:17-76
+73-->[:braintree] C:\Users\Filip\Desktop\novi pull\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:27-73
+74                <category android:name="android.intent.category.BROWSABLE" />
+74-->[:braintree] C:\Users\Filip\Desktop\novi pull\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:17-78
+74-->[:braintree] C:\Users\Filip\Desktop\novi pull\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:27-75
+75
+76                <data android:scheme="com.mgradnja.braintree" />
+76-->[:braintree] C:\Users\Filip\Desktop\novi pull\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:17-69
+76-->[:braintree] C:\Users\Filip\Desktop\novi pull\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:23-66
+77            </intent-filter>
+78        </activity>
+79        <activity android:name="com.example.braintree.MainActivityBrainTree" >
+79-->[:braintree] C:\Users\Filip\Desktop\novi pull\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:9-38:20
+79-->[:braintree] C:\Users\Filip\Desktop\novi pull\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:19-77
+80            <intent-filter>
+80-->[:braintree] C:\Users\Filip\Desktop\novi pull\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:13-37:29
+81                <action android:name="android.intent.action.MAIN" />
+81-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:47:17-69
+81-->C:\Users\Filip\Desktop\novi pull\mGradnja\app\src\main\AndroidManifest.xml:47:25-66
 82            </intent-filter>
 83        </activity>
 84        <activity

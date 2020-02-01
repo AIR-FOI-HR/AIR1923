@@ -92,12 +92,12 @@
         "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
-        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_custom_dialog.xml.flat",
-        "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\e9dab9c67c1ee3668e0bbf86c6d8cbd8\\core-1.1.0\\res\\layout\\custom_dialog.xml"
-    },
-    {
         "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\xml_standalone_badge_offset.xml.flat",
         "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\xml\\standalone_badge_offset.xml"
+    },
+    {
+        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_custom_dialog.xml.flat",
+        "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\e9dab9c67c1ee3668e0bbf86c6d8cbd8\\core-1.1.0\\res\\layout\\custom_dialog.xml"
     },
     {
         "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\animator_mtrl_btn_state_list_anim.xml.flat",
@@ -112,28 +112,28 @@
         "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_48dp.png"
     },
     {
-        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable_krov.jpg.flat",
-        "source": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\src\\main\\res\\drawable\\krov.jpg"
-    },
-    {
         "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\color_material_on_surface_emphasis_high_type.xml.flat",
         "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\color\\material_on_surface_emphasis_high_type.xml"
     },
     {
-        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_cab_background_top_material.xml.flat",
-        "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable\\abc_cab_background_top_material.xml"
+        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable_krov.jpg.flat",
+        "source": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\src\\main\\res\\drawable\\krov.jpg"
     },
     {
         "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_black_36dp.png.flat",
         "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
-        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tooltip_frame_dark.xml.flat",
-        "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable\\tooltip_frame_dark.xml"
+        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_cab_background_top_material.xml.flat",
+        "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
         "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_black_36dp.png.flat",
         "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tooltip_frame_dark.xml.flat",
+        "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable\\tooltip_frame_dark.xml"
     },
     {
         "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\animator_mtrl_extended_fab_hide_motion_spec.xml.flat",
@@ -184,12 +184,12 @@
         "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_izvodjac_info.xml.flat",
-        "source": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\src\\main\\res\\layout\\activity_izvodjac_info.xml"
-    },
-    {
         "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_izvodjac_info.xml.flat",
+        "source": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\src\\main\\res\\layout\\activity_izvodjac_info.xml"
     },
     {
         "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
@@ -300,24 +300,24 @@
         "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
         "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\e9dab9c67c1ee3668e0bbf86c6d8cbd8\\core-1.1.0\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
-        "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
-    },
-    {
         "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_bt_ic_vaulted_maestro.png.flat",
         "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\4a088d3fee87d2352e4c741dcf3b49fb\\jetified-drop-in-3.7.1\\res\\drawable-mdpi-v4\\bt_ic_vaulted_maestro.png"
+    },
+    {
+        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
+        "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
         "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -336,24 +336,24 @@
         "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_assignment_24dp.xml.flat",
-        "source": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\src\\main\\res\\drawable\\ic_assignment_24dp.xml"
+        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_action_bar_item_background_material.xml.flat",
+        "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
     },
     {
         "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_material_dark.xml.flat",
         "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\color\\abc_primary_text_material_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_action_bar_item_background_material.xml.flat",
-        "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_assignment_24dp.xml.flat",
+        "source": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\src\\main\\res\\drawable\\ic_assignment_24dp.xml"
     },
     {
         "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_bt_ic_amex.png.flat",
         "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\e8f490c452f693b80998a6a5111a0594\\jetified-card-form-3.5.0\\res\\drawable-mdpi-v4\\bt_ic_amex.png"
+    },
+    {
+        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_bt_ic_unionpay.png.flat",
@@ -364,20 +364,20 @@
         "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\4a088d3fee87d2352e4c741dcf3b49fb\\jetified-drop-in-3.7.1\\res\\drawable-xxxhdpi-v4\\bt_ic_sms_code.png"
     },
     {
-        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_navigation_menu.xml.flat",
-        "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\layout\\design_navigation_menu.xml"
+        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_half_black_36dp.png.flat",
         "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_navigation_menu.xml.flat",
+        "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\layout\\design_navigation_menu.xml"
     },
     {
         "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bt_payment_button_background.xml.flat",
@@ -400,20 +400,20 @@
         "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\color_material_slider_active_track_color.xml.flat",
-        "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\color\\material_slider_active_track_color.xml"
-    },
-    {
-        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
-        "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\color_material_slider_thumb_color.xml.flat",
+        "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\color\\material_slider_thumb_color.xml"
     },
     {
         "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_bt_ic_google_pay.png.flat",
         "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\4a088d3fee87d2352e4c741dcf3b49fb\\jetified-drop-in-3.7.1\\res\\drawable-hdpi-v4\\bt_ic_google_pay.png"
     },
     {
-        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\color_material_slider_thumb_color.xml.flat",
-        "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\color\\material_slider_thumb_color.xml"
+        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
+        "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\color_material_slider_active_track_color.xml.flat",
+        "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\color\\material_slider_active_track_color.xml"
     },
     {
         "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_bt_ic_unknown.png.flat",
@@ -484,6 +484,10 @@
         "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\e8f490c452f693b80998a6a5111a0594\\jetified-card-form-3.5.0\\res\\drawable-xhdpi-v4\\bt_ic_discover.png"
     },
     {
+        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_recenzije_profil_izvodjaca.xml.flat",
+        "source": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\src\\main\\res\\layout\\fragment_recenzije_profil_izvodjaca.xml"
+    },
+    {
         "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_bt_ic_camera.png.flat",
         "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\e8f490c452f693b80998a6a5111a0594\\jetified-card-form-3.5.0\\res\\drawable-xxxhdpi-v4\\bt_ic_camera.png"
     },
@@ -496,16 +500,16 @@
         "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\color\\mtrl_text_btn_text_color_selector.xml"
     },
     {
-        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\color_material_on_surface_disabled.xml.flat",
-        "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\color\\material_on_surface_disabled.xml"
+        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
         "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_calendar_item_stroke_color.xml.flat",
         "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\color\\mtrl_calendar_item_stroke_color.xml"
     },
     {
-        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\color_material_on_surface_disabled.xml.flat",
+        "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\color\\material_on_surface_disabled.xml"
     },
     {
         "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\interpolator-v21_mtrl_fast_out_linear_in.xml.flat",
@@ -538,6 +542,10 @@
     {
         "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_search_dropdown_item_icons_2line.xml.flat",
         "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_item_recenzija_profil_izvodjaca.xml.flat",
+        "source": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\src\\main\\res\\layout\\list_item_recenzija_profil_izvodjaca.xml"
     },
     {
         "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main_braintree.xml.flat",
@@ -748,6 +756,10 @@
         "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\color\\material_on_primary_disabled.xml"
     },
     {
+        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_opis_profil_izvodjaca.xml.flat",
+        "source": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\src\\main\\res\\layout\\fragment_opis_profil_izvodjaca.xml"
+    },
+    {
         "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_chat.xml.flat",
         "source": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\src\\main\\res\\drawable\\ic_chat.xml"
     },
@@ -784,12 +796,12 @@
         "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_16dp.png"
     },
     {
-        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
         "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_select_dialog_multichoice_material.xml.flat",
         "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_bt_add_card_activity.xml.flat",
@@ -800,12 +812,12 @@
         "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\4a088d3fee87d2352e4c741dcf3b49fb\\jetified-drop-in-3.7.1\\res\\drawable-xhdpi-v4\\bt_ic_sms_code.png"
     },
     {
-        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_bt_ic_vaulted_jcb.png.flat",
-        "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\4a088d3fee87d2352e4c741dcf3b49fb\\jetified-drop-in-3.7.1\\res\\drawable-xxhdpi-v4\\bt_ic_vaulted_jcb.png"
-    },
-    {
         "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_bt_ic_vaulted_paypal.png.flat",
         "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\4a088d3fee87d2352e4c741dcf3b49fb\\jetified-drop-in-3.7.1\\res\\drawable-hdpi-v4\\bt_ic_vaulted_paypal.png"
+    },
+    {
+        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_bt_ic_vaulted_jcb.png.flat",
+        "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\4a088d3fee87d2352e4c741dcf3b49fb\\jetified-drop-in-3.7.1\\res\\drawable-xxhdpi-v4\\bt_ic_vaulted_jcb.png"
     },
     {
         "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
@@ -872,12 +884,12 @@
         "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
     {
-        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-ldrtl-xxhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
         "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\anim_btn_radio_to_off_mtrl_dot_group_animation.xml.flat",
         "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\anim\\btn_radio_to_off_mtrl_dot_group_animation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-ldrtl-xxhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_bt_ic_vaulted_diners_club.png.flat",
@@ -1056,12 +1068,12 @@
         "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_bt_ic_vaulted_venmo.png.flat",
         "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\4a088d3fee87d2352e4c741dcf3b49fb\\jetified-drop-in-3.7.1\\res\\drawable-xhdpi-v4\\bt_ic_vaulted_venmo.png"
+    },
+    {
+        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mtrl_ic_arrow_drop_down.xml.flat",
@@ -1152,28 +1164,28 @@
         "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\color-v23\\abc_color_highlight_material.xml"
     },
     {
-        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_edittext.xml.flat",
-        "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\color-v23\\abc_tint_edittext.xml"
+        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_update_offer.xml.flat",
+        "source": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\src\\main\\res\\layout\\activity_update_offer.xml"
     },
     {
         "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_registration.xml.flat",
         "source": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\src\\main\\res\\layout\\activity_registration.xml"
     },
     {
-        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_update_offer.xml.flat",
-        "source": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\src\\main\\res\\layout\\activity_update_offer.xml"
+        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_edittext.xml.flat",
+        "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\color-v23\\abc_tint_edittext.xml"
     },
     {
         "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_bt_card_form_fields.xml.flat",
         "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\e8f490c452f693b80998a6a5111a0594\\jetified-card-form-3.5.0\\res\\layout\\bt_card_form_fields.xml"
     },
     {
-        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_switch_track.xml.flat",
-        "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\color\\abc_tint_switch_track.xml"
-    },
-    {
         "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_bt_ic_delete_forever.png.flat",
         "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\4a088d3fee87d2352e4c741dcf3b49fb\\jetified-drop-in-3.7.1\\res\\drawable-xxxhdpi-v4\\bt_ic_delete_forever.png"
+    },
+    {
+        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_switch_track.xml.flat",
+        "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\color\\abc_tint_switch_track.xml"
     },
     {
         "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
@@ -1912,6 +1924,10 @@
         "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\4a088d3fee87d2352e4c741dcf3b49fb\\jetified-drop-in-3.7.1\\res\\menu\\bt_card_io.xml"
     },
     {
+        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_edit_profila_izvodjaca.xml.flat",
+        "source": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\src\\main\\res\\layout\\activity_edit_profila_izvodjaca.xml"
+    },
+    {
         "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_bt_ic_visa.png.flat",
         "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\e8f490c452f693b80998a6a5111a0594\\jetified-card-form-3.5.0\\res\\drawable-mdpi-v4\\bt_ic_visa.png"
     },
@@ -2354,6 +2370,10 @@
     {
         "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_bt_ic_cardholder_name_dark.png.flat",
         "source": "C:\\Users\\Filip\\.gradle\\caches\\transforms-2\\files-2.1\\e8f490c452f693b80998a6a5111a0594\\jetified-card-form-3.5.0\\res\\drawable-mdpi-v4\\bt_ic_cardholder_name_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_profil_izvodjaca.xml.flat",
+        "source": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\src\\main\\res\\layout\\activity_profil_izvodjaca.xml"
     },
     {
         "merged": "C:\\Users\\Filip\\Desktop\\novi pull\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_bt_ic_mobile_number_dark.png.flat",
