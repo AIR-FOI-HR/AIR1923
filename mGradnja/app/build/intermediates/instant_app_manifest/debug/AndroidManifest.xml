@@ -26,11 +26,13 @@
         android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
+        <activity android:name="com.mgradnja.Izvodjac.NovaPorukaIzvodjac" />
         <activity android:name="com.mgradnja.Izvodjac.IzvodjacKalendarActivity" />
         <activity android:name="com.mgradnja.Izvodjac.UpdateOfferActivity" />
         <activity android:name="com.mgradnja.Izvodjac.OfferListAcitivityIzvodjac" />
         <activity android:name="com.mgradnja.Izvodjac.OfferActivity" />
         <activity android:name="com.mgradnja.Izvodjac.JobListActivityIzvodjac" />
+        <activity android:name="com.mgradnja.Izvodjac.ObavjestiIzvodjac" />
         <activity
             android:name="com.mgradnja.IzvodjacInfoActivity"
             android:label="@string/title_activity_izvodjac_info" />

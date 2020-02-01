@@ -181,7 +181,9 @@ public class GlavniIzbornikIzvodjac extends AppCompatActivity {
                             break;
 
                         case R.id.nav_notifications:
-
+                            Intent otvoriObavijesti= new Intent(GlavniIzbornikIzvodjac.this, ObavjestiIzvodjac.class);
+                            otvoriObavijesti.putExtra("ID_izvodjaca", ID);
+                            startActivity(otvoriObavijesti);
                             break;
                         case R.id.nav_profile:
 

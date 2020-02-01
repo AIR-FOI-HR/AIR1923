@@ -1782,12 +1782,15 @@ id btnDatumPocetka
 id btnEditKorisnikSpremi
 id btnGotovina
 id btnIstrazi
+id btnIzaberiPosao
 id btnIzbrišiUpit
 id btnIzvodjacIstrazi
 id btnNatragNaPrijavu
+id btnNovaPoruka
 id btnObrisi
 id btnOdabirDjelatnosti
 id btnOnline
+id btnPosalji
 id btnPosaljiPonudu
 id btnPrijava
 id btnPrijavaIzRegistracije
@@ -1991,6 +1994,7 @@ id ocjenaRecenzenta
 id ocjenaRecenzijeProfilKorisnika
 id off
 id oibIzvodjaca
+id okvir
 id on
 id opisUpita
 id outline
@@ -2059,6 +2063,7 @@ id spinPonude
 id spinPoslovi
 id spinZupanije
 id spinZupanijeIzvodjac
+id spinerPoslova
 id split_action_bar
 id spread
 id spread_inside
@@ -2151,6 +2156,8 @@ id txtNazivRadova
 id txtNazivUpita
 id txtNemaRecenzija
 id txtNemate2
+id txtObavijestImeIzvodjac
+id txtObavijesti
 id txtOib
 id txtOpisPosla
 id txtOpisRadova
@@ -2166,6 +2173,8 @@ id txtProfilKorisnikTelefonIspis
 id txtProfilKorisnikaNazivIzvodjaca
 id txtProfilMailKorisnika
 id txtProfilTelefonKorisnik
+id txtSadrzajPoruke
+id txtTekstPoruke
 id txtTelefon
 id txtUpitAdresa
 id txtUpitDatum
@@ -2173,6 +2182,7 @@ id txtUpitGrad
 id txtUpitNaziv
 id txtUpitOpis
 id txtUpitZupanija
+id txtVrijemePoruke
 id txtZavrsetskPosla
 id txtZupanija
 id unchecked
@@ -2265,6 +2275,7 @@ layout activity_job_list_izvodjac
 layout activity_login
 layout activity_main
 layout activity_main_braintree
+layout activity_obavjesti_izvodjac
 layout activity_offer
 layout activity_offer_list
 layout activity_offer_list_acitivity_izvodjac
@@ -2363,6 +2374,8 @@ layout notification_template_media
 layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout nova_poruka_izvodjac
+layout obavijest_layout
 layout offerlist_izvodjac_layout
 layout offerlist_layout
 layout recenzije_layout
