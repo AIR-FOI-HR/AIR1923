@@ -57,14 +57,15 @@ public class ObavjestiIzvodjac extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_obavjesti_izvodjac);
 
-        connectionClass=new ConnectionClass();
-        Intent intent=getIntent();
-        ID=intent.getIntExtra("ID_izvodjaca", 0);
-
         ActionBar actionBar=getSupportActionBar();
         if(actionBar != null){
             actionBar.setDisplayHomeAsUpEnabled(true);
+            actionBar.setTitle("Obavijesti");
         }
+
+        connectionClass=new ConnectionClass();
+        Intent intent=getIntent();
+        ID=intent.getIntExtra("ID_izvodjaca", 0);
 
         spinnerPoslovi=findViewById(R.id.spinerPoslova);
         dohvatiPoslove();
@@ -75,7 +76,11 @@ public class ObavjestiIzvodjac extends AppCompatActivity {
         izaberiPosao.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                prikaziObavijesti();
+                if (idPoslova.isEmpty()) {
+                    Toast.makeText(getApplicationContext(), "Trenutno nemate niti jedan posao", Toast.LENGTH_LONG).show();
+                } else {
+                    prikaziObavijesti();
+                }
             }
         });
 
@@ -84,15 +89,20 @@ public class ObavjestiIzvodjac extends AppCompatActivity {
         novaPoruka.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                otvoriAktivnostNovaPoruka();
+                if (idPoslova.isEmpty()) {
+                    Toast.makeText(getApplicationContext(), "Trenutno nemate niti jedan posao", Toast.LENGTH_LONG).show();
+                } else {
+                    otvoriAktivnostNovaPoruka();
+                }
+
 
             }
         });
 
     }
     public void otvoriAktivnostNovaPoruka(){
-        idPosla=idPoslova.get(spinnerPoslovi.getSelectedItemPosition());
-        Intent otvoriNovuPoruku= new Intent(ObavjestiIzvodjac.this, NovaPorukaIzvodjac.class);
+        idPosla = idPoslova.get(spinnerPoslovi.getSelectedItemPosition());
+        Intent otvoriNovuPoruku = new Intent(ObavjestiIzvodjac.this, NovaPorukaIzvodjac.class);
         otvoriNovuPoruku.putExtra("ID_posla", idPoslova.get(spinnerPoslovi.getSelectedItemPosition()));
         otvoriNovuPoruku.putExtra("ID_izvodjaca", ID);
         startActivity(otvoriNovuPoruku);
@@ -165,9 +175,10 @@ public class ObavjestiIzvodjac extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item){
         switch (item.getItemId()){
             case android.R.id.home:
-                Intent intent = new Intent(this, GlavniIzbornikIzvodjac.class);
-                intent.putExtra("ID_izvodjaca", ID);
-                this.startActivity(intent);
+                //Intent intent = new Intent(this, GlavniIzbornikIzvodjac.class);
+                //intent.putExtra("ID_izvodjaca", ID);
+                //this.startActivity(intent);
+                finish();
                 break;
         }
         return super.onOptionsItemSelected(item);

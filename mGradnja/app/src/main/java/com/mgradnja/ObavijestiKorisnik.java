@@ -14,6 +14,7 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 import com.mgradnja.Adapters.ObavijestAdapter;
 import com.mgradnja.HelpEntities.ObavijestAtributes;
@@ -66,8 +67,13 @@ public class ObavijestiKorisnik extends AppCompatActivity {
         izaberiPosao.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                prikaziObavijesti();
+                if (idPoslova.isEmpty()) {
+                    Toast.makeText(getApplicationContext(), "Trenutno nemate niti jedan posao", Toast.LENGTH_LONG).show();
+                } else {
+                    prikaziObavijesti();
+                }
             }
+
         });
 
 
@@ -141,7 +147,7 @@ public class ObavijestiKorisnik extends AppCompatActivity {
         switch (item.getItemId()){
             case android.R.id.home:
                 Intent intent = new Intent(this, GlavniIzbornikIzvodjac.class);
-                intent.putExtra("ID_izvodjaca", ID);
+                intent.putExtra("ID_korisnika", ID);
                 this.startActivity(intent);
                 break;
         }

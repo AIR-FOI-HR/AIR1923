@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:2:1-59:12
+ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:2:1-60:12
 MERGED from [:braintree] C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-41:12
 MERGED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\4a088d3fee87d2352e4c741dcf3b49fb\jetified-drop-in-3.7.1\AndroidManifest.xml:2:1-32:12
 MERGED from [com.braintreepayments:card-form:3.5.0] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\e8f490c452f693b80998a6a5111a0594\jetified-card-form-3.5.0\AndroidManifest.xml:2:1-11:12
@@ -60,20 +60,20 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\Filip\.gradle\caches\transform
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\3a992d8307f21a8f15eb649383ba6a6a\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.braintreepayments.api:visa-checkout:1.0.0] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\e4c2c525ed4c8d5910a83a7d2b2cce28\jetified-visa-checkout-1.0.0\AndroidManifest.xml:2:1-12:12
 MERGED from [com.paypal.android.sdk:data-collector:2.18.1] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\9c92211cf6298402b48cd624dbce82e8\jetified-data-collector-2.18.1\AndroidManifest.xml:2:1-13:12
-INJECTED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:2:1-60:12
 	package
 		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:3:5-27
 		INJECTED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:2:1-59:12
+		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:2:1-60:12
 		INJECTED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:2:1-59:12
+		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:2:1-60:12
 		INJECTED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:2:11-69
@@ -114,7 +114,7 @@ ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\Andr
 	android:name
 		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:9:22-66
 application
-ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:11:5-57:19
+ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:11:5-58:19
 MERGED from [:braintree] C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-39:19
 MERGED from [:braintree] C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-39:19
 MERGED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\4a088d3fee87d2352e4c741dcf3b49fb\jetified-drop-in-3.7.1\AndroidManifest.xml:15:5-30:19
@@ -157,128 +157,132 @@ activity#com.mgradnja.ObavijestiKorisnik
 ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:18:9-55
 	android:name
 		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:18:19-53
+activity#com.mgradnja.RecenzijaKorisnikaActivity
+ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:19:9-73
+	android:name
+		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:19:19-61
 activity#com.mgradnja.Izvodjac.NovaPorukaIzvodjac
-ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:19:9-65
+ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:20:9-65
 	android:name
-		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:19:19-62
+		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:20:19-62
 activity#com.mgradnja.Izvodjac.EditProfilaIzvodjacaActivity
-ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:20:9-75
+ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:21:9-75
 	android:name
-		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:20:19-72
+		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:21:19-72
 activity#com.mgradnja.Izvodjac.ProfilIzvodjacaActivity
-ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:21:9-70
+ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:22:9-70
 	android:name
-		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:21:19-67
+		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:22:19-67
 activity#com.mgradnja.Izvodjac.IzvodjacKalendarActivity
-ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:22:9-71
+ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:23:9-71
 	android:name
-		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:22:19-68
+		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:23:19-68
 activity#com.mgradnja.Izvodjac.UpdateOfferActivity
-ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:23:9-66
+ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:24:9-66
 	android:name
-		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:23:19-63
+		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:24:19-63
 activity#com.mgradnja.Izvodjac.OfferListAcitivityIzvodjac
-ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:24:9-73
+ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:25:9-73
 	android:name
-		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:24:19-70
+		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:25:19-70
 activity#com.mgradnja.Izvodjac.OfferActivity
-ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:25:9-60
+ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:26:9-60
 	android:name
-		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:25:19-57
+		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:26:19-57
 activity#com.mgradnja.Izvodjac.JobListActivityIzvodjac
-ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:26:9-70
+ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:27:9-70
 	android:name
-		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:26:19-67
+		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:27:19-67
 activity#com.mgradnja.Izvodjac.ObavjestiIzvodjac
-ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:27:9-64
+ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:28:9-64
 	android:name
-		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:27:19-61
+		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:28:19-61
 activity#com.mgradnja.IzvodjacInfoActivity
-ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:28:9-30:68
+ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:29:9-31:68
 	android:label
-		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:30:13-65
+		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:31:13-65
 	android:name
-		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:29:13-49
+		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:30:13-49
 activity#com.mgradnja.IstraziIzvodjaceActivity
-ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:31:9-62
+ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:32:9-62
 	android:name
-		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:31:19-59
+		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:32:19-59
 activity#com.mgradnja.OfferListActivity
-ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:32:9-55
+ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:33:9-55
 	android:name
-		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:32:19-52
+		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:33:19-52
 activity#com.mgradnja.EditProfilKorisnikActivity
-ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:33:9-64
+ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:34:9-64
 	android:name
-		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:33:19-61
+		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:34:19-61
 activity#com.mgradnja.ProfilKorisnikActivity
-ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:34:9-60
+ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:35:9-60
 	android:name
-		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:34:19-57
+		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:35:19-57
 activity#com.mgradnja.JobListActivity
-ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:35:9-53
+ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:36:9-53
 	android:name
-		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:35:19-50
+		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:36:19-50
 activity#com.mgradnja.UserSearchActivity
-ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:36:9-56
+ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:37:9-56
 	android:name
-		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:36:19-53
+		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:37:19-53
 activity#com.mgradnja.Registration_performer
-ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:37:9-60
+ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:38:9-60
 	android:name
-		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:37:19-57
+		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:38:19-57
 activity#com.mgradnja.Registration_user
-ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:38:9-55
+ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:39:9-55
 	android:name
-		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:38:19-52
+		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:39:19-52
 activity#com.mgradnja.GlavniIzbornikKorisnik
-ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:39:9-60
+ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:40:9-60
 	android:name
-		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:39:19-57
+		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:40:19-57
 activity#com.mgradnja.RegistrationActivity
-ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:40:9-58
+ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:41:9-58
 	android:name
-		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:40:19-55
+		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:41:19-55
 activity#com.mgradnja.LoginActivity
-ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:41:9-51
-	android:name
-		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:41:19-48
-activity#com.mgradnja.QueryActivity
 ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:42:9-51
 	android:name
 		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:42:19-48
+activity#com.mgradnja.QueryActivity
+ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:43:9-51
+	android:name
+		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:43:19-48
 activity#com.mgradnja.Izvodjac.GlavniIzbornikIzvodjac
-ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:43:9-69
+ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:44:9-69
 	android:name
-		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:43:19-66
+		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:44:19-66
 activity#com.mgradnja.Izvodjac.DetaljiUpita
-ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:44:9-59
+ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:45:9-59
 	android:name
-		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:44:19-56
+		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:45:19-56
 activity#com.mgradnja.Izvodjac.IstraziUpiteIzvodjac
-ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:45:9-67
+ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:46:9-67
 	android:name
-		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:45:19-64
+		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:46:19-64
 activity#com.mgradnja.MainActivity
-ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:46:9-52:20
+ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:47:9-53:20
 	android:name
-		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:46:19-47
+		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:47:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:47:13-51:29
+ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:48:13-52:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:48:17-69
+ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:49:17-69
 	android:name
-		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:48:25-66
+		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:49:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:50:17-77
+ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:51:17-77
 	android:name
-		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:50:27-74
+		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:51:27-74
 meta-data#preloaded_fonts
-ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:54:9-56:57
+ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:55:9-57:57
 	android:resource
-		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:56:13-54
+		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:57:13-54
 	android:name
-		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:55:13-43
+		ADDED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:56:13-43
 uses-sdk
 INJECTED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml

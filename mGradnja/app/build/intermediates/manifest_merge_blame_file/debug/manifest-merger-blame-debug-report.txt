@@ -27,7 +27,7 @@
 15-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:9:22-66
 16
 17    <application
-17-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:11:5-57:19
+17-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:11:5-58:19
 18        android:allowBackup="true"
 18-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:12:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -49,191 +49,194 @@
 28        <activity android:name="com.mgradnja.ObavijestiKorisnik" />
 28-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:18:9-55
 28-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:18:19-53
-29        <activity android:name="com.mgradnja.Izvodjac.NovaPorukaIzvodjac" />
-29-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:19:9-65
-29-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:19:19-62
-30        <activity android:name="com.mgradnja.Izvodjac.EditProfilaIzvodjacaActivity" />
-30-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:20:9-75
-30-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:20:19-72
-31        <activity android:name="com.mgradnja.Izvodjac.ProfilIzvodjacaActivity" />
-31-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:21:9-70
-31-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:21:19-67
-32        <activity android:name="com.mgradnja.Izvodjac.IzvodjacKalendarActivity" />
-32-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:22:9-71
-32-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:22:19-68
-33        <activity android:name="com.mgradnja.Izvodjac.UpdateOfferActivity" />
-33-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:23:9-66
-33-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:23:19-63
-34        <activity android:name="com.mgradnja.Izvodjac.OfferListAcitivityIzvodjac" />
-34-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:24:9-73
-34-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:24:19-70
-35        <activity android:name="com.mgradnja.Izvodjac.OfferActivity" />
-35-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:25:9-60
-35-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:25:19-57
-36        <activity android:name="com.mgradnja.Izvodjac.JobListActivityIzvodjac" />
-36-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:26:9-70
-36-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:26:19-67
-37        <activity android:name="com.mgradnja.Izvodjac.ObavjestiIzvodjac" />
-37-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:27:9-64
-37-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:27:19-61
-38        <activity
-38-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:28:9-30:68
-39            android:name="com.mgradnja.IzvodjacInfoActivity"
-39-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:29:13-49
-40            android:label="@string/title_activity_izvodjac_info" />
-40-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:30:13-65
-41        <activity android:name="com.mgradnja.IstraziIzvodjaceActivity" />
-41-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:31:9-62
-41-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:31:19-59
-42        <activity android:name="com.mgradnja.OfferListActivity" />
-42-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:32:9-55
-42-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:32:19-52
-43        <activity android:name="com.mgradnja.EditProfilKorisnikActivity" />
-43-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:33:9-64
-43-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:33:19-61
-44        <activity android:name="com.mgradnja.ProfilKorisnikActivity" />
-44-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:34:9-60
-44-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:34:19-57
-45        <activity android:name="com.mgradnja.JobListActivity" />
-45-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:35:9-53
-45-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:35:19-50
-46        <activity android:name="com.mgradnja.UserSearchActivity" />
-46-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:36:9-56
-46-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:36:19-53
-47        <activity android:name="com.mgradnja.Registration_performer" />
-47-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:37:9-60
-47-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:37:19-57
-48        <activity android:name="com.mgradnja.Registration_user" />
-48-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:38:9-55
-48-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:38:19-52
-49        <activity android:name="com.mgradnja.GlavniIzbornikKorisnik" />
-49-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:39:9-60
-49-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:39:19-57
-50        <activity android:name="com.mgradnja.RegistrationActivity" />
-50-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:40:9-58
-50-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:40:19-55
-51        <activity android:name="com.mgradnja.LoginActivity" />
-51-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:41:9-51
-51-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:41:19-48
-52        <activity android:name="com.mgradnja.QueryActivity" />
+29        <activity android:name="com.mgradnja.RecenzijaKorisnikaActivity" />
+29-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:19:9-73
+29-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:19:19-61
+30        <activity android:name="com.mgradnja.Izvodjac.NovaPorukaIzvodjac" />
+30-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:20:9-65
+30-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:20:19-62
+31        <activity android:name="com.mgradnja.Izvodjac.EditProfilaIzvodjacaActivity" />
+31-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:21:9-75
+31-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:21:19-72
+32        <activity android:name="com.mgradnja.Izvodjac.ProfilIzvodjacaActivity" />
+32-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:22:9-70
+32-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:22:19-67
+33        <activity android:name="com.mgradnja.Izvodjac.IzvodjacKalendarActivity" />
+33-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:23:9-71
+33-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:23:19-68
+34        <activity android:name="com.mgradnja.Izvodjac.UpdateOfferActivity" />
+34-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:24:9-66
+34-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:24:19-63
+35        <activity android:name="com.mgradnja.Izvodjac.OfferListAcitivityIzvodjac" />
+35-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:25:9-73
+35-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:25:19-70
+36        <activity android:name="com.mgradnja.Izvodjac.OfferActivity" />
+36-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:26:9-60
+36-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:26:19-57
+37        <activity android:name="com.mgradnja.Izvodjac.JobListActivityIzvodjac" />
+37-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:27:9-70
+37-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:27:19-67
+38        <activity android:name="com.mgradnja.Izvodjac.ObavjestiIzvodjac" />
+38-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:28:9-64
+38-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:28:19-61
+39        <activity
+39-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:29:9-31:68
+40            android:name="com.mgradnja.IzvodjacInfoActivity"
+40-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:30:13-49
+41            android:label="@string/title_activity_izvodjac_info" />
+41-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:31:13-65
+42        <activity android:name="com.mgradnja.IstraziIzvodjaceActivity" />
+42-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:32:9-62
+42-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:32:19-59
+43        <activity android:name="com.mgradnja.OfferListActivity" />
+43-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:33:9-55
+43-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:33:19-52
+44        <activity android:name="com.mgradnja.EditProfilKorisnikActivity" />
+44-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:34:9-64
+44-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:34:19-61
+45        <activity android:name="com.mgradnja.ProfilKorisnikActivity" />
+45-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:35:9-60
+45-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:35:19-57
+46        <activity android:name="com.mgradnja.JobListActivity" />
+46-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:36:9-53
+46-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:36:19-50
+47        <activity android:name="com.mgradnja.UserSearchActivity" />
+47-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:37:9-56
+47-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:37:19-53
+48        <activity android:name="com.mgradnja.Registration_performer" />
+48-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:38:9-60
+48-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:38:19-57
+49        <activity android:name="com.mgradnja.Registration_user" />
+49-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:39:9-55
+49-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:39:19-52
+50        <activity android:name="com.mgradnja.GlavniIzbornikKorisnik" />
+50-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:40:9-60
+50-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:40:19-57
+51        <activity android:name="com.mgradnja.RegistrationActivity" />
+51-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:41:9-58
+51-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:41:19-55
+52        <activity android:name="com.mgradnja.LoginActivity" />
 52-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:42:9-51
 52-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:42:19-48
-53        <activity android:name="com.mgradnja.Izvodjac.GlavniIzbornikIzvodjac" />
-53-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:43:9-69
-53-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:43:19-66
-54        <activity android:name="com.mgradnja.Izvodjac.DetaljiUpita" />
-54-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:44:9-59
-54-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:44:19-56
-55        <activity android:name="com.mgradnja.Izvodjac.IstraziUpiteIzvodjac" />
-55-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:45:9-67
-55-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:45:19-64
-56        <activity android:name="com.mgradnja.MainActivity" >
-56-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:46:9-52:20
-56-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:46:19-47
-57            <intent-filter>
-57-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:47:13-51:29
-58                <action android:name="android.intent.action.MAIN" />
-58-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:48:17-69
-58-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:48:25-66
-59
-60                <category android:name="android.intent.category.LAUNCHER" />
-60-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:50:17-77
-60-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:50:27-74
-61            </intent-filter>
-62        </activity>
-63
-64        <meta-data
-64-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:54:9-56:57
-65            android:name="preloaded_fonts"
-65-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:55:13-43
-66            android:resource="@array/preloaded_fonts" />
-66-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:56:13-54
-67
-68        <activity
-68-->[:braintree] C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:9-33:20
-69            android:name="com.braintreepayments.api.BraintreeBrowserSwitchActivity"
-69-->[:braintree] C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:13-84
-70            android:launchMode="singleTask" >
-70-->[:braintree] C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-44
-71            <intent-filter>
-71-->[:braintree] C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-32:29
-72                <action android:name="android.intent.action.VIEW" />
-72-->[:braintree] C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:17-69
-72-->[:braintree] C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:25-66
-73
-74                <category android:name="android.intent.category.DEFAULT" />
-74-->[:braintree] C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:17-76
-74-->[:braintree] C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:27-73
-75                <category android:name="android.intent.category.BROWSABLE" />
-75-->[:braintree] C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:17-78
-75-->[:braintree] C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:27-75
-76
-77                <data android:scheme="com.mgradnja.braintree" />
-77-->[:braintree] C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:17-69
-77-->[:braintree] C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:23-66
-78            </intent-filter>
-79        </activity>
-80        <activity android:name="com.example.braintree.MainActivityBrainTree" >
-80-->[:braintree] C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:9-38:20
-80-->[:braintree] C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:19-77
-81            <intent-filter>
-81-->[:braintree] C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:13-37:29
-82                <action android:name="android.intent.action.MAIN" />
-82-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:48:17-69
-82-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:48:25-66
-83            </intent-filter>
-84        </activity>
-85        <activity
-85-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\4a088d3fee87d2352e4c741dcf3b49fb\jetified-drop-in-3.7.1\AndroidManifest.xml:18:9-20:62
-86            android:name="com.braintreepayments.api.threedsecure.ThreeDSecureWebViewActivity"
-86-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\4a088d3fee87d2352e4c741dcf3b49fb\jetified-drop-in-3.7.1\AndroidManifest.xml:19:13-94
-87            android:theme="@style/bt_three_d_secure_theme" />
-87-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\4a088d3fee87d2352e4c741dcf3b49fb\jetified-drop-in-3.7.1\AndroidManifest.xml:20:13-59
-88        <activity
-88-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\4a088d3fee87d2352e4c741dcf3b49fb\jetified-drop-in-3.7.1\AndroidManifest.xml:21:9-23:64
-89            android:name="com.braintreepayments.api.dropin.DropInActivity"
-89-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\4a088d3fee87d2352e4c741dcf3b49fb\jetified-drop-in-3.7.1\AndroidManifest.xml:22:13-75
-90            android:theme="@style/bt_drop_in_activity_theme" />
-90-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\4a088d3fee87d2352e4c741dcf3b49fb\jetified-drop-in-3.7.1\AndroidManifest.xml:23:13-61
-91        <activity
-91-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\4a088d3fee87d2352e4c741dcf3b49fb\jetified-drop-in-3.7.1\AndroidManifest.xml:24:9-26:65
-92            android:name="com.braintreepayments.api.dropin.AddCardActivity"
-92-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\4a088d3fee87d2352e4c741dcf3b49fb\jetified-drop-in-3.7.1\AndroidManifest.xml:25:13-76
-93            android:theme="@style/bt_add_card_activity_theme" />
-93-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\4a088d3fee87d2352e4c741dcf3b49fb\jetified-drop-in-3.7.1\AndroidManifest.xml:26:13-62
-94        <activity
-94-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\4a088d3fee87d2352e4c741dcf3b49fb\jetified-drop-in-3.7.1\AndroidManifest.xml:27:9-29:70
-95            android:name="com.braintreepayments.api.dropin.VaultManagerActivity"
-95-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\4a088d3fee87d2352e4c741dcf3b49fb\jetified-drop-in-3.7.1\AndroidManifest.xml:28:13-81
-96            android:theme="@style/bt_vault_manager_activity_theme" />
-96-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\4a088d3fee87d2352e4c741dcf3b49fb\jetified-drop-in-3.7.1\AndroidManifest.xml:29:13-67
-97        <activity
-97-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\275ab35cbe76e2925dcd886f8f55aa33\jetified-braintree-2.18.1\AndroidManifest.xml:15:9-17:62
-98            android:name="com.braintreepayments.api.AndroidPayActivity"
-98-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\275ab35cbe76e2925dcd886f8f55aa33\jetified-braintree-2.18.1\AndroidManifest.xml:16:13-72
-99            android:theme="@style/bt_transparent_activity" />
-99-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\275ab35cbe76e2925dcd886f8f55aa33\jetified-braintree-2.18.1\AndroidManifest.xml:17:13-59
-100        <activity
-100-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\275ab35cbe76e2925dcd886f8f55aa33\jetified-braintree-2.18.1\AndroidManifest.xml:18:9-20:62
-101            android:name="com.braintreepayments.api.GooglePaymentActivity"
-101-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\275ab35cbe76e2925dcd886f8f55aa33\jetified-braintree-2.18.1\AndroidManifest.xml:19:13-75
-102            android:theme="@style/bt_transparent_activity" />
-102-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\275ab35cbe76e2925dcd886f8f55aa33\jetified-braintree-2.18.1\AndroidManifest.xml:20:13-59
-103
-104        <service android:name="com.braintreepayments.api.internal.AnalyticsIntentService" />
-104-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\275ab35cbe76e2925dcd886f8f55aa33\jetified-braintree-2.18.1\AndroidManifest.xml:23:9-93
-104-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\275ab35cbe76e2925dcd886f8f55aa33\jetified-braintree-2.18.1\AndroidManifest.xml:23:18-90
-105
-106        <provider
-106-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
-107            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-107-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
-108            android:authorities="com.mgradnja.lifecycle-process"
-108-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
-109            android:exported="false"
-109-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
-110            android:multiprocess="true" />
-110-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
-111    </application>
-112
-113</manifest>
+53        <activity android:name="com.mgradnja.QueryActivity" />
+53-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:43:9-51
+53-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:43:19-48
+54        <activity android:name="com.mgradnja.Izvodjac.GlavniIzbornikIzvodjac" />
+54-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:44:9-69
+54-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:44:19-66
+55        <activity android:name="com.mgradnja.Izvodjac.DetaljiUpita" />
+55-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:45:9-59
+55-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:45:19-56
+56        <activity android:name="com.mgradnja.Izvodjac.IstraziUpiteIzvodjac" />
+56-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:46:9-67
+56-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:46:19-64
+57        <activity android:name="com.mgradnja.MainActivity" >
+57-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:47:9-53:20
+57-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:47:19-47
+58            <intent-filter>
+58-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:48:13-52:29
+59                <action android:name="android.intent.action.MAIN" />
+59-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:49:17-69
+59-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:49:25-66
+60
+61                <category android:name="android.intent.category.LAUNCHER" />
+61-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:51:17-77
+61-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:51:27-74
+62            </intent-filter>
+63        </activity>
+64
+65        <meta-data
+65-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:55:9-57:57
+66            android:name="preloaded_fonts"
+66-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:56:13-43
+67            android:resource="@array/preloaded_fonts" />
+67-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:57:13-54
+68
+69        <activity
+69-->[:braintree] C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:9-33:20
+70            android:name="com.braintreepayments.api.BraintreeBrowserSwitchActivity"
+70-->[:braintree] C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:13-84
+71            android:launchMode="singleTask" >
+71-->[:braintree] C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-44
+72            <intent-filter>
+72-->[:braintree] C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-32:29
+73                <action android:name="android.intent.action.VIEW" />
+73-->[:braintree] C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:17-69
+73-->[:braintree] C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:25-66
+74
+75                <category android:name="android.intent.category.DEFAULT" />
+75-->[:braintree] C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:17-76
+75-->[:braintree] C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:27-73
+76                <category android:name="android.intent.category.BROWSABLE" />
+76-->[:braintree] C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:17-78
+76-->[:braintree] C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:27-75
+77
+78                <data android:scheme="com.mgradnja.braintree" />
+78-->[:braintree] C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:17-69
+78-->[:braintree] C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:23-66
+79            </intent-filter>
+80        </activity>
+81        <activity android:name="com.example.braintree.MainActivityBrainTree" >
+81-->[:braintree] C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:9-38:20
+81-->[:braintree] C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:19-77
+82            <intent-filter>
+82-->[:braintree] C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:13-37:29
+83                <action android:name="android.intent.action.MAIN" />
+83-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:49:17-69
+83-->C:\Users\Filip\Desktop\obavijesti_korisnik\mGradnja\app\src\main\AndroidManifest.xml:49:25-66
+84            </intent-filter>
+85        </activity>
+86        <activity
+86-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\4a088d3fee87d2352e4c741dcf3b49fb\jetified-drop-in-3.7.1\AndroidManifest.xml:18:9-20:62
+87            android:name="com.braintreepayments.api.threedsecure.ThreeDSecureWebViewActivity"
+87-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\4a088d3fee87d2352e4c741dcf3b49fb\jetified-drop-in-3.7.1\AndroidManifest.xml:19:13-94
+88            android:theme="@style/bt_three_d_secure_theme" />
+88-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\4a088d3fee87d2352e4c741dcf3b49fb\jetified-drop-in-3.7.1\AndroidManifest.xml:20:13-59
+89        <activity
+89-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\4a088d3fee87d2352e4c741dcf3b49fb\jetified-drop-in-3.7.1\AndroidManifest.xml:21:9-23:64
+90            android:name="com.braintreepayments.api.dropin.DropInActivity"
+90-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\4a088d3fee87d2352e4c741dcf3b49fb\jetified-drop-in-3.7.1\AndroidManifest.xml:22:13-75
+91            android:theme="@style/bt_drop_in_activity_theme" />
+91-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\4a088d3fee87d2352e4c741dcf3b49fb\jetified-drop-in-3.7.1\AndroidManifest.xml:23:13-61
+92        <activity
+92-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\4a088d3fee87d2352e4c741dcf3b49fb\jetified-drop-in-3.7.1\AndroidManifest.xml:24:9-26:65
+93            android:name="com.braintreepayments.api.dropin.AddCardActivity"
+93-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\4a088d3fee87d2352e4c741dcf3b49fb\jetified-drop-in-3.7.1\AndroidManifest.xml:25:13-76
+94            android:theme="@style/bt_add_card_activity_theme" />
+94-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\4a088d3fee87d2352e4c741dcf3b49fb\jetified-drop-in-3.7.1\AndroidManifest.xml:26:13-62
+95        <activity
+95-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\4a088d3fee87d2352e4c741dcf3b49fb\jetified-drop-in-3.7.1\AndroidManifest.xml:27:9-29:70
+96            android:name="com.braintreepayments.api.dropin.VaultManagerActivity"
+96-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\4a088d3fee87d2352e4c741dcf3b49fb\jetified-drop-in-3.7.1\AndroidManifest.xml:28:13-81
+97            android:theme="@style/bt_vault_manager_activity_theme" />
+97-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\4a088d3fee87d2352e4c741dcf3b49fb\jetified-drop-in-3.7.1\AndroidManifest.xml:29:13-67
+98        <activity
+98-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\275ab35cbe76e2925dcd886f8f55aa33\jetified-braintree-2.18.1\AndroidManifest.xml:15:9-17:62
+99            android:name="com.braintreepayments.api.AndroidPayActivity"
+99-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\275ab35cbe76e2925dcd886f8f55aa33\jetified-braintree-2.18.1\AndroidManifest.xml:16:13-72
+100            android:theme="@style/bt_transparent_activity" />
+100-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\275ab35cbe76e2925dcd886f8f55aa33\jetified-braintree-2.18.1\AndroidManifest.xml:17:13-59
+101        <activity
+101-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\275ab35cbe76e2925dcd886f8f55aa33\jetified-braintree-2.18.1\AndroidManifest.xml:18:9-20:62
+102            android:name="com.braintreepayments.api.GooglePaymentActivity"
+102-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\275ab35cbe76e2925dcd886f8f55aa33\jetified-braintree-2.18.1\AndroidManifest.xml:19:13-75
+103            android:theme="@style/bt_transparent_activity" />
+103-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\275ab35cbe76e2925dcd886f8f55aa33\jetified-braintree-2.18.1\AndroidManifest.xml:20:13-59
+104
+105        <service android:name="com.braintreepayments.api.internal.AnalyticsIntentService" />
+105-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\275ab35cbe76e2925dcd886f8f55aa33\jetified-braintree-2.18.1\AndroidManifest.xml:23:9-93
+105-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\275ab35cbe76e2925dcd886f8f55aa33\jetified-braintree-2.18.1\AndroidManifest.xml:23:18-90
+106
+107        <provider
+107-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+108            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+108-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+109            android:authorities="com.mgradnja.lifecycle-process"
+109-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+110            android:exported="false"
+110-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+111            android:multiprocess="true" />
+111-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Filip\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+112    </application>
+113
+114</manifest>

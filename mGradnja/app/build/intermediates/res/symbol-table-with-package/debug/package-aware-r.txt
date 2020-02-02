@@ -1596,6 +1596,7 @@ drawable ic_mtrl_chip_close_circle
 drawable ic_notifications_24dp
 drawable ic_person_24dp
 drawable ic_poziv
+drawable ic_review
 drawable ic_search
 drawable ic_search_24dp
 drawable ic_upit
@@ -1791,12 +1792,14 @@ id btnNatragNaPrijavu
 id btnNovaPoruka
 id btnObrisi
 id btnOdabirDjelatnosti
+id btnOdabirOcjene
 id btnOnline
 id btnPosalji
 id btnPosaljiPonudu
 id btnPrijava
 id btnPrijavaIzRegistracije
 id btnPrijaviSe
+id btnRecenziraj
 id btnRegistracija
 id btnRegistracijaIzPrijave
 id btnRegistracijaIzvodjac
@@ -1923,9 +1926,11 @@ id labelaBrRacuna
 id labelaDatum
 id labelaGrad
 id labelaGradUpita
+id labelaKomentar
 id labelaKontakt
 id labelaMail
 id labelaNaziv
+id labelaOcjena
 id labelaOib
 id labelaOpis
 id labelaRating
@@ -1977,6 +1982,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id multiply
 id myViewPager
+id napisiRecenziju
 id naslov
 id nav_assignment
 id nav_calendar
@@ -2100,6 +2106,7 @@ id tag_screen_reader_focusable
 id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
+id tekstKomentara
 id test_checkbox_android_button_tint
 id test_checkbox_app_button_tint
 id text
@@ -2333,6 +2340,7 @@ layout activity_offer_list_acitivity_izvodjac
 layout activity_profil_izvodjaca
 layout activity_profil_korisnik
 layout activity_query
+layout activity_recenzija_korisnika
 layout activity_registration
 layout activity_registration_performer
 layout activity_registration_user
