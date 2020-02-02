@@ -1,4 +1,4 @@
-package com.mgradnja;
+package com.mgradnja.Korisnik;
 
 import android.app.DatePickerDialog;
 import android.content.Intent;
@@ -29,6 +29,9 @@ import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.DialogFragment;
+
+import com.mgradnja.ConnectionClass;
+import com.mgradnja.R;
 
 public class QueryActivity extends AppCompatActivity implements DatePickerDialog.OnDateSetListener {
 

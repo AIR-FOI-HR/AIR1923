@@ -16,13 +16,8 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 
 import com.google.android.material.tabs.TabLayout;
-import com.mgradnja.GlavniIzbornikKorisnik;
-import com.mgradnja.Izvodjac.FragmentProfilIzvodjacaOpis;
-import com.mgradnja.Izvodjac.FragmentProfilIzvodjacaRecenzije;
-import com.mgradnja.Izvodjac.ProfilIzvodjacaActivity;
 import com.mgradnja.MainActivity;
 import com.mgradnja.R;
-import com.mgradnja.Izvodjac.ViewPagerAdapterProfileIzvodjaca;
 
 public class ProfilIzvodjacaActivity extends AppCompatActivity {
 

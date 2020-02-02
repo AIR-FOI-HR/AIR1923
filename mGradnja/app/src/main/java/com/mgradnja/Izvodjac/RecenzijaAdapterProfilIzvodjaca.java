@@ -9,9 +9,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.mgradnja.ItemRecenzijaProfilKorisnika;
 import com.mgradnja.R;
-import com.mgradnja.RecenzijeAdapterProfilKorisnika;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

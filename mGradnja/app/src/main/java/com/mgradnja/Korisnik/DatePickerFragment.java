@@ -1,4 +1,4 @@
-package com.mgradnja;
+package com.mgradnja.Korisnik;
 
 import android.app.DatePickerDialog;
 import android.app.Dialog;

@@ -1,4 +1,4 @@
-package com.mgradnja;
+package com.mgradnja.Korisnik;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,23 +8,21 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.Spinner;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.mgradnja.ConnectionClass;
+import com.mgradnja.R;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
-import java.util.List;
 
 public class GlavniIzbornikKorisnik extends AppCompatActivity {
 
@@ -95,7 +93,7 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
     }
 
     public void otvoriObavijesti(Integer ID){
-        Intent intent = new Intent(this,ObavijestiKorisnik.class);
+        Intent intent = new Intent(this, ObavijestiKorisnik.class);
         intent.putExtra("ID_korisnika", ID);
         startActivity(intent);
     }

@@ -1,4 +1,4 @@
-package com.mgradnja;
+package com.mgradnja.Korisnik;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
@@ -17,8 +17,10 @@ import android.widget.Spinner;
 import android.widget.Toast;
 
 import com.mgradnja.Adapters.ObavijestAdapter;
+import com.mgradnja.ConnectionClass;
 import com.mgradnja.HelpEntities.ObavijestAtributes;
 import com.mgradnja.Izvodjac.GlavniIzbornikIzvodjac;
+import com.mgradnja.R;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -57,6 +59,7 @@ public class ObavijestiKorisnik extends AppCompatActivity {
         ActionBar actionBar=getSupportActionBar();
         if(actionBar != null){
             actionBar.setDisplayHomeAsUpEnabled(true);
+            actionBar.setTitle("Obavijesti");
         }
 
         dohvatiPoslove();
@@ -146,9 +149,10 @@ public class ObavijestiKorisnik extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item){
         switch (item.getItemId()){
             case android.R.id.home:
-                Intent intent = new Intent(this, GlavniIzbornikIzvodjac.class);
-                intent.putExtra("ID_korisnika", ID);
-                this.startActivity(intent);
+                //Intent intent = new Intent(this, GlavniIzbornikKorisnik.class);
+                //intent.putExtra("ID_korisnika", ID);
+                //this.startActivity(intent);
+                finish();
                 break;
         }
         return super.onOptionsItemSelected(item);

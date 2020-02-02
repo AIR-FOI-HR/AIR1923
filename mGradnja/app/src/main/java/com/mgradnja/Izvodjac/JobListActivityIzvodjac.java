@@ -15,14 +15,11 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
-import android.widget.TextView;
 import android.widget.Toast;
 
-import com.mgradnja.Adapters.JobAdapter;
 import com.mgradnja.Adapters.JobAdapterIzvodjac;
 import com.mgradnja.ConnectionClass;
 import com.mgradnja.HelpEntities.JobAtributes;
-import com.mgradnja.JobListActivity;
 import com.mgradnja.R;
 
 import java.sql.Connection;

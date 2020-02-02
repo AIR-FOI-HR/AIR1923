@@ -1,17 +1,9 @@
-package com.mgradnja;
+package com.mgradnja.Korisnik;
 
-import android.content.Context;
 import android.content.Intent;
 
-import android.database.Cursor;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-
-import android.net.Uri;
 import android.os.Bundle;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
@@ -19,10 +11,12 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import android.widget.Button;
-import android.widget.ImageView;
 
 import android.widget.TextView;
-import android.widget.Toast;
+
+import com.mgradnja.ConnectionClass;
+import com.mgradnja.Korisnik.EditProfilKorisnikActivity;
+import com.mgradnja.R;
 
 import java.sql.Connection;
 import java.sql.ResultSet;

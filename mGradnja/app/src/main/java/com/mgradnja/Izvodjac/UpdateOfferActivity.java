@@ -8,7 +8,6 @@ import androidx.fragment.app.DialogFragment;
 
 import android.app.DatePickerDialog;
 import android.content.Intent;
-import android.graphics.Path;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.Menu;
@@ -21,8 +20,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.mgradnja.ConnectionClass;
-import com.mgradnja.DatePickerFragment;
-import com.mgradnja.GlavniIzbornikKorisnik;
+import com.mgradnja.Korisnik.DatePickerFragment;
 import com.mgradnja.R;
 
 import java.sql.Connection;

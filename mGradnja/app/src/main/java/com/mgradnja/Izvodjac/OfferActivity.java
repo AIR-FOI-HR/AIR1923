@@ -16,7 +16,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.mgradnja.ConnectionClass;
-import com.mgradnja.DatePickerFragment;
+import com.mgradnja.Korisnik.DatePickerFragment;
 import com.mgradnja.R;
 
 import java.sql.Connection;
@@ -24,7 +24,6 @@ import java.sql.Date;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-import java.sql.Time;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

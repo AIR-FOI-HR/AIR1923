@@ -1,4 +1,4 @@
-package com.mgradnja;
+package com.mgradnja.Korisnik;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
@@ -22,8 +22,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.mgradnja.Adapters.OfferAdapter;
+import com.mgradnja.ConnectionClass;
 import com.mgradnja.HelpEntities.JobAtributes;
-import com.mgradnja.Izvodjac.GlavniIzbornikIzvodjac;
+import com.mgradnja.R;
 
 import java.sql.Connection;
 import java.sql.ResultSet;

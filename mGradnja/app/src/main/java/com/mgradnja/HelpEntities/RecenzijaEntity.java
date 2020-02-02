@@ -1,4 +1,4 @@
-package com.mgradnja;
+package com.mgradnja.HelpEntities;
 
 import java.util.Date;
 

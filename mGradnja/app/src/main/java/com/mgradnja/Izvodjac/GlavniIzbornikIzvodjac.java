@@ -16,7 +16,6 @@ import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.mgradnja.ConnectionClass;
-import com.mgradnja.ProfilKorisnikActivity;
 import com.mgradnja.R;
 
 import java.sql.Connection;

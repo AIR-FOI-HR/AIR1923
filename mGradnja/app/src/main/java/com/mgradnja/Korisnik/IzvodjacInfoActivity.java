@@ -1,10 +1,8 @@
-package com.mgradnja;
+package com.mgradnja.Korisnik;
 
 import android.Manifest;
 import android.content.Intent;
 import android.content.pm.PackageManager;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -13,9 +11,11 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.Toast;
-import android.widget.Toolbar;
 
 import com.google.android.material.tabs.TabLayout;
+import com.mgradnja.ConnectionClass;
+import com.mgradnja.R;
+import com.mgradnja.Adapters.ViewPagerAdapterIzvodjacInfo;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
