@@ -6,237 +6,237 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml
+8-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml
+9-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:5:5-67
-11-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:5:22-64
+11-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:6:5-79
-12-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:6:22-76
+12-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:6:22-76
 13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-13-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:7:5-76
-13-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:7:22-73
+13-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:7:5-76
+13-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:7:22-73
 14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-14-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:8:5-80
-14-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:8:22-77
+14-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:8:5-80
+14-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:8:22-77
 15    <uses-permission android:name="android.permission.CALL_PHONE" />
-15-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:9:5-69
-15-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:9:22-66
+15-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:9:5-69
+15-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:9:22-66
 16
 17    <application
-17-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:11:5-58:19
+17-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:11:5-58:19
 18        android:allowBackup="true"
-18-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:12:9-35
+18-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:12:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-19-->[androidx.core:core:1.1.0] C:\Users\LUKA\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
+19-->[androidx.core:core:1.1.0] C:\Users\MarkoMehkek\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
 20        android:debuggable="true"
 21        android:icon="@mipmap/ic_launcher"
-21-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:13:9-43
+21-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:13:9-43
 22        android:label="@string/app_name"
-22-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:14:9-41
+22-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:14:9-41
 23        android:roundIcon="@mipmap/ic_launcher_round"
-23-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:15:9-54
+23-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:15:9-54
 24        android:supportsRtl="true"
-24-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:16:9-35
+24-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:16:9-35
 25        android:testOnly="true"
 26        android:theme="@style/AppTheme"
-26-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:17:9-40
+26-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:17:9-40
 27        android:usesCleartextTraffic="true" >
-27-->[:braintree] C:\Users\LUKA\Desktop\ispravak\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:9-44
+27-->[:braintree] C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:9-44
 28        <activity android:name="com.mgradnja.Korisnik.ObavijestiKorisnik" />
-28-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:18:9-64
-28-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:18:19-62
+28-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:18:9-64
+28-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:18:19-62
 29        <activity android:name="com.mgradnja.Korisnik.RecenzijaKorisnikaActivity" />
-29-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:19:9-82
-29-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:19:19-70
+29-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:19:9-82
+29-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:19:19-70
 30        <activity android:name="com.mgradnja.Izvodjac.NovaPorukaIzvodjac" />
-30-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:20:9-65
-30-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:20:19-62
+30-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:20:9-65
+30-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:20:19-62
 31        <activity android:name="com.mgradnja.Izvodjac.EditProfilaIzvodjacaActivity" />
-31-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:21:9-75
-31-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:21:19-72
+31-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:21:9-75
+31-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:21:19-72
 32        <activity android:name="com.mgradnja.Izvodjac.ProfilIzvodjacaActivity" />
-32-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:22:9-70
-32-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:22:19-67
+32-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:22:9-70
+32-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:22:19-67
 33        <activity android:name="com.mgradnja.Izvodjac.IzvodjacKalendarActivity" />
-33-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:23:9-71
-33-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:23:19-68
+33-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:23:9-71
+33-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:23:19-68
 34        <activity android:name="com.mgradnja.Izvodjac.UpdateOfferActivity" />
-34-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:24:9-66
-34-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:24:19-63
+34-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:24:9-66
+34-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:24:19-63
 35        <activity android:name="com.mgradnja.Izvodjac.OfferListAcitivityIzvodjac" />
-35-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:25:9-73
-35-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:25:19-70
+35-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:25:9-73
+35-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:25:19-70
 36        <activity android:name="com.mgradnja.Izvodjac.OfferActivity" />
-36-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:26:9-60
-36-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:26:19-57
+36-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:26:9-60
+36-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:26:19-57
 37        <activity android:name="com.mgradnja.Izvodjac.JobListActivityIzvodjac" />
-37-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:27:9-70
-37-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:27:19-67
+37-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:27:9-70
+37-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:27:19-67
 38        <activity android:name="com.mgradnja.Izvodjac.ObavjestiIzvodjac" />
-38-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:28:9-64
-38-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:28:19-61
+38-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:28:9-64
+38-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:28:19-61
 39        <activity
-39-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:29:9-31:68
+39-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:29:9-31:68
 40            android:name="com.mgradnja.Korisnik.IzvodjacInfoActivity"
-40-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:30:13-58
+40-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:30:13-58
 41            android:label="@string/title_activity_izvodjac_info" />
-41-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:31:13-65
+41-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:31:13-65
 42        <activity android:name="com.mgradnja.Korisnik.IstraziIzvodjaceActivity" />
-42-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:32:9-71
-42-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:32:19-68
+42-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:32:9-71
+42-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:32:19-68
 43        <activity android:name="com.mgradnja.Korisnik.OfferListActivity" />
-43-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:33:9-64
-43-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:33:19-61
+43-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:33:9-64
+43-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:33:19-61
 44        <activity android:name="com.mgradnja.Korisnik.EditProfilKorisnikActivity" />
-44-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:34:9-73
-44-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:34:19-70
+44-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:34:9-73
+44-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:34:19-70
 45        <activity android:name="com.mgradnja.Korisnik.ProfilKorisnikActivity" />
-45-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:35:9-69
-45-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:35:19-66
+45-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:35:9-69
+45-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:35:19-66
 46        <activity android:name="com.mgradnja.Korisnik.JobListActivity" />
-46-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:36:9-62
-46-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:36:19-59
+46-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:36:9-62
+46-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:36:19-59
 47        <activity android:name="com.mgradnja.Korisnik.UserSearchActivity" />
-47-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:37:9-65
-47-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:37:19-62
+47-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:37:9-65
+47-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:37:19-62
 48        <activity android:name="com.mgradnja.Registration_performer" />
-48-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:38:9-60
-48-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:38:19-57
+48-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:38:9-60
+48-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:38:19-57
 49        <activity android:name="com.mgradnja.Registration_user" />
-49-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:39:9-55
-49-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:39:19-52
+49-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:39:9-55
+49-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:39:19-52
 50        <activity android:name="com.mgradnja.Korisnik.GlavniIzbornikKorisnik" />
-50-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:40:9-69
-50-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:40:19-66
+50-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:40:9-69
+50-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:40:19-66
 51        <activity android:name="com.mgradnja.RegistrationActivity" />
-51-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:41:9-58
-51-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:41:19-55
+51-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:41:9-58
+51-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:41:19-55
 52        <activity android:name="com.mgradnja.LoginActivity" />
-52-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:42:9-51
-52-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:42:19-48
+52-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:42:9-51
+52-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:42:19-48
 53        <activity android:name="com.mgradnja.Korisnik.QueryActivity" />
-53-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:43:9-60
-53-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:43:19-57
+53-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:43:9-60
+53-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:43:19-57
 54        <activity android:name="com.mgradnja.Izvodjac.GlavniIzbornikIzvodjac" />
-54-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:44:9-69
-54-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:44:19-66
+54-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:44:9-69
+54-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:44:19-66
 55        <activity android:name="com.mgradnja.Izvodjac.DetaljiUpita" />
-55-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:45:9-59
-55-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:45:19-56
+55-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:45:9-59
+55-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:45:19-56
 56        <activity android:name="com.mgradnja.Izvodjac.IstraziUpiteIzvodjac" />
-56-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:46:9-67
-56-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:46:19-64
+56-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:46:9-67
+56-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:46:19-64
 57        <activity android:name="com.mgradnja.MainActivity" >
-57-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:47:9-53:20
-57-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:47:19-47
+57-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:47:9-53:20
+57-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:47:19-47
 58            <intent-filter>
-58-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:48:13-52:29
+58-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:48:13-52:29
 59                <action android:name="android.intent.action.MAIN" />
-59-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:49:17-69
-59-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:49:25-66
+59-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:49:17-69
+59-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:49:25-66
 60
 61                <category android:name="android.intent.category.LAUNCHER" />
-61-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:51:17-77
-61-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:51:27-74
+61-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:51:17-77
+61-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:51:27-74
 62            </intent-filter>
 63        </activity>
 64
 65        <meta-data
-65-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:55:9-57:57
+65-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:55:9-57:57
 66            android:name="preloaded_fonts"
-66-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:56:13-43
+66-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:56:13-43
 67            android:resource="@array/preloaded_fonts" />
-67-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:57:13-54
+67-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:57:13-54
 68
 69        <activity
-69-->[:braintree] C:\Users\LUKA\Desktop\ispravak\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:9-33:20
+69-->[:braintree] C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:9-33:20
 70            android:name="com.braintreepayments.api.BraintreeBrowserSwitchActivity"
-70-->[:braintree] C:\Users\LUKA\Desktop\ispravak\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:13-84
+70-->[:braintree] C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:13-84
 71            android:launchMode="singleTask" >
-71-->[:braintree] C:\Users\LUKA\Desktop\ispravak\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-44
+71-->[:braintree] C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-44
 72            <intent-filter>
-72-->[:braintree] C:\Users\LUKA\Desktop\ispravak\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-32:29
+72-->[:braintree] C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-32:29
 73                <action android:name="android.intent.action.VIEW" />
-73-->[:braintree] C:\Users\LUKA\Desktop\ispravak\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:17-69
-73-->[:braintree] C:\Users\LUKA\Desktop\ispravak\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:25-66
+73-->[:braintree] C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:17-69
+73-->[:braintree] C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:25-66
 74
 75                <category android:name="android.intent.category.DEFAULT" />
-75-->[:braintree] C:\Users\LUKA\Desktop\ispravak\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:17-76
-75-->[:braintree] C:\Users\LUKA\Desktop\ispravak\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:27-73
+75-->[:braintree] C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:17-76
+75-->[:braintree] C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:27-73
 76                <category android:name="android.intent.category.BROWSABLE" />
-76-->[:braintree] C:\Users\LUKA\Desktop\ispravak\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:17-78
-76-->[:braintree] C:\Users\LUKA\Desktop\ispravak\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:27-75
+76-->[:braintree] C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:17-78
+76-->[:braintree] C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:27-75
 77
 78                <data android:scheme="com.mgradnja.braintree" />
-78-->[:braintree] C:\Users\LUKA\Desktop\ispravak\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:17-69
-78-->[:braintree] C:\Users\LUKA\Desktop\ispravak\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:23-66
+78-->[:braintree] C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:17-69
+78-->[:braintree] C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:23-66
 79            </intent-filter>
 80        </activity>
 81        <activity android:name="com.example.braintree.MainActivityBrainTree" >
-81-->[:braintree] C:\Users\LUKA\Desktop\ispravak\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:9-38:20
-81-->[:braintree] C:\Users\LUKA\Desktop\ispravak\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:19-77
+81-->[:braintree] C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:9-38:20
+81-->[:braintree] C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:19-77
 82            <intent-filter>
-82-->[:braintree] C:\Users\LUKA\Desktop\ispravak\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:13-37:29
+82-->[:braintree] C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\braintree\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:13-37:29
 83                <action android:name="android.intent.action.MAIN" />
-83-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:49:17-69
-83-->C:\Users\LUKA\Desktop\ispravak\mGradnja\app\src\main\AndroidManifest.xml:49:25-66
+83-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:49:17-69
+83-->C:\Users\MarkoMehkek\Desktop\naredbe\Nova mapa\gifinal\mGradnja\app\src\main\AndroidManifest.xml:49:25-66
 84            </intent-filter>
 85        </activity>
 86        <activity
-86-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\LUKA\.gradle\caches\transforms-2\files-2.1\879976df0181d2425075e58c64970b0d\jetified-drop-in-3.7.1\AndroidManifest.xml:18:9-20:62
+86-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\MarkoMehkek\.gradle\caches\transforms-2\files-2.1\b07085cca598f17478cda1c42e0f62ac\jetified-drop-in-3.7.1\AndroidManifest.xml:18:9-20:62
 87            android:name="com.braintreepayments.api.threedsecure.ThreeDSecureWebViewActivity"
-87-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\LUKA\.gradle\caches\transforms-2\files-2.1\879976df0181d2425075e58c64970b0d\jetified-drop-in-3.7.1\AndroidManifest.xml:19:13-94
+87-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\MarkoMehkek\.gradle\caches\transforms-2\files-2.1\b07085cca598f17478cda1c42e0f62ac\jetified-drop-in-3.7.1\AndroidManifest.xml:19:13-94
 88            android:theme="@style/bt_three_d_secure_theme" />
-88-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\LUKA\.gradle\caches\transforms-2\files-2.1\879976df0181d2425075e58c64970b0d\jetified-drop-in-3.7.1\AndroidManifest.xml:20:13-59
+88-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\MarkoMehkek\.gradle\caches\transforms-2\files-2.1\b07085cca598f17478cda1c42e0f62ac\jetified-drop-in-3.7.1\AndroidManifest.xml:20:13-59
 89        <activity
-89-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\LUKA\.gradle\caches\transforms-2\files-2.1\879976df0181d2425075e58c64970b0d\jetified-drop-in-3.7.1\AndroidManifest.xml:21:9-23:64
+89-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\MarkoMehkek\.gradle\caches\transforms-2\files-2.1\b07085cca598f17478cda1c42e0f62ac\jetified-drop-in-3.7.1\AndroidManifest.xml:21:9-23:64
 90            android:name="com.braintreepayments.api.dropin.DropInActivity"
-90-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\LUKA\.gradle\caches\transforms-2\files-2.1\879976df0181d2425075e58c64970b0d\jetified-drop-in-3.7.1\AndroidManifest.xml:22:13-75
+90-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\MarkoMehkek\.gradle\caches\transforms-2\files-2.1\b07085cca598f17478cda1c42e0f62ac\jetified-drop-in-3.7.1\AndroidManifest.xml:22:13-75
 91            android:theme="@style/bt_drop_in_activity_theme" />
-91-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\LUKA\.gradle\caches\transforms-2\files-2.1\879976df0181d2425075e58c64970b0d\jetified-drop-in-3.7.1\AndroidManifest.xml:23:13-61
+91-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\MarkoMehkek\.gradle\caches\transforms-2\files-2.1\b07085cca598f17478cda1c42e0f62ac\jetified-drop-in-3.7.1\AndroidManifest.xml:23:13-61
 92        <activity
-92-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\LUKA\.gradle\caches\transforms-2\files-2.1\879976df0181d2425075e58c64970b0d\jetified-drop-in-3.7.1\AndroidManifest.xml:24:9-26:65
+92-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\MarkoMehkek\.gradle\caches\transforms-2\files-2.1\b07085cca598f17478cda1c42e0f62ac\jetified-drop-in-3.7.1\AndroidManifest.xml:24:9-26:65
 93            android:name="com.braintreepayments.api.dropin.AddCardActivity"
-93-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\LUKA\.gradle\caches\transforms-2\files-2.1\879976df0181d2425075e58c64970b0d\jetified-drop-in-3.7.1\AndroidManifest.xml:25:13-76
+93-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\MarkoMehkek\.gradle\caches\transforms-2\files-2.1\b07085cca598f17478cda1c42e0f62ac\jetified-drop-in-3.7.1\AndroidManifest.xml:25:13-76
 94            android:theme="@style/bt_add_card_activity_theme" />
-94-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\LUKA\.gradle\caches\transforms-2\files-2.1\879976df0181d2425075e58c64970b0d\jetified-drop-in-3.7.1\AndroidManifest.xml:26:13-62
+94-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\MarkoMehkek\.gradle\caches\transforms-2\files-2.1\b07085cca598f17478cda1c42e0f62ac\jetified-drop-in-3.7.1\AndroidManifest.xml:26:13-62
 95        <activity
-95-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\LUKA\.gradle\caches\transforms-2\files-2.1\879976df0181d2425075e58c64970b0d\jetified-drop-in-3.7.1\AndroidManifest.xml:27:9-29:70
+95-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\MarkoMehkek\.gradle\caches\transforms-2\files-2.1\b07085cca598f17478cda1c42e0f62ac\jetified-drop-in-3.7.1\AndroidManifest.xml:27:9-29:70
 96            android:name="com.braintreepayments.api.dropin.VaultManagerActivity"
-96-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\LUKA\.gradle\caches\transforms-2\files-2.1\879976df0181d2425075e58c64970b0d\jetified-drop-in-3.7.1\AndroidManifest.xml:28:13-81
+96-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\MarkoMehkek\.gradle\caches\transforms-2\files-2.1\b07085cca598f17478cda1c42e0f62ac\jetified-drop-in-3.7.1\AndroidManifest.xml:28:13-81
 97            android:theme="@style/bt_vault_manager_activity_theme" />
-97-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\LUKA\.gradle\caches\transforms-2\files-2.1\879976df0181d2425075e58c64970b0d\jetified-drop-in-3.7.1\AndroidManifest.xml:29:13-67
+97-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\MarkoMehkek\.gradle\caches\transforms-2\files-2.1\b07085cca598f17478cda1c42e0f62ac\jetified-drop-in-3.7.1\AndroidManifest.xml:29:13-67
 98        <activity
-98-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\LUKA\.gradle\caches\transforms-2\files-2.1\5e3218f41bf0c365694af3bc443af24d\jetified-braintree-2.18.1\AndroidManifest.xml:15:9-17:62
+98-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\MarkoMehkek\.gradle\caches\transforms-2\files-2.1\dd21dde315149cd8a28315dd12ef1309\jetified-braintree-2.18.1\AndroidManifest.xml:15:9-17:62
 99            android:name="com.braintreepayments.api.AndroidPayActivity"
-99-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\LUKA\.gradle\caches\transforms-2\files-2.1\5e3218f41bf0c365694af3bc443af24d\jetified-braintree-2.18.1\AndroidManifest.xml:16:13-72
+99-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\MarkoMehkek\.gradle\caches\transforms-2\files-2.1\dd21dde315149cd8a28315dd12ef1309\jetified-braintree-2.18.1\AndroidManifest.xml:16:13-72
 100            android:theme="@style/bt_transparent_activity" />
-100-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\LUKA\.gradle\caches\transforms-2\files-2.1\5e3218f41bf0c365694af3bc443af24d\jetified-braintree-2.18.1\AndroidManifest.xml:17:13-59
+100-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\MarkoMehkek\.gradle\caches\transforms-2\files-2.1\dd21dde315149cd8a28315dd12ef1309\jetified-braintree-2.18.1\AndroidManifest.xml:17:13-59
 101        <activity
-101-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\LUKA\.gradle\caches\transforms-2\files-2.1\5e3218f41bf0c365694af3bc443af24d\jetified-braintree-2.18.1\AndroidManifest.xml:18:9-20:62
+101-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\MarkoMehkek\.gradle\caches\transforms-2\files-2.1\dd21dde315149cd8a28315dd12ef1309\jetified-braintree-2.18.1\AndroidManifest.xml:18:9-20:62
 102            android:name="com.braintreepayments.api.GooglePaymentActivity"
-102-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\LUKA\.gradle\caches\transforms-2\files-2.1\5e3218f41bf0c365694af3bc443af24d\jetified-braintree-2.18.1\AndroidManifest.xml:19:13-75
+102-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\MarkoMehkek\.gradle\caches\transforms-2\files-2.1\dd21dde315149cd8a28315dd12ef1309\jetified-braintree-2.18.1\AndroidManifest.xml:19:13-75
 103            android:theme="@style/bt_transparent_activity" />
-103-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\LUKA\.gradle\caches\transforms-2\files-2.1\5e3218f41bf0c365694af3bc443af24d\jetified-braintree-2.18.1\AndroidManifest.xml:20:13-59
+103-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\MarkoMehkek\.gradle\caches\transforms-2\files-2.1\dd21dde315149cd8a28315dd12ef1309\jetified-braintree-2.18.1\AndroidManifest.xml:20:13-59
 104
 105        <service android:name="com.braintreepayments.api.internal.AnalyticsIntentService" />
-105-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\LUKA\.gradle\caches\transforms-2\files-2.1\5e3218f41bf0c365694af3bc443af24d\jetified-braintree-2.18.1\AndroidManifest.xml:23:9-93
-105-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\LUKA\.gradle\caches\transforms-2\files-2.1\5e3218f41bf0c365694af3bc443af24d\jetified-braintree-2.18.1\AndroidManifest.xml:23:18-90
+105-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\MarkoMehkek\.gradle\caches\transforms-2\files-2.1\dd21dde315149cd8a28315dd12ef1309\jetified-braintree-2.18.1\AndroidManifest.xml:23:9-93
+105-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\MarkoMehkek\.gradle\caches\transforms-2\files-2.1\dd21dde315149cd8a28315dd12ef1309\jetified-braintree-2.18.1\AndroidManifest.xml:23:18-90
 106
 107        <provider
-107-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\LUKA\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+107-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\MarkoMehkek\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
 108            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-108-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\LUKA\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+108-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\MarkoMehkek\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
 109            android:authorities="com.mgradnja.lifecycle-process"
-109-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\LUKA\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+109-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\MarkoMehkek\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
 110            android:exported="false"
-110-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\LUKA\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+110-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\MarkoMehkek\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
 111            android:multiprocess="true" />
-111-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\LUKA\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+111-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\MarkoMehkek\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
 112    </application>
 113
 114</manifest>

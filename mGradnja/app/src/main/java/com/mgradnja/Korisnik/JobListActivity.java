@@ -627,7 +627,7 @@ public class JobListActivity extends AppCompatActivity {
                         } catch (SQLException e) {
                             e.printStackTrace();
                         }
-                        Toast.makeText(JobListActivity.this , "Odabrali ste plaćanje gotovinom za izabrani posao! Izvođač radova će biti obaviješten." , Toast.LENGTH_LONG).show();
+                        Toast.makeText(JobListActivity.this , "Odabrali ste plaćanje gotovinom za izabrani posao! Javite izvođaču radova." , Toast.LENGTH_LONG).show();
                         Intent intent = new Intent(JobListActivity.this, GlavniIzbornikKorisnik.class);
                         intent.putExtra("ID_korisnika", ID);
                         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);

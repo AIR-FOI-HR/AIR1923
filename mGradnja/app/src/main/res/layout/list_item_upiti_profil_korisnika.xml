@@ -101,6 +101,7 @@
                     android:layout_marginLeft="110dp"
                     android:layout_marginTop="7dp"
                     android:layout_marginRight="110dp"
+                    android:background="#27D570"
                     android:text="IZBRIŠI" />
 
         </RelativeLayout>
