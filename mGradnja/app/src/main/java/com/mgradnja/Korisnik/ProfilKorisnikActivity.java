@@ -1,4 +1,4 @@
-package com.mgradnja;
+package com.mgradnja.Korisnik;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -8,9 +8,6 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.Button;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
@@ -19,6 +16,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.material.tabs.TabLayout;
+import com.mgradnja.Adapters.ViewPagerAdapterProfilKorisnika;
+import com.mgradnja.MainActivity;
+import com.mgradnja.R;
 
 public class ProfilKorisnikActivity extends AppCompatActivity {
 

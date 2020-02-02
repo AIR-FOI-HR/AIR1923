@@ -1,4 +1,4 @@
-package com.mgradnja;
+package com.mgradnja.Korisnik;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
@@ -21,6 +21,9 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.mgradnja.ConnectionClass;
+import com.mgradnja.R;
 
 import java.io.ByteArrayOutputStream;
 import java.io.FileNotFoundException;

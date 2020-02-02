@@ -1,4 +1,4 @@
-package com.mgradnja;
+package com.mgradnja.Korisnik;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -18,6 +18,9 @@ import android.widget.ImageView;
 import android.widget.RatingBar;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.mgradnja.ConnectionClass;
+import com.mgradnja.R;
 
 import java.sql.Blob;
 import java.sql.Connection;

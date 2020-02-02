@@ -1,4 +1,4 @@
-package com.mgradnja;
+package com.mgradnja.Korisnik;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
@@ -10,13 +10,14 @@ import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.ListView;
-import android.widget.Toast;
-import android.widget.Toolbar;
+
+import com.mgradnja.ConnectionClass;
+import com.mgradnja.Korisnik.GlavniIzbornikKorisnik;
+import com.mgradnja.Korisnik.IzvodjacInfoActivity;
+import com.mgradnja.R;
 
 import java.sql.Connection;
 import java.sql.ResultSet;

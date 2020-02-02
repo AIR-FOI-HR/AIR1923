@@ -1,4 +1,4 @@
-package com.mgradnja;
+package com.mgradnja.Adapters;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,13 +9,12 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.w3c.dom.Text;
+import com.mgradnja.Korisnik.ItemRecenzijaProfilKorisnika;
+import com.mgradnja.R;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-
-import javax.xml.transform.Templates;
 
 public class RecenzijeAdapterProfilKorisnika extends RecyclerView.Adapter<RecenzijeAdapterProfilKorisnika.RecenzijeViewHolder> {
 

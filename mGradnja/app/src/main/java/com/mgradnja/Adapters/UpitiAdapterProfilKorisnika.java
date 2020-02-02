@@ -1,7 +1,5 @@
-package com.mgradnja;
+package com.mgradnja.Adapters;
 
-import android.app.AlertDialog;
-import android.content.DialogInterface;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,13 +9,12 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.mgradnja.Adapters.OfferAdapter;
+import com.mgradnja.Korisnik.ItemUpitiProfilKorisnika;
+import com.mgradnja.R;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-
-import butterknife.OnLongClick;
 
 public class UpitiAdapterProfilKorisnika extends RecyclerView.Adapter<UpitiAdapterProfilKorisnika.UpitiViewHolder> {
 

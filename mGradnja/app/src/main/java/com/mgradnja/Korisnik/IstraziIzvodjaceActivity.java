@@ -1,4 +1,4 @@
-package com.mgradnja;
+package com.mgradnja.Korisnik;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
@@ -12,12 +12,14 @@ import android.widget.ArrayAdapter;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 
+import com.mgradnja.ConnectionClass;
+import com.mgradnja.R;
+
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
-import java.util.List;
 
 public class IstraziIzvodjaceActivity extends AppCompatActivity {
     ConnectionClass connectionClass;

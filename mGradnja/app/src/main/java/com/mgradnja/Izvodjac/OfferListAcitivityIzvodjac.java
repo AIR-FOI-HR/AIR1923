@@ -15,12 +15,9 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.mgradnja.Adapters.JobAdapterIzvodjac;
-import com.mgradnja.Adapters.OfferAdapter;
 import com.mgradnja.Adapters.OfferAdapterIzvodjac;
 import com.mgradnja.ConnectionClass;
 import com.mgradnja.HelpEntities.JobAtributes;
-import com.mgradnja.OfferListActivity;
 import com.mgradnja.R;
 
 import java.sql.Connection;

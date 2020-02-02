@@ -1,4 +1,4 @@
-package com.mgradnja;
+package com.mgradnja.Korisnik;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,6 +9,8 @@ import android.view.ViewGroup;
 import android.widget.CalendarView;
 import android.widget.Toast;
 
+import com.mgradnja.ConnectionClass;
+import com.mgradnja.R;
 import com.squareup.timessquare.CalendarPickerView;
 
 import java.sql.Connection;

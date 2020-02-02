@@ -1,4 +1,4 @@
-package com.mgradnja;
+package com.mgradnja.Adapters;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,9 +9,11 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.mgradnja.R;
+import com.mgradnja.HelpEntities.RecenzijaEntity;
+
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Date;
 
 public class RecenzijaAdapter extends RecyclerView.Adapter<RecenzijaAdapter.RecenzijaViewHolder> {
 

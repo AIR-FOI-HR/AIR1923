@@ -1,4 +1,4 @@
-package com.mgradnja;
+package com.mgradnja.Korisnik;
 
 
 import android.content.Intent;
@@ -11,12 +11,12 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
-import android.widget.ListAdapter;
-import android.widget.ListView;
-import android.widget.SimpleAdapter;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import com.mgradnja.Adapters.RecenzijaAdapter;
+import com.mgradnja.ConnectionClass;
+import com.mgradnja.HelpEntities.RecenzijaEntity;
+import com.mgradnja.R;
 
 import java.sql.Connection;
 import java.sql.Date;
