@@ -6,43 +6,35 @@
     android:layout_height="match_parent"
     tools:context=".RegistrationActivity">
 
+
     <TextView
         android:id="@+id/txtImateKorisnickiRacun"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="80dp"
-        android:layout_marginBottom="21dp"
+        android:layout_marginTop="56dp"
         android:text="Imate korisnički račun?"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btnPrijavaIzRegistracije"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnRegistracijaObrtnik"
-        app:layout_constraintVertical_bias="0.376" />
+        app:layout_constraintTop_toBottomOf="@+id/btnRegistracijaIzvodjac" />
 
     <Button
         android:id="@+id/btnPrijavaIzRegistracije"
         style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="128dp"
         android:layout_height="38dp"
-        android:layout_marginEnd="68dp"
-        android:layout_marginBottom="24dp"
-        android:onClick="openLoginActivity"
+        android:layout_marginTop="8dp"
         android:text="Prijavite se"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnRegistracijaObrtnik"
-        app:layout_constraintVertical_bias="0.372" />
-
-
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtImateKorisnickiRacun" />
 
     <Button
         android:id="@+id/btnRegistracijaKorisnik"
         style="@android:style/Widget.Button.Toggle"
         android:layout_width="293dp"
         android:layout_height="116dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="40dp"
         android:backgroundTint="#27D570"
         android:clickable="true"
         android:stateListAnimator="@null"
@@ -51,22 +43,19 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
-
-
     <Button
-        android:id="@+id/btnRegistracijaObrtnik"
+        android:id="@+id/btnRegistracijaIzvodjac"
         style="@android:style/Widget.Button.Toggle"
-        android:layout_width="297dp"
-        android:layout_height="108dp"
-        android:layout_marginTop="36dp"
+        android:layout_width="293dp"
+        android:layout_height="116dp"
+        android:layout_marginTop="72dp"
         android:backgroundTint="#27D570"
         android:clickable="true"
-        android:lineSpacingExtra="30sp"
-        android:text="Obrtnik"
+        android:stateListAnimator="@null"
+        android:text="Izvođač radova"
         android:textAlignment="textEnd"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textStyle="bold"
@@ -87,21 +76,21 @@
         android:id="@+id/imgKorisnik"
         android:layout_width="109dp"
         android:layout_height="183dp"
-        android:layout_marginTop="108dp"
+        android:layout_marginTop="100dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.81"
+        app:layout_constraintHorizontal_bias="0.778"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/korisnik" />
 
     <ImageView
         android:id="@+id/imgObrtnik"
-        android:elevation="6dp"
         android:layout_width="108dp"
         android:layout_height="177dp"
-        android:layout_marginTop="256dp"
+        android:layout_marginTop="288dp"
+        android:elevation="6dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.201"
+        app:layout_constraintHorizontal_bias="0.194"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/obrtnik" />

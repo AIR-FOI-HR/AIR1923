@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".OfferActivity"
+        >
+
+
+        <TextView
+            android:id="@+id/txtNaslovNovePonude"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="25dp"
+            android:clickable="true"
+            android:text="Nova ponuda"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtNazivUpita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="130dp"
+            android:text="Naziv upita"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="180dp"
+            android:text="Datum početka radova"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtDatumPocetkaRadova"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="225dp"
+            android:background="@null"
+            android:hint="Odaberite datum"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="265dp"
+            android:text="Trajanje radova u danima"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/txtBrojDana"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="300dp"
+            android:background="@null"
+            android:hint="Upišite broj dana trajanja radova"
+            android:inputType="number"
+            android:maxLength="22"
+            android:maxLines="1"
+            android:textSize="20sp" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="350dp"
+            android:text="Opis ponude"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/txtOpisRadova"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="380dp"
+            android:background="@null"
+            android:gravity="top|start"
+            android:hint="Opišite..."
+            android:inputType="textMultiLine"
+            android:lines="5"
+            android:maxWidth="300dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="425dp"
+            android:text="Cijena"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/txtCijenaPonude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="450dp"
+            android:background="@null"
+            android:hint="Upišite cijenu u HRK"
+            android:inputType="number"
+            android:maxLength="22"
+            android:maxLines="1"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnSpremiPromjene"
+            android:layout_width="320dp"
+            android:layout_height="62dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="500dp"
+            android:layout_marginEnd="46dp"
+            android:layout_marginRight="46dp"
+            android:background="#27D570"
+            android:text="IZRADI PONUDU" />
+
+        <ImageButton
+            android:id="@+id/btnDatumPocetka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="210dp"
+            android:backgroundTint="#27D570"
+            app:srcCompat="@android:drawable/ic_menu_my_calendar" />
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+</ScrollView>

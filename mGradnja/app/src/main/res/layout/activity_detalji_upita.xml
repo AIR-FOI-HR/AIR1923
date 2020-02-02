@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/nazivUpita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="28dp"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:textColor="#27D570"
+            android:id="@+id/labelaOpis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Opis upita"
+            android:textSize="18dp"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:id="@+id/opisUpita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:textAlignment="viewStart"></TextView>
+
+
+        <TextView
+            android:textColor="#27D570"
+            android:id="@+id/labelaDatum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Datum"
+            android:textSize="18dp"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:id="@+id/datumUpita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:textAlignment="viewStart"></TextView>
+
+
+        <TextView
+            android:textColor="#27D570"
+            android:id="@+id/labelaAdresaUpita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Adresa"
+            android:textSize="18dp"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:id="@+id/adresaUpita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:textAlignment="viewStart"></TextView>
+
+
+        <TextView
+            android:textColor="#27D570"
+            android:id="@+id/labelaGradUpita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Grad"
+            android:textSize="18dp"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:id="@+id/gradUpita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:textAlignment="viewStart"></TextView>
+
+        <TextView
+            android:textColor="#27D570"
+            android:id="@+id/labelaZupanijaUpita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Županija"
+            android:textSize="18dp"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:id="@+id/zupanijaUpita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:textAlignment="viewStart"></TextView>
+
+
+        <Button
+            android:id="@+id/btnPosaljiPonudu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="15dp"
+            android:backgroundTint="#27D570"
+            android:text="Pošalji ponudu"></Button>
+
+    </LinearLayout>
+</ScrollView>

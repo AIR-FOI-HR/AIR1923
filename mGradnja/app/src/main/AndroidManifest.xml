@@ -2,10 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.mgradnja">
 
-
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <application
         android:allowBackup="true"
@@ -14,8 +15,35 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RegistrationActivity"></activity>
+        <activity android:name=".Korisnik.ObavijestiKorisnik"/>
+        <activity android:name=".Korisnik.RecenzijaKorisnikaActivity"></activity>
+        <activity android:name=".Izvodjac.NovaPorukaIzvodjac" />
+        <activity android:name=".Izvodjac.EditProfilaIzvodjacaActivity" />
+        <activity android:name=".Izvodjac.ProfilIzvodjacaActivity" />
+        <activity android:name=".Izvodjac.IzvodjacKalendarActivity" />
+        <activity android:name=".Izvodjac.UpdateOfferActivity" />
+        <activity android:name=".Izvodjac.OfferListAcitivityIzvodjac" />
+        <activity android:name=".Izvodjac.OfferActivity" />
+        <activity android:name=".Izvodjac.JobListActivityIzvodjac" />
+        <activity android:name=".Izvodjac.ObavjestiIzvodjac" />
+        <activity
+            android:name=".Korisnik.IzvodjacInfoActivity"
+            android:label="@string/title_activity_izvodjac_info" />
+        <activity android:name=".Korisnik.IstraziIzvodjaceActivity" />
+        <activity android:name=".Korisnik.OfferListActivity" />
+        <activity android:name=".Korisnik.EditProfilKorisnikActivity" />
+        <activity android:name=".Korisnik.ProfilKorisnikActivity" />
+        <activity android:name=".Korisnik.JobListActivity" />
+        <activity android:name=".Korisnik.UserSearchActivity" />
+        <activity android:name=".Registration_performer" />
+        <activity android:name=".Registration_user" />
+        <activity android:name=".Korisnik.GlavniIzbornikKorisnik" />
+        <activity android:name=".RegistrationActivity" />
         <activity android:name=".LoginActivity" />
+        <activity android:name=".Korisnik.QueryActivity" />
+        <activity android:name=".Izvodjac.GlavniIzbornikIzvodjac" />
+        <activity android:name=".Izvodjac.DetaljiUpita" />
+        <activity android:name=".Izvodjac.IstraziUpiteIzvodjac" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,7 +56,5 @@
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
     </application>
-
-
 
 </manifest>

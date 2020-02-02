@@ -12,6 +12,8 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <application
         android:allowBackup="true"
@@ -21,9 +23,38 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme" >
+        android:testOnly="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
+        <activity android:name="com.mgradnja.Korisnik.ObavijestiKorisnik" />
+        <activity android:name="com.mgradnja.Korisnik.RecenzijaKorisnikaActivity" />
+        <activity android:name="com.mgradnja.Izvodjac.NovaPorukaIzvodjac" />
+        <activity android:name="com.mgradnja.Izvodjac.EditProfilaIzvodjacaActivity" />
+        <activity android:name="com.mgradnja.Izvodjac.ProfilIzvodjacaActivity" />
+        <activity android:name="com.mgradnja.Izvodjac.IzvodjacKalendarActivity" />
+        <activity android:name="com.mgradnja.Izvodjac.UpdateOfferActivity" />
+        <activity android:name="com.mgradnja.Izvodjac.OfferListAcitivityIzvodjac" />
+        <activity android:name="com.mgradnja.Izvodjac.OfferActivity" />
+        <activity android:name="com.mgradnja.Izvodjac.JobListActivityIzvodjac" />
+        <activity android:name="com.mgradnja.Izvodjac.ObavjestiIzvodjac" />
+        <activity
+            android:name="com.mgradnja.Korisnik.IzvodjacInfoActivity"
+            android:label="@string/title_activity_izvodjac_info" />
+        <activity android:name="com.mgradnja.Korisnik.IstraziIzvodjaceActivity" />
+        <activity android:name="com.mgradnja.Korisnik.OfferListActivity" />
+        <activity android:name="com.mgradnja.Korisnik.EditProfilKorisnikActivity" />
+        <activity android:name="com.mgradnja.Korisnik.ProfilKorisnikActivity" />
+        <activity android:name="com.mgradnja.Korisnik.JobListActivity" />
+        <activity android:name="com.mgradnja.Korisnik.UserSearchActivity" />
+        <activity android:name="com.mgradnja.Registration_performer" />
+        <activity android:name="com.mgradnja.Registration_user" />
+        <activity android:name="com.mgradnja.Korisnik.GlavniIzbornikKorisnik" />
         <activity android:name="com.mgradnja.RegistrationActivity" />
         <activity android:name="com.mgradnja.LoginActivity" />
+        <activity android:name="com.mgradnja.Korisnik.QueryActivity" />
+        <activity android:name="com.mgradnja.Izvodjac.GlavniIzbornikIzvodjac" />
+        <activity android:name="com.mgradnja.Izvodjac.DetaljiUpita" />
+        <activity android:name="com.mgradnja.Izvodjac.IstraziUpiteIzvodjac" />
         <activity android:name="com.mgradnja.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -35,6 +66,50 @@
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name="com.braintreepayments.api.BraintreeBrowserSwitchActivity"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="com.mgradnja.braintree" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.braintree.MainActivityBrainTree" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.braintreepayments.api.threedsecure.ThreeDSecureWebViewActivity"
+            android:theme="@style/bt_three_d_secure_theme" />
+        <activity
+            android:name="com.braintreepayments.api.dropin.DropInActivity"
+            android:theme="@style/bt_drop_in_activity_theme" />
+        <activity
+            android:name="com.braintreepayments.api.dropin.AddCardActivity"
+            android:theme="@style/bt_add_card_activity_theme" />
+        <activity
+            android:name="com.braintreepayments.api.dropin.VaultManagerActivity"
+            android:theme="@style/bt_vault_manager_activity_theme" />
+        <activity
+            android:name="com.braintreepayments.api.AndroidPayActivity"
+            android:theme="@style/bt_transparent_activity" />
+        <activity
+            android:name="com.braintreepayments.api.GooglePaymentActivity"
+            android:theme="@style/bt_transparent_activity" />
+
+        <service android:name="com.braintreepayments.api.internal.AnalyticsIntentService" />
+
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.mgradnja.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
     </application>
 
 </manifest>

@@ -2,6 +2,7 @@ package com.mgradnja;
 
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.View;
@@ -11,6 +12,9 @@ import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.mgradnja.Izvodjac.GlavniIzbornikIzvodjac;
+import com.mgradnja.Korisnik.GlavniIzbornikKorisnik;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -22,7 +26,8 @@ public class LoginActivity extends AppCompatActivity {
     EditText mail, loz;
     Button prijava, registracija;
     ProgressBar progressBar;
-
+    Integer ID;
+    SharedPreferences sp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,11 +41,19 @@ public class LoginActivity extends AppCompatActivity {
         registracija = findViewById(R.id.btnRegistracijaIzPrijave);
         progressBar = findViewById(R.id.progressBar);
 
+        sp = getSharedPreferences("login", MODE_PRIVATE);
+
+        registracija.setOnClickListener(v -> openRegistrationActivity());
+
+        prijava.setOnClickListener(v -> {
+                    DoLogin doLogin = new DoLogin();
+                    doLogin.execute();
+        });
+
         registracija.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openRegistrationActivity();
-
             }
         });
 
@@ -50,6 +63,7 @@ public class LoginActivity extends AppCompatActivity {
                 DoLogin doLogin = new DoLogin();
                 doLogin.execute();
             }
+
         });
     }
 
@@ -94,7 +108,7 @@ public class LoginActivity extends AppCompatActivity {
                     } else {
 
                         String queryKorisnik = "select * from Korisnik where Mail='" + mail1 + "' and Lozinka='" + lozinka + "'";
-                        String queryObrtnik = "select * from Obrt where Mail='" + mail1 + "' and Lozinka='" + lozinka + "'";
+                        String queryObrtnik = "select * from Izvodjac where Mail='" + mail1 + "' and Lozinka='" + lozinka + "'";
 
                         Statement stmtKorisnik = con.createStatement();
                         Statement stmtObrtnik = con.createStatement();
@@ -104,18 +118,28 @@ public class LoginActivity extends AppCompatActivity {
 
                         if(rsKorisnik.next())
                         {
-
+                            ID = rsKorisnik.getInt("ID_korisnika");
+                            SharedPreferences.Editor editor = sp.edit();
+                            editor.putInt("id", ID);
+                            editor.putString("korisnik", "korisnik");
+                            editor.commit();
                             poruka = "Prijava uspješna!";
                             uspjeh =true;
-                            //OpenMainActivity();
+                            OpenGlavniIzbornikActivity(ID);
 
                         }
 
                         else if (rsObrtnik.next())
                         {
+                            ID = rsObrtnik.getInt("ID_izvodjaca");
+                            SharedPreferences.Editor editor = sp.edit();
+                            editor.putInt("id", ID);
+                            editor.putString("izvodjac", "izvodjac");
+                            editor.commit();
                             poruka = "Prijava uspješna!";
                             uspjeh = true;
-                            //OpenMainActivity();
+                            OpenGlavniIzbornikIzvodjac(ID);
+
                         }
                         else
                         {
@@ -134,14 +158,37 @@ public class LoginActivity extends AppCompatActivity {
             return poruka;
         }
     }
-    public void OpenMainActivity () {
-        Intent intent = new Intent(this, MainActivity.class);
+
+    private void OpenGlavniIzbornikIzvodjac(Integer id) {
+        Intent intent = new Intent(this, GlavniIzbornikIzvodjac.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        intent.putExtra("ID_izvodjaca", id);
         startActivity(intent);
+        finish();
     }
+
+    private void OpenGlavniIzbornikActivity(Integer ID) {
+        Intent intent = new Intent(this, GlavniIzbornikKorisnik.class);
+        intent.putExtra("ID_korisnika", ID);
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(intent);
+        finish();
+    }
+
     public void openRegistrationActivity(){
         Intent intent = new Intent(this, RegistrationActivity.class);
         startActivity(intent);
     }
+
+    @Override
+    public void onBackPressed(){
+        Intent intent = new Intent(this, MainActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(intent);
+        finish();
+    }
 }
+
+
 
 

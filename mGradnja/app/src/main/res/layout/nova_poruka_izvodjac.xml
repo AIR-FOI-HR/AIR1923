@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/txtTekstPoruke"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@null"
+        android:gravity="top|start"
+        android:hint="Upišite poruku..."
+        android:inputType="textMultiLine"
+        android:lines="10"
+        android:textSize="20sp"
+        android:outlineSpotShadowColor="@color/bt_color_primary"/>
+
+    <Button
+        android:id="@+id/btnPosalji"
+        android:layout_width="320dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginRight="46dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:background="#27D570"
+        android:layout_weight="0"
+        android:text="Pošalji"
+        />
+
+</RelativeLayout>
