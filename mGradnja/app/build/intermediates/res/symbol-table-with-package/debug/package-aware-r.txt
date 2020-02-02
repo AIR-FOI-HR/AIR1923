@@ -2194,7 +2194,6 @@ id txtNazivUpita
 id txtNemaRecenzija
 id txtNemate2
 id txtObavijestImeIzvodjac
-id txtObavijesti
 id txtOib
 id txtOpisPosla
 id txtOpisRadova

@@ -57,14 +57,15 @@ public class ObavjestiIzvodjac extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_obavjesti_izvodjac);
 
-        connectionClass=new ConnectionClass();
-        Intent intent=getIntent();
-        ID=intent.getIntExtra("ID_izvodjaca", 0);
-
         ActionBar actionBar=getSupportActionBar();
         if(actionBar != null){
             actionBar.setDisplayHomeAsUpEnabled(true);
+            actionBar.setTitle("Obavijesti");
         }
+
+        connectionClass=new ConnectionClass();
+        Intent intent=getIntent();
+        ID=intent.getIntExtra("ID_izvodjaca", 0);
 
         spinnerPoslovi=findViewById(R.id.spinerPoslova);
         dohvatiPoslove();
@@ -91,8 +92,8 @@ public class ObavjestiIzvodjac extends AppCompatActivity {
 
     }
     public void otvoriAktivnostNovaPoruka(){
-        idPosla=idPoslova.get(spinnerPoslovi.getSelectedItemPosition());
-        Intent otvoriNovuPoruku= new Intent(ObavjestiIzvodjac.this, NovaPorukaIzvodjac.class);
+        idPosla = idPoslova.get(spinnerPoslovi.getSelectedItemPosition());
+        Intent otvoriNovuPoruku = new Intent(ObavjestiIzvodjac.this, NovaPorukaIzvodjac.class);
         otvoriNovuPoruku.putExtra("ID_posla", idPoslova.get(spinnerPoslovi.getSelectedItemPosition()));
         otvoriNovuPoruku.putExtra("ID_izvodjaca", ID);
         startActivity(otvoriNovuPoruku);

@@ -206,6 +206,7 @@ public class GlavniIzbornikIzvodjac extends AppCompatActivity {
         Intent intentProfil = new Intent(this, ProfilIzvodjacaActivity.class);
         intentProfil.putExtra("ID_izvodjaca", ID);
         startActivity(intentProfil);
+        finish();
     }
 
 }

@@ -111,9 +111,6 @@ public class IzvodjacInfoActivity extends AppCompatActivity {
                 }
                 //startActivity(pozivIntent);
                 break;
-            case R.id.poruka:
-                Toast.makeText(getApplicationContext(), "Poruka", Toast.LENGTH_LONG).show();
-                break;
 
             case R.id.napisiRecenziju:
                 Intent recenzija = new Intent(getApplicationContext(), RecenzijaKorisnikaActivity.class);

@@ -1,6 +1,7 @@
 package com.mgradnja.Izvodjac;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -34,6 +35,12 @@ public class NovaPorukaIzvodjac extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.nova_poruka_izvodjac);
+
+        ActionBar actionBar=getSupportActionBar();
+        if(actionBar != null){
+            actionBar.setDisplayHomeAsUpEnabled(true);
+            actionBar.setTitle("Nova poruka");
+        }
 
         Intent intent=getIntent();
         idPosla=intent.getIntExtra("ID_posla",0);
@@ -111,13 +118,18 @@ public class NovaPorukaIzvodjac extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item){
         switch (item.getItemId()){
             case android.R.id.home:
-                Intent intent = new Intent(this, GlavniIzbornikIzvodjac.class);
-                intent.putExtra("ID_izvodjaca", ID);
-                this.startActivity(intent);
+                //Intent intent = new Intent(this, GlavniIzbornikIzvodjac.class);
+                //intent.putExtra("ID_izvodjaca", ID);
+                //this.startActivity(intent);
+                finish();
                 break;
         }
         return super.onOptionsItemSelected(item);
     }
 
+    @Override
+    public void onBackPressed(){
+        finish();
+    }
 
 }

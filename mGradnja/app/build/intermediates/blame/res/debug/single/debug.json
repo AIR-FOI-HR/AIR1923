@@ -208,12 +208,12 @@
         "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\7cc9eec3cf011140df9b0eeea866268f\\jetified-card-form-3.5.0\\res\\drawable-mdpi-v4\\bt_ic_unknown.png"
     },
     {
-        "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
-        "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
-    },
-    {
         "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable_obrtnik.png.flat",
         "source": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\src\\main\\res\\drawable\\obrtnik.png"
+    },
+    {
+        "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
+        "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
         "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_edit_profil_korisnik.xml.flat",
@@ -236,28 +236,28 @@
         "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\879976df0181d2425075e58c64970b0d\\jetified-drop-in-3.7.1\\res\\drawable-xhdpi-v4\\bt_ic_venmo.png"
     },
     {
-        "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_calendar_black_24dp.xml.flat",
-        "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\drawable\\ic_calendar_black_24dp.xml"
-    },
-    {
         "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_calendar_black_24dp.xml.flat",
+        "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\drawable\\ic_calendar_black_24dp.xml"
     },
     {
         "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_picker_text_input_date.xml.flat",
         "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\layout\\mtrl_picker_text_input_date.xml"
     },
     {
-        "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_opis_profil_izvodjaca.xml.flat",
-        "source": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\src\\main\\res\\layout\\fragment_opis_profil_izvodjaca.xml"
+        "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
         "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_offer_list_acitivity_izvodjac.xml.flat",
         "source": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\src\\main\\res\\layout\\activity_offer_list_acitivity_izvodjac.xml"
     },
     {
-        "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_opis_profil_izvodjaca.xml.flat",
+        "source": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\src\\main\\res\\layout\\fragment_opis_profil_izvodjaca.xml"
     },
     {
         "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
@@ -344,12 +344,12 @@
         "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\drawable\\mtrl_dropdown_arrow.xml"
     },
     {
-        "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_calendar_vertical.xml.flat",
-        "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\layout\\mtrl_calendar_vertical.xml"
-    },
-    {
         "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
         "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_calendar_vertical.xml.flat",
+        "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\layout\\mtrl_calendar_vertical.xml"
     },
     {
         "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_bt_ic_vaulted_venmo.png.flat",
@@ -364,16 +364,16 @@
         "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\879976df0181d2425075e58c64970b0d\\jetified-drop-in-3.7.1\\res\\layout\\bt_vaulted_payment_method_card.xml"
     },
     {
-        "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable_design_snackbar_background.xml.flat",
-        "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\drawable\\design_snackbar_background.xml"
+        "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_btn_colored_text_material.xml.flat",
+        "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\color\\abc_btn_colored_text_material.xml"
     },
     {
         "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
         "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
     },
     {
-        "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_btn_colored_text_material.xml.flat",
-        "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\color\\abc_btn_colored_text_material.xml"
+        "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable_design_snackbar_background.xml.flat",
+        "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\drawable\\design_snackbar_background.xml"
     },
     {
         "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_bt_ic_vaulted_jcb.png.flat",
@@ -516,12 +516,12 @@
         "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_16dp.png"
     },
     {
-        "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_bt_ic_diners_club.png.flat",
-        "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\7cc9eec3cf011140df9b0eeea866268f\\jetified-card-form-3.5.0\\res\\drawable-xhdpi-v4\\bt_ic_diners_club.png"
-    },
-    {
         "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_arrow_down_black_24dp.xml.flat",
         "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\drawable\\ic_menu_arrow_down_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_bt_ic_diners_club.png.flat",
+        "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\7cc9eec3cf011140df9b0eeea866268f\\jetified-card-form-3.5.0\\res\\drawable-xhdpi-v4\\bt_ic_diners_club.png"
     },
     {
         "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_bt_ic_discover.png.flat",
@@ -588,12 +588,12 @@
         "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\879976df0181d2425075e58c64970b0d\\jetified-drop-in-3.7.1\\res\\drawable-hdpi-v4\\bt_ic_sms_code_dark.png"
     },
     {
-        "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\animator_design_fab_hide_motion_spec.xml.flat",
-        "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\animator\\design_fab_hide_motion_spec.xml"
-    },
-    {
         "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_bt_ic_unknown.png.flat",
         "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\7cc9eec3cf011140df9b0eeea866268f\\jetified-card-form-3.5.0\\res\\drawable-hdpi-v4\\bt_ic_unknown.png"
+    },
+    {
+        "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\animator_design_fab_hide_motion_spec.xml.flat",
+        "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\animator\\design_fab_hide_motion_spec.xml"
     },
     {
         "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\menu_navigation_korisnik.xml.flat",
@@ -760,28 +760,28 @@
         "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png"
     },
     {
-        "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+        "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\anim_btn_radio_to_on_mtrl_ring_outer_animation.xml.flat",
+        "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\anim\\btn_radio_to_on_mtrl_ring_outer_animation.xml"
     },
     {
         "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_tabs_icon_color_selector.xml.flat",
         "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\color\\mtrl_tabs_icon_color_selector.xml"
     },
     {
-        "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\anim_btn_radio_to_on_mtrl_ring_outer_animation.xml.flat",
-        "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\anim\\btn_radio_to_on_mtrl_ring_outer_animation.xml"
+        "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
-        "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_disable_only_material_dark.xml.flat",
-        "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
-    },
-    {
         "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal.9.png.flat",
         "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\e9dab9c67c1ee3668e0bbf86c6d8cbd8\\core-1.1.0\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_disable_only_material_dark.xml.flat",
+        "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
     },
     {
         "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
@@ -888,24 +888,24 @@
         "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\879976df0181d2425075e58c64970b0d\\jetified-drop-in-3.7.1\\res\\drawable-mdpi-v4\\bt_ic_vaulted_amex.png"
     },
     {
-        "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\anim_mtrl_card_lowers_interpolator.xml.flat",
-        "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\anim\\mtrl_card_lowers_interpolator.xml"
-    },
-    {
         "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\anim_mtrl_card_lowers_interpolator.xml.flat",
+        "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\anim\\mtrl_card_lowers_interpolator.xml"
     },
     {
         "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_navigation_item_background_color.xml.flat",
         "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\89960a8f9b5e73731627972c56f94153\\material-1.2.0-alpha02\\res\\color\\mtrl_navigation_item_background_color.xml"
     },
     {
-        "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_bt_expiration_date_sheet.xml.flat",
-        "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\7cc9eec3cf011140df9b0eeea866268f\\jetified-card-form-3.5.0\\res\\layout\\bt_expiration_date_sheet.xml"
-    },
-    {
         "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_bt_ic_amex.png.flat",
         "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\7cc9eec3cf011140df9b0eeea866268f\\jetified-card-form-3.5.0\\res\\drawable-mdpi-v4\\bt_ic_amex.png"
+    },
+    {
+        "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\layout_bt_expiration_date_sheet.xml.flat",
+        "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\7cc9eec3cf011140df9b0eeea866268f\\jetified-card-form-3.5.0\\res\\layout\\bt_expiration_date_sheet.xml"
     },
     {
         "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable_avd_show_password.xml.flat",
@@ -960,12 +960,12 @@
         "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\7cc9eec3cf011140df9b0eeea866268f\\jetified-card-form-3.5.0\\res\\drawable-xhdpi-v4\\bt_ic_mastercard.png"
     },
     {
-        "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
-        "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_list_pressed_holo_dark.9.png"
-    },
-    {
         "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_bt_ic_delete_forever.png.flat",
         "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\879976df0181d2425075e58c64970b0d\\jetified-drop-in-3.7.1\\res\\drawable-xxhdpi-v4\\bt_ic_delete_forever.png"
+    },
+    {
+        "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
+        "source": "C:\\Users\\LUKA\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_list_pressed_holo_dark.9.png"
     },
     {
         "merged": "C:\\Users\\LUKA\\Desktop\\repo\\mGradnja\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_bt_ic_vaulted_venmo.png.flat",

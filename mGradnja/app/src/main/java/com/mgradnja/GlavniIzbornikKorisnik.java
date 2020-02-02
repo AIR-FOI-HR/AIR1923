@@ -204,6 +204,7 @@ public class GlavniIzbornikKorisnik extends AppCompatActivity {
         Intent intent = new Intent(this, ProfilKorisnikActivity.class);
         intent.putExtra("ID_korisnika", ID);
         startActivity(intent);
+        finish();
     }
 
     private BottomNavigationView.OnNavigationItemSelectedListener navListener =
